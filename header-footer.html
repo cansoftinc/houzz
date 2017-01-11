@@ -6,86 +6,19 @@
     <title>Houzz</title>
     <link type="text/css" rel="stylesheet" href="css/style1.css" />
     <link type="text/css" rel="stylesheet" href="css/style2.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="http://www.houzz.com/js/script?f=jquery-1.11.1,hz,hzConfig,hzI18n,hzLogger,hzMain,eventBus,main,bmblock,errSt,jquery-migrate-1.2.1,jqUtils,core,ui,responsiveReload,autoSuggest,standardHeaderV6&amp;v=2468&amp;s=101&amp;l=en-US&amp;d=2&amp;tv=2468&amp;m=1&amp;j=17" language="javascript"></script>
     <script type="text/javascript" src="http://www.houzz.com/js/ajaxconn?f=NewGallery,UserPreferences,CartActions,SetVisitorProperty,LightboxGetNextSpaces,LightboxGetSpaceData,AddImageTag,ProductLookup,GetManufacturerColors,SaveColorPalette,ReportProductAjax,SendEmail,CurrentSessionUserInfo,GetProfessionalProjects,GetProfessionalProjectPhotos,GetHousesByGallery,BuzzAjax,GetMinimalSpaceData,HoverCard,Follow,GetMoreUnifiedStoriesAjax,CommentManagerAjax,FeedAjax,ContentFlagAjax,Like,Clipping,GetFeaturedSpaces,TipBox,SearchSuggestion,VerificationEmail,NoOp,Buzz,GetEmbedSpaceCode,GetQuestionsForSpace,TrustPilotAjax,WelcomeToHouzzAjax,Authorize,TsdbLoggerAjax,JsErrorLoggerAjax,SearchKeyword,GetSpaceAjax&amp;v=2468&amp;s=101&amp;l=en-US&amp;d=2&amp;j=17" language="javascript"></script>
     <script type="text/javascript" src="http://www.houzz.com/js/script?f=spaceActions,socialSdk,siteAuth&amp;v=2468&amp;s=101&amp;l=en-US&amp;d=2&amp;m=1&amp;j=17" language="javascript"></script>
-    <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
-    <link type="image/x-icon" rel="icon" href="/favicon.ico" />   
-    <script type="text/javascript">
-        var gaProperty = 'UA-3519678-1';
-        var disableStr = 'ga-disable-' + gaProperty;
-        if (document.cookie.indexOf(disableStr + '=true') > -1) {
-          window[disableStr] = true;
-        }
-        function gaOptout() {
-          document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-          window[disableStr] = true;
-        }
-        
-            var _gaq = _gaq || [];
-            var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-            _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-            _gaq.push(['_setAccount', "UA-3519678-1"]);
-            _gaq.push(['_setCustomVar', 1, 'logged_in', "false", 3]);
-                    _gaq.push(['_trackPageview']);
-              (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-    </script>
-    <script>
-        dataLayer=[{"event":"visitor","ecomm_pagetype":"visitor","visit_month":"201612","m_refid":""}];
-    </script>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-N8M9BH');
-    </script>
-    <script type="text/javascript">
-        HZ.lb.Config.isVisitor = true;
-        HZ.lb.Config.gtmIdHash = {"hashed_user":"","hashed_visitor":"37db3beb2261ea7ec905713ba7f7eedd"};
-        HZ.lb.Config.tradeUser = null;
-        HZ.lb.Config.tosUrl = "http:\/\/www.houzz.com\/termsOfUse";
-        HZ.lb.Config.privacyUrl = "http:\/\/www.houzz.com\/privacyPolicy";
-        HZ.lb.Config.countryFilter = [{"siteId":101,"country":"US","countryDisplayName":"United States","locale":1001,"current":true},{"siteId":102,"country":"GB","countryDisplayName":"United Kingdom","locale":1002,"current":false},{"siteId":103,"country":"AU","countryDisplayName":"Australia","locale":1003,"current":false},{"siteId":104,"country":"DE","countryDisplayName":"Deutschland","locale":1004,"current":false},{"siteId":105,"country":"FR","countryDisplayName":"France","locale":1005,"current":false},{"siteId":106,"country":"RU","countryDisplayName":"\u0420\u043e\u0441\u0441\u0438\u044f","locale":1006,"current":false},{"siteId":107,"country":"JP","countryDisplayName":"\u65e5\u672c","locale":1007,"current":false},{"siteId":108,"country":"IT","countryDisplayName":"Italia","locale":1008,"current":false},{"siteId":109,"country":"ES","countryDisplayName":"Espa\u00f1a","locale":1009,"current":false},{"siteId":110,"country":"DK","countryDisplayName":"Danmark","locale":1010,"current":false},{"siteId":111,"country":"NO","countryDisplayName":"Norway","locale":1011,"current":false},{"siteId":112,"country":"FI","countryDisplayName":"Suomi","locale":1012,"current":false},{"siteId":113,"country":"SE","countryDisplayName":"Sverige","locale":1013,"current":false},{"siteId":114,"country":"IE","countryDisplayName":"Ireland","locale":1014,"current":false},{"siteId":115,"country":"NZ","countryDisplayName":"New Zealand","locale":1015,"current":false},{"siteId":116,"country":"SG","countryDisplayName":"Singapore","locale":1016,"current":false},{"siteId":117,"country":"IN","countryDisplayName":"India","locale":1017,"current":false},{"siteId":118,"country":"NL","countryDisplayName":"Netherlands","locale":1018,"current":false},{"siteId":119,"country":"AT","countryDisplayName":"Austria","locale":1019,"current":false}];
-        HZ.lb.Config.preloadEditorResources = false;
-        HZ.lb.Config.enableColorPicker = true;
-        HZ.lb.Config.socialListConfig = ["facebook","twitter","googlePlus"];
-        HZ.lb.Config.isCheckoutEnabled = true;
-        HZ.lb.Config.useNotifyMeText = false;
-        HZ.lb.Config.notifyMeSourceLink = 75;
-        HZ.lb.Config.proContactForm = "none";
-        HZ.lb.Config.enableTagBoundingBox = true;
-        HZ.lb.Config.preSalesPhoneNumber = "1-800-448-1632";
-        HZ.lb.Config.footerData = {"aboutUs":{"url":"http:\/\/www.houzz.com\/aboutUs","label":"About Houzz","compactLabel":"ABOUT","compId":"about"},"jobs":{"url":"https:\/\/www.houzz.com\/jobs","label":"Careers","compactLabel":"CAREERS","compId":"jobs"},"mobileApps":{"url":"http:\/\/www.houzz.com\/mobileApps","label":"Mobile Apps","compactLabel":"MOBILE APPS","compId":"apps"},"pro":{"url":"http:\/\/www.houzz.com\/pro","label":"For Professionals","compactLabel":"PROFESSIONALS","compId":"pro_center"},"buttonsAndBadges":{"url":"http:\/\/www.houzz.com\/buttonsAndBadges","label":"Buttons &amp; Badges","compactLabel":"BUTTONS","compId":"badges"},"advertiseOnHouzz":{"url":"http:\/\/www.houzz.com\/advertiseOnHouzz","label":"Advertise","compactLabel":"ADVERTISE","compId":"advertise"},"sell":{"url":"http:\/\/www.houzz.com\/sell","label":"Sell on Houzz","compactLabel":"SELL","compId":"sell"},"termsAndPrivacy":{"htmlLiteral":"<a href=\"http:\/\/www.houzz.com\/termsOfUse\" rel=\"nofollow\" compId=\"terms\">Terms<\/a> & <a href=\"http:\/\/www.houzz.com\/privacyPolicy\" rel=\"nofollow\" compId=\"privacy\">Privacy<\/a>"},"copyrightNotice":{"label":"&copy;&nbsp;2016 Houzz Inc."}};
-        HZ.lb.Config.wideProductColumnEnabled = true;
-        HZ.lb.Config.isViewSpace = false;
-        HZ.lb.Config.enableProductCollections = true;
-        HZ.lb.Config.uploadEditHintsEnabled = false;    //only set to true in Upload Organize.
-        HZ.lb.Config.moreRelatedProdForPhoto = false;
-        HZ.lb.Config.sketchForWebEnabled = false;
-        HZ.lb.Config.spaceIdToVendorListingIdOverride = {};
-        HZ.lb.Config.loadPluginsNow = true; //to delay loading plugins for jukwaa. for C2, always load the plugins now (when the js is loaded). Jukwaa will not see this thus have to load the plugins explicitly.
-        HZ.lb.Config.showKeepShoppingBox = true;
-        HZ.lb.Config.proListSingleAd = false;
-        HZ.lb.Config.zoomOnImageClick = false;
-        HZ.lb.Config.secureImages = true;
-        HZ.lb.Config.isReportProductLinkEnabled = true;
-        HZ.lb.Config.showRecentlyViewedProducts = "bottom";
-                /***
-         * ATTENTION: any configs you added or changed here, you will also have to do it in /houzz/c2/services/converters/SpaceThriftConverter..php
-         */
-    </script>
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
 </head>
-<body class="en-US hbs new-std-header secondary-rooms-header hz-pres-type-desktop">
+<body class="en-US hbs new-std-header secondary-rooms-header">    
     <div id="navContainer" scopeId="headerv6">
-        <div id="navHeader" class='no-print  '>
-            <div class='houzz-header  ' compId="nav_level1">
+        <div id="navHeader" class='no-print'>
+            <div class='houzz-header' compId="nav_level1">
                 <div class='container'>
-                    <a id="navHome" objId="navHome" class='brand' href="#">
-                    <img class='sprite-header-logo' src='http://st.hzcdn.com/res/2468/pic/spacer.gif?v=2468' width="2" height="2"/>
+                    <a id="navHome" class='brand' href="#">
+                        <img class='sprite-header-logo' src='pic/spacer.gif' width="2" height="2"/>
                     </a>
                     <ul class='unstyled header-nav attach-right'>
                         <li id="header-promo--trending-products" class="header-promo-banner">
@@ -112,7 +45,7 @@
                     </form>
                 </div>
             </div>
-            <div class="houzz-header-secondary houzz-header-secondary--simplified more-pros-header " compId="nav_level2_12_2016_simplified" role="navigation">
+            <div class="houzz-header-secondary houzz-header-secondary--simplified more-pros-header" compId="nav_level2_12_2016_simplified" role="navigation">
                 <ul class="list-unstyled header-nav-rooms container" id="header-navigation-menu">
                     <li class="header-nav-room header-nav-room--simplified r-main  menu-container ">
                         <a class="menu-title" href="/photos"  objId='707' ><span class="hzi-font hzi-Ideas-Fill hsh__icon"></span>PHOTOS</a>                            
@@ -1070,89 +1003,89 @@
                                     <div class="hsh__column">
                                         <ul class="list-unstyled hsh__list">
                                             <div class="header-6 top hsh__list-header mbm" compid="sales_topics_header">
-                                                <a class="text-primary" href="http://www.houzz.com/photos/products/on-sale">ON SALE - UP TO 75% OFF<span class="more-icon"></span></a>
+                                                <a class="text-primary" href="#">ON SALE - UP TO 75% OFF<span class="more-icon"></span></a>
                                             </div>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-469">
-                                                <a class="hsh__list-item-link" href="/photos/bathroom-vanities-and-sink-consoles/on-sale">Bathroom Vanities</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-607">
-                                                <a class="hsh__list-item-link" href="/photos/chandeliers/on-sale">Chandeliers</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Chandeliers</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-430">
-                                                <a class="hsh__list-item-link" href="/photos/bar-stools-and-counter-stools/on-sale">Bar Stools</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Bar Stools</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-610">
-                                                <a class="hsh__list-item-link" href="/photos/pendant-lighting/on-sale">Pendant Lights</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Pendant Lights</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-515">
-                                                <a class="hsh__list-item-link" href="/photos/rugs/on-sale">Rugs</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Rugs</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-526">
-                                                <a class="hsh__list-item-link" href="/photos/chairs/on-sale">Living Room Chairs</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-12493">
-                                                <a class="hsh__list-item-link" href="/photos/kitchen-and-dining-furniture/on-sale">Dining Room Furniture</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-613">
-                                                <a class="hsh__list-item-link" href="/photos/wall-lighting/on-sale">Wall Lighting</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Wall Lighting</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-532">
-                                                <a class="hsh__list-item-link" href="/photos/coffee-tables/on-sale">Coffee Tables</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Coffee Tables</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-534">
-                                                <a class="hsh__list-item-link" href="/photos/side-tables-and-accent-tables/on-sale">Side & End Tables</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Side & End Tables</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-12496">
-                                                <a class="hsh__list-item-link" href="/photos/home-office-furniture/on-sale">Home Office Furniture</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-524">
-                                                <a class="hsh__list-item-link" href="/photos/sofas/on-sale">Sofas</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Sofas</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-12492">
-                                                <a class="hsh__list-item-link" href="/photos/bedroom-furniture/on-sale">Bedroom Furniture</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Bedroom Furniture</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-12500">
-                                                <a class="hsh__list-item-link" href="/photos/lamps/on-sale">Lamps</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Lamps</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="sales-502">
-                                                <a class="hsh__list-item-link" href="/photos/mirrors/on-sale">Mirrors</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Mirrors</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div class="hsh__column">
                                         <ul class="list-unstyled hsh__list">
                                             <div class="header-6 top hsh__list-header" compid="sales_gift_guides">
-                                                <a class="text-primary" href="http://www.houzz.com/sale/gift-guides">HOLIDAY GIFT GUIDES<span class="more-icon"></span></a>
+                                                <a class="text-primary" href="#">HOLIDAY GIFT GUIDES<span class="more-icon"></span></a>
                                             </div>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55947209">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55947209">Gifts for Her</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for Her</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55692261">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55692261">Gifts for Him</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for Him</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55233128">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55233128">Gifts for Kids</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for Kids</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55892262">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55892262">Gifts for Pets</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for Pets</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55892154">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55892154">Gifts for the Techie</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for the Techie</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55943982">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55943982">Gifts for the Home Chef</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for the Home Chef</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-56077605">
-                                                <a class="hsh__list-item-link" href="/ideabooks/56077605">Gifts for the Gardener</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Gifts for the Gardener</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-56002629">
-                                                <a class="hsh__list-item-link" href="/ideabooks/56002629">White Elephant Gifts $25 and Under</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">White Elephant Gifts $25 and Under</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-55947353">
-                                                <a class="hsh__list-item-link" href="/ideabooks/55947353">Stocking Stuffers $50 and Under</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Stocking Stuffers $50 and Under</a>
                                             </li>
-                                            <li class="header-sales__topics-list-item hsh__list-item" objid="gift-guides-74871382">
-                                                <a class="hsh__list-item-link" href="/ideabooks/74871382">Top 100 Gifts Under $100</a>
+                                            <li class="header-sales__topics-list-item hsh__list-item">
+                                                <a class="hsh__list-item-link" href="#">Top 100 Gifts Under $100</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -1162,34 +1095,27 @@
                                             <div class="header-sales__featured-sales-list">
                                                 <div class="header-sales__featured-sales-list-row">
                                                     <div class="header-sales__featured-sales-list-item">
-                                                        <a href="/ideabooks/76641395" objId="featured-sales-76641395">
+                                                        <a href="#">
                                                             <img
                                                                 data-pin-no-hover="true"
                                                                 class="header-sales__featured-sales-list-item-image"
-                                                                width="150"
-                                                                height="150"
-                                                                src="//st.hzcdn.com/fimgs/0b211022084b0c00_3290-w150-h150-b0-p0--home-design.jpg"
+                                                                width="150" height="150" src="images/home-design.jpg"
                                                                 />
-                                                            <div class="header-sales__featured-sales-sale-value" >
-                                                                Up to 70% Off                                                    
-                                                            </div>
+                                                            <div class="header-sales__featured-sales-sale-value" >Up to 70% Off</div>
                                                             <div class="text-bold mts header-sales__featured-sales-list-item-desc">
                                                                 Urban Industrial Lighting&nbsp;<span class="more-icon"></span>
                                                             </div>
                                                         </a>
                                                     </div>
                                                     <div class="header-sales__featured-sales-list-item">
-                                                        <a href="/ideabooks/76648715" objId="featured-sales-76648715">
+                                                        <a href="#">
                                                             <img
                                                                 data-pin-no-hover="true"
                                                                 class="header-sales__featured-sales-list-item-image"
-                                                                width="150"
-                                                                height="150"
-                                                                src="//st.hzcdn.com/fimgs/dbd106ba084b0ce7_3523-w150-h150-b0-p0--home-design.jpg"
+                                                                width="150" height="150"
+                                                                src="images/home-design-2.jpg"
                                                                 />
-                                                            <div class="header-sales__featured-sales-sale-value" >
-                                                                Up to 70% Off                                                    
-                                                            </div>
+                                                            <div class="header-sales__featured-sales-sale-value" >Up to 70% Off</div>
                                                             <div class="text-bold mts header-sales__featured-sales-list-item-desc">
                                                                 Traditional Rugs&nbsp;<span class="more-icon"></span>
                                                             </div>
@@ -1198,34 +1124,30 @@
                                                 </div>
                                                 <div class="header-sales__featured-sales-list-row">
                                                     <div class="header-sales__featured-sales-list-item">
-                                                        <a href="/ideabooks/76807275" objId="featured-sales-76807275">
+                                                        <a href="#">
                                                             <img
                                                                 data-pin-no-hover="true"
                                                                 class="header-sales__featured-sales-list-item-image"
                                                                 width="150"
                                                                 height="150"
-                                                                src="//st.hzcdn.com/fimgs/f6614e2e084b0bff_3287-w150-h150-b0-p0--home-design.jpg"
+                                                                src="images/home-design-3.jpg"
                                                                 />
-                                                            <div class="header-sales__featured-sales-sale-value" >
-                                                                Up to 65% Off                                                    
-                                                            </div>
+                                                            <div class="header-sales__featured-sales-sale-value" >Up to 65% Off</div>
                                                             <div class="text-bold mts header-sales__featured-sales-list-item-desc">
                                                                 Indoor Fireplace Sale&nbsp;<span class="more-icon"></span>
                                                             </div>
                                                         </a>
                                                     </div>
                                                     <div class="header-sales__featured-sales-list-item">
-                                                        <a href="/ideabooks/77135775" objId="featured-sales-77135775">
+                                                        <a href="#">
                                                             <img
                                                                 data-pin-no-hover="true"
                                                                 class="header-sales__featured-sales-list-item-image"
                                                                 width="150"
                                                                 height="150"
-                                                                src="//st.hzcdn.com/fimgs/b621c2be084b0bfd_3286-w150-h150-b0-p0--home-design.jpg"
+                                                                src="images/home-design-4.jpg"
                                                                 />
-                                                            <div class="header-sales__featured-sales-sale-value" >
-                                                                Under $199                                                    
-                                                            </div>
+                                                            <div class="header-sales__featured-sales-sale-value" >Under $199</div>
                                                             <div class="text-bold mts header-sales__featured-sales-list-item-desc">
                                                                 Bar Stools&nbsp;<span class="more-icon"></span>
                                                             </div>
@@ -1242,12 +1164,84 @@
                 </ul>
             </div>
         </div>
-        <div class='container'><img id="printLogo" src="http://st.hzcdn.com/res/2468/pic/print_logo.png?v=2468" height="50"/></div>
     </div>
     <script>
-        HZ.navigation.Header.init({"searchOptions":{"3":{"label":"Photos","hint":"Search photos & more...","hintLabel":"in Photos","etype":3,"url":"http:\/\/www.houzz.com\/photos\/query\/","browseUrl":"http:\/\/www.houzz.com\/photos"},"13":{"label":"Products","hint":"Search products...","hintLabel":"in Shop","etype":13,"url":"http:\/\/www.houzz.com\/photos\/products\/query\/","browseUrl":"http:\/\/www.houzz.com\/photos\/products"},"1":{"label":"Ideabooks","hint":"Search ideabooks...","hintLabel":"in Stories","etype":1,"url":"http:\/\/www.houzz.com\/ideabooks\/query\/","browseUrl":"http:\/\/www.houzz.com\/ideabooks"},"5":{"label":"Discussions","hint":"Search discussions...","hintLabel":"in Advice","etype":5,"url":"http:\/\/www.houzz.com\/discussions\/query\/","browseUrl":"http:\/\/www.houzz.com\/discussions\/all"},"10":{"label":"Professionals","hint":"Search professionals...","hintLabel":"in Find a Pro","etype":10,"url":"http:\/\/www.houzz.com\/professionals","browseUrl":"http:\/\/www.houzz.com\/professionals"},"2":{"label":"Users","hint":"Search users...","hintLabel":"in Users","etype":2,"url":"http:\/\/www.houzz.com\/users\/query\/","browseUrl":"http:\/\/www.houzz.com\/users"}},"selectedSearchOption":3,"menuMode":1,"searchFormId":"searchForm","searchInputBoxId":"navSearchInput","autoComplete":true,"showMobilePromotion":false,"redirectAfterSignoutUrl":"https:\/\/www.houzz.com\/downloadApp","autoSuggestContainerId":"navSearchAutoSuggestContainer","locationQuery":null,"addQueryIdentifier":false,"ssle":"searchs","userEmail":null,"menuDelay":160,"secondaryMenuCollapsable":true,"useRedesignAutoSuggest":false,"useA11yHeader":false,"notifications":false,"isTablet":false,"webSocketDelaySeconds":5,"showHint":true,"focusFirstItem":true,"searchTypeOverride":0,"showCartPreviewCard":false});
+        HZ.navigation.Header.init({
+            "searchOptions": {
+                "3": {
+                    "label": "Photos",
+                    "hint": "Search photos & more...",
+                    "hintLabel": "in Photos",
+                    "etype": 3,
+                    "url": "http:\/\/www.houzz.com\/photos\/query\/",
+                    "browseUrl": "http:\/\/www.houzz.com\/photos"
+                },
+                "13": {
+                    "label": "Products",
+                    "hint": "Search products...",
+                    "hintLabel": "in Shop",
+                    "etype": 13,
+                    "url": "http:\/\/www.houzz.com\/photos\/products\/query\/",
+                    "browseUrl": "http:\/\/www.houzz.com\/photos\/products"
+                },
+                "1": {
+                    "label": "Ideabooks",
+                    "hint": "Search ideabooks...",
+                    "hintLabel": "in Stories",
+                    "etype": 1,
+                    "url": "http:\/\/www.houzz.com\/ideabooks\/query\/",
+                    "browseUrl": "http:\/\/www.houzz.com\/ideabooks"
+                },
+                "5": {
+                    "label": "Discussions",
+                    "hint": "Search discussions...",
+                    "hintLabel": "in Advice",
+                    "etype": 5,
+                    "url": "http:\/\/www.houzz.com\/discussions\/query\/",
+                    "browseUrl": "http:\/\/www.houzz.com\/discussions\/all"
+                },
+                "10": {
+                    "label": "Professionals",
+                    "hint": "Search professionals...",
+                    "hintLabel": "in Find a Pro",
+                    "etype": 10,
+                    "url": "http:\/\/www.houzz.com\/professionals",
+                    "browseUrl": "http:\/\/www.houzz.com\/professionals"
+                },
+                "2": {
+                    "label": "Users",
+                    "hint": "Search users...",
+                    "hintLabel": "in Users",
+                    "etype": 2,
+                    "url": "http:\/\/www.houzz.com\/users\/query\/",
+                    "browseUrl": "http:\/\/www.houzz.com\/users"
+                }
+            },
+            "selectedSearchOption": 3,
+            "menuMode": 1,
+            "searchFormId": "searchForm",
+            "searchInputBoxId": "navSearchInput",
+            "autoComplete": true,
+            "showMobilePromotion": false,
+            "redirectAfterSignoutUrl": "https:\/\/www.houzz.com\/downloadApp",
+            "autoSuggestContainerId": "navSearchAutoSuggestContainer",
+            "locationQuery": null,
+            "addQueryIdentifier": false,
+            "ssle": "searchs",
+            "userEmail": null,
+            "menuDelay": 160,
+            "secondaryMenuCollapsable": true,
+            "useRedesignAutoSuggest": false,
+            "useA11yHeader": false,
+            "notifications": false,
+            "isTablet": false,
+            "webSocketDelaySeconds": 5,
+            "showHint": true,
+            "focusFirstItem": true,
+            "searchTypeOverride": 0,
+            "showCartPreviewCard": false
+        });
     </script>
-
     <div id='mainArea'>
         <div id='mainContent' >
             <div style="height:3000px;background-color:teal"></div>            
@@ -1305,50 +1299,9 @@
                     <li><a href='javascript:;' onclick='PhotoContextMenu.openSpaceInNewWindow()' oncontextmenu='return false'>Open Photo in New Window...</a></li>
                 </ul>
             </div>
-            <script>
-                HZ.data.CSRFToken = 'AwC1NFpY0Wi7laSXjSOGrnH30u0hBjT8xZx9v0pdeVqAMP7PlgA';
-                HZ.utils.Config.isHttpsSupported = true;
-                HZ.utils.Config.currentSite = 'us';
-                HZ.utils.Config.currentLocale = 'en-US';
-                HZ.utils.Logger.sessionStorageEnabled = false;
-                HZ.utils.Config.CdnDynamicImageUrl = "https:\/\/st.hzcdn.com\/fimgs\/";
-                HZ.utils.Config.CdnStaticImageUrl = "https:\/\/st.hzcdn.com\/simgs\/";
-                HZ.utils.Config.BRAND_IS_ENABLED = true;
-                HZ.utils.Config.sesId = 133878;
-                HZ.utils.Config.sesTime = 1482306741;
-                    HZ.data.MetroAreas = HZ.data.MetroAreas2;
-                HZ.data.CountryMetroMap = HZ.data.CountryMetroMap2;
-            </script>
             <script type="text/javascript" src="http://www.houzz.com/js/script?f=filterRenderer,hzGtm,scrollToTop,cartActions,signupDialog,addToIdeabookDialog,saveBasicProfileDialog,history,jquery.easing.1.3,jquery.visible,md5,lightboxStaticConfig,lightboxContext,lightboxUtils,lightbox2.2,productVariation,productListingInfoRenderer,availabilityNotification,qtySelector,reportProduct,lightboxColorPickerUtils,lightboxColorPicker2,lightboxImageTags2,contactDialog,lightbox2.2AdPlugins,lightbox2.2Plugins,jQ-AjaxFileUpload,summernote,jquery.htmlClean,richTextEditor,questionRichTextEditor,commentRichTextEditor,newPostSignup,hoverCard,followButton,fontSmoothing,bufferedLoader,unifiedStories,coreDataAjaxHandler,jquery-ui-1.10.3.custom.widget-only,mosaic,simpleCarousel,flagContent,feedComments,jquery.form.min,spacePreview,zoomable,bootstrap-dropdown,questions,like,clipping,homeSlideShow,tipBox,footerMenu,dropzone,home&amp;v=2468&amp;s=101&amp;l=en-US&amp;d=2&amp;tv=2468&amp;m=1&amp;j=17" language="javascript"></script>
             <script>
-                HZ.data.Spaces.addAll({"52523507":{"id":"52523507","u":"http:\/\/www.houzz.com\/photos\/52523507\/Mill-Valley-Modern-Farm-to-Table-contemporary-living-room-san-francisco","type":"0","ift":false,"ft":"97973834","ow":"10934175","cau":0,"au":"10934175","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.patriarcharchitecture.com","t":"Mill Valley Modern Farm-to-Table","cat":"1003","s":"3","pid":"1641561","prod":false,"f":true,"iids":["74018eaa0708593b"],"srct":"0","pm":0},"5810859":{"id":"5810859","u":"http:\/\/www.houzz.com\/photos\/5810859\/2014-Spring-Parade-of-Homes-traditional-exterior-minneapolis","type":"0","ift":false,"ft":"11939259","ow":"7484190","cau":0,"au":"7484190","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/Hartsdesign.com","t":"2014 Spring Parade of Homes","cat":"1001","s":"7","pid":"318665","prod":false,"f":true,"iids":["6381c2da023f222e"],"srct":"0","pm":0},"2510990":{"id":"2510990","u":"http:\/\/www.houzz.com\/photos\/2510990\/Cat-Mountain-contemporary-patio-austin","type":"1","ift":false,"ft":"6758387","ow":"2233445","cau":0,"au":"2233445","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/glyniswoodinteriors.com","t":"Cat Mountain","cat":"1013","s":"3","pid":"146972","prod":false,"f":true,"iids":["7e312e6c00f9a01f"],"srct":"0","pm":0},"15395786":{"id":"15395786","u":"http:\/\/www.houzz.com\/photos\/15395786\/Vintage-Cottage-Kitchen-Remodel-eclectic-kitchen-new-york","type":"0","ift":false,"ft":"25891249","ow":"437789","cau":0,"au":"437789","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.traceystephens.com","t":"Vintage Cottage Kitchen Remodel","cat":"1005","s":"4","pid":"630361","prod":false,"f":true,"iids":["1ad197a203de9756"],"srct":"0","pm":0},"22441718":{"id":"22441718","u":"http:\/\/www.houzz.com\/photos\/22441718\/Kids-Rooms-transitional-kids-other","type":"0","ift":false,"ft":"38287138","ow":"2318837","cau":0,"au":"2318837","cuid":null,"amtRaw":null,"amt":null,"l":"","t":"Kids Rooms","cat":"1009","s":"12","pid":"868811","prod":false,"f":true,"iids":["24a1a15704b9de0d"],"srct":"0","pm":0},"2919984":{"id":"2919984","u":"http:\/\/www.houzz.com\/photos\/2919984\/West-Lake-Hills-Residence-contemporary-living-room-other","type":"1","ift":false,"ft":"7446327","ow":"334020","cau":0,"au":"334020","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.spechtharpman.com","t":"West Lake Hills Residence","cat":"1003","s":"3","pid":"16242","prod":false,"f":true,"iids":["d911eff80123ef09"],"srct":"0","pm":0},"28403045":{"id":"28403045","u":"http:\/\/www.houzz.com\/photos\/28403045\/Brooklyn-Floor-Lamp-midcentury-floor-lamps","type":"0","ift":false,"ft":"48821456","ow":"12750256","cau":0,"au":"","cuid":"1","amtRaw":320,"amt":"320.00","l":"http:\/\/www.adessohome.com","t":"Brooklyn Floor Lamp","cat":"20004","s":"15","pid":"-1","prod":true,"f":true,"iids":["1681f945053584cf"],"srct":"2","pm":0},"2910584":{"id":"2910584","u":"http:\/\/www.houzz.com\/photos\/2910584\/SOUTH-COOGEE-House-contemporary-bedroom-sydney","type":"1","ift":false,"ft":"7430557","ow":"442842","cau":0,"au":"442842","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.capital-building.com.au","t":"SOUTH COOGEE - House","cat":"1008","s":"3","pid":"172086","prod":false,"f":true,"iids":["1ab16f760122f5ad"],"srct":"0","pm":0},"503982":{"id":"503982","u":"http:\/\/www.houzz.com\/photos\/503982\/The-Aurea-contemporary-living-room-portland","type":"1","ift":false,"ft":"1503369","ow":"469738","cau":0,"au":"469738","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/houseplans.co\/house-plans\/homeplan\/2453\/","t":"The Aurea","cat":"1003","s":"3","pid":"29253","prod":false,"f":true,"iids":["05d19ef00f1ed699"],"srct":"0","pm":0},"13166358":{"id":"13166358","u":"http:\/\/www.houzz.com\/photos\/13166358\/Farmhouse-Kitchen-farmhouse-kitchen","type":"1","ift":false,"ft":"22507267","ow":-1,"cau":0,"au":"126654","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.dyerphoto.com\/","t":"Farmhouse Kitchen","cat":"1005","s":"14","pid":"-1","prod":false,"f":true,"iids":["65e1eca1039752a4"],"srct":"0","pm":0},"24887830":{"id":"24887830","u":"http:\/\/www.houzz.com\/photos\/24887830\/Champagne-Flutes-With-Detailing-Set-of-6-Gold-transitional-cups-and-glassware","type":"0","ift":false,"ft":"44737507","ow":"2298693","cau":0,"au":"","cuid":"1","amtRaw":44.61,"amt":"44.61","l":"http:\/\/www.blisshomeanddesign.com","t":"Champagne Flutes With Detailing, Set of 6, Gold","cat":"11007","s":"12","pid":"-1","prod":true,"f":true,"iids":["58415e4c05103790"],"srct":"2","pm":0},"4540329":{"id":"4540329","u":"http:\/\/www.houzz.com\/photos\/4540329\/Guest-Bath-in-Sherman-Oaks-CA-traditional-bathroom-los-angeles","type":"1","ift":false,"ft":"10012413","ow":"1581215","cau":0,"au":"1581215","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.ljacobsendesign.com","t":"Guest Bath in Sherman Oaks, CA","cat":"1007","s":"7","pid":"590500","prod":false,"f":true,"iids":["5be1e61501d25d64"],"srct":"0","pm":0},"18382146":{"id":"18382146","u":"http:\/\/www.houzz.com\/photos\/18382146\/Habitus-Venus-Bay-contemporary-living-room-melbourne","type":"0","ift":false,"ft":"30954049","ow":"17534630","cau":0,"au":"17534630","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/mrtn.com.au","t":"Habitus Venus Bay","cat":"1003","s":"3","pid":"733089","prod":false,"f":true,"iids":["fbd1c0700435cb70"],"srct":"0","pm":0},"69829867":{"id":"69829867","u":"http:\/\/www.houzz.com\/photos\/69829867\/Ceets-Pulitzer-Dining-Chair-Set-of-2-midcentury-dining-chairs","type":"0","ift":false,"ft":"130245916","ow":"27232601","cau":0,"au":"9592089","cuid":"1","amtRaw":348.37,"amt":"348.37","l":"http:\/\/ceetsnyc.com","t":"Ceets Pulitzer Dining Chair, Set of 2","cat":"14021","s":"15","pid":"-1","prod":true,"f":false,"iids":["9171b1b8083ccd63"],"srct":"2","pm":0},"5937119":{"id":"5937119","u":"http:\/\/www.houzz.com\/photos\/5937119\/Lake-Las-Vegas-mediterranean-kitchen-las-vegas","type":"0","ift":false,"ft":"12115751","ow":"1247161","cau":0,"au":"1247161","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.monticellocabinets.com","t":"Lake Las Vegas","cat":"1005","s":"9","pid":"272750","prod":false,"f":true,"iids":["589104550245a7bc"],"srct":"0","pm":0},"7075411":{"id":"7075411","u":"http:\/\/www.houzz.com\/photos\/7075411\/Winston-Sofa-Table-Distressed-Tobacco-traditional-console-tables","type":"0","ift":false,"ft":"16598175","ow":"10172822","cau":0,"au":"10172822","cuid":"1","amtRaw":221.99,"amt":"221.99","l":"http:\/\/www.beyondstores.com","t":"Winston Sofa Table, Distressed Tobacco","cat":"14027","s":"7","pid":"-1","prod":true,"f":true,"iids":["78313b210301bbda"],"srct":"2","pm":0},"235551":{"id":"235551","u":"http:\/\/www.houzz.com\/photos\/235551\/1512-Dolphin-Terrace-beach-style-bathroom-los-angeles","type":"1","ift":false,"ft":"1235098","ow":"275751","cau":0,"au":"275751","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/www.spinndev.com","t":"1512 Dolphin Terrace","cat":"1007","s":"10","pid":"16862","prod":false,"f":true,"iids":["70a1c18c0e36c7ef"],"srct":"0","pm":0},"55193584":{"id":"55193584","u":"http:\/\/www.houzz.com\/photos\/55193584\/12-18-Radstock-Street-contemporary-bathroom-london","type":"0","ift":false,"ft":"102780281","ow":"31597146","cau":0,"au":"31597146","cuid":null,"amtRaw":null,"amt":null,"l":"http:\/\/bandaproperty.co.uk\/property-development\/current\/12-18-radstock-street","t":"12-18 Radstock Street","cat":"1007","s":"3","pid":"1766809","prod":false,"f":true,"iids":["25d159f6074328bc"],"srct":"0","pm":0}});HZ.data.Images.addAll({"70a1c18c0e36c7ef":{"w":"1024","h":"692","ts":"5940","bg":0,"hr":[14]},"b46132b60eab0bd1":{"w":"1331","h":"2000","ts":"2454","bg":0,"hr":[14]},"05d19ef00f1ed699":{"w":"3328","h":"4992","ts":"3345","bg":0,"hr":[14]},"c0e19c05008557ff":{"w":"1146","h":"1500","ts":"4128","bg":0,"hr":[14]},"1ab16f760122f5ad":{"w":"6048","h":"4032","ts":"2090","bg":0,"hr":[16,14]},"d911eff80123ef09":{"w":"1117","h":"1500","ts":"5133","bg":0,"hr":[14]},"5be1e61501d25d64":{"w":"2400","h":"2737","ts":"7340","bg":0,"hr":[16,14]},"f6014dc502410e30":{"w":"2161","h":"1561","ts":"1294","bg":1,"hr":[14]},"589104550245a7bc":{"w":"4096","h":"6144","ts":"8939","bg":0,"hr":[16,14]},"08a1b679024caed5":{"w":"1940","h":"1941","ts":"3024","bg":1,"hr":[16,14]},"0221636e028aa377":{"w":"4919","h":"5119","ts":"0229","bg":0},"78313b210301bbda":{"w":"932","h":"815","ts":"2557","bg":1},"65e1eca1039752a4":{"w":"1127","h":"864","ts":"7876","bg":0},"38e18a8603daa23a":{"w":"5760","h":"3840","ts":"1940","bg":0,"hr":[16,14]},"cf910893041075fb":{"w":"1238","h":"753","ts":"4926","bg":1},"eed1cef50433c40f":{"w":"1869","h":"2373","ts":"9126","bg":0,"hr":[14]},"fbd1c0700435cb70":{"w":"5184","h":"3456","ts":"8781","bg":0,"hr":[16,14]},"89e1720a0447d97e":{"w":"1440","h":"1581","ts":"7245","bg":0,"hr":[16,14]},"1461ffc405283a35":{"w":"3335","h":"4693","ts":"2923","bg":1,"hr":[16,14]},"c801495e04dbd543":{"w":"1808","h":"3006","ts":"9864","bg":1,"hr":[16,14]},"58415e4c05103790":{"w":"653","h":"632","ts":"4102","bg":1,"hr":[16,14]},"2701e24904efbbcd":{"w":"809","h":"803","ts":"1872","bg":1},"68e15d3b05143bdb":{"w":"442","h":"552","ts":"1484","bg":1,"hr":[16,14]},"5811ea8a052c3a37":{"w":"626","h":"976","ts":"4747","bg":1,"hr":[16,14]},"1681f945053584cf":{"w":"719","h":"2331","ts":"8683","bg":1,"hr":[16,14]},"3d612c8d053ab2cf":{"w":"406","h":"779","ts":"9663","bg":1,"hr":[16,14]},"cfc1117404e7d851":{"w":"385","h":"610","ts":"6727","bg":1},"d1710ae405885c14":{"w":"244","h":"409","ts":"6830","bg":1},"a6d18f3505890f17":{"w":"590","h":"458","ts":"3536","bg":1},"7aa168d705c271d2":{"w":"1500","h":"2063","ts":"8559","bg":0,"hr":[16,14]},"5bd1b39b05ca5df8":{"w":"640","h":"191","ts":"8449","bg":1},"1a91322905e6ec41":{"w":"2400","h":"1602","ts":"2529","bg":0,"hr":[16,14]},"ec01668405ef32a1":{"w":"2447","h":"3080","ts":"5465","bg":1,"hr":[16,14]},"869191c905e88edc":{"w":"485","h":"488","ts":"0111","bg":1},"aae1c94506145a43":{"w":"876","h":"900","ts":"3650","bg":1},"bf31a84c06fcefea":{"w":"5760","h":"3840","ts":"6400","bg":0,"hr":[16,14]},"25d159f6074328bc":{"w":"1280","h":"854","ts":"6369","bg":0,"hr":[16,14]},"cd615c7207765c45":{"w":"3494","h":"4572","ts":"3965","bg":0,"hr":[16,14]},"9171b1b8083ccd63":{"w":"2401","h":"3298","ts":"9894","bg":1},"fb51f797082f1de1":{"w":"7346","h":"5667","ts":"1550","bg":0,"hr":[16,14]},"7e312e6c00f9a01f":{"w":"4128","h":"2736","ts":"3273","bg":0,"hr":[16,14]},"6381c2da023f222e":{"w":"1800","h":"1108","ts":"1849","bg":0,"hr":[16,14]},"1ad197a203de9756":{"w":"5616","h":"3744","ts":"0032","bg":0,"hr":[16,14]},"24a1a15704b9de0d":{"w":"5472","h":"3648","ts":"9821","bg":0,"hr":[16,14]},"74018eaa0708593b":{"w":"1950","h":"1300","ts":"7336","bg":0,"hr":[16,14]},"ffd1dc98023835b7":{"w":"4051","h":"2696","ts":"6467","bg":0,"hr":[16,14]},"1c31f0cd02540575":{"w":"945","h":"1207","ts":"2215","bg":1,"hr":[16,14]},"04d1da000547ed5b":{"w":"1569","h":"1951","ts":"2412","bg":1,"hr":[16,14]},"f7d1aecd03cd6bfa":{"w":"3598","h":"5616","ts":"8710","bg":0,"hr":[16,14]},"734148740451f19f":{"w":"1166","h":"1440","ts":"4861","bg":1,"hr":[16,14]},"a0e113f3046ed2e3":{"w":"537","h":"521","ts":"0550","bg":1},"781105c2047d8085":{"w":"485","h":"509","ts":"4593","bg":1},"33b1a99a04c04fbc":{"w":"477","h":"644","ts":"6417","bg":1},"f1215d0204da4d69":{"w":"1665","h":"2997","ts":"2858","bg":1,"hr":[16,14]},"ffb1f36004fdd09f":{"w":"1344","h":"2120","ts":"0522","bg":1,"hr":[16,14]},"76e12e610531527a":{"w":"933","h":"541","ts":"5749","bg":1},"093138ca0734fa83":{"w":"679","h":"620","ts":"9802","bg":1},"31c1888405562945":{"w":"692","h":"365","ts":"1797","bg":1},"7861cc7c0559fe78":{"w":"798","h":"512","ts":"6897","bg":1},"6f81ac7d055f90db":{"w":"544","h":"860","ts":"4715","bg":1},"60d10a130576fd10":{"w":"1602","h":"794","ts":"1001","bg":1,"hr":[16,14]},"32f1bae20582f778":{"w":"654","h":"990","ts":"3949","bg":1,"hr":[16,14]},"f191eee00595e457":{"w":"419","h":"561","ts":"9608","bg":1},"55f1a081059be7d9":{"w":"1862","h":"1458","ts":"5943","bg":1,"hr":[16,14]},"8581988f05b7ae11":{"w":"639","h":"955","ts":"8402","bg":1},"30a16d6305c36845":{"w":"552","h":"828","ts":"0754","bg":1},"cfc1fe3a06df14db":{"w":"611","h":"990","ts":"1344","bg":1,"hr":[16,14]},"24f1e5f605ef6e8a":{"w":"718","h":"990","ts":"7901","bg":1,"hr":[16,14]},"3c11e0bc0642588c":{"w":"979","h":"633","ts":"0648","bg":1},"80a1461407a9fcf3":{"w":"786","h":"696","ts":"8353","bg":1},"5221bd15065b393f":{"w":"3456","h":"5184","ts":"5116","bg":0,"hr":[16,14]},"20d1b09c065b39e6":{"w":"5184","h":"3456","ts":"0079","bg":0,"hr":[16,14]},"69a1897c065ef1d8":{"w":"4568","h":"3045","ts":"6863","bg":0,"hr":[16,14]},"f7117145066af5a6":{"w":"3580","h":"2181","ts":"7587","bg":1,"hr":[16,14]},"6361346a0668f5e0":{"w":"3648","h":"5472","ts":"0439","bg":0,"hr":[16,14]},"d0b148db06690d69":{"w":"5472","h":"3648","ts":"3477","bg":0,"hr":[16,14]},"90a1cb47068ac597":{"w":"1193","h":"1775","ts":"4687","bg":0,"hr":[16,14]},"c3910224068c3f30":{"w":"7222","h":"4820","ts":"6239","bg":0,"hr":[16,14]},"03d1500006a2a62e":{"w":"1200","h":"809","ts":"3041","bg":0,"hr":[16,14]},"29f1831a073a16cc":{"w":"462","h":"348","ts":"5472","bg":1},"48d185a906c81af0":{"w":"1200","h":"800","ts":"7725","bg":0,"hr":[16,14]},"cde127df06cf2753":{"w":"2002","h":"3000","ts":"8191","bg":0,"hr":[16,14]},"90913ed1071c0b05":{"w":"3000","h":"1996","ts":"6873","bg":0,"hr":[16,14]},"c701e9f0071faa7a":{"w":"5043","h":"2384","ts":"5519","bg":0,"hr":[16,14]},"a2915e430835df92":{"w":"566","h":"769","ts":"5661","bg":1},"d8e1fbd6073ca2cd":{"w":"5630","h":"8445","ts":"9158","bg":0,"hr":[16,14]},"ecd117190772a94b":{"w":"1600","h":"1200","ts":"9232","bg":0,"hr":[16,14]},"f1511aca079a16f3":{"w":"725","h":"997","ts":"5425","bg":1,"hr":[16,14]},"dc91d5c4078c1d06":{"w":"6016","h":"4016","ts":"1903","bg":0,"hr":[16,14]},"d3716267078c1e5d":{"w":"6016","h":"4016","ts":"0567","bg":0},"8f215de407b366b9":{"w":"5472","h":"3648","ts":"7185","bg":0,"hr":[16,14]},"28a17c0c07d1897d":{"w":"864","h":"1054","ts":"0945","bg":0,"hr":[16,14]},"901119410826293a":{"w":"1598","h":"1660","ts":"2097","bg":1,"hr":[16,14]},"64a1e3cf082272e4":{"w":"2399","h":"3600","ts":"5475","bg":0,"hr":[16,14]},"acc12e4a08227357":{"w":"3600","h":"2400","ts":"1844","bg":0,"hr":[16,14]},"7df18b5c0824c338":{"w":"4134","h":"2746","ts":"5559","bg":0,"hr":[16,14]},"8ea113bf08263613":{"w":"990","h":"742","ts":"1901","bg":0,"hr":[16,14]},"2e118d2b08360e5c":{"w":"4169","h":"2792","ts":"4230","bg":0,"hr":[16,14]},"36913915083e1ad4":{"w":"2999","h":"4376","ts":"4002","bg":0,"hr":[16,14]},"2931bc790848611a":{"w":"1657","h":"1158","ts":"5599","bg":0,"hr":[16,14]},"4b81ddf0084b4de8":{"w":"1928","h":"570","ts":"0164","bg":0},"77617fb3084be37d":{"w":"4884","h":"3324","ts":"0152","bg":0,"hr":[16,14]},"ba8192e1084be41f":{"w":"5184","h":"3456","ts":"9992","bg":0,"hr":[16,14]},"f7f113f1084eea24":{"w":"2200","h":"752","ts":"3571","bg":0,"hr":[16,14]},"8111ab3b084eec0a":{"w":"2200","h":"752","ts":"3942","bg":0,"hr":[16,14]},"d081d87f08507eab":{"w":"2200","h":"752","ts":"7383","bg":0,"hr":[16,14]},"3c216b3b0851f853":{"w":"1920","h":"1080","ts":"3823","bg":0,"hr":[16,14]},"13614e500852d2f2":{"w":"1912","h":"1574","ts":"6143","bg":1},"5671bda80852df16":{"w":"1190","h":"1153","ts":"8448","bg":0,"hr":[16,14]},"11318268085484c7":{"w":"1225","h":"585","ts":"8629","bg":0,"hr":[16,14]},"fff37a030998e9dc":{"w":"500","h":"729","ts":"8108","bg":0},"0673ce2e0cb28f4e":{"w":"528","h":"577","ts":"0510","bg":0},"1cb334e60d1bc806":{"w":"2202","h":"2198","ts":"9931","bg":0},"4bb3ca340d5f2201":{"w":"512","h":"512","ts":"0344","bg":0},"e32396ef0d8b84e9":{"w":"2412","h":"2420","ts":"0006","bg":0},"bb3377f60dde93d3":{"w":"1432","h":"1435","ts":"8220","bg":0},"1dd37dc60de90cfa":{"w":"934","h":"932","ts":"8750","bg":0},"0883fdaf0e2482da":{"w":"233","h":"232","ts":"0005","bg":0},"470326f50e72155c":{"w":"2260","h":"2267","ts":"6855","bg":0},"080364f00e72bc36":{"w":"1581","h":"2100","ts":"3173","bg":0},"6f7318970e81f26e":{"w":"350","h":"450","ts":"9054","bg":0},"2383e37d0e8e3234":{"w":"1936","h":"2904","ts":"4885","bg":0},"dc9347c50ec29086":{"w":"960","h":"960","ts":"0544","bg":0},"4a334bda0ecc6dda":{"w":"5834","h":"5830","ts":"4176","bg":0},"522353660f1af50e":{"w":"451","h":"600","ts":"0355","bg":0},"0643595d0f47a838":{"w":"868","h":"750","ts":"8605","bg":1},"1523342f0f908941":{"w":"821","h":"822","ts":"8197","bg":0},"008366540f9aee42":{"w":"168","h":"168","ts":"6515","bg":0},"2d9307510ffb0bdb":{"w":"4180","h":"2556","ts":"2635","bg":0},"561339250ffef86a":{"w":"400","h":"399","ts":"9802","bg":0},"b1c321070fffa0a2":{"w":"2159","h":"2158","ts":"4944","bg":0},"41a3d8420011852d":{"w":"1942","h":"1976","ts":"2051","bg":0},"07a3fbf7003fc8b3":{"w":"2882","h":"2882","ts":"6655","bg":0},"8103407900be9dbf":{"w":"426","h":"600","ts":"9503","bg":0},"8eb35bac00ce620b":{"w":"1568","h":"2352","ts":"3199","bg":0},"d5b3d4f40119c34d":{"w":"589","h":"588","ts":"6440","bg":1},"d9630c6001635985":{"w":"550","h":"903","ts":"5478","bg":0},"82b3322201658748":{"w":"294","h":"300","ts":"1295","bg":0},"b8234ff101a1f0de":{"w":"1365","h":"1024","ts":"7456","bg":0},"cc93c41501a4d70b":{"w":"304","h":"304","ts":"7949","bg":0},"a1a3ad0401c1229e":{"w":"180","h":"180","ts":"1808","bg":0},"f67335cd01ffe105":{"w":"200","h":"266","ts":"3793","bg":0},"2c43d983020a7753":{"w":"1200","h":"434","ts":"7620","bg":0},"de137db9021e26cd":{"w":"688","h":"687","ts":"1661","bg":0},"e023c3af0238ac84":{"w":"180","h":"119","ts":"5893","bg":0},"67739b030244708d":{"w":"2083","h":"2083","ts":"6544","bg":0},"47d3866c0267ca44":{"w":"1055","h":"1301","ts":"4058","bg":0},"6103c36e02790a83":{"w":"750","h":"750","ts":"4795","bg":0},"2263095d028cec6e":{"w":"1154","h":"1234","ts":"7278","bg":0},"bec37e9802a334c2":{"w":"371","h":"401","ts":"5931","bg":0},"fe63f53a02d71748":{"w":"180","h":"180","ts":"7912","bg":0},"f85305a602e681e1":{"w":"1645","h":"1993","ts":"8242","bg":1},"230375e802fcef46":{"w":"583","h":"439","ts":"9390","bg":0},"db234a860304bb48":{"w":"1989","h":"3000","ts":"6969","bg":0},"2e439e03031a1a0d":{"w":"180","h":"180","ts":"9534","bg":0},"9b2389d00328a8d9":{"w":"266","h":"178","ts":"3229","bg":1},"27f3f1c2033da100":{"w":"1000","h":"1000","ts":"9647","bg":0},"4393799d0343a5bb":{"w":"759","h":"761","ts":"8207","bg":0},"08b3f23003442d47":{"w":"301","h":"287","ts":"6968","bg":1},"d6d3578b03483570":{"w":"180","h":"180","ts":"1201","bg":0},"c2138bb20366705b":{"w":"380","h":"192","ts":"2364","bg":1},"cdb3e7030392471b":{"w":"200","h":"200","ts":"5388","bg":0},"926385e603969179":{"w":"200","h":"200","ts":"6569","bg":0},"c5d3c61903dbb82f":{"w":"3168","h":"2104","ts":"8967","bg":0},"e2531d4c042d94fc":{"w":"640","h":"640","ts":"3404","bg":0},"fe53cf5204370f2f":{"w":"520","h":"521","ts":"1511","bg":0},"0de37bc2045828e7":{"w":"391","h":"391","ts":"2806","bg":0},"f303f64a046f25f5":{"w":"180","h":"180","ts":"5934","bg":0},"01e314d504ad790e":{"w":"533","h":"532","ts":"6697","bg":0},"1063691c04b03ba5":{"w":"240","h":"240","ts":"5613","bg":0},"36533a6904b44a37":{"w":"248","h":"248","ts":"1624","bg":0},"76636b6e04dbba47":{"w":"237","h":"236","ts":"6216","bg":0},"c9130ae204f55591":{"w":"200","h":"200","ts":"4371","bg":0},"e6035fca05140369":{"w":"1290","h":"1289","ts":"4972","bg":0},"5c0308dd052724e2":{"w":"2911","h":"2901","ts":"6844","bg":0},"32633cb8052d72ca":{"w":"925","h":"923","ts":"3668","bg":0},"abd33c50056ebe5f":{"w":"350","h":"350","ts":"1058","bg":0},"92a3ee5505ca38be":{"w":"997","h":"997","ts":"9966","bg":0},"10e3d6d705e83a6b":{"w":"614","h":"615","ts":"2032","bg":0},"9bd3a54e05faf2bc":{"w":"134","h":"133","ts":"9504","bg":0},"c743ff8606001f17":{"w":"400","h":"200","ts":"2947","bg":1},"2573c5130614d77a":{"w":"881","h":"880","ts":"7219","bg":0},"a3834194065e2c62":{"w":"2381","h":"2383","ts":"2335","bg":0},"8943af28065f2aae":{"w":"1198","h":"1201","ts":"4024","bg":0},"7603664606cfb6dd":{"w":"377","h":"377","ts":"6775","bg":0},"f343626506ebca54":{"w":"328","h":"329","ts":"7062","bg":0},"c053fc8e06faaaa8":{"w":"912","h":"909","ts":"4707","bg":0},"1a63215706fcea01":{"w":"1533","h":"1537","ts":"5556","bg":0},"5d93f68b0730dfad":{"w":"1968","h":"1969","ts":"5997","bg":0},"0e53d4ef073cd245":{"w":"205","h":"205","ts":"3781","bg":0},"71d397c307509913":{"w":"384","h":"384","ts":"9862","bg":0},"7e1390ad076924f7":{"w":"394","h":"394","ts":"9423","bg":0},"eb635dce077c13d5":{"w":"304","h":"304","ts":"2371","bg":0},"3993d3e9077ff1da":{"w":"700","h":"700","ts":"2780","bg":0},"118372ee07b61f35":{"w":"175","h":"175","ts":"3333","bg":0},"38f3d437082b2baf":{"w":"1200","h":"360","ts":"4243","bg":1},"25936cb7085931af":{"w":"2048","h":"2048","ts":"0437","bg":0},"2f530c740859b4f9":{"w":"200","h":"200","ts":"4045","bg":0},"f17379fe0c772766":{"w":"353","h":"354","ts":"6069","bg":0},"a6535c340cc77f25":{"w":"247","h":"247","ts":"1134","bg":0},"03e3b53a0d23161a":{"w":"2048","h":"1365","ts":"9573","bg":0},"17e3a16f0d308b9f":{"w":"500","h":"500","ts":"8908","bg":0},"2ee370e20e0cbff2":{"w":"1173","h":"1010","ts":"5844","bg":1},"3d3370620e41bc89":{"w":"804","h":"803","ts":"9138","bg":0},"4663b47e0e95c643":{"w":"3008","h":"2000","ts":"9801","bg":0},"d42360b50ea66fbf":{"w":"4602","h":"6895","ts":"8008","bg":0},"8c1306da00994180":{"w":"540","h":"540","ts":"2559","bg":0},"23d3e3d800e4f0c4":{"w":"381","h":"383","ts":"5849","bg":0},"8a53402900f06d0f":{"w":"184","h":"184","ts":"3433","bg":0},"cb8324db00fc60f7":{"w":"406","h":"406","ts":"4574","bg":0},"14b3bc28011d37b3":{"w":"4064","h":"2686","ts":"9301","bg":0},"e2330b3d0147def9":{"w":"521","h":"462","ts":"2928","bg":0},"7fa337290150a1c6":{"w":"148","h":"46","ts":"8792","bg":0},"61039e8b0171beb7":{"w":"1299","h":"1143","ts":"7322","bg":0},"1623911401ba24e9":{"w":"722","h":"1083","ts":"6865","bg":0},"1a83d35201c36dfa":{"w":"238","h":"98","ts":"7981","bg":1},"e22340cb01df093e":{"w":"310","h":"310","ts":"7714","bg":0},"8c636ece02065ada":{"w":"498","h":"498","ts":"3317","bg":0},"ebd3f76a0384f7df":{"w":"2374","h":"2379","ts":"6323","bg":0},"827359890394cabc":{"w":"200","h":"200","ts":"0157","bg":0},"e243efb603a999df":{"w":"3411","h":"3422","ts":"6258","bg":0},"4c930e6703a9c579":{"w":"400","h":"400","ts":"1100","bg":1},"d2d3f36e03b885fd":{"w":"954","h":"953","ts":"6527","bg":0},"a2a38eb603e98b3b":{"w":"508","h":"225","ts":"4460","bg":1},"be5370e3043d529e":{"w":"3840","h":"5760","ts":"4992","bg":0},"6e73125e04835356":{"w":"488","h":"366","ts":"2748","bg":0},"3593cf1004a44bc9":{"w":"470","h":"471","ts":"1598","bg":0},"9b83a07e04afc67f":{"w":"452","h":"452","ts":"0685","bg":0},"4563c35204e4f9fb":{"w":"4165","h":"4158","ts":"2872","bg":0},"9d03801504f76f9b":{"w":"392","h":"392","ts":"3149","bg":0},"ba233537051445be":{"w":"986","h":"986","ts":"1936","bg":0},"7373d6630541494b":{"w":"143","h":"143","ts":"1965","bg":0},"1e8318eb05b321a5":{"w":"257","h":"256","ts":"2922","bg":0},"8cf35c3c05e070f6":{"w":"216","h":"216","ts":"1854","bg":0},"7153354a05f6f1ee":{"w":"168","h":"168","ts":"7166","bg":0},"b7939d1305facc57":{"w":"1500","h":"1500","ts":"9694","bg":0},"edb384990609ff44":{"w":"1000","h":"1000","ts":"1521","bg":0},"fb136067061bb227":{"w":"2385","h":"2385","ts":"5659","bg":0},"b44302110644e13c":{"w":"2422","h":"2417","ts":"8557","bg":0},"82d3dbae066b661c":{"w":"497","h":"497","ts":"9072","bg":0},"9c83608e0671cc6a":{"w":"2959","h":"2954","ts":"6939","bg":0},"c223da5a069c0787":{"w":"250","h":"250","ts":"6121","bg":0},"92b3f42c070a1d70":{"w":"453","h":"454","ts":"0689","bg":0},"a2232d2b07276fa8":{"w":"510","h":"510","ts":"2282","bg":0},"cf03f7a3072a22e2":{"w":"379","h":"380","ts":"2487","bg":0},"dc23c3c207e42e3e":{"w":"368","h":"367","ts":"1841","bg":0},"f493418a0807c5dc":{"w":"730","h":"730","ts":"4415","bg":0}});HZ.data.Users.addAll({"1322":{"n":"becky","d":"Becky Harris","iid":"fff37a030998e9dc","emp":"1"},"79907":{"n":"anniekendall","d":"Annie Thornton","iid":"0673ce2e0cb28f4e","emp":"1"},"115462":{"n":"bgw4jla","d":"John Lum Architecture, Inc. AIA","iid":"1cb334e60d1bc806","pt":"1","p":"1","nr":"16","r":"49","loc":"California, United States","prx":false,"ba":"1"},"126654":{"n":"maryjobowling","d":"Mary Jo Bowling","iid":"bec37e9802a334c2","emp":"1"},"168667":{"n":"lbinteriors","d":"Laura Burton Interiors","iid":"4bb3ca340d5f2201","pt":"2","p":"1","nr":"17","r":"50","loc":"Texas, United States","prx":false,"ba":"1"},"203449":{"n":"oharainteriors","d":"Martha O'Hara Interiors","iid":"e32396ef0d8b84e9","pt":"2","p":"1","nr":"168","r":"49","loc":"Minneapolis, Minnesota, United States","prx":false,"ba":"1"},"266660":{"n":"lolalina","d":"Laura Gaskill","iid":"bb3377f60dde93d3","emp":"1"},"275751":{"n":"spinndev","d":"Spinnaker Development","iid":"1dd37dc60de90cfa","pt":"44","p":"1","nr":"15","r":"50","loc":"California, United States","prx":false,"ba":"1"},"334020":{"n":"spechtharchitects","d":"Specht Architects","iid":"0883fdaf0e2482da","pt":"1","p":"1","nr":"5","r":"50","loc":"Texas, United States","prx":false,"ba":"1"},"424322":{"n":"leserin","d":"leserin","iid":""},"426202":{"n":"maimar","d":"maimar","iid":""},"436875":{"n":"mariannel","d":"Marianne Lipanovich","iid":"470326f50e72155c","emp":"1"},"437789":{"n":"traceystephensinteriordesign","d":"Tracey Stephens Interior Design Inc","iid":"080364f00e72bc36","pt":"8","p":"1","nr":"27","r":"48","loc":"New Jersey, United States","prx":false},"442842":{"n":"capital","d":"Capital Building","iid":"d5b3d4f40119c34d","pt":"44","p":"1","nr":"13","r":"50","loc":"New South Wales","prx":false,"ba":"1"},"455759":{"n":"visualcomfort","d":"Visual Comfort","iid":"6f7318970e81f26e","pt":"0","p":"1","nr":"0","r":"0","loc":"Texas, United States","prx":false},"469738":{"n":"mascord","d":"Alan Mascord Design Associates Inc","iid":"2383e37d0e8e3234","pt":"1","p":"1","nr":"12","r":"49","loc":"Oregon, United States","prx":false},"556408":{"n":"circa","d":"Circa Lighting","iid":"dc9347c50ec29086","pt":"13","p":"1","nr":"3","r":"46","loc":"Georgia, United States","prx":false,"mpv":"1","topsell":"1","sbp":1},"564079":{"n":"lightingnewyork","d":"Lighting New York","iid":"f85305a602e681e1","pt":"13","p":"1","nr":"2","r":"50","loc":"New York, United States","prx":false,"mpv":"1","topsell":"1","sbp":1,"ba":"1"},"583080":{"n":"jeandufresne","d":"SPACE Architects + Planners","iid":"4a334bda0ecc6dda","pt":"1","p":"1","nr":"4","r":"50","loc":"Illinois, United States","prx":false,"ba":"1"},"677170":{"n":"jesusfst","d":"Kirsten Jones","iid":""},"768982":{"n":"molly_brandenburg","d":"Molly Brandenburg","iid":"522353660f1af50e","pt":"9","p":"1","nr":"25","r":"49","loc":"California, United States","prx":false,"mpv":"1","emp":"1"},"945398":{"n":"hproduct","d":"hproduct","iid":"","emp":"1"},"987365":{"n":"london23","d":"london23","iid":""},"1247161":{"n":"monticello","d":"Monticello Cabinets & Doors","iid":"0643595d0f47a838","pt":"50","p":"1","nr":"4","r":"50","loc":"Oklahoma, United States","prx":false,"ba":"1"},"1248395":{"n":"sandmitch","d":"sandmitch","iid":""},"1581215":{"n":"lauren_jacobsen","d":"Lauren Jacobsen Interior Design","iid":"1523342f0f908941","pt":"2","p":"1","nr":"17","r":"50","loc":"California, United States","prx":false,"ba":"1"},"1633546":{"n":"houzz","d":"Houzz","iid":"008366540f9aee42","emp":"1"},"1691247":{"n":"dorcusna","d":"dorcusna","iid":"b8234ff101a1f0de"},"1810656":{"n":"cymax","d":"Homesquare","iid":"92a3ee5505ca38be","pt":"21","p":"1","nr":"3","r":"10","loc":"Virginia, United States","prx":false,"mpv":"1","sbp":1},"1871617":{"n":"lejenny","d":"Jenny Le","iid":""},"2233445":{"n":"glyniswoodinteriors","d":"Glynis Wood Interiors","iid":"2d9307510ffb0bdb","pt":"2","p":"1","nr":"28","r":"50","loc":"Texas, United States","prx":false},"2249470":{"n":"dmcquin","d":"McQuin Partnership Interior Design","iid":"db234a860304bb48","pt":"2","p":"1","nr":"5","r":"50","loc":"Greater London","prx":false},"2298693":{"n":"blisshomeanddesign","d":"Bliss Home & Design","iid":"561339250ffef86a","pt":"21","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","sbp":1},"2318837":{"n":"suzannerico","d":"Suzanne Rico Interiors","iid":"b1c321070fffa0a2","pt":"2","p":"1","nr":"7","r":"50","loc":"California, United States","prx":false},"2530658":{"n":"aboutspacestudios","d":"About:Space, LLC","iid":"41a3d8420011852d","pt":"2","p":"1","nr":"3","r":"50","loc":"California, United States","prx":false},"2749687":{"n":"bapplett","d":"bapplett","iid":""},"2868215":{"n":"anjianji","d":"Anji Mountain","iid":"0e53d4ef073cd245","pt":"18","p":"1","nr":"0","r":"0","loc":"Missouri, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"3001572":{"n":"designfixation","d":"Design Fixation [Faith Towers]","iid":"07a3fbf7003fc8b3","pt":"9","p":"1","nr":"0","r":"0","loc":"Massachusetts, United States","prx":false,"emp":"1"},"3376237":{"n":"dbrzezin","d":"dbrzezin","iid":""},"3692210":{"n":"kimbrinn","d":"kimbrinn","iid":""},"3787699":{"n":"taliacobbold","d":"TALIA COBBOLD","iid":"1a63215706fcea01","pt":"2","p":"1","nr":"1","r":"50","loc":"","prx":false},"4034587":{"n":"tytc4dog","d":"tytc4dog","iid":""},"4109845":{"n":"lamakasso","d":"Lama Kasso","iid":"8103407900be9dbf","pt":"21","p":"1","nr":"0","r":"0","loc":"Nevada, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"4223054":{"n":"dallasgraduate","d":"dallasgraduate","iid":""},"4302956":{"n":"keithenbailey1","d":"keithenbailey1","iid":""},"4312455":{"n":"cecebee","d":"cecebee","iid":""},"4516055":{"n":"cpolanski","d":"Carolyn Polanski","iid":""},"5318049":{"n":"lotusbrown","d":"L Chinloy","iid":""},"5318997":{"n":"barbarakm","d":"barbarakm","iid":""},"5430305":{"n":"cristinasimonag","d":"cristinasimonag","iid":""},"6505851":{"n":"ninagw","d":"ninagw","iid":"d9630c6001635985"},"6697451":{"n":"lumisource","d":"LumiSource","iid":"82b3322201658748","pt":"21","p":"1","nr":"0","r":"0","loc":"Illinois, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"7484190":{"n":"hartsdesign","d":"Hart's Design","iid":"cc93c41501a4d70b","pt":"1","p":"1","nr":"6","r":"45","loc":"United States","prx":false,"ba":"1"},"7678970":{"n":"blakeharmon","d":"blakeharmon","iid":""},"7847247":{"n":"louloua_maleh","d":"Louloua Maleh","iid":"a1a3ad0401c1229e","pt":"2","p":"1","nr":"8","r":"48","loc":"Quebec, Canada","prx":false},"8359466":{"n":"szakovits","d":"szakovits","iid":""},"8364707":{"n":"trulyblog","d":"Sarah Seung-McFarland","iid":"7603664606cfb6dd","pt":"9","p":"1","nr":"0","r":"0","loc":"New Jersey, United States","prx":false,"emp":"1"},"8383965":{"n":"aprilthompson__","d":"April Thompson","iid":""},"8898320":{"n":"julie_eglington","d":"Julie Eglington","iid":"f67335cd01ffe105","emp":"1"},"9053851":{"n":"muzzha","d":"muzzha!","iid":"2c43d983020a7753","pt":"30","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","topsell":"1"},"9207398":{"n":"econoyer78","d":"econoyer78","iid":""},"9210488":{"n":"natasha6000","d":"Natasha Schneider","iid":"","emp":"1"},"9338674":{"n":"_rugsdoneright","d":"Rugs Done Right","iid":"de137db9021e26cd","pt":"18","p":"1","nr":"49","r":"46","loc":"Massachusetts, United States","prx":false,"mpv":"1","sbp":1},"9530405":{"n":"mkmarland1","d":"mkmarland1","iid":""},"9592089":{"n":"sohomod","d":"Sohomod","iid":"e2531d4c042d94fc","pt":"21","p":"1","nr":"4","r":"50","loc":"New York, United States","prx":false,"mpv":"1","sbp":1},"9713098":{"n":"eric_gong","d":"Eric Gong","iid":"e023c3af0238ac84"},"9881871":{"n":"novalamps","d":"NOVA of California","iid":"67739b030244708d","pt":"13","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"10172822":{"n":"beyondstores","d":"Beyond Stores","iid":"c2138bb20366705b","pt":"21","p":"1","nr":"2","r":"10","loc":"Florida, United States","prx":false,"mpv":"1","sbp":1},"10362567":{"n":"devisal","d":"Punky Hill","iid":"47d3866c0267ca44","pt":"21","p":"1","nr":"0","r":"0","loc":"Wisconsin, United States","prx":false,"mpv":"1","topsell":"1"},"10657542":{"n":"stepstone_inc","d":"Stepstone Inc","iid":"6103c36e02790a83","pt":"45","p":"1","nr":"4","r":"50","loc":"California, United States","prx":false,"ba":"1"},"10934175":{"n":"ericjwlayton","d":"PatriArch Architecture","iid":"2263095d028cec6e","pt":"1","p":"1","nr":"12","r":"49","loc":"California, United States","prx":false,"ba":"1"},"11890933":{"n":"superwoman42","d":"superwoman42","iid":""},"11904717":{"n":"bassettmirrorco","d":"BASSETT MIRROR CO.","iid":"eb635dce077c13d5","pt":"93","p":"1","nr":"0","r":"0","loc":"Virginia, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"11961291":{"n":"jacinta_yu","d":"Jacinta Yu","iid":"fe63f53a02d71748"},"12750256":{"n":"rwynneadesso","d":"Adesso","iid":"71d397c307509913","pt":"93","p":"1","nr":"0","r":"0","loc":"New York, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"12790869":{"n":"roundtree","d":"Roundtree Construction","iid":"230375e802fcef46","pt":"44","p":"1","nr":"5","r":"50","loc":"Vermont, United States","prx":false},"12799834":{"n":"alexkala","d":"IUC International LLC","iid":"08b3f23003442d47","pt":"18","p":"1","nr":"0","r":"0","loc":"New York, United States","prx":false,"mpv":"1","topsell":"1","sbp":1},"12836570":{"n":"millermillerrealestate","d":"Miller + Miller Real Estate","iid":"27f3f1c2033da100","pt":"43","p":"1","nr":"4","r":"50","loc":"Illinois, United States","prx":false},"13041262":{"n":"romanman","d":"romanman","iid":""},"13188418":{"n":"laursfekas","d":"laursfekas","iid":""},"13268962":{"n":"cara_macphersonwallace","d":"Cara MacPherson Wallace","iid":"2e439e03031a1a0d"},"13496171":{"n":"webuser_67307160","d":"ARTeFAC","iid":"9b2389d00328a8d9","pt":"21","p":"1","nr":"0","r":"0","loc":"Ontario, Canada","prx":false,"mpv":"1","sbp":1,"ba":"1"},"13916251":{"n":"asimcompany","d":"Steve Silver Company","iid":"","pt":"21","p":"1","nr":"0","r":"0","loc":"Texas, United States","prx":false},"13926516":{"n":"joannasimmons","d":"Joanna Simmons","iid":"4393799d0343a5bb","emp":"1"},"13989832":{"n":"carol_fabbri","d":"Carol Fabbri","iid":"d6d3578b03483570"},"15023437":{"n":"abby_kirigin","d":"Abby Kirigin","iid":"cdb3e7030392471b"},"15083652":{"n":"tanya_hinkle","d":"Tanya Hinkle","iid":"926385e603969179"},"15655783":{"n":"kmoosmann","d":"Katie Moosmann","iid":"c5d3c61903dbb82f","emp":"1"},"15769990":{"n":"sylvetteg","d":"sylvetteg","iid":""},"17164067":{"n":"ghassemisaman","d":"ghassemisaman","iid":""},"17363608":{"n":"alexandracrafton","d":"Alexandra Crafton","iid":"01e314d504ad790e","pt":"10","p":"1","nr":"2","r":"50","loc":"California, United States","prx":false,"emp":"1"},"17534630":{"n":"mrtn_architects","d":"MRTN Architects","iid":"fe53cf5204370f2f","pt":"1","p":"1","nr":"0","r":"0","loc":"Victoria","prx":false,"ba":"1"},"17998123":{"n":"frankliannucci","d":"West Ninth Vintage","iid":"0de37bc2045828e7","pt":"13","p":"1","nr":"5","r":"50","loc":"Pennsylvania, United States","prx":false,"mpv":"1","topsell":"1","sbp":1},"18302738":{"n":"bisonoffice","d":"BisonOffice","iid":"f303f64a046f25f5","pt":"21","p":"1","nr":"0","r":"0","loc":"Illinois, United States","prx":false,"mpv":"1","topsell":"1","sbp":1},"18416182":{"n":"lynn2001112","d":"Zhang Ling","iid":"25936cb7085931af"},"18736914":{"n":"houzzshop","d":"Houzz Shop","iid":"36533a6904b44a37","pt":"30","p":"1","nr":"2","r":"50","loc":"California, United States","prx":false,"emp":"1"},"19681903":{"n":"tsdesignru","d":"TS Design | \u0422\u0430\u0440\u0430\u0441 \u0411\u0435\u0437\u0440\u0443\u043a\u043e\u0432 \u0438 \u0421\u0442\u0430\u0441 \u0421\u0430\u043c\u043a\u043e\u0432\u0438\u0447","iid":"1063691c04b03ba5","pt":"2","p":"1","nr":"0","r":"0","loc":"","prx":false},"20848602":{"n":"clradcliff","d":"Thurston Inc","iid":"","pt":"30","p":"1","nr":"0","r":"0","loc":"Colorado, United States","prx":false},"21881716":{"n":"abigailshome","d":"abigails inc","iid":"76636b6e04dbba47","pt":"21","p":"1","nr":"0","r":"0","loc":"Louisiana, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"21991444":{"n":"zoetd","d":"zoetd","iid":""},"22434832":{"n":"baanthony","d":"Bryan Anthony","iid":"32633cb8052d72ca","emp":"1"},"22565696":{"n":"sara_fricke","d":"Sara Fricke","iid":"c9130ae204f55591"},"22646127":{"n":"sksusa","d":"SKS-USA","iid":"8943af28065f2aae","pt":"21","p":"1","nr":"0","r":"0","loc":"Illinois, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"22782092":{"n":"zodax","d":"Zodax","iid":"","pt":"93","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"23285916":{"n":"paolofusco","d":"Paolo Fusco Photo","iid":"e6035fca05140369","pt":"10","p":"1","nr":"4","r":"50","loc":"","prx":false,"emp":"1"},"23701243":{"n":"lisaatkinsonphotographer","d":"Lisa Atkinson Photographer","iid":"5c0308dd052724e2","pt":"10","p":"1","nr":"1","r":"50","loc":"Victoria","prx":false,"emp":"1"},"24077827":{"n":"eavenoso","d":"eavenoso","iid":""},"24249372":{"n":"lauradweck","d":"lauradweck","iid":""},"25182336":{"n":"cynthia_coldren","d":"Cynthia Coldren","iid":""},"25212642":{"n":"etriggerz","d":"eTriggerz","iid":"abd33c50056ebe5f","pt":"21","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","sbp":1},"25752959":{"n":"grko","d":"grko","iid":""},"26154142":{"n":"emanachova","d":"Egina Manachova","iid":""},"26345793":{"n":"artehousesigns","d":"Lightning E-Commerce","iid":"9bd3a54e05faf2bc","pt":"27","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"27228753":{"n":"manuela_fuca","d":"Manuela Fuc\u00e0","iid":"10e3d6d705e83a6b","pt":"9","p":"1","nr":"0","r":"0","loc":"","prx":false,"emp":"1"},"27232601":{"n":"ceets","d":"CEETS","iid":"c743ff8606001f17","pt":"21","p":"1","nr":"0","r":"0","loc":"New Jersey, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"27295987":{"n":"erincarlyle","d":"Erin Carlyle","iid":"5d93f68b0730dfad","emp":"1"},"27430377":{"n":"brennamedia","d":"Brenna Malmberg","iid":"3993d3e9077ff1da","emp":"1"},"27705002":{"n":"isaaclight","d":"Isaac Light","iid":"2573c5130614d77a","pt":"13","p":"1","nr":"2","r":"50","loc":"","prx":false,"mpv":"1","idv":"1","sbp":1},"28558578":{"n":"lacey_little","d":"Lacey Little","iid":"a3834194065e2c62","emp":"1"},"28599536":{"n":"franski3","d":"Fran Weiner","iid":""},"28771835":{"n":"april_greene28","d":"April Greene","iid":""},"31338497":{"n":"ben_avner","d":"Ben Avner","iid":"f343626506ebca54","emp":"1"},"31515061":{"n":"nppatel84","d":"nppatel84","iid":""},"31597146":{"n":"bandaltd","d":"Banda Property","iid":"c053fc8e06faaaa8","pt":"11","p":"1","nr":"0","r":"0","loc":"Greater London","prx":false},"31778995":{"n":"h_kati","d":"h_kati","iid":""},"32726122":{"n":"sjconnelly2786","d":"Sharon Connelly","iid":""},"33426174":{"n":"arbroaththecat","d":"re-decorate","iid":"7e1390ad076924f7","pt":"2","p":"1","nr":"1","r":"50","loc":"Glasgow City","prx":false},"33618195":{"n":"agnes_agustine","d":"Agnes Agustine","iid":""},"34244871":{"n":"stevenhorovitz","d":"Flash Furniture","iid":"38f3d437082b2baf","pt":"21","p":"1","nr":"0","r":"0","loc":"Georgia, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"34298131":{"n":"anthony_custodio","d":"Anthony Custodio","iid":""},"34465572":{"n":"kelly196372","d":"kelly196372","iid":""},"34729965":{"n":"amy_beversdorf","d":"Amy Beversdorf","iid":"118372ee07b61f35"},"35126425":{"n":"nancyhawk3541","d":"nancyhawk3541","iid":""},"35368238":{"n":"lmsublet","d":"Linda","iid":""},"36323374":{"n":"sheryl_hooper86","d":"sheryl_hooper86","iid":""},"37242715":{"n":"guhoya2","d":"Yuko Zarrabi","iid":""},"37475676":{"n":"tbindiego","d":"Terri Bignell","iid":""},"37577489":{"n":"cecil_macarthur","d":"cecil_macarthur","iid":""},"37580981":{"n":"madalina_uscoiu","d":"madalina_uscoiu","iid":""},"37584185":{"n":"tiffany_bjorlie","d":"Tiffany Bjorlie","iid":"2f530c740859b4f9"},"37585606":{"n":"jalene_brooks","d":"Jalene Brooks","iid":""},"37589078":{"n":"jeannie_fratto42","d":"Jeannie Fratto","iid":""},"61836":{"n":"sheilaschmitz","d":"Sheila Schmitz","iid":"f17379fe0c772766","emp":"1"},"86722":{"n":"venegas","d":"Venegas and Company","iid":"a6535c340cc77f25","pt":"8","p":"1","nr":"14","r":"50","loc":"Massachusetts, United States","prx":false,"ba":"1"},"120213":{"n":"snookphotograph","d":"Chris Snook","iid":"03e3b53a0d23161a","pt":"10","p":"1","nr":"52","r":"49","loc":"Greater London","prx":false},"129204":{"n":"workshopapd","d":"Workshop\/APD","iid":"17e3a16f0d308b9f","pt":"1","p":"1","nr":"0","r":"0","loc":"New York, United States","prx":false,"mpv":"1"},"310165":{"n":"amw57","d":"AMW Design Studio","iid":"2ee370e20e0cbff2","pt":"2","p":"1","nr":"2","r":"50","loc":"Michigan, United States","prx":false,"ba":"1"},"373676":{"n":"wadesign","d":"WA Design Architects","iid":"3d3370620e41bc89","pt":"1","p":"1","nr":"16","r":"49","loc":"California, United States","prx":false,"ba":"1"},"478589":{"n":"kspouse","d":"Kristi Spouse Interiors","iid":"4663b47e0e95c643","pt":"2","p":"1","nr":"12","r":"50","loc":"Washington, United States","prx":false,"ba":"1"},"502013":{"n":"gaile_guevara","d":"Gaile Guevara","iid":"d42360b50ea66fbf","pt":"2","p":"1","nr":"16","r":"48","loc":"British Columbia, Canada","prx":false},"564135":{"n":"safavieh","d":"Safavieh","iid":"8cf35c3c05e070f6","pt":"21","p":"1","nr":"6","r":"35","loc":"New York, United States","prx":false,"mpv":"1","idv":"1","sbp":1,"ba":"1"},"2342897":{"n":"kimberleybryan","d":"Kimberley Bryan","iid":"e2330b3d0147def9","pt":"10","p":"1","nr":"11","r":"49","loc":"Washington, United States","prx":false,"emp":"1"},"3744532":{"n":"bravespacedesign","d":"Brave Space Design","iid":"14b3bc28011d37b3","pt":"21","p":"1","nr":"5","r":"48","loc":"Florida, United States","prx":false,"mpv":"1"},"3798848":{"n":"capitallightingfixture","d":"Capital Lighting Fixture Co.","iid":"8c1306da00994180","pt":"13","p":"1","nr":"0","r":"0","loc":"Georgia, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"4258110":{"n":"urbanologydesigns","d":"Urbanology Designs","iid":"b44302110644e13c","pt":"2","p":"1","nr":"23","r":"50","loc":"Texas, United States","prx":false,"ba":"1"},"4426450":{"n":"letishaperry","d":"Blue Eye DIY","iid":"23d3e3d800e4f0c4","pt":"2","p":"1","nr":"5","r":"50","loc":"New Mexico, United States","prx":false,"ba":"1"},"4575157":{"n":"kathykuo","d":"Kathy Kuo Home","iid":"8a53402900f06d0f","pt":"21","p":"1","nr":"5","r":"34","loc":"New York, United States","prx":false,"mpv":"1","sbp":1},"4743063":{"n":"seldens","d":"Seldens Furniture","iid":"cb8324db00fc60f7","pt":"21","p":"1","nr":"2","r":"50","loc":"Washington, United States","prx":false,"mpv":"1","topsell":"1","sbp":1,"ba":"1"},"6351261":{"n":"mdb2013","d":"Material Design Build","iid":"7fa337290150a1c6","pt":"1","p":"1","nr":"0","r":"0","loc":"United States","prx":false},"6446026":{"n":"enchantedhomepet","d":"Enchanted Home Pet","iid":"ba233537051445be","pt":"21","p":"1","nr":"0","r":"0","loc":"New Jersey, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"6713882":{"n":"lkwdesign","d":"LKW Design Associates","iid":"1623911401ba24e9","pt":"2","p":"1","nr":"8","r":"50","loc":"Colorado, United States","prx":false,"ba":"1"},"6858927":{"n":"kaleenrugs","d":"Kaleen Rugs","iid":"61039e8b0171beb7","pt":"104","p":"1","nr":"0","r":"0","loc":"Georgia, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"7699375":{"n":"dashandalbert","d":"Dash & Albert Rug Company","iid":"4563c35204e4f9fb","pt":"18","p":"1","nr":"0","r":"0","loc":"Massachusetts, United States","prx":false,"mpv":"1","idv":"1"},"7877008":{"n":"fratantonilifestyles","d":"Fratantoni Lifestyles","iid":"1a83d35201c36dfa","pt":"21","p":"1","nr":"12","r":"50","loc":"Arizona, United States","prx":false,"mpv":"1","sbp":1,"ba":"1"},"8289984":{"n":"gdfstudio","d":"GDFStudio","iid":"e22340cb01df093e","pt":"21","p":"1","nr":"62","r":"47","loc":"California, United States","prx":false,"mpv":"1","topsell":"1","sbp":1,"ba":"1"},"8585228":{"n":"sefricke","d":"Organized Living","iid":"7153354a05f6f1ee","pt":"15","p":"1","nr":"2","r":"50","loc":"Ohio, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"8990358":{"n":"rhea_stjulien","d":"Rhea St. Julien","iid":"8c636ece02065ada","emp":"1"},"10382990":{"n":"bethanyk13","d":"Bethany Kirchhoff","iid":"","emp":"1"},"11469952":{"n":"appearancesinternational","d":"APPEARANCES INTERNATIONAL","iid":"3593cf1004a44bc9","pt":"21","p":"1","nr":"5","r":"38","loc":"California, United States","prx":false,"mpv":"1","topsell":"1","sbp":1,"ba":"1"},"12001850":{"n":"tile4less","d":"Tiles R Us","iid":"6e73125e04835356","pt":"22","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1"},"14773266":{"n":"hudsonvalleylightingltl","d":"Hudson Valley Lighting","iid":"ebd3f76a0384f7df","pt":"13","p":"1","nr":"0","r":"0","loc":"New York, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"15056378":{"n":"melissa_rosenkilde","d":"Melissa S.","iid":"827359890394cabc","emp":"1"},"15207139":{"n":"kelseymiller","d":"Kelsey Miller","iid":"d2d3f36e03b885fd","emp":"1"},"15323427":{"n":"cameroncustombuilder","d":"Cameron Custom Builder","iid":"e243efb603a999df","pt":"3","p":"1","nr":"2","r":"50","loc":"South Carolina, United States","prx":false,"ba":"1"},"15326386":{"n":"lenoredesign","d":"Lenore Design","iid":"4c930e6703a9c579","pt":"2","p":"1","nr":"4","r":"50","loc":"Massachusetts, United States","prx":false},"15736407":{"n":"katiemartinez","d":"Katie Martinez Design","iid":"be5370e3043d529e","pt":"2","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false},"16108192":{"n":"bentoncollection","d":"Chans Furniture","iid":"a2a38eb603e98b3b","pt":"21","p":"1","nr":"1","r":"50","loc":"Florida, United States","prx":false,"mpv":"1","topsell":"1","sbp":1},"17438050":{"n":"abcox123","d":"Donco Trading Co","iid":"","pt":"0","p":"1","nr":"0","r":"0","loc":"Texas, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"17687570":{"n":"designfurnishings","d":"Design Furnishings","iid":"9d03801504f76f9b","pt":"51","p":"1","nr":"1","r":"40","loc":"California, United States","prx":false,"mpv":"1","topsell":"1","sbp":1},"19670169":{"n":"camerongardens","d":"Cameron Landscapes and Gardens","iid":"9b83a07e04afc67f","pt":"6","p":"1","nr":"0","r":"0","loc":"Greater London","prx":false,"ba":"1"},"22117821":{"n":"monarchspec","d":"Monarch Specialties","iid":"f493418a0807c5dc","pt":"21","p":"1","nr":"0","r":"0","loc":"Quebec, Canada","prx":false,"mpv":"1","idv":"1","sbp":1},"24210718":{"n":"forstconstructioninc","d":"Forst Construction, Inc.","iid":"dc23c3c207e42e3e","pt":"11","p":"1","nr":"10","r":"50","loc":"New York, United States","prx":false,"ba":"1"},"24268202":{"n":"nuloom1","d":"nuLOOM","iid":"7373d6630541494b","pt":"18","p":"1","nr":"0","r":"0","loc":"New York, United States","prx":false,"mpv":"1","idv":"1","sbp":1,"ba":"1"},"25702638":{"n":"butternutbrooklyn","d":"Butternut Brooklyn","iid":"","pt":"8","p":"1","nr":"0","r":"0","loc":"New York, United States","prx":false,"mpv":"1"},"26289865":{"n":"vickermancompany","d":"Vickerman Company","iid":"fb136067061bb227","pt":"21","p":"1","nr":"0","r":"0","loc":"Minnesota, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"26372842":{"n":"wholesale_interiors","d":"Wholesale Interiors","iid":"1e8318eb05b321a5","pt":"21","p":"1","nr":"0","r":"0","loc":"Illinois, United States","prx":false},"26773070":{"n":"baxtonstudiowholesaleinteriors","d":"Baxton Studio","iid":"b7939d1305facc57","pt":"21","p":"1","nr":"1","r":"10","loc":"Illinois, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"27782089":{"n":"vinnovainc","d":"Vinnova","iid":"edb384990609ff44","pt":"23","p":"1","nr":"1","r":"50","loc":"California, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"27837444":{"n":"sales6293","d":"TKClassics","iid":"82d3dbae066b661c","pt":"21","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","idv":"1","sbp":1},"28071041":{"n":"alljsgiftsandtreasures","d":"All J's Gifts and Treasures","iid":"cf03f7a3072a22e2","pt":"21","p":"1","nr":"0","r":"0","loc":"California, United States","prx":false,"mpv":"1","topsell":"1","idv":"1","sbp":1},"28568846":{"n":"beckyhoang","d":"Becky H.","iid":"9c83608e0671cc6a","emp":"1"},"29849073":{"n":"actreasures68","d":"AC Treasures","iid":"c223da5a069c0787","pt":"21","p":"1","nr":"0","r":"0","loc":"New Jersey, United States","prx":false,"mpv":"1","sbp":1},"31858640":{"n":"ricardoreese","d":"Tecnica Construcciones","iid":"92b3f42c070a1d70","pt":"3","p":"1","nr":"0","r":"0","loc":"","prx":false},"32266484":{"n":"hedgeappleinc","d":"HedgeApple","iid":"a2232d2b07276fa8","pt":"21","p":"1","nr":"0","r":"0","loc":"Kansas, United States","prx":false,"mpv":"1","sbp":1}});     
-            </script>
-            <script type="text/javascript">
-                HZ.utils.Logger.init("db8c2bf8-1d14-4e4c-94f8-72852f258496", "home", "Home", false, false);
-            </script>
-            <script type="application/ld+json">
-                {
-                    "@context": "http://schema.org",
-                    "@type": "WebSite",
-                    "url": "http://www.houzz.com",
-                    "potentialAction": {
-                        "@type": "SearchAction",
-                        "target": "http://www.houzz.com/photos/query/{search_term_string}/gssb=yes",
-                        "query-input": "required name=search_term_string"
-                    }
-                }
-            </script>
-            <script>
                 HZ.navigation.Utils.init();
-            </script>
-            <script>
-                (function () {
-                    var config = {
-                        enabled: true,
-                        visitMonth: '201612'
-                    };
-                            HZ.utils.Gtm.init(config);
-                })();
             </script>
             <script>HZ.cart.Actions.subscribeCartUpdate("StandardHeader", HZ.navigation.Header.onCartUpdate);</script><script>HZ && HZ.navigation && HZ.navigation.Subnav && HZ.navigation.Subnav.init();</script>
             <script>
@@ -1439,24 +1392,6 @@
                        // if user is signed in and postSignup houseid is set, then show appropriate space action dialog
                                 };
                         
-            </script>
-            <script type="text/javascript">
-                HZ.data.ProductsInfo.addAll([]);
-                HZ.data.Galleries.addAll([]);
-                HZ.data.Projects.addAll([]);
-                HZ.data.PhotoAds.addAll([]);
-                HZ.data.PaidProAds.addAll([]);
-                HZ.data.ProListAds.addAll([]);
-                HZ.data.HouzzClkTracking.addAll({"2919984":{"2919984":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwNzUEKwjAQQNEr1RoRl9opImQmRJOWZKmC7aSCoG2anN7s_ubx0WiBjJH4UeEtrpjiKqH9lo4SXhnB1R5OozRtdm_7I0BBzWYgvkTZd6xAV_7stqq3gtLqi53J2BlZJ8mtUE1cuiAWAr3Iahju78NHwmWHJuyK_RLbrIyOyoQkm_Js4l7V18mffXC1TZ5dhWBXyjQpoJGYJsfHYp6Bepv_iNJBfQ==","334020":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwVjstugzAURH_J4dHHssUJpfK9yMRA8A5MFTBQKrXB2F9fsxjNbM7MgOARaDCoFYGr2cGagNHs12fD6N0BbQJJ30cmzq5Zyj+kEGFyGlBnhtWVziknMm3CvC4jtLtk9PxAUT5Ac8v0OcoTs1VTtCHlGyPD0C2vP4yCQ_pmITE7CnXynTvSLGaJ30zMc_tREJWUjl9LW4xe333Y23jtwurpa4x1F5AZJmnU8nK4U2mlPbM2t0_dpjORNRJlDw6Nz2vv_6oF1_ZWzE1YuDwoJqjB_+YxpJehEfMga3C54LEUQNDdD1mg1fQP6K1hnQ=="},"2910584":{"2910584":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwVjsEKgzAQRH9J03jo0bpSLNkNoVGJx_ZQXRUKVqP5+sbDwDvMYwatkcjoid8JPv2Oh98VlEtkr+ATEJzo4DYoWwY31z8ClFSkPXHlVduwBpN0d3fRbS3p2LvormTrFdkcikupC781o9wIzKaSvn_N16+CKkObp9FdMO4TjBlyLbDwyxkdlkCCBjx7UKWuNbtrH4x2FCSMQJ4mZ_Mk_g6Y_wHHUUA5","442842":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwVjclugzAURX_JTB22wYQ48rNlwhB7F6AKPKCNRMHgry9dHN2zuTqQqxAQrMCGwM1usFufUzYfbjl9OqDaN_TU8zxxeip+BYVQxF4nkFlelSipIibVgayKUOyb4TRZRF4sgGrnmIQytms5hKugauWk6+rp88WPD+CTQG83mQ8eOBZJ2kQ8PpqxfX9cMtLEhVO3Ys_6g+82aPfopw7Kt68+wtonIwzGNtPH_6K+n15tep6v+TXV_tk+7llXx17fVuNs0nExbt4FJptw2WCq86hdNho8uikLJTVoJrXBxDZdMavVH7ogXdU="},"4540329":{"4540329":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwNjkGPgjAQRv8SYi8eVwY3Jv2maQQJPa4mWwdJTFCG9tfb27u8vIfOGwiU5VbhohuSbpbapbBa+s+gsQ50fNiuzePcv5lguNlFlrPa4SqOfBV+x70besNpC8X9cNd_ID5ZaY1rdL1OZmXyq61i_JsPL0t+x_STIdOCDjXnW+LSchdd0Oji8vvJcoycp9JsMw+nGAZsXJ8T5D6XVwXFB3KY4L9DTEN4","1581215":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJx1isGOgyAYhF8J0YvHtri0hh_iLkLg1mKzitptYpHi06_7AHuYzJf5BmRTgIfIvUPwFd+QImbksuwcGfnegBhsyXFgstrM3L44gYKfsp77S2RaeUEaZKnJhW4Lnt6WkSpw2QbwTWK+KsQprmosVk6alaG+v83lc_9kglQJZLuAPyAhAXHiMhjiAqe4CNyj7nyYAFUTjGaPzbvchSsts_vjJxhcvmpZU3eu17++0Y_MzSow_ex3Nziswn8701PoqEpXXSamPyeHp8fNL4hLPgpqsND1IKTJ+HbsYbPe0ksuSJv4bDaYlbeHXy0zZnY="},"18382146":{"18382146":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwNi8sKwjAQAH+pj4h4VLdIIbshdaMkRz1YUwNCbdPk681hYA4zyFqgx0j+WeE1bpjiJqGbi0cJr4xgGwent+Qu22B+BCjoXI_k+yjvN69AV+5iW3U3gtLmyrsQmwW9TtJ3Qp3jepvESqBXWY3jIxy+pRGYXwlZN8Vryn2r+NkoMLOEY2Heu9Anx7pGPwTivnJsdgqmZPMxYh4+lMeP4iE4b_8aLEGs","17534630":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJx1T8FugzAU+6VA0gPHjiAKynuILpQmtxKmQQrrJAop+fqlH7CDZcuyZBtkzcCCQ2sIfLoX7C4WvFiCdoJ_e+Aq1vxjFDLzam6eyIFhGg1oCyfai614TXSuaNU2DPeXFjxbUTYr2HoXNmNV6rbLnW3I602QYejm5DdkKEogGHoFNwx8xlAePYxugdQtVTyQ_nScgGQT3FWApj016y1Poq+fx6ri5FnKMjencntzdy1JN0aDmfFxu54nRc_+P7_y_Rj2OZjLEdoiBmkOyqtdt_Xh_VPn4acvKOZA_gDgN175"},"5937119":{"5937119":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwljcEKgzAQBX_JakrpsbqhCNkV6UbRYz3UrgQKVhPz9Q30MDCXeQ+5VSjoSaYMHz7g4YMBvSb3Bl4RYchHKN+GdRyc_RKgouo0k9Te9J000GbjfSia3io6wpjajdhuKO1hRKum8nu3qJ2g3U02z093_RiwZ4xTQF5W5DoQ1wWBjqZKn5W_NFH_98RG5E5Qynng5LFzJKUbWefoEnLLfoudQMM=","1247161":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwVittqhDAURX8pRoX6ODXWCzlHtHFCfBu1jEadDniJ8etr2WzWZrFBFB5oMKhbAt_mAGsoZ+lybcPZ8wSmaM0+By6iU83Vigw8DJ0edWq4vOucFaSOlZvLykN71JxFG4pqA11YriMvD81+H70dWbFz0vfNHLyvj0XWHqijBYRyUBQGTuXhYBYIzZLTnnTJbQISTTCqq7Xbue32iAPn5_W7KRqsmcjiNsn2fzYy2Lp40rU8lsZWtpydvXmVb0XvSxN_rIp+DQ_pT10Cq5L+yGW5N2525rQyuRgJyrKH82ZBPB2UhVWiHi43KHpljnwQKfkDHXRkFg=="},"235551":{"235551":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwVjsEKgzAQRH9Ja6D0aN1QhOwGaVQ2x7agbhEKVmP8+qaHgTnMmxl0jULBQPLM8B52jGE3oJfkg4HhQOCTh+tknD54br8EqKjKR5I6mL4TC03mb1zYvlUUd5_YlVy7ojTRiFa2Clv3VhtBs5lsHB_z5WOgPlImTxs5io50cCQZFgNl0nJmGQovr+nfwY4Dzn6yoHfrsOC+mzj9tVAWLPwDXvRBMA==","275751":"https:\/\/www.houzz.com\/hsc\/pclk\/k=2_eJwVjk1vhCAYhP+SijTpsS6uq4HX4IJ0ua2S1FJpTfxg8ddXD5NnDpOZYYKnzDIPto_Y3b9Y8Akl5Xx4T8nXzsgj0ST7piLfH04uQFgKl3gAW3qqWlsTHunigWolUwgvTUm+gpArszxQm6f1xW_tT7oB4RuNhqFz79PRj0D08bFxUGJm5Q72Y6bk1PJnbo2vBGSVqIpTBhlE3bCZz+mNOti6uwzNbxa6cBL8U+FVF21yZnuUTZ3DwzNpA1XNaFw7dyhbtMJRvTMMqsQgriMTPIb96uqisVCwGIgZQZTHFx5rW6J_h6JdNQ=="}});
-                HZ.data.cachedCartCount = 0;
-                    HZ.data.Contexts.put("homepage_", new HZ.lb.Context("homepage_", 20, [], ["2919984","28403045","2910584","503982","13166358","24887830","4540329","18382146","69829867","5937119","7075411","235551","55193584"], 0, 0, "{\"f\":null,\"p\":[1482253208,1482260404],\"g\":{\"ts\":1482253209,\"do\":5}}", 0));
-                    lightbox.lightboxEditorEnabled = true;
-                HZ.lb.Utils.connect();
-                HZ.lb.Config.TRACK_IMPRESSIONS = true;
-                HZ.lb.Config.enablePhotoLocationFields = true;
-            </script>            
-            <script>
-                HZ.utils.HoverCard.init({followRedirectLink: "https:\/\/www.houzz.com\/signup\/t=10\/", useWiderFollowCell: 0});
             </script>
             <script>
                 $(document).ready( function() {

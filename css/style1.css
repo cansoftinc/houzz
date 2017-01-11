@@ -6910,8 +6910,7 @@ body.modal-open #ScrollToTopContainer {
 @font-face {
     font-family: 'Houzz-Glyphs';
     src: url('../pic/fonts/Houzz-Glyphs.eot?j46fnj');
-    src: url('../pic/fonts/Houzz-Glyphs.eot?#iefixj46fnj') format('embedded-opentype'), 
-         url('../pic/fonts/Houzz-Glyphs.woff2?j46fnj') format('woff2'), 
+    src: url('../pic/fonts/Houzz-Glyphs.eot?#iefixj46fnj') format('embedded-opentype'),
          url('../pic/fonts/Houzz-Glyphs.woff?j46fnj') format('woff'), 
          url('../pic/fonts/Houzz-Glyphs.ttf?j46fnj') format('truetype'), 
          url('../pic/fonts/Houzz-Glyphs.svg?j46fnj#Houzz-Glyphs') format('svg');
