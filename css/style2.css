@@ -821,7 +821,7 @@
 .sprite-header-logo {
     background-image: url("../pic/HomePageNav_Sprite.png")
 }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+/*@media screen and (-webkit-min-device-pixel-ratio: 1.5),
 (min--moz-device-pixel-ratio: 1.5),
 (-moz-min-device-pixel-ratio: 1.5),
 (-ms-min-device-pixel-ratio: 1.5),
@@ -832,7 +832,7 @@
         background-size: 205px 76px;
         background-image: url('../pic/HomePageNav_Sprite@2x.png')
     }
-}
+}*/
 #mainContent {
     padding-top: 26px;
     min-height: 600px
@@ -4247,7 +4247,7 @@
     .dialogImage {
         width: 250px;
         height: 250px;
-        background: transparent url("../pic/Tile-Pattern_300x300.png") repeat
+        /*background: transparent url("../pic/Tile-Pattern_300x300.png") repeat*/
     }
     .addImageWrapper {
         width: 39%;
@@ -7955,7 +7955,7 @@ a.image-tag-related-cta-link:hover {
 (min-resolution: 1.5dppx) {
     .country-flag {
         background-size: 198px 33px;
-        background-image: url('../pic/flags@2x.png')
+        /*background-image: url('../pic/flags@2x.png')*/
     }
 }
 .country-flag.country-flag--SE {
@@ -10249,7 +10249,7 @@ a.image-tag-related-cta-link:hover {
 }
 .feedItem.home-feed .feed-snapshot {
     position: relative;
-    background: transparent url("../pic/Tile-Pattern_300x300.png") repeat
+    /*background: transparent url("../pic/Tile-Pattern_300x300.png") repeat*/
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5),
 (min--moz-device-pixel-ratio: 1.5),
@@ -10260,7 +10260,7 @@ a.image-tag-related-cta-link:hover {
 (min-resolution: 1.5dppx) {
     .feedItem.home-feed .feed-snapshot {
         background-size: 300px 300px;
-        background-image: url('../pic/Tile-Pattern_300x300.png')
+        /*background-image: url('../pic/Tile-Pattern_300x300.png')*/
     }
 }
 .feedItem.home-feed .feed-snapshot img {
@@ -11136,7 +11136,7 @@ a.image-tag-related-cta-link:hover {
 (min-resolution: 1.5dppx) {
     #hp-visitor-global-sites .global-site-icon {
         background-size: 198px 33px;
-        background-image: url('../pic/flags@2x.png')
+        /*background-image: url('../pic/flags@2x.png')*/
     }
 }
 #hp-visitor-global-sites .en-GB .global-site-icon {
@@ -13518,7 +13518,7 @@ a.clipIcon img {
 (min-resolution: 1.5dppx) {
     #footer-menu .dropdown-wrapper-2 .dropdown-label {
         background-size: 198px 33px;
-        background-image: url('../pic/flags@2x.png')
+        /*background-image: url('../pic/flags@2x.png')*/
     }
 }
 #footer-menu .dropdown-wrapper-2 .dropdown-icon {

@@ -1,2 +1,26 @@
+/* break point */
+/* Custom Style - Giang DN */
+html, body {
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+  #mainArea {
+    min-width: 0;
+  }
+  .hbs .container {
+    width: 100%;
+  }
+  .hbs .col-xs-12 {
+    width: 100%;
+  }
+  .hbs .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
