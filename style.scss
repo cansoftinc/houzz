@@ -73,4 +73,39 @@ html, body {
       margin-right: 0;
     }
   } 
+  #unified-tab-content {
+    min-height: 0;
+  }
+  .feedItem.square {
+    width: 100%;
+    .feed-snapshot {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .hp-seo-container-table-row {
+    display: block;
+  }
+  .hp-visitor-browse-links.hp-visitor-browse-links--rooms {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .hp-visitor-promo {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+  }
+  .hp-visitor-browse-links {
+    width: 100%;
+  }
+  .hp-visitor-browse-links.hp-visitor-browse-links--pros {
+    height: auto;
+  }
+  .hp-visitor-promo__img {
+    width: 100%;
+  }
+  #unified-stories .loadMoreBtn {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
 }
