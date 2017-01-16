@@ -1,0 +1,66 @@
+@include max(799px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@include max(767px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  #mainArea {
+    min-width: 0;
+  }
+  .hbs .container {
+    width: 100%;
+  }
+  .hbs {
+    .col-xs-4,
+    .col-xs-8 {
+      width: 100%;
+    }
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  #unified-tab-content {
+    min-height: 0;
+  }
+  .feedItem.square {
+    width: 100%;
+    .feed-snapshot {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .hp-seo-container-table-row {
+    display: block;
+  }
+  .hp-visitor-browse-links.hp-visitor-browse-links--rooms {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .hp-visitor-promo {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+  }
+  .hp-visitor-browse-links {
+    width: 100%;
+  }
+  .hp-visitor-browse-links.hp-visitor-browse-links--pros {
+    height: auto;
+  }
+  .hp-visitor-promo__img {
+    width: 100%;
+  }
+  #unified-stories .loadMoreBtn {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .hz-mb-show {
+    display: block;
+  }
+}
