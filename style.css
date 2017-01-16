@@ -291,5 +291,31 @@ html, body {
 }
 
 /* end slide quick-links__pros + topic-strip__container */
+#homeSlideShow {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#homeSlideShow .signUpBoxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#homeSlider {
+  height: 100%;
+}
+
+#homeSlider img {
+  width: 100%;
+}
+
+.feed-squares-container {
+  width: 32%;
+}
 
 /*# sourceMappingURL=style.css.map */

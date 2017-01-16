@@ -2,50 +2,64 @@
 
 @font-face {
     font-family: 'proxima-nova';
-    src: url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-regular.eot');
-    src: url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-regular.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-regular.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-regular.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-regular.svg#ywftsvg') format('svg');
+    src: url('../fonts/proxima-nova-regular.eot');
+    src: url('../fonts/proxima-nova-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-regular.woff') format('woff'),
+         url('../fonts/proxima-nova-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal
 }
 @font-face {
     font-family: 'proxima-nova';
-    src: url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-semibold.eot');
-    src: url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-semibold.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-semibold.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-semibold.svg#ywftsvg') format('svg');
+    src: url('../fonts/proxima-nova-semibold.eot');
+    src: url('../fonts/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-semibold.woff') format('woff'),
+         url('../fonts/proxima-nova-semibold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal
 }
 @font-face {
     font-family: 'proxima-nova';
-    src: url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-light.eot');
-    src: url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-light.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-light.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-light.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/ProximaNova/proxima-nova-light.svg#ywftsvg') format('svg');
+    src: url('../fonts/proxima-nova-light.eot');
+    src: url('../fonts/ProximaNova/proxima-nova-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNova/proxima-nova-light.woff') format('woff'),
+         url('../fonts/proxima-nova-light.ttf') format('truetype');
     font-weight: 200;
     font-style: normal
 }
 @font-face {
     font-family: 'museo-sans';
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_100.eot');
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_100.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_100.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_100.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_100.svg#MuseoSans-100') format('svg');
+    src: url('../fonts/MuseoSans_100.eot');
+    src: url('../fonts/MuseoSans_100.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_100.woff') format('woff'),
+         url('../fonts/MuseoSans_100.ttf') format('truetype');
     font-weight: 100;
     font-style: normal
 }
 @font-face {
     font-family: 'museo-sans';
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_300.eot');
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_300.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_300.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_300.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_300.svg#MuseoSans-300') format('svg');
+    src: url('../fonts/MuseoSans_300.eot');
+    src: url('../fonts/MuseoSans_300.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_300.woff') format('woff'),
+         url('../fonts/MuseoSans_300.ttf') format('truetype');
     font-weight: 300;
     font-style: normal
 }
 @font-face {
     font-family: 'museo-sans';
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_500.eot');
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_500.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_500.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_500.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_500.svg#MuseoSans-500') format('svg');
+    src: url('../fonts/MuseoSans_500.eot');
+    src: url('../fonts/MuseoSans_500.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_500.woff') format('woff'),
+         url('../fonts/MuseoSans_500.ttf') format('truetype');
     font-weight: 500;
     font-style: normal
 }
 @font-face {
     font-family: 'museo-sans';
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.eot');
-    src: url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.eot?#iefix') format('embedded-opentype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.woff') format('woff'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.ttf') format('truetype'), url('//st.hzcdn.com/static/webfonts/MuseoSans/MuseoSans_700.svg#MuseoSans-700') format('svg');
+    src: url('../fonts/MuseoSans_700.eot');
+    src: url('../fonts/MuseoSans_700.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_700.woff') format('woff'),
+         url('../fonts/MuseoSans_700.ttf') format('truetype');
     font-weight: 700;
     font-style: normal
 }
@@ -6909,11 +6923,11 @@ body.modal-open #ScrollToTopContainer {
 
 @font-face {
     font-family: 'Houzz-Glyphs';
-    src: url('../pic/fonts/Houzz-Glyphs.eot?j46fnj');
-    src: url('../pic/fonts/Houzz-Glyphs.eot?#iefixj46fnj') format('embedded-opentype'),
-         url('../pic/fonts/Houzz-Glyphs.woff?j46fnj') format('woff'), 
-         url('../pic/fonts/Houzz-Glyphs.ttf?j46fnj') format('truetype'), 
-         url('../pic/fonts/Houzz-Glyphs.svg?j46fnj#Houzz-Glyphs') format('svg');
+    src: url('../fonts/Houzz-Glyphs.eot?j46fnj');
+    src: url('../fonts/Houzz-Glyphs.eot?#iefixj46fnj') format('embedded-opentype'),
+         url('../fonts/Houzz-Glyphs.woff?j46fnj') format('woff'),
+         url('../fonts/Houzz-Glyphs.ttf?j46fnj') format('truetype'),
+         url('../fonts/Houzz-Glyphs.svg?j46fnj#Houzz-Glyphs') format('svg');
     font-weight: normal;
     font-style: normal
 }
