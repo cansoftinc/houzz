@@ -157,7 +157,7 @@
 }
 
 @include max(639px) {
-  #navContainer {
+  .secondary-rooms-header #navContainer {
     height: 0;
   }
 }

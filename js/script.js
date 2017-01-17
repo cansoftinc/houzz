@@ -50,6 +50,9 @@ jQuery(document).ready(function($) {
   $('.hzi-MH-Close').on('click', function() {
     $('body').removeClass('sidenav-in');
   })
+  $('.hzi-MH-Search').on('click', function() {
+    console.log('search');
+  })
 
   // Back to top
   var toTop = jQuery("#stickyFooterActions");

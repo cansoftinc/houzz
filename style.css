@@ -583,7 +583,7 @@ html, body {
 }
 
 @media screen and (max-width: 639px) {
-  #navContainer {
+  .secondary-rooms-header #navContainer {
     height: 0;
   }
 }
