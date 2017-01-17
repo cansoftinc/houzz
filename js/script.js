@@ -49,28 +49,43 @@ jQuery(document).ready(function($) {
   })
   $('.hzi-MH-Close').on('click', function() {
     $('body').removeClass('sidenav-in');
+    var sideNav = $('.sidenav.level-1').removeClass('level-2');
+    sideNav.find('.sidenav-section').removeClass('section-active');
+    sideNav.find('.sidebar-nav-item').removeClass('menu-active');  
   })
   $('.hzi-MH-Search').on('click', function() {
-    console.log('search');
+    $(this).closest('#navSearch').toggleClass('menu-active');
+  })
+  $('.sidebar-nav-item .menu-title').on('click', function(e) {
+    e.preventDefault();
+    $('.sidenav.level-1').addClass('level-2');
+    $(this).closest('.sidebar-nav-item').addClass('menu-active');
+    $(this).closest('.sidenav-section').addClass('section-active');    
+  })
+  $('.sidenav-back').on('click', function() {
+    var sideNav = $('.sidenav.level-1').removeClass('level-2');
+    sideNav.find('.sidenav-section').removeClass('section-active');
+    sideNav.find('.sidebar-nav-item').removeClass('menu-active');    
   })
 
+
   // Back to top
-  var toTop = jQuery("#stickyFooterActions");
+  var toTop = jQuery('#stickyFooterActions');
   toTop.hide();
   jQuery(function() {
-      jQuery(window).scroll(function() {
-          if (jQuery(this).scrollTop() > 200) {
-              toTop.fadeIn();
-          } else {
-              toTop.fadeOut();
-          }
-      });
-      // scroll body to 0px on click
-      toTop.on("click", function() {
-          jQuery("body,html").animate({
-              scrollTop: 0
-          }, 800);
-          return false;
-      });
+    jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > 200) {
+        toTop.fadeIn();
+      } else {
+        toTop.fadeOut();
+      }
+    });
+    // scroll body to 0px on click
+    toTop.on('click', function() {
+      jQuery('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
   });
 })

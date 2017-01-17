@@ -160,4 +160,14 @@
   .secondary-rooms-header #navContainer {
     height: 0;
   }
+  .hbs .container {
+    padding: 0;
+  }
+  .feedItem.home-feed .feed-snapshot .feed-type-indicator .featured-title {
+    font-size: 23px;
+  }
+  .feedItem.home-feed .feed-hover-buttons {
+    opacity: 1;
+  }
 }
+
