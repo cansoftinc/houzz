@@ -308,5 +308,68 @@ html, body {
   }
 }
 
+#footer-menu {
+  position: static;
+}
+
+.ppb__carousel-slide {
+  .text-center.mtl {
+    margin-bottom: 15px;
+  }
+  .item {
+    padding: 10px 5px;
+  }
+  .owl-theme .owl-controls {
+    margin-top: 25px;
+  }
+}
 
 
+.shop-stories-carousel {
+  position: relative;
+  .owl-theme .owl-controls {
+    margin-top: -30px;
+  }
+  .owl-theme .owl-controls .owl-page span {
+    background-color: #d8d8d8;
+  }
+  .owl-theme .owl-controls .owl-page.active span,
+  .owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: .5;
+    background-color: #999;
+  }
+}
+
+@include min(1280px) {
+  .shop-stories-carousel {
+    .item {
+      width: 352px;
+      height: 295px;
+      position: relative;
+    }
+  }
+}
+
+@include max(1279px) {
+  .shop-stories-carousel {
+    .item {
+      width: 352px;
+      height: 295px;
+    }
+  }
+}
+
+.shop-stories-carousel-stack-item.shop-stories-carousel-stack-item {
+  padding: 0;
+}
+
+.shop-stories-carousel-slide--stack {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.houzz-header-secondary {
+  @extend %transition;
+}

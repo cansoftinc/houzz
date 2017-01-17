@@ -1,6 +1,47 @@
-@media (min-width: 1280px) {
-  .wrapper {
+.wrapper {
+  @media (min-width: 1280px) {
     width: 1100px;
     margin: 0 auto;
   }
+  @include max(1099px) {
+    .wrapper {
+      width: 100%;
+      padding: 0 8px;
+    }
+  }
+}
+
+#stickyFooterActions {
+  bottom: 75px;
+  @include max(799px) {
+    bottom: 7px;
+  }
+}
+
+.houzz-header .hzi-MH-Close,
+body.sidenav-in .hzi-MH-Menu {
+  display: none;
+}
+
+body.sidenav-in .hzi-MH-Close {
+  display: block;
+}
+
+.houzz-header .header-nav .hzi-MH-Menu,
+.houzz-header .header-nav .hzi-MH-Cart,
+.houzz-header .header-nav .hzi-MH-Search,
+.houzz-header .header-nav .hzi-MH-Close {
+  font-size: 28px;
+  line-height: 1;
+}
+
+#navHome .sprite-header-logo {
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+.houzz-header .nav-button,
+.houzz-header .hzi-font,
+.houzz-header .nav-button:hover .hzi-font {
+  color: #333;
 }

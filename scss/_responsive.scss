@@ -1,8 +1,99 @@
-@include max(799px) {
-  .wrapper {
-    width: 100%;
+.mb-hide {
+  @include max(639px) {
+    display: none;
   }
 }
+
+.mb-show {
+  display: none;
+  @include max(639px) {
+    display: block;
+  }
+}
+
+@include max(999px) {
+  .hbs .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+@include max(799px) {
+  .feedItem.square .feed-snapshot {
+    width: 246px;
+    height: 225px;
+  }
+  .feedItem.home-feed .feed-snapshot .feed-type-indicator .featured-title {
+    font-size: 14px;
+  }
+  .houzz-header-secondary--simplified .header-nav-rooms .header-nav-room > .menu-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .houzz-header-secondary--simplified {
+    .header-nav-rooms {
+      text-align: left;
+      .header-nav-room > .menu-title {
+        font-size: 13px;
+      }
+    }
+    .text-primary {
+      font-size: 13px;
+    }
+    .hsh__column .hsh__list {
+      padding-right: 15px;
+    }
+    .hsh__menu--sale-toplvl .hsh__column + .hsh__column,
+    .hsh__menu--pros-toplvl .hsh__column + .hsh__column,
+    .hsh__menu--photos-toplvl .hsh__column + .hsh__column {
+      padding-right: 15px;
+    }
+    .header-nav-rooms .header-nav-dropdown-menu {
+      font-size: 11px;
+    }
+  }
+  #navHeader .menu-active .menu-body {
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    &.hsh__menu--sale-toplvl{
+      right: 0;
+      left: auto;
+      width: auto;
+      padding-left: 0!important;
+      padding-right: 0!important;
+      .hsh__column {
+        padding-left: 10px;
+        padding-right: 5px;
+      }
+      .hsh__column:last-child .hsh__list {
+        padding-right: 10px;
+      }
+    }
+    &.hsh__menu--pros-toplvl {
+      .hsh__column {
+        padding-right: 0;
+        padding-left: 5px;
+        .hsh__list {
+          padding-right: 0;
+        }
+      }
+    }
+    &.hsh__menu--photos-toplvl {
+      padding-left: 5px!important;
+      padding-right: 5px!important;
+      .hsh__column {
+        padding-right: 0;
+        .hsh__list {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
 
 @include max(767px) {
   .wrapper {
@@ -62,5 +153,11 @@
   }
   .hz-mb-show {
     display: block;
+  }
+}
+
+@include max(639px) {
+  #navContainer {
+    height: 0;
   }
 }

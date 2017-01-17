@@ -10,14 +10,1206 @@
   <link type="text/css" rel="stylesheet" href="css/owl.theme.css" />
   <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body class="en-US hbs new-std-header secondary-rooms-header hz-pres-type-desktop">  
+<body class="en-US hbs new-std-header secondary-rooms-header hz-pres-type-desktop">
+  <!-- header -->
+  <div id="navContainer">
+    <div id="navHeader" class="mb-hide">
+      <div class='houzz-header'>
+        <div class='container'>
+          <a id="navHome" class='brand' href="#">
+            <img class='sprite-header-logo' src='pic/spacer.gif' width="2" height="2" />
+          </a>
+          <ul class='unstyled header-nav attach-right'>
+            <li id="header-promo--trending-products" class="header-promo-banner">
+              <a href="#" class="nav-button">
+                <div id="special-header-promo">
+                  <div class="sale-rectangle" style='background-color: #3d8901;'>
+                    <div class="sale-upper-tri"></div>
+                    <div class="sale-bottom-tri"></div>
+                    <div class="sale-hole"></div>
+                    <div class="sale-label headerPromoBanner__small  sale-label--no-icon">SHOP</div>
+                    <div class="sale-label headerPromoBanner__large  sale-label--no-icon  sale-label--medium">TRENDING PRODUCTS</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li id="navMyCart"><a href="#" class="nav-button"><i class="hzi-font hzi-Cart"></i><span class='cart-count empty-cart' id='navMyCartCount'>0</span></a>
+            </li>
+            <li id="navSignIn" class=""><a href="#" class="nav-button"><i class='hzi-font hzi-Man'></i>Sign In</a>
+            </li>
+          </ul>
+          <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off">
+            <div class='navbar-search-shell trackMe' role='search'>
+              <input id="navSearchInput" value="" name="search" type="text" class="navbar-search-box" placeholder="Search Photos, Products, Pros & More..." shortplaceholder="Search Photos, Products, Pros & More..." spellcheck="false" />
+              <button class='hzi-font hzi-Search search-submit' type='submit'></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="houzz-header-secondary houzz-header-secondary--simplified more-pros-header">
+        <ul class="list-unstyled header-nav-rooms container" id="header-navigation-menu">
+          <li class="header-nav-room header-nav-room--simplified r-main menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Ideas-Fill hsh__icon"></span>PHOTOS</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--photos-toplvl">
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">KITCHEN & DINING</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Kitchen &amp; Dining</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">BED & BATH</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Bed &amp; Bath</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">LIVING</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Living</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">OUTDOOR</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Outdoor</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">MORE ROOMS</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Exterior</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Entry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Hall</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Stair Case</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Basement</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Laundry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Garage</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Shed</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gym</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Entry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Hall</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Stair Case</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Basement</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Laundry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Garage</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Balcony</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Shop hsh__icon"></span>SHOP BY DEPARTMENT</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--shop-toplvl  hsh__menu--centered" >
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">KITCHEN & DINING<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-12491'>FURNITURE<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-468'>BATH<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-489'>DECOR<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">BEDROOM<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-12509'>HOME IMPROVEMENT<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">LIVING<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">OUTDOOR<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">LIGHTING<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">MORE<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-pros menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Pro-Fill hsh__icon"></span>FIND PROFESSIONALS</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--pros-toplvl  hsh__menu--centered" compId="nav_level3">
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">DESIGN & REMODELING</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">HOME IMPROVEMENT</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">HOME SERVICES</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">CLEANING SERVICES</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="hsh__menu-footer">
+                <a href="#" class="text-bold">View All Pros<span class="more-icon"></span></a>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Stories-Fill hsh__icon"></span>STORIES & ADVICE</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--advice-and-stories-toplvl">
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">STORIES FROM HOUZZ<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">HOUZZ TV<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list-body">
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">HOUZZ DISCUSSIONS<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="http://www.gardenweb.com/" class="text-primary" objId='STORIES-&amp;-ADVICE-3100-GWTopics'>GARDENWEB DISCUSSIONS<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-sales menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Gift-Fill hsh__icon"></span>SALE</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--sale-toplvl">
+              <div class="hsh__menu-body">
+                <div class="header-sales clearfix">
+                  <div class="hsh__column">
+                    <ul class="list-unstyled hsh__list">
+                      <div class="header-6 top hsh__list-header mbm" compid="sales_topics_header">
+                          <a class="text-primary" href="#">ON SALE - UP TO 75% OFF<span class="more-icon"></span></a>
+                      </div>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bedroom Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Lamps</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Mirrors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__column">
+                    <ul class="list-unstyled hsh__list">
+                      <div class="header-6 top hsh__list-header">
+                        <a class="text-primary" href="#">HOLIDAY GIFT GUIDES<span class="more-icon"></span></a>
+                      </div>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Her</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Him</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Kids</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Pets</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for the Techie</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for the Home Chef</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for the Gardener</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">White Elephant Gifts $25 and Under</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Stocking Stuffers $50 and Under</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Top 100 Gifts Under $100</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__column">
+                    <div class="hsh__list hsh__list--sales">
+                      <div class="header-6 top hsh__list-header text-primary mbm">FEATURED SALES</div>
+                      <div class="header-sales__featured-sales-list">
+                        <div class="header-sales__featured-sales-list-row">
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Up to 70% Off</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Urban Industrial Lighting&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design-2.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Up to 70% Off</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Traditional Rugs&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="header-sales__featured-sales-list-row">
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design-3.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Up to 65% Off</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Indoor Fireplace Sale&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design-4.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Under $199</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Bar Stools&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end header -->
+  <!-- mobile header -->
+  <div class="hz-header mb-show">
+    <div id="headerContainer" class="comp-box">
+      <!-- sidenav level-1 -->
+      <div class="sidenav-overlay"></div>
+      <div id="navContainer2" class="embed-search">
+        <div id="navHeader2" class="no-print ">
+          <div class="houzz-header">
+            <div class="container">
+              <ul class="header-nav pull-left">
+                <li id="navMenu" class=""><a href="#" class="nav-button"><i class="MH-menu-toggle hzi-font hzi-MH-Menu"></i><i class="MH-menu-toggle hzi-font hzi-MH-Close"></i></a>
+                  <div id="navMenuExp" class="unstyled header-nav-dropdown-menu menu-body"></div>
+                </li>
+                <li id="logo">
+                  <a id="navHome" class="brand" href="#">
+                    <img class="sprite-header-logo" src="pic/spacer.gif" width="2" height="2">
+                  </a>
+                </li>
+              </ul>
+              <ul class="header-nav pull-right">
+                <li id="navSearch" class=" menu-container"><a href="#" class="nav-button menu-title"><i class="hzi-font hzi-MH-Search"></i></a>
+                  <div id="navSearchExp" class="unstyled header-nav-dropdown-menu menu-body">
+                    <div class="container">
+                      <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off" action="#">
+                        <div class="navbar-search-shell trackMe" role="search">
+                          <input id="navSearchInput" value="" name="search" type="text" class="navbar-search-box" placeholder="Search Photos, Products, Pros &amp; More..." shortplaceholder="Search Photos, Products, Pros &amp; More..." spellcheck="false">
+                          <button class="hzi-font hzi-Search search-submit" type="submit"></button>
+                          <button class="hzi-font hzi-CloseX search-reset" type="reset"></button>
+                        </div>
+                        <div id="navSearchAutoSuggestContainer" class="autoSuggContainer responsive-container" style="display:none;"></div>
+                      </form>
+                    </div>
+                  </div>
+                </li>
+                <li id="navMHMyCart" class="">
+                  <a href="#" class="nav-button"><i class="hzi-font hzi-MH-Cart"></i><span class="cart-count empty-cart" id="navMyCartCount">0</span></a>
+                  <div id="navMHMyCartExp" class="unstyled header-nav-dropdown-menu menu-body"></div>
+                </li>
+                <li id="navSignIn" class=""><a href="#" class="nav-button"><i class="hzi-font hzi-Man"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end mobile header -->
   <!-- home slider wrapper -->
   <div class="homeSliderWrapper">
     <div id="homeSlider" class="owl-carousel">
-      <div><img src="pic/slider/mediterranean-pool.jpg" alt="" />
-      </div>
-      <div><img src="pic/slider/contemporary-kitchen.jpg" alt="" />
-      </div>
+      <div><img src="pic/slider/mediterranean-pool.jpg" alt="" /></div>
+      <div><img src="pic/slider/contemporary-kitchen.jpg" alt="" /></div>
     </div>
     <div class="signUpBoxWrapper">
       <div class="signUpBox cta new-hp-signup-box">
@@ -80,7 +1272,163 @@
         <!-- row -->
         <div class="row">
           <div class="col-xs-4">
-            <p>slide</p>
+            <div class="feedItem ppb__carousel">
+              <div class="text-center mtl">
+                <a class="ppb__carousel-heading header-6" href="#">Search 5,063,145 Home Improvement Pros</a>
+              </div>
+              <div id="square-slider-1" class="owl-carousel">
+                <div class="ppb__carousel-slide">
+                  <div class="row">
+                      <div class="col-xs-12">
+                        <div class="item">
+                          <div class="row ppb__carousel-icon-row">
+                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                  <div class="ppb__carousel-item-icon hzi-font hzi-architect-designer"></div>
+                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Architects & Building Designers</div>
+                              </a>
+                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                  <div class="ppb__carousel-item-icon hzi-font hzi-design-build"></div>
+                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Design-Build Firms</div>
+                              </a>
+                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                  <div class="ppb__carousel-item-icon hzi-font hzi-contractor"></div>
+                                  <div class="ppb__carousel-item-label text-xs mts text-muted">General Contractors</div>
+                              </a>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="row ppb__carousel-icon-row">
+                            <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                <div class="ppb__carousel-item-icon hzi-font hzi-home-builder"></div>
+                                <div class="ppb__carousel-item-label text-xs mts text-muted">Home Builders</div>
+                            </a>
+                            <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                <div class="ppb__carousel-item-icon hzi-font hzi-interior-design"></div>
+                                <div class="ppb__carousel-item-label text-xs mts text-muted">Interior Designers</div>
+                            </a>
+                            <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                <div class="ppb__carousel-item-icon hzi-font hzi-kitchen-bath-design"></div>
+                                <div class="ppb__carousel-item-label text-xs mts text-muted">Kitchen & Bath Designers</div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="item">
+                          <div class="row ppb__carousel-icon-row">
+                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                  <div class="ppb__carousel-item-icon hzi-font hzi-kitchen-bath-remodel"></div>
+                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Kitchen & Bath Remodelers</div>
+                              </a>
+                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                  <div class="ppb__carousel-item-icon hzi-font hzi-landscape-design"></div>
+                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Landscape Architects & Designers</div>
+                              </a>
+                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                  <div class="ppb__carousel-item-icon hzi-font hzi-landscape-contractor"></div>
+                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Landscape Contractors</div>
+                              </a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="ppb__carousel-slide">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row ppb__carousel-icon-row">
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-deck-patio"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Deck & Patio Builders</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-door"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Door Dealers</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-carpet"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Carpet Dealers</div>
+                                </a>
+                            </div>
+                            <div class="row ppb__carousel-icon-row">
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-refinishing-upholstery"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Furniture Repair</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-HVAC"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Air Conditioning & Heating</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-exterior"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Siding & Exterior Contractors</div>
+                                </a>
+                            </div>
+                            <div class="row ppb__carousel-icon-row">
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-windows"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Window Dealers</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-tile-stone-countertop"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Tile, Stone & Countertops</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-paint-wall-covering"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Paint & Wall Coverings</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ppb__carousel-slide">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row ppb__carousel-icon-row">
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-gardener"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Gardeners</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-plumbing"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Plumbers</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-tree-services"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Tree Services</div>
+                                </a>
+                            </div>
+                            <div class="row ppb__carousel-icon-row">
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-garage-repair"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Garage Door Repair</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-mover"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Movers</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-carpenter"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Carpenters</div>
+                                </a>
+                            </div>
+                            <div class="row ppb__carousel-icon-row">
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-hardwood-flooring"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Hardwood Flooring Dealers</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-fireplace"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Fireplaces</div>
+                                </a>
+                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
+                                    <div class="ppb__carousel-item-icon hzi-font hzi-pool-builder"></div>
+                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Swimming Pool Builders</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-xs-4">
             <div class="feedItem home-feed square gallery-feed-block clearfix">
@@ -237,7 +1585,94 @@
             </div>
           </div>
           <div class="col-xs-4">
-            <p>slide</p>
+            <div class="feedItem home-feed square shop-stories-feed-block">
+              <div class="shop-stories-carousel-wrapper">
+                <div class="shop-stories-carousel">
+                  <div id="square-slider-2" class="owl-carousel">
+                    <div class="item">
+                      <div class="shop-stories-carousel-slide shop-stories-carousel-slide--stack current">
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/rustic-armchairs-and-accent-chairs.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Furniture</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-pendant-lighting.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Lighting</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-area-rugs.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Home Decor</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-bar-stools-and-counter-stools.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Kitchen & Dining</div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="shop-stories-carousel-slide shop-stories-carousel-slide--stack current">
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/rustic-armchairs-and-accent-chairs.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Furniture</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-pendant-lighting.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Lighting</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-area-rugs.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Home Decor</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-bar-stools-and-counter-stools.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Kitchen & Dining</div>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="shop-stories-carousel-slide shop-stories-carousel-slide--stack current">
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/rustic-armchairs-and-accent-chairs.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Furniture</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-pendant-lighting.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Lighting</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-area-rugs.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Home Decor</div>
+                          </a>
+                          <a class="shop-stories-carousel-stack-item" href="#">
+                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-bar-stools-and-counter-stools.jpg" />
+                              <div class="shop-stories-carousel-stack-item-title text-bold">Kitchen & Dining</div>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed-description">
+                <div class="feed-topic-container"><span class="hzi-font hzi-Tag">
+                  </span><a class="feed-topic topic-link" href="#">Shop All Departments</a>
+                </div>
+              </div>
+              <div class="feed-meta-info">
+                <div class="feed-meta-container">
+                  <div class="shop-stories-more-info">
+                    <div class="shop-stories-message">
+                      From rugs and pillows to ottomans and accessories, Houzz has everything you need to bring style home
+                    </div>
+                    <div>
+                      <a class="colorLink product-cat-link" href="#">See All Products<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class='feed-space-counters'>
+                  <div class="pull-right feed-story__counter"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- end row -->
@@ -429,7 +1864,7 @@
             </div>
           </div>
         </div>
-        <!-- end row --> 
+        <!-- end row -->
         <!-- row -->
         <div class="row">
           <div class="col-xs-4">
@@ -546,7 +1981,7 @@
         </div>
         <!-- end row -->
         <!-- row -->
-        <div class="row">    
+        <div class="row">
           <div class="col-xs-12">
             <div class='feedItem home-feed xlarge clearfix'>
               <div class="feed-content">
@@ -575,7 +2010,7 @@
                 </div>
               </div>
             </div>
-          </div>      
+          </div>
         </div>
         <!-- end row -->
         <!-- row -->
@@ -695,7 +2130,7 @@
                 </div>
               </div>
             </div>
-          </div>        
+          </div>
         </div>
         <!-- end row -->
         <!-- row -->
@@ -902,7 +2337,7 @@
                 </div>
               </div>
             </div>
-          </div>   
+          </div>
         </div>
         <!-- end row -->
         <!-- row -->
@@ -946,10 +2381,11 @@
       <div class="moreStories" >
         <a class="loadMoreBtn trackMe">Show More</a>
       </div>
-    </div>    
+    </div>
   </div>
-  <!-- end main content --> 
-  <div style="height:100px"></div>
+  <!-- end main content -->
+  <div style="height:50px"></div>
+  <!-- footer -->
   <div id="footer-menu">
     <div class="container">
       <div class="inline-dropdown-container">
@@ -957,7 +2393,7 @@
           <span class="dropdown-label-icon"></span>
           <span class="dropdown-label">United States</span>
           <span class="dropdown-icon"></span>
-          <select id="footerMenuSiteSelector" class="form-control ">
+          <select id="footerMenuSiteSelector" class="form-control">
             <option>United States</option>
             <option>United Kingdom</option>
             <option>Australia</option>
@@ -977,30 +2413,36 @@
         </div>
       </div>
       <span class="footer-space">|</span>
-      <a href="#" compid="about">ABOUT</a>
+      <a href="#">ABOUT</a>
       <span class="footer-space">|</span>
-      <a href="#" compid="jobs">CAREERS</a>
+      <a href="#">CAREERS</a>
       <span class="footer-space">|</span>
-      <a href="#" compid="apps">MOBILE APPS</a>
+      <a href="#">MOBILE APPS</a>
       <span class="footer-space">|</span>
-      <a href="#" compid="pro_center">PROFESSIONALS</a>
+      <a href="#">PROFESSIONALS</a>
       <span class="footer-space">|</span>
-      <a href="#" compid="badges">BUTTONS</a>
+      <a href="#">BUTTONS</a>
       <span class="footer-space">|</span>
-      <a href="#" compid="advertise">ADVERTISE</a>
+      <a href="#">ADVERTISE</a>
       <span class="footer-space">|</span>
-      <a href="#" compid="sell">SELL</a>
+      <a href="#">SELL</a>
       <span class="footer-space">|</span>
       <span class="termsAndPrivacy">
         <div class="legalLink">
-            <a href="#" rel="nofollow">Terms</a> & <a href="#" rel="nofollow">Privacy</a>        
+            <a href="#" rel="nofollow">Terms</a> & <a href="#" rel="nofollow">Privacy</a>
         </div>
         <div class="legalLink">
-          <span class="copyRight">Houzz Inc. &copy;&nbsp;2016</span>
+          <span class="copyRight">Houzz Inc. &copy;&nbsp;2017</span>
         </div>
       </span>
     </div>
-  </div>  
+  </div>
+  <!-- end footer -->
+  <div id="stickyFooterActions" class="round">
+    <div id="ScrollToTopContainer" class="footer-action__box">
+      <button type="button"><span class="footer-icon hzi-font hzi-back-to-top"></span></button>
+    </div>
+  </div>
   <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
