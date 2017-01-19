@@ -1,0 +1,7 @@
+.sidebar .sidebar-body .sidebar-item.selected .sidebar-item-label {
+  color: #3d8901;
+}
+
+.hbs .mtl {
+  margin-top: 16px;
+}

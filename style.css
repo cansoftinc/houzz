@@ -713,6 +713,14 @@ body.sidenav-in .menu-active .menu-body {
   bottom: 10px;
 }
 
+.sidebar .sidebar-body .sidebar-item.selected .sidebar-item-label {
+  color: #3d8901;
+}
+
+.hbs .mtl {
+  margin-top: 16px;
+}
+
 @media screen and (max-width: 639px) {
   .mb-hide {
     display: none;
