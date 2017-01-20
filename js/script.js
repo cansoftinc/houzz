@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
     $('body').removeClass('sidenav-in');
     var sideNav = $('.sidenav.level-1').removeClass('level-2');
     sideNav.find('.sidenav-section').removeClass('section-active');
-    sideNav.find('.sidebar-nav-item').removeClass('menu-active');  
+    sideNav.find('.sidebar-nav-item').removeClass('menu-active');
   })
   $('.hzi-MH-Search').on('click', function() {
     $(this).closest('#navSearch').toggleClass('menu-active');
@@ -60,12 +60,22 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     $('.sidenav.level-1').addClass('level-2');
     $(this).closest('.sidebar-nav-item').addClass('menu-active');
-    $(this).closest('.sidenav-section').addClass('section-active');    
+    $(this).closest('.sidenav-section').addClass('section-active');
   })
   $('.sidenav-back').on('click', function() {
     var sideNav = $('.sidenav.level-1').removeClass('level-2');
     sideNav.find('.sidenav-section').removeClass('section-active');
-    sideNav.find('.sidebar-nav-item').removeClass('menu-active');    
+    sideNav.find('.sidebar-nav-item').removeClass('menu-active');
+  })
+
+  // Sidebar collapsible
+  $('.sidebar-header.collapse').on('click', function() {
+    $(this).next().slideToggle();
+    var icon = $(this).find('.toggle');
+    icon.addClass('test');
+    var currentIconClass = icon.hasClass('more-icon') ? 'more-icon' : 'down-icon';
+    var newIconClass = icon.hasClass('more-icon') ? 'down-icon' : 'more-icon';
+    icon.removeClass(currentIconClass).addClass(newIconClass);
   })
 
 
