@@ -140,7 +140,7 @@
 }
 .sidebar .sidebar-body .rangeFilterSubmit {
     float: right;
-    background: transparent url("../pic/sidebar_mode_icons.png") -103px 0 no-repeat;
+    /*background: transparent url("../pic/sidebar_mode_icons.png") -103px 0 no-repeat;*/
     width: 20px;
     height: 20px
 }
@@ -153,7 +153,7 @@
 (min-resolution: 1.5dppx) {
     .sidebar .sidebar-body .rangeFilterSubmit {
         background-size: 158px 20px;
-        background-image: url('../pic/sidebar_mode_icons@2x.png')
+        /*background-image: url('../pic/sidebar_mode_icons@2x.png')*/
     }
 }
 .sidebar .sidebar-body .rangeFilterSubmit .hzi-font.hzi-Arrow-R {
@@ -227,7 +227,7 @@
     vertical-align: top
 }
 .sidebar .sidebar-body .sidebar-item .sidebar-item-label i {
-    background: transparent url("../pic/sidebar_mode_icons.png") -64px 0 no-repeat;
+    /*background: transparent url("../pic/sidebar_mode_icons.png") -64px 0 no-repeat;*/
     margin-top: 1px;
     margin-right: 6px;
     float: left;
@@ -243,7 +243,7 @@
 (min-resolution: 1.5dppx) {
     .sidebar .sidebar-body .sidebar-item .sidebar-item-label i {
         background-size: 158px 20px;
-        background-image: url('../pic/sidebar_mode_icons@2x.png')
+        /*background-image: url('../pic/sidebar_mode_icons@2x.png')*/
     }
 }
 .sidebar .sidebar-body .sidebar-item .sidebar-icon.clear {
@@ -290,7 +290,7 @@
     right: 5px
 }
 .sidebar .breadcrumb .breadcrumbsHighlight .clear {
-    background: transparent url("../pic/sidebar_mode_icons.png") -38px 0 no-repeat;
+    /*background: transparent url("../pic/sidebar_mode_icons.png") -38px 0 no-repeat;*/
     display: inline-block;
     *display: inline;
     zoom: 1;
@@ -309,7 +309,7 @@
 (min-resolution: 1.5dppx) {
     .sidebar .breadcrumb .breadcrumbsHighlight .clear {
         background-size: 158px 20px;
-        background-image: url('../pic/sidebar_mode_icons@2x.png')
+        /*background-image: url('../pic/sidebar_mode_icons@2x.png')*/
     }
 }
 .sidebar .breadcrumb .breadcrumbsHighlight:hover .clear {
@@ -319,7 +319,7 @@
     text-decoration: none
 }
 .sidebar .sidebar-icon {
-    background: transparent url("../pic/sidebar_mode_icons.png") 0 0 no-repeat
+    /*background: transparent url("../pic/sidebar_mode_icons.png") 0 0 no-repeat*/
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5),
 (min--moz-device-pixel-ratio: 1.5),
@@ -330,7 +330,7 @@
 (min-resolution: 1.5dppx) {
     .sidebar .sidebar-icon {
         background-size: 158px 20px;
-        background-image: url('../pic/sidebar_mode_icons@2x.png')
+        /*background-image: url('../pic/sidebar_mode_icons@2x.png')*/
     }
 }
 .sidebar .sidebar-icon.clear {
@@ -776,7 +776,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: transparent url("../pic/sidebar_mode_icons.png") -38px 0 no-repeat;
+    /*background: transparent url("../pic/sidebar_mode_icons.png") -38px 0 no-repeat;*/
     width: 12px;
     height: 12px
 }
@@ -789,7 +789,7 @@
 (min-resolution: 1.5dppx) {
     .headerContainer .navigationTopicBreadcrumbs .breadcrumb .breadcrumbsHighlight .clear {
         background-size: 158px 20px;
-        background-image: url('../pic/sidebar_mode_icons@2x.png')
+        /*background-image: url('../pic/sidebar_mode_icons@2x.png')*/
     }
 }
 .headerContainer .navigationTopicBreadcrumbs .breadcrumb .breadcrumbsHighlight:hover .text-muted {

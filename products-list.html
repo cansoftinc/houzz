@@ -11,6 +11,1152 @@
   <link type="text/css" rel="stylesheet" href="css/style3.css" />
 </head>
 <body class="hbs hz-grey-bg new-std-header secondary-rooms-header hz-pres-type-desktop">
+  <!-- header -->
+  <div id="navContainer">
+    <div id="navHeader" class="mb-hide">
+      <div class='houzz-header'>
+        <div class='container'>
+          <a id="navHome" class='brand' href="#">
+            <img class='sprite-header-logo' src='pic/spacer.gif' width="2" height="2" />
+          </a>
+          <ul class='unstyled header-nav attach-right'>
+            <li id="header-promo--trending-products" class="header-promo-banner">
+              <a href="#" class="nav-button">
+                <div id="special-header-promo">
+                  <div class="sale-rectangle" style='background-color: #3d8901;'>
+                    <div class="sale-upper-tri"></div>
+                    <div class="sale-bottom-tri"></div>
+                    <div class="sale-hole"></div>
+                    <div class="sale-label headerPromoBanner__small  sale-label--no-icon">SHOP</div>
+                    <div class="sale-label headerPromoBanner__large  sale-label--no-icon  sale-label--medium">TRENDING PRODUCTS</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li id="navMyCart"><a href="#" class="nav-button"><i class="hzi-font hzi-Cart"></i><span class='cart-count empty-cart' id='navMyCartCount'>0</span></a>
+            </li>
+            <li id="navSignIn" class=""><a href="#" class="nav-button"><i class='hzi-font hzi-Man'></i>Sign In</a>
+            </li>
+          </ul>
+          <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off">
+            <div class='navbar-search-shell trackMe' role='search'>
+              <input id="navSearchInput" value="" name="search" type="text" class="navbar-search-box" placeholder="Search Photos, Products, Pros & More..." shortplaceholder="Search Photos, Products, Pros & More..." spellcheck="false" />
+              <button class='hzi-font hzi-Search search-submit' type='submit'></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="houzz-header-secondary houzz-header-secondary--simplified more-pros-header">
+        <ul class="list-unstyled header-nav-rooms container" id="header-navigation-menu">
+          <li class="header-nav-room header-nav-room--simplified r-main menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Ideas-Fill hsh__icon"></span>PHOTOS</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--photos-toplvl">
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">KITCHEN & DINING</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Kitchen &amp; Dining</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">BED & BATH</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Bed &amp; Bath</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">LIVING</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Living</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">OUTDOOR</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Kitchen</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pantry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Great Room</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <ul class="list-unstyled hsh__list-body">
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">Shop Outdoor</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Kitchen &amp; Dining Furniture</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Bar Stools</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tile</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Sinks &amp; Faucets</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Appliances</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tabletop</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cabinets &amp; Storage</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Knobs &amp; Pulls</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Pendant Lights</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Cookware &amp; Bakeware</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link">Tools &amp; Gadgets</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <span class="text-primary">MORE ROOMS</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Exterior</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Entry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Hall</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Stair Case</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Basement</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Laundry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Garage</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Shed</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gym</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Entry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Hall</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Stair Case</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Basement</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Laundry</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Garage</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Balcony</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Shop hsh__icon"></span>SHOP BY DEPARTMENT</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--shop-toplvl  hsh__menu--centered" >
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">KITCHEN & DINING<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-12491'>FURNITURE<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-468'>BATH<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-489'>DECOR<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">BEDROOM<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary" objId='756-12509'>HOME IMPROVEMENT<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">LIVING<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">OUTDOOR<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">LIGHTING<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">MORE<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="hsh__list-item">
+                        <a href="#" class="hsh__list-item-link text-bold">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-pros menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Pro-Fill hsh__icon"></span>FIND PROFESSIONALS</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--pros-toplvl  hsh__menu--centered" compId="nav_level3">
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">DESIGN & REMODELING</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">HOME IMPROVEMENT</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">HOME SERVICES</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm"><span class="text-primary">CLEANING SERVICES</span>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="hsh__menu-footer">
+                <a href="#" class="text-bold">View All Pros<span class="more-icon"></span></a>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Stories-Fill hsh__icon"></span>STORIES & ADVICE</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--advice-and-stories-toplvl">
+              <div class="hsh__menu-body">
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">STORIES FROM HOUZZ<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">HOUZZ TV<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list-body">
+                    </ul>
+                  </div>
+                </div>
+                <div class="hsh__column">
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="#" class="text-primary">HOUZZ DISCUSSIONS<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__list">
+                    <div class="hsh__list-header header-6 top mbm">
+                      <a href="http://www.gardenweb.com/" class="text-primary" objId='STORIES-&amp;-ADVICE-3100-GWTopics'>GARDENWEB DISCUSSIONS<span class="more-icon"></span></a>
+                    </div>
+                    <ul class="list-unstyled hsh__list">
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="header-nav-room header-nav-room--simplified r-main menu-sales menu-container">
+            <a class="menu-title" href="#"><span class="hzi-font hzi-Gift-Fill hsh__icon"></span>SALE</a>
+            <div class="header-nav-dropdown-menu menu-body hsh__menu hsh__menu--sale-toplvl">
+              <div class="hsh__menu-body">
+                <div class="header-sales clearfix">
+                  <div class="hsh__column">
+                    <ul class="list-unstyled hsh__list">
+                      <div class="header-6 top hsh__list-header mbm" compid="sales_topics_header">
+                          <a class="text-primary" href="#">ON SALE - UP TO 75% OFF<span class="more-icon"></span></a>
+                      </div>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bathroom Vanities</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Chandeliers</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bar Stools</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Pendant Lights</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Rugs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Living Room Chairs</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Dining Room Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Wall Lighting</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Coffee Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Side & End Tables</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Home Office Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Sofas</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Bedroom Furniture</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Lamps</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                          <a class="hsh__list-item-link" href="#">Mirrors</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__column">
+                    <ul class="list-unstyled hsh__list">
+                      <div class="header-6 top hsh__list-header">
+                        <a class="text-primary" href="#">HOLIDAY GIFT GUIDES<span class="more-icon"></span></a>
+                      </div>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Her</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Him</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Kids</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for Pets</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for the Techie</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for the Home Chef</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Gifts for the Gardener</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">White Elephant Gifts $25 and Under</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Stocking Stuffers $50 and Under</a>
+                      </li>
+                      <li class="header-sales__topics-list-item hsh__list-item">
+                        <a class="hsh__list-item-link" href="#">Top 100 Gifts Under $100</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="hsh__column">
+                    <div class="hsh__list hsh__list--sales">
+                      <div class="header-6 top hsh__list-header text-primary mbm">FEATURED SALES</div>
+                      <div class="header-sales__featured-sales-list">
+                        <div class="header-sales__featured-sales-list-row">
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Up to 70% Off</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Urban Industrial Lighting&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design-2.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Up to 70% Off</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Traditional Rugs&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="header-sales__featured-sales-list-row">
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design-3.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Up to 65% Off</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Indoor Fireplace Sale&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                          <div class="header-sales__featured-sales-list-item">
+                            <a href="#">
+                              <img class="header-sales__featured-sales-list-item-image" width="150" height="150" src="images/home-design-4.jpg" />
+                              <div class="header-sales__featured-sales-sale-value">Under $199</div>
+                              <div class="text-bold mts header-sales__featured-sales-list-item-desc">
+                                Bar Stools&nbsp;<span class="more-icon"></span>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end header -->
   <div id='mainArea'>
     <div id='mainContent'>
       <div class="container">
@@ -377,18 +1523,16 @@
             <div class='headerContainer'>
               <div class="navigationTopicBreadcrumbs text-s text-dt-m" scopeid="breadcrumbs">
                 <ul class="breadcrumb">
-                  <li class="breadcrumb-item " itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-                    <a itemprop="url" class='breadcrumb-item-link text-primary' href='#' objid="topic-756" compid="breadcrumblink"><span
-                        itemprop="title">All Products</span>
-                                    </a>
+                  <li class="breadcrumb-item ">
+                    <a class='breadcrumb-item-link text-primary' href='#'><span>All Products</span></a>
                   </li>
                 </ul>
               </div>
               <h1 class='header-1'><span class='search-keyword'>Kitchen Tile</span> Products</h1>
-              <div class="filter-pagination-div  has-facets-dropdowns-b ">
+              <div class="filter-pagination-div has-facets-dropdowns-b ">
                 <div class="product-facets-selects">
                   <div class="facet-dropdowns">
-                    <div class="facet-dropdown  mrs">
+                    <div class="facet-dropdown mrs">
                       <div class='btn-group facet-action-list'>
                         <button type='button' class='btn btn-default dropdown-toggle dropdown-button' data-toggle='dropdown' aria-expanded='false'>
                           <span class='selected-text text-unbold'>Style</span> <span class='hzi-font hzi-Down-Tri'></span>
@@ -400,72 +1544,39 @@
                           </div>
                           <div class='sidebar-body'>
                             <ul id="styleFilterDropdowns">
-                              <li class='sidebar-item' compId="opt" posId="0"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2103" rel="nofollow">
-                <span class="option-text">Contemporary</span>
+                              <li class='sidebar-item' compId="opt" posId="0">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2103" rel="nofollow">
+                                <span class="option-text">Contemporary</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="1"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2104" rel="nofollow">
-                <span class="option-text">Eclectic</span>
+                              <li class='sidebar-item' compId="opt" posId="1">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2104" rel="nofollow">
+                                  <span class="option-text">Eclectic</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="2"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2105" rel="nofollow">
-                <span class="option-text">Modern</span>
+                              <li class='sidebar-item' compId="opt" posId="2">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2105" rel="nofollow">
+                                  <span class="option-text">Modern</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="3"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2107" rel="nofollow">
-                <span class="option-text">Traditional</span>
+                              <li class='sidebar-item' compId="opt" posId="3">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2107" rel="nofollow">
+                                  <span class="option-text">Traditional</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="4"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2102" rel="nofollow">
-                <span class="option-text">Asian</span>
+                              <li class='sidebar-item' compId="opt" posId="4">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2102" rel="nofollow">
+                                  <span class="option-text">Asian</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="5"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2110" rel="nofollow">
-                <span class="option-text">Beach Style</span>
+                              <li class='sidebar-item' compId="opt" posId="5">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2110" rel="nofollow">
+                                  <span class="option-text">Beach Style</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="6"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2116" rel="nofollow">
-                <span class="option-text">Craftsman</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="7"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2114" rel="nofollow">
-                <span class="option-text">Farmhouse</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="8"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2113" rel="nofollow">
-                <span class="option-text">Industrial</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="9"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2109" rel="nofollow">
-                <span class="option-text">Mediterranean</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="10"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2115" rel="nofollow">
-                <span class="option-text">Midcentury</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="11"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2111" rel="nofollow">
-                <span class="option-text">Rustic</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="12"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_22848" rel="nofollow">
-                <span class="option-text">Scandinavian</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="13"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_14159" rel="nofollow">
-                <span class="option-text">Southwestern</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="14"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2112" rel="nofollow">
-                <span class="option-text">Transitional</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="15"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2108" rel="nofollow">
-                <span class="option-text">Tropical</span>
-                                </span>
-                              </li>
-                              <li class='sidebar-item' compId="opt" posId="16"> <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_22849" rel="nofollow">
-                <span class="option-text">Victorian</span>
+                              <li class='sidebar-item' compId="opt" posId="6">
+                                <span class='sidebar-item-label hz-linkable' data-href='#' objid="attr_style_2116" rel="nofollow">
+                                  <span class="option-text">Craftsman</span>
                                 </span>
                               </li>
                             </ul>
@@ -485,29 +1596,34 @@
                           </div>
                           <div class='sidebar-body'>
                             <ul id="priceFilterDropdowns">
-                              <li class='sidebar-item' compId="opt" posId="0"> <span class='sidebar-item-label hz-linkable' data-href='#/price--under-25/query/kitchen-tile' objid="attr_price_1" rel="nofollow">
-                <span class="option-text">Under $25</span>
+                              <li class='sidebar-item' compId="opt" posId="0">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/price--under-25/query/kitchen-tile' objid="attr_price_1" rel="nofollow">
+                                  <span class="option-text">Under $25</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="1"> <span class='sidebar-item-label hz-linkable' data-href='#/price--25-to-50/query/kitchen-tile' objid="attr_price_2" rel="nofollow">
-                <span class="option-text">$25 To $50</span>
+                              <li class='sidebar-item' compId="opt" posId="1">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/price--25-to-50/query/kitchen-tile' objid="attr_price_2" rel="nofollow">
+                                  <span class="option-text">$25 To $50</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="2"> <span class='sidebar-item-label hz-linkable' data-href='#/price--50-to-100/query/kitchen-tile' objid="attr_price_3" rel="nofollow">
-                <span class="option-text">$50 To $100</span>
+                              <li class='sidebar-item' compId="opt" posId="2">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/price--50-to-100/query/kitchen-tile' objid="attr_price_3" rel="nofollow">
+                                  <span class="option-text">$50 To $100</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="3"> <span class='sidebar-item-label hz-linkable' data-href='#/price--100-to-200/query/kitchen-tile' objid="attr_price_4" rel="nofollow">
-                <span class="option-text">$100 To $200</span>
+                              <li class='sidebar-item' compId="opt" posId="3">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/price--100-to-200/query/kitchen-tile' objid="attr_price_4" rel="nofollow">
+                                  <span class="option-text">$100 To $200</span>
                                 </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="4"> <span class='sidebar-item-label hz-linkable' data-href='#/price--above-200/query/kitchen-tile' objid="attr_price_5" rel="nofollow">
-                <span class="option-text">Above $200</span>
+                              <li class='sidebar-item' compId="opt" posId="4">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/price--above-200/query/kitchen-tile' objid="attr_price_5" rel="nofollow">
+                                  <span class="option-text">Above $200</span>
                                 </span>
                               </li>
                               <li class='' compId="opt" posId="5">
-                                <form class='form-inline price-filter-form' onsubmit='HZ.navigation.Utils.handlePriceFilterChanged(event, "#/price--XXXXX-to-YYYYY/query/kitchen-tile"); return false;'>
-                                  <a class='colorHover noHoverLink' onclick="HZ.navigation.Utils.handlePriceFilterChanged.call(this, null,'#/price--XXXXX-to-YYYYY/query/kitchen-tile')" href='javascript:void(0);;'><span class='rangeFilterSubmit'>&nbsp;</span></a>
+                                <form class='form-inline price-filter-form'>
+                                  <a class='colorHover noHoverLink' href='#'><span class='rangeFilterSubmit'>&nbsp;</span></a>
                                   <div class="form-group">
                                     <label>$
                                       <input class='rangeFilterInput form-control fromPrice' type='text' value='' />
@@ -538,14 +1654,23 @@
                           </div>
                           <div class='sidebar-body'>
                             <ul id="">
-                              <li class='sidebar-item' compId="opt" posId="0"> <span class='sidebar-item-label hz-linkable' data-href='#/on-sale/query/kitchen-tile' objid="attr_prodType_6" rel="nofollow"><span
-                    class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">On Sale</span></span>
+                              <li class='sidebar-item' compId="opt" posId="0">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/on-sale/query/kitchen-tile' objid="attr_prodType_6" rel="nofollow">
+                                  <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                  <span class="option-text">On Sale</span>
+                                </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="1"> <span class='sidebar-item-label hz-linkable' data-href='#/free-shipping/query/kitchen-tile' objid="attr_prodType_7" rel="nofollow"><span
-                    class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">Free Shipping</span></span>
+                              <li class='sidebar-item' compId="opt" posId="1">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/free-shipping/query/kitchen-tile' objid="attr_prodType_7" rel="nofollow">
+                                <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                <span class="option-text">Free Shipping</span>
+                                </span>
                               </li>
-                              <li class='sidebar-item' compId="opt" posId="2"> <span class='sidebar-item-label hz-linkable' data-href='#/external-products/query/kitchen-tile' objid="attr_prodType_0" rel="nofollow"><span
-                    class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">External Products</span></span>
+                              <li class='sidebar-item' compId="opt" posId="2">
+                                <span class='sidebar-item-label hz-linkable' data-href='#/external-products/query/kitchen-tile' objid="attr_prodType_0" rel="nofollow">
+                                  <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                  <span class="option-text">External Products</span>
+                                </span>
                               </li>
                             </ul>
                           </div>
@@ -555,7 +1680,12 @@
                   </div>
                 </div>
                 <div class="filter-option pull-right mlm">
-                  <div class='sizes-buttons size-btns-list-layout' scopeId='browseSizes' objId='browseSizesButtons'><span compId='size2' class='sprite-sizes hz-linkable size-s' data-href='#'></span><span compId='size5' class='sprite-sizes hz-linkable size-m active' data-href='#'></span><span compId='size4' class='sprite-sizes hz-linkable size-l' data-href='#'></span><span compId='size1' class='sprite-sizes hz-linkable size-xl' data-href='#'></span><span compId='size7' class='sprite-sizes hz-linkable size-catelog' data-href='#'></span>
+                  <div class='sizes-buttons size-btns-list-layout'>
+                    <span compId='size2' class='sprite-sizes hz-linkable size-s' data-href='#'></span>
+                    <span compId='size5' class='sprite-sizes hz-linkable size-m active' data-href='#'></span>
+                    <span compId='size4' class='sprite-sizes hz-linkable size-l' data-href='#'></span>
+                    <span compId='size1' class='sprite-sizes hz-linkable size-xl' data-href='#'></span>
+                    <span compId='size7' class='sprite-sizes hz-linkable size-catelog' data-href='#'></span>
                   </div>
                 </div>
                 <div class="pagination">
@@ -571,14 +1701,23 @@
             <div class="browseListBody clearfix reloadMe" id="browseSpacesContext" lb-context="browseDescriptor_:756::::::" data-stnd='233,233' data-full='300,300'>
               <div class="content-row m">
                 <div class='ic whiteCard m  first' objId='23550012' lb-sid='23550012' posId='0_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"23550012");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("23550012")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'>
+                        <span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'>
+                          <span class='button-icon hzi-font hzi-Search'></span>
+                          <span class='button-label'>View</span>
+                        </span>
+                        <span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook'>
+                          <span  class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                          <span class='button-label'>Save</span>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -586,26 +1725,47 @@
                     <a compId='title' class='product-title' href='#'>Pebble Grey 3x6 Glass Subway Tiles, 3"x6" Sample</a>
                     <div class="small text-muted">by Rocky Point Tile</div>
                     <div class='price mts'>
-                      <span data-href="#">
-                                $5.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
+                      <span data-href="#">$5.99 <i class="hzi-font hzi-Tag"></i></span>
+                    </div>
                     <div class="product-review pro-rating">
                       <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star-Half"></span></span> <span class="pro-review-string product-review-number">(8)</span>
+                        <span class="rate-star">
+                          <span class="hzi-font hzi-Star fill"></span>
+                          <span class="hzi-font hzi-Star"></span>
+                        </span>
+                        <span class="rate-star">
+                          <span class="hzi-font hzi-Star fill"></span>
+                          <span class="hzi-font hzi-Star"></span>
+                        </span>
+                        <span class="rate-star">
+                          <span class="hzi-font hzi-Star fill"></span>
+                          <span class="hzi-font hzi-Star"></span>
+                        </span>
+                        <span class="rate-star">
+                          <span class="hzi-font hzi-Star fill"></span>
+                          <span class="hzi-font hzi-Star"></span>
+                        </span>
+                        <span class="rate-star">
+                          <span class="hzi-font hzi-Star fill"></span>
+                          <span class="hzi-font hzi-Star-Half"></span>
+                        </span>
+                        <span class="pro-review-string product-review-number">(8)</span>
                       </span>
                       <meta itemprop="ratingValue" content="4.6" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
+                    </div>
+                    <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
+                      <span class="product-qty">More Sizes<span class="more-icon"></span></span>
                     </span>
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='9844096' lb-sid='9844096' posId='0_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844096");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
                     <img src="images/products/product-list-2.jpg" width="233" height="233" alt=""/> </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844096")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -624,13 +1784,13 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='6424365' lb-sid='6424365' posId='0_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"6424365");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
                     <img src="images/products/product-list-3.jpg" width="233" height="233" alt=""/> </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("6424365")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -653,13 +1813,13 @@
               </div>
               <div class="content-row m">
                 <div class='ic whiteCard m  first' objId='9844264' lb-sid='9844264' posId='1_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844264");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
                     <img src="images/products/product-list-4.jpg" width="233" height="233" alt=""/> </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844264")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -678,13 +1838,13 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='32755285' lb-sid='32755285' posId='1_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"32755285");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
                     <img src="images/products/product-list-5.jpg" width="233" height="233" alt=""/> </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("32755285")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -711,7 +1871,7 @@
                     <div>
                     <img src="images/products/product-list-6.jpg" width="233" height="233" alt=""/> </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("21539920")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -760,7 +1920,7 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='9844261' lb-sid='9844261' posId='2_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844261");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
@@ -786,14 +1946,15 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='6424314' lb-sid='6424314' posId='2_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"6424314");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("6424314")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -816,14 +1977,15 @@
               </div>
               <div class="content-row m">
                 <div class='ic whiteCard m  first' objId='9844291' lb-sid='9844291' posId='3_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844291");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844291")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -842,7 +2004,7 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='26315109' lb-sid='26315109' posId='3_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"26315109");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
@@ -850,7 +2012,7 @@
                     </div>
                     <div class="productArrow"></div>            <div class="promotionBadge text-bold">SALE</div>
                             </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("26315109")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -871,14 +2033,15 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='8180807' lb-sid='8180807' posId='3_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"8180807");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("8180807")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -898,14 +2061,15 @@
               </div>
               <div class="content-row m">
                 <div class='ic whiteCard m  first' objId='6317700' lb-sid='6317700' posId='4_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"6317700");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("6317700")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -924,14 +2088,15 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='9844086' lb-sid='9844086' posId='4_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844086");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844086")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -950,14 +2115,14 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='32753386' lb-sid='32753386' posId='4_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"32753386");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
                         <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
                     </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("32753386")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -980,14 +2145,15 @@
               </div>
               <div class="content-row m">
                 <div class='ic whiteCard m  first' objId='13319241' lb-sid='13319241' posId='5_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"13319241");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("13319241")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -1003,14 +2169,14 @@
                   </div>
                 </div>
                 <div class='ic whiteCard m ' objId='6318015' lb-sid='6318015' posId='5_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"6318015");return false;'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
                     <div>
                         <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
                     </div>
                     <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("6318015")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -1028,15 +2194,16 @@
                     </div>
                   </div>
                 </div>
-                <div class='ic whiteCard m ' objId='8115986' lb-sid='8115986' posId='5_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"8115986");return false;'>
+                <div class='ic whiteCard m' objId='8115986' lb-sid='8115986' posId='5_2'>
+                  <div class='photo trackMe white'>
                     <div class='imageArea' compId="img">
                       <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("8115986")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
+                        <div>
+                            <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
+                        </div>
+                        <div class="productArrow"></div>
+                      </span>
+                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
                       </div>
                     </div>
                   </div>
@@ -1050,470 +2217,6 @@
                     <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star-Half"></span></span> <span class="pro-review-string product-review-number">(2)</span>
                       </span>
                       <meta itemprop="ratingValue" content="4.5" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="content-row m">
-                <div class='ic whiteCard m  first' objId='26343442' lb-sid='26343442' posId='6_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"26343442");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>            <div class="promotionBadge text-bold">SALE</div>
-                            </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("26343442")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Wavy Shaped Glass Mosaic Tile, Dark Blue, Turquoise, and Sky Blue, Sample</a>
-                    <div class="small text-muted">by GL Stone Tile</div>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$10</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $9 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(2)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Styles<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='17941480' lb-sid='17941480' posId='6_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"17941480");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("17941480")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Elements Coral 2x12 Glass Subway Tiles, Two 2"x12" Samples</a>
-                    <div class="small text-muted">by Rocky Point Tile Co</div>
-                    <div class='price mts'>
-                      <span data-href="#">
-                                $8.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(2)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='8180810' lb-sid='8180810' posId='6_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"8180810");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("8180810")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>2" x 4"Scabos Split Face Tumbled Travertine Tiles on 12" x 12"</a>
-                    <div class='price mts'>
-                      <span data-href="#">
-                                $13.74 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                  </div>
-                </div>
-              </div>
-              <div class="content-row m">
-                <div class='ic whiteCard m  first' objId='5905941' lb-sid='5905941' posId='7_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"5905941");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("5905941")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Alloy Iceland Stacked Glass Tile, Sheet</a>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$22</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $18.95 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star-Half"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class=""></span></span> <span class="pro-review-string product-review-number">(5)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="3.6" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='9844294' lb-sid='9844294' posId='7_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844294");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844294")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Carrara White Marble Herringbone Mosaic Tile 5/8 x 1 1/4 Polished</a>
-                    <div class="small text-muted">by Stone Center Online</div>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$23</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $9.49 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(2)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
-                    </div>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='9844103' lb-sid='9844103' posId='7_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844103");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844103")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Carrara White Marble Hexagon Mosaic Tile 3 inch Polished Carrera</a>
-                    <div class="small text-muted">by Stone Center Online</div>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$25</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $9.49 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class=""></span></span> <span class="pro-review-string product-review-number">(4)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="4.2" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="content-row m">
-                <div class='ic whiteCard m  first' objId='22164988' lb-sid='22164988' posId='8_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"22164988");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("22164988")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Mother of Pearl Mosaic Tile Kitchen Backsplash Tile, 4x4 in Sample</a>
-                    <div class="small text-muted">by Home Elements Supply</div>
-                    <div class='price mts'>
-                      <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $8.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star-Half"></span></span> <span class="pro-review-string product-review-number">(3)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="4.3" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">Only 4 Left<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='12553675' lb-sid='12553675' posId='8_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"12553675");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("12553675")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Carrara Marble Octagon Honed Mosaic Tile, White With Gray Dots</a>
-                    <div class="small text-muted">by Stone Center Online</div>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$25</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $12.49 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star-Half"></span></span> <span class="pro-review-string product-review-number">(4)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="4.7" />
-                    </div>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='7865142' lb-sid='7865142' posId='8_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"7865142");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("7865142")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Carrara White 12x12 Honed Tile</a>
-                    <div class='price mts'>
-                      <span data-href="#">
-                                $11.59 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(1)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="content-row m">
-                <div class='ic whiteCard m  first' objId='22165757' lb-sid='22165757' posId='9_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"22165757");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("22165757")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Porcelain Pebble Backsplash Wall Tile, 4"x4" Sample</a>
-                    <div class="small text-muted">by Home Elements Supply</div>
-                    <div class='price mts'>
-                      <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $8.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(2)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">Only 5 Left<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='8108125' lb-sid='8108125' posId='9_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"8108125");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("8108125")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Verde Amazonia Tumbled Square Pattern Mesh-Mounted Marble Tiles</a>
-                    <div class='price mts'>
-                      <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $13.49 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='22165495' lb-sid='22165495' posId='9_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"22165495");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("22165495")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Porcelain Pebble Tile Backsplahs Mosaic Bathroom Wall Tile, 1 Square Foot</a>
-                    <div class="small text-muted">by Home Elements Supply</div>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$14.72</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $13.17 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star-Half"></span></span> <span class="pro-review-string product-review-number">(8)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="4.6" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="content-row m">
-                <div class='ic whiteCard m  first' objId='9844403' lb-sid='9844403' posId='10_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9844403");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9844403")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Calacatta Gold Hexagon Tile 6 inch Honed Italian Calcutta Marble</a>
-                    <div class="small text-muted">by Stone Center Online</div>
-                    <div class='price mts'>
-                      <span class='msrp-price'>$16</span> <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $7.09 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='7714857' lb-sid='7714857' posId='10_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"7714857");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("7714857")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Jasper Blue 3"x6" Glass Subway Tiles, 3"x6" Sample</a>
-                    <div class="small text-muted">by Rocky Point Tile</div>
-                    <div class='price mts'>
-                      <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $5.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class=""></span></span> <span class="pro-review-string product-review-number">(1)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="4" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='9601381' lb-sid='9601381' posId='10_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"9601381");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("9601381")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Glass Subway Tile, Blue</a>
-                    <div class='price mts'>
-                      <span data-href="#">
-                                $15.99 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                  </div>
-                </div>
-              </div>
-              <div class="content-row m">
-                <div class='ic whiteCard m  first' objId='17943133' lb-sid='17943133' posId='11_0'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"17943133");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("17943133")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Elements Sand 2x12 Glass Subway Tiles, Two 2"x12" Samples</a>
-                    <div class="small text-muted">by Rocky Point Tile Co</div>
-                    <div class='price mts'>
-                      <span data-href="#">
-                                $8.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='7714924' lb-sid='7714924' posId='11_1'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"7714924");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("7714924")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Beach Brown 3"x6" Glass Subway Tiles, 3"x6" Sample</a>
-                    <div class="small text-muted">by Rocky Point Tile</div>
-                    <div class='price mts'>
-                      <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $5.99 <i class="hzi-font hzi-Tag"></i>                          </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(2)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
-                    </div> <span compId="qty" class="product-qty-block hz-linkable" data-href="#" title="Buy on Houzz">
-                    <span class="product-qty">More Sizes<span class="more-icon"></span></span>
-                    </span>
-                  </div>
-                </div>
-                <div class='ic whiteCard m ' objId='8108114' lb-sid='8108114' posId='11_2'>
-                  <div class='photo trackMe white' oncontextmenu='PhotoContextMenu.show(event,"8108114");return false;'>
-                    <div class='imageArea' compId="img">
-                      <span lb-view lb-mag class="hz-linkable" data-href="#">
-                    <div>
-                        <img src="images/products/product-list-1.jpg" width="233" height="233" alt=""/>
-                    </div>
-                    <div class="productArrow"></div>                </span>
-                      <div class='hoverButtons trackMe'><span class='hzBtn button-baseIcon greenbutton buyOnHouzz hz-tall-button ' onclick='openLightbox("8108114")' title='Buy on Houzz' compid='buyOnHouzzBtn'><span  class='button-icon hzi-font hzi-Search'></span><span class='button-label'>View</span></span><span class='hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button ' title='Save to ideabook' compid='addToIdeabook' data-type='ideabook'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class='photoMeta '>
-                    <a compId='title' class='product-title' href='#'>Honey Polished Bricks Pattern Mesh-Mounted Onyx Tiles</a>
-                    <div class='price mts'>
-                      <span data-href="#" class="text-primary text-bold hz-linkable">
-                                $13.99 <i class="hzi-font hzi-Tag"></i>                         </span> </div>
-                    <div class="product-review pro-rating">
-                      <span class="review-star-link text-primary hz-linkable" data-href='#'>
-                    <span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span><span class="rate-star"><span class="hzi-font hzi-Star fill"></span><span class="hzi-font hzi-Star"></span></span> <span class="pro-review-string product-review-number">(2)</span>
-                      </span>
-                      <meta itemprop="ratingValue" content="5" />
                     </div>
                   </div>
                 </div>
@@ -1543,6 +2246,64 @@
     <!-- end of #mainContent -->
   </div>
   <!-- end of #mainArea -->
+  <!-- footer -->
+  <div id="footer-menu">
+    <div class="container">
+      <div class="inline-dropdown-container">
+        <div class="dropdown-wrapper-2" style="width: 34px;">
+          <span class="dropdown-label-icon"></span>
+          <span class="dropdown-label">United States</span>
+          <span class="dropdown-icon"></span>
+          <select id="footerMenuSiteSelector" class="form-control">
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Australia</option>
+            <option>Deutschland</option>
+            <option>France</option>
+            <option>Россия</option>
+            <option>日本</option>
+            <option>Italia</option>
+            <option>España</option>
+            <option>Danmark</option>
+            <option>Sverige</option>
+            <option>Ireland</option>
+            <option>Singapore</option>
+            <option>New Zealand</option>
+            <option>India</option>
+          </select>
+        </div>
+      </div>
+      <span class="footer-space">|</span>
+      <a href="#">ABOUT</a>
+      <span class="footer-space">|</span>
+      <a href="#">CAREERS</a>
+      <span class="footer-space">|</span>
+      <a href="#">MOBILE APPS</a>
+      <span class="footer-space">|</span>
+      <a href="#">PROFESSIONALS</a>
+      <span class="footer-space">|</span>
+      <a href="#">BUTTONS</a>
+      <span class="footer-space">|</span>
+      <a href="#">ADVERTISE</a>
+      <span class="footer-space">|</span>
+      <a href="#">SELL</a>
+      <span class="footer-space">|</span>
+      <span class="termsAndPrivacy">
+        <div class="legalLink">
+          <a href="#" rel="nofollow">Terms</a> & <a href="#" rel="nofollow">Privacy</a>
+        </div>
+        <div class="legalLink">
+          <span class="copyRight">Houzz Inc. &copy;&nbsp;2017</span>
+        </div>
+      </span>
+    </div>
+  </div>
+  <!-- end footer -->
+  <div id="stickyFooterActions" class="round">
+    <div id="ScrollToTopContainer" class="footer-action__box">
+      <button type="button"><span class="footer-icon hzi-font hzi-back-to-top"></span></button>
+    </div>
+  </div>
   <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>

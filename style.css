@@ -721,6 +721,28 @@ body.sidenav-in .menu-active .menu-body {
   margin-top: 16px;
 }
 
+#product-slider-1 .img-responsive-wrapper .img-responsive,
+#product-slider-1 .img-responsive-wrapper img {
+  position: static;
+}
+
+#product-slider-1 .img-responsive-wrapper {
+  height: auto;
+}
+
+.browseProducts .whiteCard.m {
+  margin-bottom: 30px;
+}
+
+.whiteCard.m .photo-title,
+.whiteCard.m .product-title {
+  max-height: 60px;
+}
+
+.product-facets-selects .facet-dropdown.currently-open .facet-dropdown-filter-list {
+  display: block;
+}
+
 @media screen and (max-width: 639px) {
   .mb-hide {
     display: none;

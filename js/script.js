@@ -16,6 +16,10 @@ jQuery(document).ready(function($) {
     singleItem: true,
     autoPlay: true
   })
+  $("#product-slider-1").owlCarousel({
+    singleItem: true,
+    autoPlay: true
+  })
 
   // navigation level 2
   var houzzHeader = $('.houzz-header');
@@ -76,6 +80,11 @@ jQuery(document).ready(function($) {
     var currentIconClass = icon.hasClass('more-icon') ? 'more-icon' : 'down-icon';
     var newIconClass = icon.hasClass('more-icon') ? 'down-icon' : 'more-icon';
     icon.removeClass(currentIconClass).addClass(newIconClass);
+  })
+
+  // facet dropdown
+  $('.btn-group.facet-action-list').on('click', function() {
+    $(this).parent().toggleClass('currently-open');
   })
 
 
