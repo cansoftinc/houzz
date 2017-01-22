@@ -1,8 +1,8 @@
 .houzz-header-secondary {
-  transition: all .3s;
-  -ms-transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 /* break point */
@@ -721,26 +721,59 @@ body.sidenav-in .menu-active .menu-body {
   margin-top: 16px;
 }
 
-#product-slider-1 .img-responsive-wrapper .img-responsive,
-#product-slider-1 .img-responsive-wrapper img {
-  position: static;
+.pagination-wrapper {
+  text-align: center;
+  margin: 60px 0 20px 0;
 }
 
-#product-slider-1 .img-responsive-wrapper {
-  height: auto;
+.pagination-wrapper .navigation-button.next {
+  color: #fff;
+  background: #3d8901;
+  border-color: #3d8901;
 }
 
-.browseProducts .whiteCard.m {
-  margin-bottom: 30px;
+.sizes-buttons .sprite-sizes {
+  background-image: url(../pic/Sizes.png);
+  display: inline-block;
+  zoom: 1;
+  width: 30px;
+  height: 30px;
 }
 
-.whiteCard.m .photo-title,
-.whiteCard.m .product-title {
-  max-height: 60px;
+.sizes-buttons .sprite-sizes.size-s {
+  background-position: 0px -30px;
 }
 
-.product-facets-selects .facet-dropdown.currently-open .facet-dropdown-filter-list {
-  display: block;
+.sizes-buttons .sprite-sizes + .sprite-sizes {
+  border-left: 1px solid #ccc;
+}
+
+.sizes-buttons .sprite-sizes.size-m {
+  background-position: -30px -30px;
+}
+
+.sizes-buttons .sprite-sizes.size-l {
+  background-position: -60px -30px;
+}
+
+.sizes-buttons .sprite-sizes.size-xl:hover,
+.sizes-buttons .sprite-sizes.size-xl.active {
+  background-position: -90px 0px;
+}
+
+@media (min-width: 1280px) {
+  .whiteCard.xl .photo {
+    width: 550px;
+  }
+}
+
+.whiteCard.xl .photo {
+  width: 500px;
+}
+
+.whiteCard.xl .photo {
+  min-height: 250px;
+  width: 550px;
 }
 
 @media screen and (max-width: 639px) {
@@ -909,6 +942,104 @@ body.sidenav-in .menu-active .menu-body {
   .feedItem.home-feed .feed-hover-buttons {
     opacity: 1;
   }
+}
+
+.sizes-buttons .sprite-sizes.size-lightbox {
+  background-position: -120px -30px;
+}
+
+.sizes-buttons.size-btns-list-layout {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+  float: right;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.sizes-buttons .sprite-sizes.size-s:hover,
+.sizes-buttons .sprite-sizes.size-s.active {
+  background-position: 0px 0px;
+}
+
+.sizes-buttons .sprite-sizes.size-m:hover,
+.sizes-buttons .sprite-sizes.size-m.active {
+  background-position: -30px 0px;
+}
+
+.sizes-buttons .sprite-sizes.size-l:hover,
+.sizes-buttons .sprite-sizes.size-l.active {
+  background-position: -60px 0px;
+}
+
+.sizes-buttons .sprite-sizes.size-lightbox:hover,
+.sizes-buttons .sprite-sizes.size-lightbox.active {
+  background-position: -120px 0px;
+}
+
+.headerContainer .pagination #paginationBar .pagination-text {
+  line-height: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+}
+
+.headerContainer .pagination #paginationBar .navigation-button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 9px;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.headerContainer .pagination #paginationBar .navigation-button .hzi-font {
+  font-size: 10px;
+  display: block;
+}
+
+.headerContainer .pagination #paginationBar .pagination-text:hover {
+  color: inherit;
+  background-color: inherit;
+}
+
+.headerContainer .pagination {
+  margin: 0px;
+  float: right;
+  clear: none;
+}
+
+#projectSpaces .whiteCard .imageArea,
+.browsePhotos .whiteCard .imageArea {
+  overflow: hidden;
+}
+
+.whiteCard.xl .imageArea {
+  position: relative;
+}
+
+.whiteCard .photo:hover .wrapper-block {
+  display: block;
+}
+
+.promote {
+  cursor: pointer;
+  background-color: #7ac143;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+  max-width: 90%;
+  display: inline-block;
+  pointer-events: all;
 }
 
 /*# sourceMappingURL=style.css.map */
