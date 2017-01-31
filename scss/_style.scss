@@ -3,6 +3,10 @@
   display: none;
 }
 
+.scroll-block {
+  display: none;
+}
+
 /* slide quick-links__pros + topic-strip__container */
 .hbs .hz-carded {
   background-color: #ffffff;
@@ -517,4 +521,8 @@ div.rGTextDiv {
       width: 100%;
     }
   }
+}
+
+#lbClose {
+  cursor: pointer;
 }

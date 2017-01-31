@@ -351,6 +351,10 @@ body.sidenav-in .menu-active .menu-body {
   display: none;
 }
 
+.scroll-block {
+  display: none;
+}
+
 /* slide quick-links__pros + topic-strip__container */
 .hbs .hz-carded {
   background-color: #ffffff;
@@ -856,6 +860,23 @@ div.rGTextDiv {
   width: 100%;
 }
 
+#lbClose {
+  cursor: pointer;
+}
+
+/* footer, light box */
+#stickyFooterActions {
+  z-index: 999;
+}
+
+body.showlb {
+  overflow: hidden;
+}
+
+.thumb-grid.grid-5 li {
+  width: calc(20% - 12px + 8px / 5);
+}
+
 .sidebar .sidebar-body .sidebar-item.selected .sidebar-item-label {
   color: #3d8901;
 }
@@ -1331,7 +1352,48 @@ div.rGTextDiv {
 }
 
 @media screen and (max-width: 767px) {
+  .hbs .spaceData .col-xs-4 {
+    width: 33.33333333%;
+  }
+  .hbs .spaceData .col-xs-8 {
+    width: 66.66666667%;
+  }
+  #spaceBuzzes {
+    padding: 15px;
+  }
+  .scroll-block {
+    display: block;
+  }
+  .mainImageWrap img {
+    width: 100%;
+    height: auto;
+  }
+  .spaceContent {
+    background-color: #ffffff;
+    border: 1px solid #d6d6d6;
+    border-left: none;
+    border-right: none;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .navigationTopicBreadcrumbs {
+    background-color: #ffffff;
+    border: 1px solid #d6d6d6;
+    border-left: none;
+    border-right: none;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
   .wrapper {
+    width: 100%;
+  }
+  .hbs .rightSideBarWide,
+  #relatedSearches,
+  #related_shopping {
+    display: none;
+  }
+  .hbs .leftSideContentNarrow {
+    float: none;
     width: 100%;
   }
   #mainArea {

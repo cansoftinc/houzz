@@ -21,8 +21,8 @@
 @font-face {
     font-family: 'proxima-nova';
     src: url('../fonts/proxima-nova-light.eot');
-    src: url('../fonts/ProximaNova/proxima-nova-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ProximaNova/proxima-nova-light.woff') format('woff'),
+    src: url('../fonts/proxima-nova-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima-nova-light.woff') format('woff'),
          url('../fonts/proxima-nova-light.ttf') format('truetype');
     font-weight: 200;
     font-style: normal

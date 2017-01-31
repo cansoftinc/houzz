@@ -87,6 +87,33 @@ jQuery(document).ready(function($) {
     $(this).parent().toggleClass('currently-open');
   })
 
+  // light box
+  $('.lightbox').on('click', function() {
+    $('#lbRoot').removeClass('hidden');
+    $('body').addClass('showlb');
+  });
+  $('#lbClose').on('click', function() {
+    $('#lbRoot').addClass('hidden');
+    $('body').removeClass('showlb');
+  })
+
+  var lbImage = $('#lbImageContainer');
+  lbImage.mouseover(function(){
+    $('#lbActions').removeClass('fade-out');
+  });
+  lbImage.mouseout(function(){
+    $('#lbActions').addClass('fade-out');
+  });
+
+  $('#lbActions .expand-toggle').on('click', function() {
+    if($('#lbMain').hasClass('expanded')) {
+      $('#lbMain').removeClass('expanded');
+      $('#lbActions .expand-toggle').removeClass('active');
+    } else {
+      $('#lbMain').addClass('expanded');
+      $('#lbActions .expand-toggle').addClass('active');
+    }    
+  });  
 
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
