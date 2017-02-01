@@ -864,6 +864,58 @@ div.rGTextDiv {
   cursor: pointer;
 }
 
+.topic {
+  display: inline-block;
+  zoom: 1;
+  padding: 0px 7px 3px 0px;
+}
+
+.topicName a {
+  font-size: 13px;
+  color: #3d8901;
+}
+
+.topicSeparator {
+  zoom: 1;
+  border-left: 1px solid #ccccca;
+  margin-right: 7px;
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  top: 4px;
+}
+
+@media (min-width: 1280px) {
+  #mainContent .leftSideContentWithAd .topicContainer,
+  #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #viewGalleryContentWrapperNarrow {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn .viewGalleryAuthor {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.viewGalleryAuthor .viewGalleryAuthorImageDiv {
+  float: left;
+  margin-right: 0px;
+  height: 40px;
+}
+
+.viewGalleryAuthor .viewGalleryAuthorText {
+  margin: 0 0 0 45px;
+}
+
+#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn .viewGalleryAuthor .viewGalleryAuthorText {
+  margin-left: 50px;
+}
+
 /* footer, light box */
 #stickyFooterActions {
   z-index: 999;
