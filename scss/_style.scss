@@ -578,3 +578,229 @@ div.rGTextDiv {
 #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn .viewGalleryAuthor .viewGalleryAuthorText {
     margin-left: 50px;
 }
+
+.viewGalleryDescriptionHolder {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.gallery-photo-container .gallery-photo {
+  margin-bottom: 15px;
+}
+
+.gallery-photo-container .gallery-photo {
+  overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn .gallery-photo-container .gallery-photo {
+  margin-bottom: 16px;
+}
+
+.gallery-photo-container .gallery-text {
+  margin-bottom: 18px;
+}
+
+.gallery-photo-container {
+  overflow: hidden;
+}
+
+.gallery-photo-container.portrait .gallery-photo {
+  width: 422px;
+  border-right: 20px solid transparent;
+  float: left;
+}
+
+#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn .gallery-photo-container.portrait .gallery-photo {
+  width: 412px;
+  border-right: 12px solid transparent;
+  margin-bottom: 12px;
+}
+
+.gallery-photo:hover .wrapper-block {
+  display: block;
+}
+
+.r-sidebar .whiteCard.q {
+  margin-bottom: 15px;
+  border: 0;
+}
+
+#mainContent .rightSideBar .adSideBar .r-sidebar .whiteCard {
+  margin-bottom: 16px;
+}
+
+.hbs .text-dt-s {
+  font-size: 13px;
+}
+
+.whiteCard .fixedHeight {
+  max-height: 80px;
+}
+
+.whiteCard.q .context {
+  margin-left: 100px;
+  padding: 10px;
+}
+
+#mainContent .rightSideBar .adSideBar .r-sidebar .whiteCard .context {
+  padding: 0 8px 8px;
+}
+
+.hbs a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.metaInfoIconStrip a {
+    display: inline-block;
+    zoom: 1;
+    min-width: 50px;
+    color: #888;
+}
+
+.metaInfoIconStrip .hzi-font {
+    margin-right: 5px;
+    font-size: 13px;
+    color: #888;
+}
+
+.r-sidebar div.callToDiscussion {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.latestGalleryContainer.whiteCard {
+    margin-left: 0;
+}
+
+#mainContent .rightSideBar .adSideBar .r-sidebar .whiteCard {
+    margin-bottom: 16px;
+}
+
+#mainContent .rightSideBar .adSideBar .r-sidebar#latestGalleriesContainer .latestGalleryContainer {
+    border: none;
+}
+
+.latestGalleryContainer .context {
+    margin-left: 100px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+}
+
+#mainContent .rightSideBar .adSideBar .r-sidebar .whiteCard .context {
+    padding: 0 8px 8px;
+}
+
+.leftSideContentWithAd.promotedProfessional, .leftSideContentWithAd.galleryComments, .leftSideContentWithAd.similarGalleries, .adSideBar.footer {
+    margin-top: 16px;
+}
+
+body.hz-grey-bg .leftSideBar, body.hz-grey-bg .rightSideContent, body.hz-grey-bg .leftSideContentWithAd, body.hz-grey-bg .adSideBar, body.hz-grey-bg .fullContent {
+    background: #fff;
+    padding: 16px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.08);
+}
+
+#mainContent .leftSideContentWithAd {
+    width: 650px;
+    padding: 16px 0;
+}
+
+@media (min-width: 1280px) {
+  #mainContent .leftSideContentWithAd {
+    width: 850px;
+  }
+}
+
+.viewGalleryComments {
+    clear: both;
+    margin: 40px 0;
+    position: relative;
+}
+
+.hbs .text-dt-m {
+    font-size: 14px;
+}
+
+#mainContent .leftSideContentWithAd .viewGalleryCommentsCardView .viewGalleryComments {
+    margin: 40px auto;
+    width: 618px;
+}
+
+@media (min-width: 1280px) {
+  #mainContent .leftSideContentWithAd .viewGalleryCommentsCardView .viewGalleryComments {
+    width: 660px;
+  }
+}
+
+#mainContent .leftSideContentWithAd .viewGalleryCommentsCardView .viewGalleryComments .moreComments .seeMoreComments {
+    display: block;
+    padding: 9px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cardView {
+    padding: 0 16px;
+}
+
+div.similarGalleriesContainer {
+    clear: left;
+    width: inherit;
+    margin-top: 20px;
+}
+
+.leftWhiteShadowColumn.similarGalleries div.similarGalleriesContainer {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.cardView div.similar-img .similarGalleryPhoto {
+    overflow: hidden;
+}
+
+.cardView div.similar-ibk-img-1 .similarGalleryPhoto {
+    margin-right: 16px;
+    float: left;
+    display: block;
+    width: 301px;
+}
+
+@media (min-width: 1280px) {
+  .cardView div.similar-ibk-img-1 .similarGalleryPhoto {
+    width: 402px;
+  }
+}
+
+.cardView div.similar-ibk-img-1 {
+  overflow: hidden;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.cardView div.similar-ibk-img-1 .comments {
+    text-align: right;
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    width: 100%;
+}
+
+.cardView div.similar-ibk-img-1 .comments .commentIcon {
+    color: #ababab;
+}
+
+.cardView div.similar-ibk-img-1:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+

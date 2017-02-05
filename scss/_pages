@@ -357,3 +357,18 @@
 .shareBtns .icon-text-combo:hover .hzi-font {
   color: #3d8901;
 }
+
+.ideabook-actions-wrapper {
+  margin-top: 25px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #gallerySubtitleDisplay, #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #viewGalleryDescription, #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #gallerySpaces .gallery-text .thBuzz {
+  font-size: 17px;
+}
+
+.viewGalleryDescription, .viewGalleryMissingDescription {
+  margin-top: 20px;
+  word-wrap: break-word;
+}
