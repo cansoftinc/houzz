@@ -2,24 +2,35 @@ jQuery(document).ready(function($) {
   console.log('ready');
 
   // carousel
-  $("#homeSlider").owlCarousel({
-    singleItem: true,
-    autoPlay: true,
-    pagination: false,
-    transitionStyle: 'fade'
-  });
-  $("#square-slider-1").owlCarousel({
-    singleItem: true,
-    autoPlay: true
-  });
-  $("#square-slider-2").owlCarousel({
-    singleItem: true,
-    autoPlay: true
-  })
-  $("#product-slider-1").owlCarousel({
-    singleItem: true,
-    autoPlay: true
-  })
+  if($("#homeSlider").length) {
+    $("#homeSlider").owlCarousel({
+      singleItem: true,
+      autoPlay: true,
+      pagination: false,
+      transitionStyle: 'fade'
+    });
+  }
+  
+  if($("#square-slider-1").length) {
+    $("#square-slider-1").owlCarousel({
+      singleItem: true,
+      autoPlay: true
+    });
+  }
+  
+  if($("#square-slider-2").length) {
+    $("#square-slider-2").owlCarousel({
+      singleItem: true,
+      autoPlay: true
+    })
+  }
+  
+  if($("#product-slider-1").length) {
+    $("#product-slider-1").owlCarousel({
+      singleItem: true,
+      autoPlay: true
+    })
+  }  
 
   // navigation level 2
   var houzzHeader = $('.houzz-header');
