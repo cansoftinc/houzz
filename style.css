@@ -1141,6 +1141,172 @@ div.similarGalleriesContainer {
   margin-bottom: 0;
 }
 
+.rightSideContent .firstGallery {
+  margin: -16px -16px 0;
+  position: relative;
+}
+
+.rightSideContent .firstGallery .galleryImageConatiner {
+  width: 764px;
+  height: 290px;
+  overflow: hidden;
+}
+
+@media (min-width: 1280px) {
+  .rightSideContent .firstGallery .galleryImageConatiner {
+    width: 964px;
+  }
+}
+
+.rightSideContent .firstGallery .galleryTextContainer {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.18);
+  padding: 0;
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .galleryTitle {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+div.galleryTitle a {
+  margin-bottom: 3px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .galleryTitle a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .galleryTitle a span {
+  color: #fff;
+  font-size: 40px;
+  line-height: 42px;
+  width: 660px;
+  display: inline-block;
+  zoom: 1;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  margin-top: 60px;
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .gallerySubtext {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 84px;
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .gallerySubtext .subtextLink {
+  display: block;
+  padding: 20px;
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .gallerySubtext .subtextLink .subtextWrapper {
+  color: #fff;
+  width: 540px;
+  display: inline-block;
+  zoom: 1;
+}
+
+@media (min-width: 1280px) {
+  .rightSideContent .firstGallery .galleryTextContainer .gallerySubtext .subtextLink .subtextWrapper {
+    width: 640px;
+  }
+}
+
+.rightSideContent .firstGallery .galleryTextContainer .gallerySubtext .subtextLink .fullStoryBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.rightSideContent .firstGallery:hover .fullStoryBtn {
+  background: #3d8901;
+  border: 2px solid #3d8901 !important;
+  text-shadow: none !important;
+}
+
+.rightSideContent .gallery {
+  overflow: hidden;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.rightSideContent .gallery .galleryImageConatiner {
+  float: left;
+  width: 268px;
+  height: 268px;
+  margin-right: 16px;
+  overflow: hidden;
+}
+
+.rightSideContent .gallery .galleryTextContainer {
+  float: left;
+  width: 448px;
+  height: 268px;
+  position: relative;
+}
+
+@media (min-width: 1280px) {
+  .rightSideContent .gallery .galleryImageConatiner {
+    width: 458px;
+  }
+  rightSideContent .gallery .galleryTextContainer {
+    width: 458px;
+  }
+}
+
+.rightSideContent .gallery .galleryTextContainer .dateAndComments {
+  position: absolute;
+  bottom: 0px;
+  color: #ababab;
+  width: 100%;
+}
+
+.rightSideContent .gallery .galleryTextContainer .dateAndComments .comments, .rightSideContent .gallery .galleryTextContainer .dateAndComments .glViews, .rightSideContent .gallery .galleryTextContainer .dateAndComments .glBookmarks {
+  float: right;
+  padding-right: 10px;
+  text-align: left;
+  position: relative;
+}
+
+.rightSideContent .gallery .galleryTextContainer .dateAndComments .comments a, .rightSideContent .gallery .galleryTextContainer .dateAndComments .glViews a, .rightSideContent .gallery .galleryTextContainer .dateAndComments .glBookmarks a {
+  color: #ababab;
+}
+
+a.commentIcon, a.voteIcon {
+  height: 20px;
+}
+
+.rightSideContent .gallery .galleryTextContainer .dateAndComments .comments a .hzi-font, .rightSideContent .gallery .galleryTextContainer .dateAndComments .glViews a .hzi-font, .rightSideContent .gallery .galleryTextContainer .dateAndComments .glBookmarks a .hzi-font {
+  color: #ababab;
+  font-size: 16px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.rightSideContent .pagination-wrapper {
+  margin-top: 30px;
+}
+
 /* footer, light box */
 #stickyFooterActions {
   z-index: 999;
