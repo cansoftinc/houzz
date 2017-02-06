@@ -11,6 +11,12 @@
   }
 }
 
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 #stickyFooterActions {
   bottom: 75px;
   @include max(799px) {
@@ -64,7 +70,7 @@ body.sidenav-in .hzi-MH-Close {
   .houzz-header .navbar-search-bar {
     padding: 10px 0 0;
   }
-} 
+}
 
 #navSearchExp {
   background: #fff;

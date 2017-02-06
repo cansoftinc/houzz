@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link type="text/css" rel="stylesheet" href="css/style1.css" />
+  <link type="text/css" rel="stylesheet" href="css/style2.css" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body class="t0 hbs simple-header simple-footer hz-pres-type-desktop en-US" cz-shortcut-listen="true">
+  <div class="hz-main">
+    <div class="hz-header">
+      <div id="headerContainer" scopeid="headerContainer" class="comp-box">
+        <div id="navHeader" class="authflow">
+          <div class="houzz-header">
+            <div class="container">
+              <a id="navHome" objid="navHome" class="brand" href="#">
+              <img class="sprite-header-logo" src="https://st.hzcdn.com/res/2483/pic/spacer.gif?v=2483" width="2" height="2">
+              </a>
+              <ul class="list-unstyled header-nav attach-right">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mainArea">
+      <div id="mainContent">
+        <div class="container">
+          <div class="hz-main-contents">
+            <div id="web-body" scopeid="web-body" class="comp-box">
+              <div id="mainContent" class="signin">
+                <div id="authFlowContainer">
+                  <div class="authFlowTitle header-1">Sign In to Houzz</div>
+                  <div id="signinErrors" class="authFlowError"></div>
+                  <div class="dlgUserDetails">
+                    <form id="signinForm" onsubmit="return true;" method="POST" action="javascript:;">
+                      <div class="authFlowFieldTitle text-l mts mbs">Username or Email</div>
+                      <div class="dlgInputRow">
+                        <input class="authFlowInput" placeholder="" id="username" name="username" value="" type="text" autocapitalize="none">
+                      </div>
+                      <div class="authFlowFieldTitle text-l mts mbs">Password</div>
+                      <div class="dlgInputRow">
+                        <input class="authFlowInput" placeholder="" id="password" name="password" type="password">
+                      </div>
+                      <div class="authFlowFieldTitle subHeadingText checkbox"><label><input type="checkbox" checked="checked" id="keepSignedin">Keep me signed in</label></div>
+                      <div class="dlgInputRow">
+                        <input id="signIn" type="submit" class="hzBtn primary large" value="Sign In" name="submit">
+                      </div>
+                      <div>
+                        <a href="#" target="_new" class="colorLink subHeadingText icon-wrap">Forgot your username or password?<span class="more-icon"></span></a>
+                      </div>
+                    </form>
+                  </div>
+                  <div id="signinCenterCol">
+                    <div id="dlgDivider"></div>
+                  </div>
+                  <div id="dlgFbSignIn">
+                    <button class="btn btn-lg mbl btn-default auth-btn--google auth-btn" id="googleSignIn" compid="">
+                      <div class="auth-btn__icon-text-container">
+                        <div class="auth-btn__icon-container">
+                          <div class="auth-btn__icon auth-btn__icon--google"></div>
+                        </div>
+                        Continue with Google
+                      </div>
+                    </button>
+                    <button class="btn btn-lg  btn-facebook auth-btn--fb auth-btn" id="fbSignIn" compid="">
+                      <div class="auth-btn__icon-text-container">
+                        <div class="auth-btn__icon-container">
+                          <div class="auth-btn__icon auth-btn__icon--fb hzi-font hzi-Facebook"></div>
+                        </div>
+                        Continue with Facebook
+                      </div>
+                    </button>
+                    <div class="dlgFbSubMessage">Don't have an account yet?<br><a class="colorLink icon-wrap" href="#">Join Now<span class="more-icon"></span></a></div>
+                    <div id="tos" class="tos">By signing in, I acknowledge and agree to Houzz's <a href="#" target="_new" class="colorLink">Terms&nbsp;of&nbsp;Use</a> and <a href="#" target="_new" class="colorLink">Privacy Policy</a>.</div>
+                  </div>
+                  <div style="clear: both;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hz-footer">
+      <div id="footerContainer" scopeid="footerContainer" class="comp-box">
+        <div id="minimizedFooter">©&nbsp;2017 Houzz Inc.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

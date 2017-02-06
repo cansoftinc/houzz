@@ -40,7 +40,7 @@
   background-position: -60px -30px;
 }
 
-.sizes-buttons .sprite-sizes.size-xl:hover, 
+.sizes-buttons .sprite-sizes.size-xl:hover,
 .sizes-buttons .sprite-sizes.size-xl.active {
   background-position: -90px 0px;
 }
@@ -61,22 +61,22 @@
   font-size: 0;
 }
 
-.sizes-buttons .sprite-sizes.size-s:hover, 
+.sizes-buttons .sprite-sizes.size-s:hover,
 .sizes-buttons .sprite-sizes.size-s.active {
   background-position: 0px 0px;
 }
 
-.sizes-buttons .sprite-sizes.size-m:hover, 
+.sizes-buttons .sprite-sizes.size-m:hover,
 .sizes-buttons .sprite-sizes.size-m.active {
   background-position: -30px 0px;
 }
 
-.sizes-buttons .sprite-sizes.size-l:hover, 
+.sizes-buttons .sprite-sizes.size-l:hover,
 .sizes-buttons .sprite-sizes.size-l.active {
   background-position: -60px 0px;
 }
 
-.sizes-buttons .sprite-sizes.size-lightbox:hover, 
+.sizes-buttons .sprite-sizes.size-lightbox:hover,
 .sizes-buttons .sprite-sizes.size-lightbox.active {
   background-position: -120px 0px;
 }
@@ -115,7 +115,7 @@
   clear: none;
 }
 
-#projectSpaces .whiteCard .imageArea, 
+#projectSpaces .whiteCard .imageArea,
 .browsePhotos .whiteCard .imageArea {
   overflow: hidden;
 }
@@ -200,7 +200,7 @@
   pointer-events: none;
 }
 
-#projectSpaces .whiteCard .imageArea, 
+#projectSpaces .whiteCard .imageArea,
 .browsePhotos .whiteCard .imageArea {
   overflow: hidden;
 }
@@ -217,70 +217,6 @@
   text-align: center;
 }
 
-@media (min-width: 1280px) {
-  .whiteCard.xl .photo {
-    width: 550px;
-  }
-}
-
-.whiteCard.xl .photo {
-  width: 500px;
-  position: relative;
-  overflow: hidden;
-}
-.whiteCard.xl .photo {
-  min-height: 250px;
-  width: 550px;
-}
-
-.photoMeta {
-  position: absolute;
-  padding-left: 10px;
-  top: 0;
-  left: 550px;
-  right: 0;
-  bottom: 0;
-}
-
-.content-row.xl .whiteCard {
-  border: none;
-  .user-thumb {
-    display: inline-block;
-    zoom: 1;
-    margin-right: 10px;
-    width: 42px;
-    height: 42px;
-  }
-  .user-name-wrapper {
-    display: inline-block;
-    vertical-align: middle;
-    zoom: 1;
-    max-width: 148px;
-  }
-  .photoMeta .uploader, .photoMeta .photoInfo {
-    padding: 10px;
-    overflow: hidden;
-  }
-  .photoMeta .photoDetails.bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
-  .photoMeta .autoDesc {
-    background: #fff;
-    font-size: 13px;
-    color: #666;
-    padding: 7px 10px 0px 10px;
-  }
-  .photoMeta .stats {
-    background: #fff;
-    font-size: 13px;
-    color: #666;
-    padding: 7px 10px;
-  }  
-}
-
 .social-button-row {
   float: left;
   padding-right: 6px;
@@ -295,7 +231,7 @@
   font-size: 27px;
   margin-left: 6px;
 }
-.shareBtns .social-button-row, 
+.shareBtns .social-button-row,
 .shareBtns .action-button-row {
   padding: 0;
   overflow: hidden;
@@ -319,7 +255,7 @@
   margin-right: 4px;
 }
 
-.content-row.xl, .content-row.bottom-content-module, 
+.content-row.xl, .content-row.bottom-content-module,
 .content-row.top-content-module {
   border-top: 1px solid #e6e6e6;
   padding-top: 16px;
@@ -341,7 +277,7 @@
   line-height: 0;
 }
 
-.shareBtns .social-button-row .hzi-Facebook:hover, 
+.shareBtns .social-button-row .hzi-Facebook:hover,
 .shareBtns .social-button-row .hzi-SmallFacebook:hover {
   color: #3b5998;
 }

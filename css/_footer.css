@@ -1,3 +1,18 @@
+/* footer, light box */
 #stickyFooterActions {
-  z-index: 9999;
+  z-index: 999;
+}
+
+body.showlb {
+  overflow: hidden;
+}
+
+.thumb-grid.grid-5 li {
+  width: calc(20% - 12px + 8px / 5);
+}
+
+#minimizedFooter {
+  width: 100%;
+  padding-top: 16px;
+  text-align: center;
 }
