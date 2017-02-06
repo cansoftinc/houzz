@@ -447,7 +447,7 @@
   text-align: initial;
 }
 
-#relatedSearches .related-searches-links a, 
+#relatedSearches .related-searches-links a,
 #related_shopping .related-searches-links a {
   background: #f0f0f0;
   padding: 4px 6px;
@@ -462,7 +462,7 @@
   font-weight: bold;
 }
 
-#relatedSearches .related-searches-links a:hover, 
+#relatedSearches .related-searches-links a:hover,
 #related_shopping .related-searches-links a:hover {
   color: #3d8901;
 }
@@ -549,13 +549,13 @@ div.rGTextDiv {
 }
 
 @media (min-width: 1280px) {
-  #mainContent .leftSideContentWithAd .topicContainer, 
+  #mainContent .leftSideContentWithAd .topicContainer,
   #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #viewGalleryContentWrapperNarrow {
     width: 660px;
     margin-left: auto;
     margin-right: auto;
   }
-} 
+}
 
 #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn .viewGalleryAuthor {
   border-top: 1px solid #e6e6e6;
@@ -969,3 +969,336 @@ a.commentIcon, a.voteIcon {
 .rightSideContent .pagination-wrapper {
     margin-top: 30px;
 }
+
+.pro-landing-hero {
+    margin: -16px -16px 40px;
+    height: 250px;
+    position: relative;
+    background-position: center;
+}
+
+.pro-landing-hero-v2 {
+    height: auto;
+    background-image: url(https://st.hzcdn.com/fimgs/c93186e007509d2f_0919-w964-h350-b0-p0--home-design.jpg);
+}
+
+.pro-landing-hero__content {
+    padding: 33px 66px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pro-landing-hero-v2 .pro-landing-hero__content {
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.pro-landing-hero .main-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.pro-landing-hero-v2 .main-title {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.pro-landing-hero-v2 .secondary-title {
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.hbs .text-unbold {
+    font-weight: normal;
+}
+
+.pro-search-bar[compId="searchbar"] {
+    padding-bottom: 15px;
+}
+
+.pro-landing-hero ul.pro-search {
+    border: none;
+}
+ul.pro-search {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+#proLocationSearch {
+    width: 125px;
+}
+.hbs .form-control.input-lg, .hbs input[type=text].input-lg, .hbs input[type=password].input-lg {
+    height: 40px;
+    padding: 7px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+}
+ul.pro-search .pro-type-search-input {
+    width: 40%;
+}
+ul.pro-search.pro-search-v2 .pro-type-search-input {
+    width: 60%;
+    position: relative;
+}
+ul.pro-search.pro-search-v2 #proZipSearch, ul.pro-search.pro-search-v2 #proKeywordSearch {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+}
+ul.pro-search.pro-search-v2 #proKeywordSearch {
+    border-radius: 3px 0 0 3px;
+}
+
+ul.pro-search.pro-search-v2 #proZipSearch, ul.pro-search.pro-search-v2 #proKeywordSearch {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+}
+ul.pro-search.pro-search-v2 .pro-search-input {
+    height: 48px;
+}
+ul.pro-search.pro-search-v2 #proZipSearch {
+    padding-left: 30px;
+    border-radius: 0;
+}
+ul.pro-search .pro-location-search-input {
+    width: 25%;
+    position: relative;
+}
+ul.pro-search.pro-search-v2 .pro-location-search-input {
+    width: 20%;
+}
+
+ul.pro-search #proLocationIcon {
+    position: absolute;
+    line-height: 40px;
+    top: 0;
+    left: 7px;
+    color: #ababab;
+}
+ul.pro-search.pro-search-v2 #proLocationIcon {
+    top: 4px;
+}
+ul.pro-search li {
+    float: left;
+    vertical-align: middle;
+}
+ul.pro-search.pro-search-v2 .pro-search-button-input {
+    width: 20%;
+    border-left: none;
+}
+
+ul.pro-search .pro-search-button {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+    display: block;
+    font-weight: bold;
+}
+ul.pro-search.pro-search-v2 .pro-search-input {
+    height: 48px;
+}
+
+.pro-landing-hero__content {
+    padding: 33px 66px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ul.pro-search li + li {
+    border-left: 1px solid #e6e6e6;
+}
+.pro-tile {
+    position: relative;
+    float: left;
+    width: 23%;
+    margin-bottom: 2%;
+}
+.pro-tiles-group__pro-icon {
+    font-size: 12px;
+    background: #3d8901;
+    color: #fff;
+    float: left;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+
+.hbs .img-responsive-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hbs .img-responsive-wrapper.img-responsive-square {
+    padding-bottom: 100%;
+}
+.hbs .img-responsive-wrapper .img-responsive, .hbs .img-responsive-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+.hbs img {
+    vertical-align: middle;
+}
+
+.pro-tile__cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.24);
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.6)));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#99000000', GradientType=0);
+    background-color: transparent;
+}
+
+.pro-tile__title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    line-height: 1.2em;
+    padding: 1em 15px;
+    font-weight: bold;
+}
+
+.proDirectory .headerContainer {
+    margin-bottom: 30px;
+}
+.horizontal.pro-card {
+    position: relative;
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.hz-grey-bg .horizontal.pro-card {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+.horizontal.pro-card .pro-cover-photos {
+    font-size: 0;
+    float: left;
+    width: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.hz-grey-bg .horizontal.pro-card .pro-cover-photos {
+    width: 342px;
+    float: left;
+}
+.horizontal.pro-card .vcard {
+    width: 390px;
+    float: left;
+}
+@media (min-width: 1280px) {
+  .horizontal.pro-card .pro-cover-photos {
+    width: 411px;
+  }
+  .hz-grey-bg .horizontal.pro-card .pro-cover-photos {
+    width: 383px;
+  }
+  .horizontal.pro-card .vcard {
+    width: 566px;
+  }
+  .hz-grey-bg .horizontal.pro-card .vcard {
+      width: 549px;
+  }
+  .horizontal--phone-contact.pro-card .pro-info {
+    max-width: 450px;
+  }
+}
+.horizontal--phone-contact.pro-card .pro-header {
+    overflow: initial;
+}
+.horizontal.pro-card .pro-header {
+    padding: 0 0 0 10px;
+    position: relative;
+}
+.horizontal.pro-card .vcard .pro-meta, .horizontal.pro-card .vcard .pro-description {
+    padding: 10px 0 0 10px;
+}
+
+.pro-card .pro-info {
+    overflow: hidden;
+}
+
+.horizontal--phone-contact.pro-card .pro-meta-extra {
+    padding-left: 10px;
+    position: absolute;
+    margin: 0;
+    bottom: 16px;
+}
+.horizontal--phone-contact.pro-card .pro-meta-extra .pro-list-item + .pro-list-item {
+    margin-left: 20px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    max-width: 230px;
+}
+@media (min-width: 1280px) {
+  .horizontal--phone-contact.pro-card .pro-meta-extra .pro-list-item + .pro-list-item {
+    max-width: 345px;
+  }
+}
+.horizontal--phone-contact.pro-card .pro-meta-extra .pro-location {
+    color: #ababab;
+}
+.horizontal--phone-contact.pro-card .pro-meta-extra .pro-list-item {
+    float: left;
+}
+
+.hz-grey-bg .horizontal.pro-card:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.pro-card .proThumb {
+    float: left;
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.pro-card .pro-title, .pro-card .pro-rating {
+    margin-left: 50px;
+    display: block;
+}
+.horizontal.pro-card .pro-header .pro-title {
+    font-size: 18px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.4em;
+    max-height: 4.2em;
+    overflow: hidden;
+}
+.horizontal--phone-contact.pro-card .pro-header .pro-title {
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    max-height: 4.8em;
+}
+
+
