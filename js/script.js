@@ -1,5 +1,9 @@
 jQuery(document).ready(function($) {
   console.log('ready');
+  // html5 validate
+  $.validate({
+    modules : 'html5'
+  });
 
   // carousel
   if($("#homeSlider").length) {

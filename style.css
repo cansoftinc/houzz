@@ -1,8 +1,8 @@
 .houzz-header-secondary {
-  transition: all .3s;
-  -ms-transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 /* break point */
@@ -1856,14 +1856,6 @@ body.hbs {
   }
 }
 
-#body-container #signup {
-  display: none;
-  width: 675px;
-  display: block;
-  opacity: 1;
-  margin-top: 200px;
-}
-
 #body-container #signup #header {
   text-align: center;
 }
@@ -1886,20 +1878,24 @@ body.hbs {
 }
 
 #body-container #signup #body .facebook-signup {
-  margin-top: 46px;
+  margin-top: 34px;
   padding-left: 48px;
   text-align: center;
 }
 
-#body-container #signup #body .divider {
+#signup .create-account {
+  position: relative;
+}
+
+#signup .create-account:after {
   position: absolute;
-  left: 14px;
-  right: 0;
-  top: 49px;
-  margin: auto;
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: -14px;
   width: 1px;
-  height: 254px;
-  border-left: 1px solid #e7e7e7;
+  height: 100%;
+  background-color: #e7e7e7;
 }
 
 #body-container .dialog #body {
@@ -2061,6 +2057,16 @@ body.hbs {
 
 .p-list .imageArea {
   width: auto;
+}
+
+.gg-sign-up .section input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
 }
 
 /*@media (min-width: 1280px) {
@@ -2460,6 +2466,36 @@ body.showlb {
 .viewGalleryDescription, .viewGalleryMissingDescription {
   margin-top: 20px;
   word-wrap: break-word;
+}
+
+#body-container #signup {
+  width: 675px;
+  opacity: 1;
+  display: block;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 799px) {
+  #body-container #signup {
+    width: 85%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+  }
+  #body-container #signup #body .section #emailSignupForm {
+    width: auto;
+  }
+  #body-container #signup #body .facebook-signup {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #body-container #signup {
+    position: absolute;
+  }
 }
 
 @media screen and (max-width: 639px) {

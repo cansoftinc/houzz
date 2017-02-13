@@ -6,9 +6,11 @@
   <title>Sign Up</title>
   <link type="text/css" rel="stylesheet" href="css/style1.css" />
   <link type="text/css" rel="stylesheet" href="css/style2.css" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body class="t0 hbs new-std-header invisible-header secondary-rooms-header std-footer invisible-footer hz-pres-type-desktop" cz-shortcut-listen="true">
+<body class="t0 hbs new-std-header invisible-header secondary-rooms-header std-footer invisible-footer hz-pres-type-desktop gg-sign-up">
   <div class="hz-main">
     <div id="mainArea">
       <div id="mainContent">
@@ -17,36 +19,38 @@
             <div id="sign-up-content" scopeid="sign-up-content" class="comp-box">
               <div id="body-container" class="trackMe">
                 <div id="bg-image">
-                  <img src="https://st.hzcdn.com/simgs/80812d890c140954_9-2030/traditional-kitchen.jpg">
+                  <img src="images/traditional-kitchen.jpg">
                 </div>
                 <div id="signup" class="dialog  active" scopeid="signup">
                   <div id="header">
                     <h1 class="header-1">Welcome to Houzz</h1>
                     <h2 class="header-2">The new way to design your home</h2>
                   </div>
-                  <div id="body">
-                    <div class="row">
-                      <div id="signupErrors" class="authFlowError section col-sm-12"></div>
-                    </div>
+                  <div id="body">                    
                     <div class="row">
                       <div class="create-account section col-sm-6">
                         <form id="emailSignupForm" role="form" method="POST">
                           <div class="form-group" id="email-field">
                             <label for="email"><span class="text-m label-text">Email</span></label>
-                            <input id="email" name="email" class="form-control trackMe" compid="signup_email" type="email" autofocus="" value="">
+                            <input id="email" name="email" class="form-control trackMe" required="required" type="email">
                           </div>
                           <div class="form-group" id="password-field">
                             <label for="password">
                               <div class="text-m label-text">Password</div>
                             </label>
-                            <input id="password" name="password" class="form-control trackMe" compid="signup_password" type="password" placeholder="Minimum 6 characters">
+                            <input id="password" name="password" class="form-control trackMe" type="password" required="required" placeholder="Minimum 6 characters">
                           </div>
-                          <button id="sign-up-btn" class="hzBtn primary large" onclick="javascript:;">Sign Up</button>
+                          <div class="form-group" id="password-field">
+                            <label for="password">
+                              <div class="text-m label-text">Confirm Password</div>
+                            </label>
+                            <input id="confirm-confirm-password" name="confirm-password" class="form-control trackMe" type="confirm-password" required="required">
+                          </div>
+                          <button id="sign-up-btn" class="hzBtn primary large">Sign Up</button>
                           <div class="tos text-m text-dt-s">By signing up or signing in, I acknowledge and agree to Houzz's <a href="#" target="_new" class="colorLink">Terms&nbsp;of&nbsp;Use</a> and <a href="#" target="_new" class="colorLink">Privacy Policy</a>.</div>
                           <input id="iampro" name="iampro" type="hidden" value="no">
                         </form>
                       </div>
-                      <div class="divider"></div>
                       <div class="facebook-signup section col-sm-6">
                         <div class="text-m fb-title">Easily share with friends and family</div>
                         <button class="btn btn-lg mbl btn-default auth-btn--google auth-btn " id="googleSignUp" compid="google">
@@ -80,6 +84,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>  
+  <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

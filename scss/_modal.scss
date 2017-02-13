@@ -1,0 +1,29 @@
+#body-container #signup {
+  width: 675px;
+  opacity: 1;
+  display: block;
+  margin-top: 200px;
+}
+
+@include max(799px) {
+  #body-container #signup {
+    width: 85%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+  }
+  #body-container #signup #body .section #emailSignupForm {
+    width: auto;
+  }
+  #body-container #signup #body .facebook-signup {
+    padding-left: 0;
+  }
+}
+
+@include max(767px) {
+  #body-container #signup {
+    position: absolute;
+  }
+}
