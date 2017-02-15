@@ -1,0 +1,91 @@
+window.hzmr = window.hzmr || [];
+/************* Start checkout.js for locale en-US **************/
+try {//<script>
+
+HZ.ns("HZ.checkout");
+
+HZ.checkout.Config = {
+	CCTypeVisa: 0,
+	CCTypeMaster: 1,
+	CCTypeDiscover: 2,
+	CCTypeAmex: 3,
+	CCStatus_OK: 1,
+	CCStatus_EXPIRED: 2,
+	CCStatus_UNUSABLE: -1,
+	COPaymentFlow_Checkout: 1,
+	COPaymentFlow_Settings: 2,
+	COPaymentFlow_ChangeOrder: 3,
+	COPaymentFlow_ODS: 4,
+	PaymentMethodTypeCC: 0,
+	PaymentMethodTypeApplePay: 1,
+	PaymentMethodTypeAndroidPay: 2,
+	clientSideEncryptionKey: "MIIBCgKCAQEAusKQw8d/J2zMufQ+qWBwj5+RWMIW2G+aHuKMVRK0dmvoshWuK4hTOWA2HhCRRqfsP37kfuR2Mrsouw/W7sW58SsfhO7E7f1sPnOJaZH0mVpvQg3ACGXIRqfL5XC+EadmY/cQ9hgwB9ITZOIRLfdIBsLv/wwh51wHHLdlBT50ItTP+yzsCzdxG3xBeYjoIR99abnQSWlYF5j0hD2n6LRri0vSmONMl0fzewOl8NhnqDpcrR0bFRQP5P80LkWG3eSR2udV6q4Sy0jh1kqMZolcXoNMA7gXQmn2+BFgNR9Gg53ilDz2cVg+ERJIR755SJzuN/7n0ilzECfuZI1ENNgPWwIDAQAB",
+	newAddress: {
+		addressId:'new',
+		fullName:'',
+		addrLine1:'',
+		addrLine2:'',
+		city:'',
+		state:'',
+		zip:'',
+		country:'US',
+		telNumber:'',
+		telExtension:'',
+		nickName:'',
+		status:1
+	},
+	newCC: {
+		paymentMethodId:"",
+		ccType:-1,
+		ccNumber:"",
+		ccCvvNumber:"",
+		ccNameOnCard:"",
+		ccExpMonth:-1,
+		ccExpYear:-1,
+		billingAddress: {
+			addressId:'new',
+			fullName:'',
+			addrLine1:'',
+			addrLine2:'',
+			city:'',
+			state:'',
+			zip:'',
+			country:'US',
+			telNumber:'',
+			telExtension:'',
+			nickName:'',
+			status:1
+		},
+		status:1	},
+	requiredMissingErrors: {
+		"fullName":_hgt("Please provide a full name."),
+		"addrLine1":"Please provide a valid address.",
+		"city":"Please provide a city.",
+		"state":"Please provide a valid state.",
+		"zip":"Please provide a valid zip code",
+		"telNumber":"Please provide a valid phone number.",
+		"tel-area-code":"Please provide a valid area code.",
+		"tel-local-prefix":"Please provide a valid phone number.",
+		"tel-local-suffix":"Please provide a valid phone number.",
+		"ccType":"Please select a card type.",
+		"ccNumber":"Please provide a valid credit card number.",
+		"ccNameOnCard":"Please provide cardholder name.",
+		"ccExpMonth":"Please provide a valid expiration date.",
+		"ccExpYear":"Please provide a valid expiration date.",
+		"ccCvvNumber":"Please provide a security code."
+	}
+};
+
+$(document).ready(function () {
+	var editableSelectors = 'input[type="text"], input[type="password"], input[type="datetime"], input[type="date"], input[type="number"], input[type="email"], input[type="tel"], textarea';
+
+	$('body.hz-pres-type-app-embedded')
+		.on('focus', editableSelectors, function () {
+			$('body').addClass('keyboardOn');
+		});
+});
+
+window.hzmr.push("checkout:2470");
+} catch (err) {HZ.utils.Logger.sendJsExceptionStackTrace(err)}
+
+/*************  End checkout.js  **************/
