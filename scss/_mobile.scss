@@ -1,4 +1,7 @@
 @include max(767px) {
+  .hbs .rightSideContent {
+    float: none;
+  }
   .hbs .spaceData .col-xs-4 {
     width: 33.33333333%;
   }

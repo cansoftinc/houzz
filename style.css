@@ -1,8 +1,8 @@
 .houzz-header-secondary {
-  transition: all .3s;
-  -ms-transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 /* break point */
@@ -33,20 +33,43 @@
   padding-right: 15px;
 }
 
-.zrow.z432 .zcol {
+.zrow.zd4 .zcol {
   width: 25%;
 }
 
+.zrow.zd3 .zcol {
+  width: 33.333333333%;
+}
+
 @media screen and (max-width: 799px) {
-  .zrow.z432 .zcol {
+  .zrow.zp4 .zcol {
+    width: 25%;
+  }
+  .zrow.zp3 .zcol {
     width: 33.3333333%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .zrow.z432 .zcol {
+  .zrow.zm2 .zcol {
     width: 50%;
   }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 @media (min-width: 1280px) {
@@ -67,16 +90,6 @@ ul, ol {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-#stickyFooterActions {
-  bottom: 75px;
-}
-
-@media screen and (max-width: 799px) {
-  #stickyFooterActions {
-    bottom: 7px;
-  }
 }
 
 .houzz-header .hzi-MH-Close,
@@ -2112,6 +2125,10 @@ body.hbs {
   box-shadow: none;
 }
 
+.zproducts .products-wrapper .product-item-column {
+  width: 100%;
+}
+
 /*@media (min-width: 1280px) {
   .whiteCard.xl .photo {
     width: 550px;
@@ -2178,6 +2195,13 @@ body.hbs {
 /* footer, light box */
 #stickyFooterActions {
   z-index: 999;
+  bottom: 75px;
+}
+
+@media screen and (max-width: 799px) {
+  #stickyFooterActions {
+    bottom: 7px;
+  }
 }
 
 body.showlb {
@@ -2565,6 +2589,22 @@ body.showlb {
 }
 
 @media screen and (max-width: 799px) {
+  #mainArea,
+  body.hbs .container,
+  body.hz-grey-bg .rightSideContent-bottom {
+    min-width: 0;
+    width: 100%;
+  }
+  body.hz-grey-bg .rightSideContent {
+    margin-left: 0;
+  }
+  .zproducts .shop-landing-grid-promotions {
+    margin-left: 0;
+  }
+  .zproducts .shop-landing-grid-promotions .shop-landing-promotion {
+    margin-left: 0;
+    width: auto;
+  }
   body.hz-grey-bg .leftSideBar {
     display: none;
   }
@@ -2643,6 +2683,9 @@ body.showlb {
 }
 
 @media screen and (max-width: 767px) {
+  .hbs .rightSideContent {
+    float: none;
+  }
   .hbs .spaceData .col-xs-4 {
     width: 33.33333333%;
   }

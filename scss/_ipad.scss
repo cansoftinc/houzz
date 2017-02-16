@@ -1,4 +1,22 @@
 @include max(799px) {
+  #mainArea,
+  body.hbs .container,
+  body.hz-grey-bg .rightSideContent-bottom {
+    min-width: 0;
+    width: 100%;
+  }
+  body.hz-grey-bg .rightSideContent {
+    margin-left: 0;
+  }
+  .zproducts {
+    .shop-landing-grid-promotions {
+      margin-left: 0;
+    }
+    .shop-landing-grid-promotions .shop-landing-promotion {
+      margin-left: 0;
+      width: auto;
+    }
+  }
   body.hz-grey-bg .leftSideBar {
     display: none;
   }

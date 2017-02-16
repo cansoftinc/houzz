@@ -1643,6 +1643,10 @@ body.hbs {
   box-shadow: none;
 }
 
+.zproducts .products-wrapper .product-item-column {
+  width: 100%;
+}
+
 /*@media (min-width: 1280px) {
   .whiteCard.xl .photo {
     width: 550px;
@@ -1706,3 +1710,4 @@ body.hbs {
     padding: 7px 10px;
   }
 }*/
+
