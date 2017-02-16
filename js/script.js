@@ -1,9 +1,11 @@
 jQuery(document).ready(function($) {
   console.log('ready');
   // html5 validate
-  $.validate({
-    modules : 'html5'
-  });
+  if($('.gg-sign-up').length) {
+    $.validate({
+      modules : 'html5'
+    });
+  }
 
   // carousel
   if($("#homeSlider").length) {
@@ -14,27 +16,27 @@ jQuery(document).ready(function($) {
       transitionStyle: 'fade'
     });
   }
-  
+
   if($("#square-slider-1").length) {
     $("#square-slider-1").owlCarousel({
       singleItem: true,
       autoPlay: true
     });
   }
-  
+
   if($("#square-slider-2").length) {
     $("#square-slider-2").owlCarousel({
       singleItem: true,
       autoPlay: true
     })
   }
-  
+
   if($("#product-slider-1").length) {
     $("#product-slider-1").owlCarousel({
       singleItem: true,
       autoPlay: true
     })
-  }  
+  }
 
   // navigation level 2
   var houzzHeader = $('.houzz-header');
@@ -127,8 +129,8 @@ jQuery(document).ready(function($) {
     } else {
       $('#lbMain').addClass('expanded');
       $('#lbActions .expand-toggle').addClass('active');
-    }    
-  });  
+    }
+  });
 
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
