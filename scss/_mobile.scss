@@ -1,4 +1,18 @@
 @include max(767px) {
+  .z-checkout {
+    #coPage {
+      width: 100%;
+    }
+    #coBreadcrumbs {
+      display: block;
+      li {
+        float: none;
+      }
+    }
+    #coBreadcrumbs {
+      display: none;
+    }
+  }
   .hbs .rightSideContent {
     float: none;
   }

@@ -1647,6 +1647,23 @@ body.hbs {
   width: 100%;
 }
 
+.z-product-list {
+  .whiteCard.m .photo-title, 
+  .whiteCard.m .product-title {
+    max-height: none;
+  }
+  .browseProducts .whiteCard.m {
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+}
+
+.z-checkout {
+  #coPage {
+    padding-bottom: 0;
+  }
+}
+
 /*@media (min-width: 1280px) {
   .whiteCard.xl .photo {
     width: 550px;

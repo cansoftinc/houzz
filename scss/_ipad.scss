@@ -1,4 +1,30 @@
 @include max(799px) {
+  .z-checkout {
+    #coPage {
+      width: 100%;
+    }
+    #coBreadcrumbs {
+      position: static;
+      li {
+        margin-left: 0;
+        margin-right: 30px;
+      }
+    }
+    #coMain {
+      width: 468px;
+    }
+    #paymentForm, #addressForm {
+      width: 100%;
+    }
+  }
+  .whiteCard .photo .hoverButtons, 
+  .whiteCard .hoverButtons {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .whiteCard.m {
+    width: 100%!important;
+  }
   #mainArea,
   body.hbs .container,
   body.hz-grey-bg .rightSideContent-bottom {

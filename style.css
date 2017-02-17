@@ -54,6 +54,9 @@
   .zrow.zm2 .zcol {
     width: 50%;
   }
+  .zrow.zm1 .zcol {
+    width: 100%;
+  }
 }
 
 * {
@@ -2129,6 +2132,20 @@ body.hbs {
   width: 100%;
 }
 
+.z-product-list .whiteCard.m .photo-title,
+.z-product-list .whiteCard.m .product-title {
+  max-height: none;
+}
+
+.z-product-list .browseProducts .whiteCard.m {
+  margin-bottom: 30px;
+  margin-left: 0;
+}
+
+.z-checkout #coPage {
+  padding-bottom: 0;
+}
+
 /*@media (min-width: 1280px) {
   .whiteCard.xl .photo {
     width: 550px;
@@ -2589,6 +2606,30 @@ body.showlb {
 }
 
 @media screen and (max-width: 799px) {
+  .z-checkout #coPage {
+    width: 100%;
+  }
+  .z-checkout #coBreadcrumbs {
+    position: static;
+  }
+  .z-checkout #coBreadcrumbs li {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+  .z-checkout #coMain {
+    width: 468px;
+  }
+  .z-checkout #paymentForm, .z-checkout #addressForm {
+    width: 100%;
+  }
+  .whiteCard .photo .hoverButtons,
+  .whiteCard .hoverButtons {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  .whiteCard.m {
+    width: 100% !important;
+  }
   #mainArea,
   body.hbs .container,
   body.hz-grey-bg .rightSideContent-bottom {
@@ -2683,6 +2724,18 @@ body.showlb {
 }
 
 @media screen and (max-width: 767px) {
+  .z-checkout #coPage {
+    width: 100%;
+  }
+  .z-checkout #coBreadcrumbs {
+    display: block;
+  }
+  .z-checkout #coBreadcrumbs li {
+    float: none;
+  }
+  .z-checkout #coBreadcrumbs {
+    display: none;
+  }
   .hbs .rightSideContent {
     float: none;
   }
