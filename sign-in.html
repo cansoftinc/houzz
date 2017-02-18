@@ -6,25 +6,12 @@
   <title>Sign In</title>
   <link type="text/css" rel="stylesheet" href="css/style1.css" />
   <link type="text/css" rel="stylesheet" href="css/style2.css" />
+  <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body class="t0 hbs simple-header simple-footer hz-pres-type-desktop en-US" cz-shortcut-listen="true">
+<body class="t0 hbs simple-header simple-footer hz-pres-type-desktop z-validate z-sign-in">
   <div class="hz-main">
-    <div class="hz-header">
-      <div id="headerContainer" scopeid="headerContainer" class="comp-box">
-        <div id="navHeader" class="authflow">
-          <div class="houzz-header">
-            <div class="container">
-              <a id="navHome" objid="navHome" class="brand" href="#">
-              <img class="sprite-header-logo" src="https://st.hzcdn.com/res/2483/pic/spacer.gif?v=2483" width="2" height="2">
-              </a>
-              <ul class="list-unstyled header-nav attach-right">
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div id="mainArea">
       <div id="mainContent">
         <div class="container">
@@ -35,14 +22,14 @@
                   <div class="authFlowTitle header-1">Sign In to Houzz</div>
                   <div id="signinErrors" class="authFlowError"></div>
                   <div class="dlgUserDetails">
-                    <form id="signinForm" onsubmit="return true;" method="POST" action="javascript:;">
+                    <form id="signinForm">
                       <div class="authFlowFieldTitle text-l mts mbs">Username or Email</div>
                       <div class="dlgInputRow">
-                        <input class="authFlowInput" placeholder="" id="username" name="username" value="" type="text" autocapitalize="none">
+                        <input class="authFlowInput" placeholder="" id="username" name="username" value="" type="text" required="required">
                       </div>
                       <div class="authFlowFieldTitle text-l mts mbs">Password</div>
                       <div class="dlgInputRow">
-                        <input class="authFlowInput" placeholder="" id="password" name="password" type="password">
+                        <input class="authFlowInput" placeholder="" id="password" name="password" type="password" required="required">
                       </div>
                       <div class="authFlowFieldTitle subHeadingText checkbox"><label><input type="checkbox" checked="checked" id="keepSignedin">Keep me signed in</label></div>
                       <div class="dlgInputRow">
@@ -52,10 +39,7 @@
                         <a href="#" target="_new" class="colorLink subHeadingText icon-wrap">Forgot your username or password?<span class="more-icon"></span></a>
                       </div>
                     </form>
-                  </div>
-                  <div id="signinCenterCol">
-                    <div id="dlgDivider"></div>
-                  </div>
+                  </div>                  
                   <div id="dlgFbSignIn">
                     <button class="btn btn-lg mbl btn-default auth-btn--google auth-btn" id="googleSignIn" compid="">
                       <div class="auth-btn__icon-text-container">
@@ -84,11 +68,9 @@
         </div>
       </div>
     </div>
-    <div class="hz-footer">
-      <div id="footerContainer" scopeid="footerContainer" class="comp-box">
-        <div id="minimizedFooter">©&nbsp;2017 Houzz Inc.</div>
-      </div>
-    </div>
   </div>
+  <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

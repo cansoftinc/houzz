@@ -42,6 +42,11 @@
         width: 33.3333333%;
       }
     }
+    &.zp2 {
+      .zcol {      
+        width: 50%;
+      }
+    }
   }
   @include max(767px) {
     &.zm2 {
@@ -53,6 +58,11 @@
       .zcol {      
         width: 100%;
       }
+    }
+  }
+  @include max (799px) {
+    img {
+      max-width: 100%;
     }
   }
 }
@@ -69,7 +79,7 @@
   box-sizing: border-box
 }
 
-html, body {
+html {
   overflow-x: hidden;
 }
 
@@ -92,7 +102,9 @@ ul, ol {
   padding: 0;
 }
 
-
+.mb-show {
+  display: none;
+}
 
 .houzz-header .hzi-MH-Close,
 body.sidenav-in .hzi-MH-Menu {

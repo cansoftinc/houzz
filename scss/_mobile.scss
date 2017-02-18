@@ -1,4 +1,99 @@
 @include max(767px) {
+  .mb-show {
+    display: block;
+  }
+  .mb-hide {
+    display: none;
+  }
+  .hbs .rightSideBarWide,
+  #relatedSearches,
+  #related_shopping {
+    display: none;
+  }
+  .z-product-single {
+    .leftSideContentNarrow {
+      padding-right: 0;
+      .product-promotion,
+      .products-cobuy,
+      .recently-viewed {
+        display: none;
+      }
+    }
+    .rightSideBarWide {
+      width: 100%;
+      display: block;
+      padding: 0 10px;
+      &.mb-show {
+        float: none;
+      }
+    }
+    .spaceContent {
+      border-top: none;
+    }    
+    .header-1 {
+      font-size: 22px;
+    }
+    #keywordsDiv {
+      display: none;
+    }
+  }
+  .z-sign-in {
+    .signup #authFlowContainer, 
+    #mainContent.signin #authFlowContainer,
+    #mainContent.signin {
+      width: 100%;
+    }
+    .authFlowTitle {
+      padding-left: 30px;
+    }
+    .dlgUserDetails:after {
+      display: none;
+    }
+    .signin .dlgUserDetails {
+      margin-right: 0;
+      width: 100%;
+      padding: 0 15px;
+    }
+  }
+  .z-view-cart {
+    #coPage #coHeader h1.contact-support-top {
+      padding: 0;
+    }
+    .coBoxBody .coProductGroup .price-mobile {
+      width: 100%;
+      padding-left: 21%;
+    }
+    .coBoxBody .coProductGroup .itemPrice {
+      width: 25%;
+      margin-top: 8px;
+    }
+    .coBoxBody .coProductGroup .itemQuantity {
+      width: 70%;
+      .inline-dropdown-container {
+        display: block;
+        text-align: center;
+      }
+      .dropdown-wrapper-2 {
+        display: inline-block;
+      }
+    }
+    .coBoxBody .coProductGroup .price-mobile .itemQuantity .actions {
+      display: inline-block;
+      margin-right: 10px;
+      .moveToWishList {
+        display: inline;
+      }
+    }
+    #orderSummaryBox .continue {
+      height: auto;
+      padding-bottom: 35px;
+    }
+    #coPage #coSecondary #box-bottom {
+      width: auto;
+      left: 10px;
+      right: 10px;
+    }
+  }
   .z-checkout {
     #coPage {
       width: 100%;
@@ -52,12 +147,7 @@
   }
   .wrapper {
     width: 100%;
-  }
-  .hbs .rightSideBarWide,
-  #relatedSearches,
-  #related_shopping {
-    display: none;
-  }
+  }  
   .hbs .leftSideContentNarrow {
     float: none;
     width: 100%;

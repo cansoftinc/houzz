@@ -9,7 +9,7 @@
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="css/style3.css" rel="stylesheet" type="text/css">
 </head>
-<body class="hbs new-std-header secondary-rooms-header hz-pres-type-desktop">  
+<body class="hbs new-std-header secondary-rooms-header hz-pres-type-desktop z-checkout z-view-cart">  
   <div class="background-white" id="mainArea">
     <div id="mainContent">
       <div class="container">
@@ -32,7 +32,6 @@
                   <b>Your Items</b>
                 </div>
                 <div class="itemDetail">
-                  &nbsp;
                 </div>
                 <div class="itemPrice">
                   <b>Price</b>
@@ -99,15 +98,15 @@
                                 </option>
                               </select>
                             </div>
-                          </div><button class="hide update itemAction hzBtn primary" onclick="HZ.cart.editCart.updateItem(18447527, 37500240)">Update</button>
+                          </div><button class="hide update itemAction hzBtn primary">Update</button>
                           <div class="hide quantityMsg">
                             Updated!
                           </div>
                           <div class="actions">
-                            <a class="itemAction removeItem" href="javascript:;" onclick="HZ.cart.editCart.removeItem(18447527)">Remove</a>
+                            <a class="itemAction removeItem" href="#">Remove</a>
                           </div>
                           <div class="actions">
-                            <a class="itemAction moveToWishList" href="javascript:;" onclick="HZ.cart.editCart.moveToWishList(18447527,37500240)">Move to Wish List</a>
+                            <a class="itemAction moveToWishList" href="#">Move to Wish List</a>
                           </div>
                         </div>
                       </div>
@@ -139,7 +138,10 @@
                         <div class="quantity">
                           <div class="inline-dropdown-container">
                             <div class="dropdown-wrapper-2" style="width: 45px;">
-                              <span class="dropdown-label-icon"></span><span class="dropdown-label">1</span><span class="dropdown-icon"></span> <select class="quantityInput form-control" data-cart-id="18451024" data-item-id="20651990" id="q20651990" style="width: 100%; height: 100%;">
+                              <span class="dropdown-label-icon"></span>
+                              <span class="dropdown-label">1</span>
+                              <span class="dropdown-icon"></span> 
+                              <select class="quantityInput form-control" data-cart-id="18451024" data-item-id="20651990" id="q20651990" style="width: 100%; height: 100%;">
                                 <option selected value="1">
                                   1
                                 </option>

@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
   console.log('ready');
   // html5 validate
-  if($('.gg-sign-up').length) {
+  if($('.z-validate').length) {
     $.validate({
       modules : 'html5'
     });
