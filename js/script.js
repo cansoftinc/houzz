@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
   if($("#square-slider-1").length) {
     $("#square-slider-1").owlCarousel({
       singleItem: true,
-      autoPlay: true
+      autoPlay: false
     });
   }
 

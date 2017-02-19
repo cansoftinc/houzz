@@ -2460,23 +2460,24 @@ body.hbs {
   background-color: #e7e7e7;
 }
 
-/*@media (min-width: 1280px) {
-  .whiteCard.xl .photo {
+@media (min-width: 1280px) {
+  .z-photos .whiteCard.xl .photo {
     width: 550px;
   }
 }
 
-.whiteCard.xl .photo {
+.z-photos .whiteCard.xl .photo {
   width: 500px;
   position: relative;
   overflow: hidden;
 }
-.whiteCard.xl .photo {
+
+.z-photos .whiteCard.xl .photo {
   min-height: 250px;
   width: 550px;
 }
 
-.photoMeta {
+.z-photos .photoMeta {
   position: absolute;
   padding-left: 10px;
   top: 0;
@@ -2485,44 +2486,51 @@ body.hbs {
   bottom: 0;
 }
 
-.content-row.xl .whiteCard {
+.z-photos .content-row.xl .whiteCard {
   border: none;
-  .user-thumb {
-    display: inline-block;
-    zoom: 1;
-    margin-right: 10px;
-    width: 42px;
-    height: 42px;
-  }
-  .user-name-wrapper {
-    display: inline-block;
-    vertical-align: middle;
-    zoom: 1;
-    max-width: 148px;
-  }
-  .photoMeta .uploader, .photoMeta .photoInfo {
-    padding: 10px;
-    overflow: hidden;
-  }
-  .photoMeta .photoDetails.bottom {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-  }
-  .photoMeta .autoDesc {
-    background: #fff;
-    font-size: 13px;
-    color: #666;
-    padding: 7px 10px 0px 10px;
-  }
-  .photoMeta .stats {
-    background: #fff;
-    font-size: 13px;
-    color: #666;
-    padding: 7px 10px;
-  }
-}*/
+}
+
+.z-photos .content-row.xl .whiteCard .user-thumb {
+  display: inline-block;
+  zoom: 1;
+  margin-right: 10px;
+  width: 42px;
+  height: 42px;
+}
+
+.z-photos .content-row.xl .whiteCard .user-name-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  max-width: 148px;
+}
+
+.z-photos .content-row.xl .whiteCard .photoMeta .uploader, .z-photos .content-row.xl .whiteCard .photoMeta .photoInfo {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.z-photos .content-row.xl .whiteCard .photoMeta .photoDetails.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.z-photos .content-row.xl .whiteCard .photoMeta .autoDesc {
+  background: #fff;
+  font-size: 13px;
+  color: #666;
+  padding: 7px 10px 0px 10px;
+}
+
+.z-photos .content-row.xl .whiteCard .photoMeta .stats {
+  background: #fff;
+  font-size: 13px;
+  color: #666;
+  padding: 7px 10px;
+}
+
 /* footer, light box */
 #stickyFooterActions {
   z-index: 999;
@@ -2928,6 +2936,34 @@ body.showlb {
 }
 
 @media screen and (max-width: 799px) {
+  .z-photos.hbs .leftSideBar {
+    width: 25%;
+    display: block;
+  }
+  .z-photos.hbs .rightSideContent {
+    width: 75%;
+  }
+  .z-photos.hbs .whiteCard.xl .photo {
+    width: 66.666667%;
+    float: left;
+  }
+  .z-photos.hbs .imageArea {
+    width: 100%;
+  }
+  .z-photos.hbs .photoMeta {
+    position: static;
+  }
+  .z-photos.hbs .content-row.xl .whiteCard .photoMeta .photoDetails.bottom {
+    position: static;
+    overflow: hidden;
+  }
+  .z-photos.hbs .shareBtns .social-button-row, .z-photos.hbs .shareBtns .action-button-row {
+    float: none;
+  }
+  .z-photos.hbs .content-row.xl .whiteCard .photoMeta .stats,
+  .z-photos.hbs .content-row.xl .whiteCard .photoMeta .autoDesc {
+    display: none;
+  }
   .z-product-single .leftSideContentNarrow {
     width: 66.66666666%;
     padding-right: 10px;
@@ -2935,7 +2971,7 @@ body.showlb {
   .z-product-single .rightSideBarWide {
     width: 33.33333333%;
   }
-  .z-product-single .hbs .header-1 {
+  .z-product-single .header-1 {
     font-size: 22px;
   }
   .z-product-single .product-reviews {
@@ -3028,12 +3064,6 @@ body.showlb {
     margin-left: 0;
     width: auto;
   }
-  body.hz-grey-bg .leftSideBar {
-    display: none;
-  }
-  body.hz-grey-bg .rightSideContent {
-    width: 100%;
-  }
   .feedItem.square .feed-snapshot {
     width: 246px;
     height: 225px;
@@ -3111,6 +3141,45 @@ body.showlb {
   }
   .mb-hide {
     display: none;
+  }
+  .z-home .homeSliderWrapper {
+    height: auto;
+  }
+  .z-home .signUpBox.new-hp-signup-box {
+    top: 50%;
+    padding: 10px;
+  }
+  .z-home .cta .hero-title {
+    font-size: 22px;
+  }
+  .z-home .signUpBox .hp-button {
+    margin: 0 0 10px;
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 38px;
+  }
+  .z-home .signUpBox .hp-button__icon--email {
+    margin-top: 8px;
+  }
+  .z-home .signUpBox .hp-button__icon--fb {
+    margin-top: 6px;
+  }
+  .z-home #hp-visitor-global-sites .col-xs-4,
+  .z-home #square-slider-1 .ppb__carousel-icon-row .col-xs-4 {
+    width: 33.333333%;
+  }
+  .z-photos.hbs .leftSideBar {
+    display: none;
+  }
+  .z-photos.hbs .rightSideContent {
+    width: 100%;
+  }
+  .z-photos.hbs .whiteCard.xl .photo {
+    width: 100%;
+  }
+  .z-photos.hbs .headerContainer .pagination {
+    float: none;
   }
   .hbs .rightSideBarWide,
   #relatedSearches,
