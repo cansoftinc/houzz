@@ -5,6 +5,14 @@
   .mb-hide {
     display: none;
   }
+  body.z-product-list {
+    .leftSideBar {
+      display: none;
+    }
+    .rightSideContent {
+      width: 100%;
+    }
+  }
   body.z-professionals {
     .leftSideBar {
       display: none;

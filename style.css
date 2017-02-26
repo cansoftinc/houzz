@@ -2940,6 +2940,16 @@ body.showlb {
 }
 
 @media screen and (max-width: 799px) {
+  body.z-product-list .leftSideBar {
+    width: 20%;
+  }
+  body.z-product-list .rightSideContent {
+    width: 80%;
+  }
+  body.z-product-list .hzBtn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   body.z-professionals .leftSideBar {
     width: 20%;
   }
@@ -3180,6 +3190,12 @@ body.showlb {
   }
   .mb-hide {
     display: none;
+  }
+  body.z-product-list .leftSideBar {
+    display: none;
+  }
+  body.z-product-list .rightSideContent {
+    width: 100%;
   }
   body.z-professionals .leftSideBar {
     display: none;

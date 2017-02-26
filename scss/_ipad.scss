@@ -1,4 +1,16 @@
 @include max(799px) {
+  body.z-product-list {
+    .leftSideBar {
+      width: 20%;
+    }
+    .rightSideContent {
+      width: 80%;
+    }
+    .hzBtn {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
   body.z-professionals {
     .leftSideBar {
       width: 20%;  
