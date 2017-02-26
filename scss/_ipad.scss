@@ -1,4 +1,41 @@
 @include max(799px) {
+  body.z-professionals {
+    .leftSideBar {
+      width: 20%;  
+    }
+    .rightSideContent {
+      width: 80%;
+    }
+    .pro-landing-hero-v2 .pro-landing-hero__content {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .horizontal.pro-card .pro-cover-photos {
+      width: 45%;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .horizontal.pro-card .vcard {
+      float: none;
+      width: auto;
+      overflow: hidden;
+    }
+    .horizontal--phone-contact.pro-card .pro-meta-extra {
+      position: static;
+      margin-top: 20px;
+    }
+    .horizontal--phone-contact.pro-card .pro-meta-extra .pro-list-item + .pro-list-item {
+      margin: 0;
+    }
+    .rightSideContent-bottom {
+      margin-top: 20px;
+      .r-bottom-content + .r-bottom-content {
+        margin-top: 20px;
+      }
+    }
+  }
   .z-photos.hbs {
     .leftSideBar {
       width: 25%;      

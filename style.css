@@ -425,6 +425,10 @@ body.sidenav-in .menu-active .menu-body {
 }
 
 /* Custom Style - Giang DN */
+.z-professionals .pro-tile {
+  width: 100%;
+}
+
 .z-product-single .review .review-flag {
   color: #ABABAB;
   font-size: 12px;
@@ -2936,6 +2940,41 @@ body.showlb {
 }
 
 @media screen and (max-width: 799px) {
+  body.z-professionals .leftSideBar {
+    width: 20%;
+  }
+  body.z-professionals .rightSideContent {
+    width: 80%;
+  }
+  body.z-professionals .pro-landing-hero-v2 .pro-landing-hero__content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  body.z-professionals .horizontal.pro-card .pro-cover-photos {
+    width: 45%;
+  }
+  body.z-professionals .horizontal.pro-card .pro-cover-photos img {
+    max-width: 100%;
+    height: auto;
+  }
+  body.z-professionals .horizontal.pro-card .vcard {
+    float: none;
+    width: auto;
+    overflow: hidden;
+  }
+  body.z-professionals .horizontal--phone-contact.pro-card .pro-meta-extra {
+    position: static;
+    margin-top: 20px;
+  }
+  body.z-professionals .horizontal--phone-contact.pro-card .pro-meta-extra .pro-list-item + .pro-list-item {
+    margin: 0;
+  }
+  body.z-professionals .rightSideContent-bottom {
+    margin-top: 20px;
+  }
+  body.z-professionals .rightSideContent-bottom .r-bottom-content + .r-bottom-content {
+    margin-top: 20px;
+  }
   .z-photos.hbs .leftSideBar {
     width: 25%;
     display: block;
@@ -3141,6 +3180,43 @@ body.showlb {
   }
   .mb-hide {
     display: none;
+  }
+  body.z-professionals .leftSideBar {
+    display: none;
+  }
+  body.z-professionals .rightSideContent {
+    width: 100%;
+  }
+  body.z-professionals .pro-landing-hero-v2 .pro-landing-hero__content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  body.z-professionals ul.pro-search.pro-search-v2 .pro-search-button-input {
+    width: 100%;
+    margin-top: 15px;
+  }
+  body.z-professionals ul.pro-search.pro-search-v2 .pro-search-button-input .pro-search-button {
+    border-radius: 3px;
+  }
+  body.z-professionals ul.pro-search.pro-search-v2 .pro-type-search-input {
+    width: 80%;
+  }
+  body.z-professionals ul.pro-search.pro-search-v2 #proZipSearch {
+    border-radius: 0 3px 3px 0;
+  }
+  body.z-professionals .pro-landing-tiles .zcol {
+    margin-bottom: 20px;
+  }
+  body.z-professionals .horizontal.pro-card .pro-cover-photos {
+    width: 100%;
+  }
+  body.z-professionals .horizontal.pro-card .vcard {
+    float: left;
+    margin-top: 20px;
+  }
+  body.z-professionals .rightSideContent-bottom {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .z-home .homeSliderWrapper {
     height: auto;

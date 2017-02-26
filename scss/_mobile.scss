@@ -5,6 +5,47 @@
   .mb-hide {
     display: none;
   }
+  body.z-professionals {
+    .leftSideBar {
+      display: none;
+    }
+    .rightSideContent {
+      width: 100%;
+    }
+    .pro-landing-hero-v2 .pro-landing-hero__content {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    ul.pro-search.pro-search-v2 .pro-search-button-input {
+      width: 100%;
+      margin-top: 15px;
+      .pro-search-button {
+        border-radius: 3px;
+      }
+    }
+    ul.pro-search.pro-search-v2 .pro-type-search-input {
+      width: 80%;
+    }
+    ul.pro-search.pro-search-v2 #proZipSearch {
+      border-radius: 0 3px 3px 0;
+    }
+    .pro-landing-tiles {
+      .zcol {
+        margin-bottom: 20px;
+      }
+    }
+    .horizontal.pro-card .pro-cover-photos {
+      width: 100%;
+    }
+    .horizontal.pro-card .vcard {
+      float: left;
+      margin-top: 20px;
+    }
+    .rightSideContent-bottom {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
   .z-home {
     .homeSliderWrapper {
       height: auto;
