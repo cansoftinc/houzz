@@ -1,4 +1,395 @@
 /* Custom Style - Giang DN */
+.z-professional-single {
+  .profile-header {
+    background: #888;
+    margin-bottom: 20px;
+    position: relative;
+    .profile-cover {
+      position: relative;
+      width: 100%;
+      height: 345px;
+      overflow: hidden;
+    }
+  }
+  .profile-header .profile-cover img.cover-image {
+    position: absolute;
+    width: 100%;
+  }
+  .profile-header .profile-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 50px;
+    margin-bottom: 53px;
+    padding-left: 225px;
+    height: 152px;
+    color: #fff;
+  }
+  .profile-header .custom-cover + .profile-info {
+    background-color: rgba(0,0,0,0.28);
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.7)));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7));
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#b3000000', GradientType=0);
+    background-color: transparent;
+  }
+  .profile-header .profile-info .profile-title {
+    padding-right: 380px;
+    position: absolute;
+    bottom: 15px;
+  }
+  .profile-header .profile-info .profile-full-name {
+    font-size: 29px;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .profile-pro-reviews {
+    font-weight: bold;
+    margin-top: 7px;
+  }
+  .sprite-profile-icons {
+    width: 28px;
+    height: 28px;
+    float: left;
+    background-image: url(../pic/ProfilePage_icons.png);
+  }
+  .sprite-profile-icons.pi-pro-badge-green {
+    background-position: -230px -88px;
+  }
+  .pro-rating {
+    position: relative;
+    height: 18px;
+    white-space: nowrap;
+  }
+  .profile-pro-reviews .pro-rating {
+    margin: 10px 8px 0 0;
+    display: inline;
+  }
+  .profile-header .profile-info a, .profile-header .profile-info a:hover {
+    color: #fff;
+  }
+  .rate-star {
+    width: 20px;
+    height: 16px;
+    margin-right: 4px;
+    display: inline-block;
+    position: relative;
+  }
+  .pro-rating .rate-star {
+    font-size: 10px;
+    width: 14px;
+    height: 14px;
+    top: 1px;
+  }
+  .rate-star [class*='hzi-Star'] {
+    color: #55a32a;
+    position: absolute;
+    width: 20px;
+    height: 16px;
+  }
+  .rate-star .fill {
+    opacity: .33;
+    filter: alpha(opacity=33);
+  }
+  .rate-star [class*='hzi-Star'] {
+    color: #55a32a;
+    position: absolute;
+    width: 20px;
+    height: 16px;
+  }
+  .profile-pro-reviews .pro-review-string {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .profile-pro-reviews .review-me-link {
+    margin-left: 0;
+    padding-left: 8px;
+    border-left: 1px solid #fff;
+    font-size: 16px;
+  }
+  .profile-header .profile-tabs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    background: rgba(240,240,240,0.97);
+    border-bottom: 1px solid #eee;
+    border-top: 2px solid #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .sidebar.sidebar-group-inline:last-child {
+    padding-bottom: 0px;
+  }
+  .sidebar-group-inline.sidebar.profile-tabs {
+    height: 53px;
+    background: #fff;
+  }
+  .sidebar .sidebar-item.selected {
+    font-weight: bold;
+    z-index: 1;
+    color: #000;
+  }
+  .profile-header .profile-pic-container {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    z-index: 1;
+    bottom: 15px;
+  }
+  .profile-header .profile-pic-border {
+    display: block;
+    width: 177px;
+    height: 177px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 16px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+  }
+  .social-share-list {
+    float: right;
+    position: relative;
+    top: 9px;
+  }
+  #shareListWrapper {
+    top: 50px;
+    right: 40px;
+  }
+  #shareListWrapper {
+    position: absolute;
+    width: inherit;
+    height: 0px;
+  }
+  .profile-header .profile-pro-actions {
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    text-align: right;
+    height: 80px;
+  }
+  .hbs .btn-lg, .hbs .btn-group-lg > .btn {
+    padding: 7px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .profile-header .profile-pro-actions #emailPro {
+    padding: 9px 40px;
+    margin-left: 12px;
+  }
+  .sprite-profile-icons {
+    width: 28px;
+    height: 28px;
+    float: left;
+    background-image: url(images/ProfilePage_icons.png);
+  }
+  .sprite-profile-icons.pi-pro-badge-green {
+    background-position: -230px -88px;
+  }
+  .sprite-profile-icons.pi-pro-badge-green, .sprite-profile-icons.pi-pro-badge-white {
+    width: 45px;
+    height: 22px;
+    margin-right: 15px;
+  }
+  .sidebar.profile-tabs .pro-contact-methods {
+    padding: 11px 0px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .sprite-profile-icons.pi-phone {
+    background-position: 0px -28px;
+    display: inline-block;
+    zoom: 1;
+    float: none;
+    vertical-align: middle;
+  }
+  .sidebar.profile-tabs .pro-contact-text {
+    color: #666;
+  }
+  .sprite-profile-icons.pi-website {
+    background-position: -28px -28px;
+    display: inline-block;
+    zoom: 1;
+    float: none;
+    vertical-align: middle;
+  }
+  .sidebar.profile-tabs .sidebar-item.profile-content-narrow {
+    width: 326px;
+  }
+  .profile-header .profile-pic-placeholder {
+    width: 200px;
+  }
+  .sidebar.profile-tabs .sidebar-item-label {
+    padding: 16px 18px 17px;
+  }
+  .sidebar-group-inline.sidebar.profile-tabs .sidebar-item.selected .sidebar-item-label {
+    height: 50px;
+    border-bottom: 3px solid #7ac143;
+    color: #3d8901;
+    background-color: #fff;
+  }
+  .sidebar.profile-tabs .sidebar-item-label {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 16px 10px 17px;
+    color: #666;
+  }
+  .t9.hbs .leftSideBar {
+    width: 188px;
+    padding-right: 0;
+  }
+  .follow-section {
+    overflow: hidden;
+  }
+  .profile-l-sidebar {
+    padding: 0 11px;
+    margin-bottom: 15px;
+  }
+  .t9.hbs .profile-l-sidebar {
+    padding: 0 0 0 16px;
+  }
+  .follow-section .follow-box {
+    color: #666;
+    border: 1px solid #e6e6e6;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 7px 0;
+    box-sizing: border-box;
+  }
+  .follow-section .follow-count {
+    display: block;
+  }
+  .follow-section .follow-box + .follow-box {
+    border-left: none;
+  }
+  .leftSideBar .followBtn {
+    width: 100%;
+    font-weight: normal;
+    margin: 10px 0px;
+  }
+  .leftSideBar .followBtn i {
+    display: none;
+  }
+  .followBtn .hzi-font.hzi-Follow {
+    color: #ababab;
+  }  
+  #socialLinks {
+    overflow: hidden;
+    text-align: center;
+  }
+  .t9.hbs .profile-l-sidebar {
+    padding: 0 0 0 16px;
+  }
+  .profile-l-sidebar .sprite-profile-icons {
+    float: none;
+    vertical-align: middle;
+    display: inline-block;
+    zoom: 1;
+  }
+  .sprite-profile-icons.f {
+    background-position: -56px 0px;
+  }
+  .sprite-profile-icons.t {
+    background-position: 0px 0px;
+  }
+  .sprite-profile-icons.l {
+    background-position: -28px 0px;
+  }
+  .sprite-profile-icons.b {
+    background-position: -112px 0px;
+  }
+  .t9.hbs .rightSideContent {
+    width: 796px;
+    margin-left: 16px;
+    padding-right: 16px;
+  }
+  .profile-content-wrapper {
+    overflow: hidden;
+  }
+  .profile-content-wide {
+    width: 511px;
+    min-height: 10px;
+    float: left;
+  }
+  @include min(1280px) {
+    .profile-content-wide {
+      width: 645px;
+    }
+  } 
+  .profile-content-narrow {
+    width: 243px;
+    float: left;
+    @include min(1280px) {
+      width: 310px;
+    }
+  } 
+  .profile-content-narrow + .profile-content-wide, 
+  .profile-content-wide + .profile-content-narrow {
+    margin-left: 25px;
+    margin-top: 35px;
+  }
+  .pro-offers, .pro-video-banner {
+    font-size: 20px;
+    background: #f0f0f0;
+    padding: 6px 20px 6px 6px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    color: #7ac143;
+  }
+  .pro-offers .hzi-font, .pro-video-banner .hzi-font {
+    float: left;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: #7ac143;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  .pro-video-banner .hzi-font {
+    font-size: 20px;
+  }
+  pro-offers .hzi-font + div, 
+  .pro-video-banner .hzi-font + div {
+    display: inline-block;
+    zoom: 1;
+    font-weight: bold;
+  }
+  .profile-about {
+    overflow: hidden;
+    line-height: 17px;
+  }
+  .info-list-label .hzi-font {
+    font-size: 18px;
+    float: left;
+    color: #888;
+  }
+  .info-list-label .info-list-text {
+    margin-left: 25px;
+  }
+  .info-list-label {
+    clear: both;
+    line-height: 17px;
+    margin-bottom: 5px;
+  }
+}
 .z-professionals {
   .pro-tile {
     width: 100%;
