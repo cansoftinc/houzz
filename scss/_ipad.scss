@@ -1,4 +1,41 @@
 @include max(799px) {
+  body.z-user {
+    &.z-user.t8 .hz-one-card-sideBar, 
+    &.z-user.t9 .hz-one-card-sideBar {
+      width: 20%;
+    }
+    &.t8 .hz-one-card-right-content, 
+    &.t9 .hz-one-card-right-content {
+      width: 80%;
+      margin-left: 0;
+      padding-right: 30px;
+      padding-left: 10px;
+      min-width: 0;
+    }
+    .profile-header .change-cover-photo {
+      left: 200px;
+    }
+    .profile-header .profile-info {
+      padding-left: 200px;
+    }
+    .profile-header .profile-info .profile-title {
+      padding-right: 10px;
+    }
+    .profile-header .profile-pic-border {
+      width: 154px;
+      height: 154px;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .profile-header .profile-pic-placeholder {
+      width: 165px;
+    }
+    .sidebar.profile-tabs .sidebar-item-label {
+      padding: 16px 10px 17px;
+    }
+  }
   body.z-product-list {
     .leftSideBar {
       width: 20%;

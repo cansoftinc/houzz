@@ -5,6 +5,70 @@
   .mb-hide {
     display: none;
   }
+  body.z-user {
+    &.hbs .hz-carded header + ul, 
+    &.hbs .hz-carded header + div, 
+    &.hbs .hz-carded header + dl {
+      margin-top: 15px;
+    }
+    .profile-pic-placeholder {
+      display: none;
+    }
+    &.z-user.t8 .hz-one-card-sideBar, 
+    &.z-user.t9 .hz-one-card-sideBar {
+      display: none;
+    }
+    &.t8 .hz-one-card-right-content, 
+    &.t9 .hz-one-card-right-content {
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    .profile-pic-container .profile-camera-icon {
+      top: auto;
+      bottom: 5px;
+    }
+    .profile-convert {
+      float: none!important;
+    }
+    .profile-header .profile-info .profile-full-name {
+      font-size: 20px;
+    }
+    .profile-header .profile-info {
+      padding-left: 140px;
+    }
+    .profile-header .profile-info .profile-title {
+      bottom: 50px;
+    }
+    .profile-header .profile-pro-actions {
+      bottom: auto;
+      top: 20px;
+      right: 20px;
+      height: 60px;
+      .hzBtn.whitebutton {
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+    }
+    .profile-header .change-cover-photo {
+      left: 16px;
+      top: 16px;
+      bottom: auto;
+    }
+    .profile-header.user-profile .profile-cover, 
+    .profile-header.user-profile .cover-image {
+      width: auto;
+    }
+    .profile-header .profile-pic-border {
+      width: 104px;
+      height: 104px;
+      bottom: 55px;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
   body.z-product-list {
     .leftSideBar {
       display: none;
