@@ -1,0 +1,50 @@
+.z-view-cart #coPage #coHeader h1.contact-support-top {
+  padding: 0;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .price-mobile {
+  width: 100%;
+  padding-left: 21%;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .itemPrice {
+  width: 25%;
+  margin-top: 8px;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .itemQuantity {
+  width: 70%;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .itemQuantity .inline-dropdown-container {
+  display: block;
+  text-align: center;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .itemQuantity .dropdown-wrapper-2 {
+  display: inline-block;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .price-mobile .itemQuantity .actions {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.z-view-cart .coBoxBody .coProductGroup .price-mobile .itemQuantity .actions .moveToWishList {
+  display: inline;
+}
+
+.z-view-cart #orderSummaryBox .continue {
+  height: auto;
+  padding-bottom: 35px;
+}
+
+.z-view-cart #coPage #coSecondary {
+  padding-bottom: 20px;
+}
+
+.z-view-cart #coPage #coSecondary #box-bottom {
+  width: auto;
+  left: 10px;
+  right: 10px;
+}

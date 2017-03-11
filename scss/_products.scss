@@ -1,0 +1,24 @@
+#mainArea.z-products {
+  .products-wrapper .product-item-column {
+    width: 100%;
+  }
+} 
+
+@include max(799px) {
+  #mainArea.z-products {
+    .shop-landing-grid-promotions {
+      margin-left: 0;
+    }
+    .shop-landing-grid-promotions .shop-landing-promotion {
+      margin-left: 0;
+      width: auto;
+    }
+    .leftSideBar {
+      width: 20%;
+      padding-left: 5px;
+    }
+    .rightSideContent {
+      width: 80%;
+    }
+  }
+}

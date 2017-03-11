@@ -1,0 +1,112 @@
+#mainArea.z-photos {
+  @media (min-width: 1280px) {
+    .whiteCard.xl .photo {
+      width: 550px;
+    }
+  }
+  .whiteCard.xl .photo {
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+  }
+  .whiteCard.xl .photo {
+    min-height: 250px;
+    width: 550px;
+  }
+  .photoMeta {
+    position: absolute;
+    padding-left: 10px;
+    top: 0;
+    left: 550px;
+    right: 0;
+    bottom: 0;
+  }
+  .content-row.xl .whiteCard {
+    border: none;
+    .user-thumb {
+      display: inline-block;
+      zoom: 1;
+      margin-right: 10px;
+      width: 42px;
+      height: 42px;
+    }
+    .user-name-wrapper {
+      display: inline-block;
+      vertical-align: middle;
+      zoom: 1;
+      max-width: 148px;
+    }
+    .photoMeta .uploader, .photoMeta .photoInfo {
+      padding: 10px;
+      overflow: hidden;
+    }
+    .photoMeta .photoDetails.bottom {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+    .photoMeta .autoDesc {
+      background: #fff;
+      font-size: 13px;
+      color: #666;
+      padding: 7px 10px 0px 10px;
+    }
+    .photoMeta .stats {
+      background: #fff;
+      font-size: 13px;
+      color: #666;
+      padding: 7px 10px;
+    }
+  }
+}
+
+@include max(799px) {
+  #mainArea.z-photos {
+    .leftSideBar {
+      width: 25%;      
+      display: block;
+    }
+    .rightSideContent {
+      width: 75%;
+    }
+    .whiteCard.xl .photo {
+      width: 66.666667%;
+      float: left;
+    }
+    .imageArea {
+      width: 100%;
+    }
+    .photoMeta {
+      position: static;
+    }
+    .content-row.xl .whiteCard .photoMeta .photoDetails.bottom {
+      position: static;
+      overflow: hidden;
+    }
+    .shareBtns .social-button-row, .shareBtns .action-button-row {
+      float: none;
+    }
+    .content-row.xl .whiteCard .photoMeta .stats,
+    .content-row.xl .whiteCard .photoMeta .autoDesc {
+      display: none;
+    }
+  } 
+}
+
+@include max(767px) {
+  #mainArea.z-photos {
+    .leftSideBar {
+      display: none;
+    }
+    .rightSideContent {
+      width: 100%;
+    }
+    .whiteCard.xl .photo {
+      width: 100%;
+    }
+    .headerContainer .pagination {
+      float: none;
+    }
+  }
+}

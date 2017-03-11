@@ -1,0 +1,75 @@
+.z-checkout {
+  #coPage {
+    padding-bottom: 0;
+  }
+}
+
+@include max(799px) {
+  .z-checkout {
+    #coPage {
+      width: 100%;
+    }
+    #coBreadcrumbs {
+      position: static;
+      li {
+        margin-left: 0;
+        margin-right: 30px;
+      }
+    }
+    #coMain {
+      width: 490px;
+    }
+    #paymentForm, #addressForm {
+      width: 100%;
+    }
+    .coProductGroup .item {
+      width: 100%;
+    }
+    .coBoxHead .itemDetail {
+      width: 48%;
+    }
+    .itemPrice {
+      width: 10%;
+    }
+    .coBoxBody .coProductGroup .price-mobile {
+      width: 35%;
+    }
+    .coBoxBody .coProductGroup .itemPrice {
+      font-size: 14px;
+    }
+    .coProductGroup .itemImage img {
+      width: 100%;
+    }
+    .coBoxBody .coProductGroup .itemQuantity {
+      width: 50%;
+      text-align: center;
+    }
+    .coProductGroup .itemDetail {
+      padding-left: 5px;
+      width: 45%;
+    }    
+    #coMain {
+      width: 65%;
+    }
+    #coSecondary.secondary-wide {
+      width: 34%;
+    }
+  }
+}
+
+@include max(767px) {
+  .z-checkout {
+    #coPage {
+      width: 100%;
+    }
+    #coBreadcrumbs {
+      display: block;
+      li {
+        float: none;
+      }
+    }
+    #coBreadcrumbs {
+      display: none;
+    }
+  }
+}
