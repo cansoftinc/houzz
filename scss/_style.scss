@@ -1636,17 +1636,3 @@ body.hbs {
   -webkit-appearance: none;
   box-shadow: none;
 }
-
-.dlgUserDetails, .signin .dlgUserDetails {
-  position: relative;
-  &:after {
-    position: absolute;
-    content: '';
-    top: 0;
-    bottom: 0;
-    right: -50px;
-    width: 1px;
-    height: 110%;
-    background-color: #e7e7e7;
-  }
-}
