@@ -2499,6 +2499,27 @@ body.showlb {
   text-align: center;
 }
 
+.z-mainNav li.full .header-nav-dropdown-menu {
+  width: 1016px;
+}
+
+.z-mainNav li.full .hsh__menu-body {
+  display: block;
+}
+
+.z-mainNav li.full .hsh__menu-body .hsh__column {
+  display: block;
+  float: left;
+}
+
+.z-mainNav li.full .hsh__menu-body .hsh__column .hsh__list-header {
+  white-space: normal;
+}
+
+.z-mainNav li.full .hsh__menu-body .z20 {
+  width: 20%;
+}
+
 .sidebar .sidebar-body .sidebar-item.selected .sidebar-item-label {
   color: #3d8901;
 }

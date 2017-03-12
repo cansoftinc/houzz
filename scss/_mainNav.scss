@@ -1,0 +1,20 @@
+.z-mainNav {
+  li.full {
+    .header-nav-dropdown-menu {
+      width: 1016px;
+    }
+    .hsh__menu-body {
+      display: block;
+      .hsh__column {
+        display: block;
+        float: left;
+        .hsh__list-header {
+          white-space: normal;
+        }
+      }
+      .z20 {
+        width: 20%;
+      }
+    }
+  }
+}
