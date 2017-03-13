@@ -659,6 +659,112 @@
     height: 24px;
     width: 24px
   }
+  .settingsCreditCards, .settingsAddresses {
+    width: 570px;
+    margin-bottom: 200px;
+  }
+  #paymentForm, #addressForm {
+    width: 570px;
+  }
+  .settingsCreditCards #colCcSelect {
+    width: 100%;
+  }
+  #addressSelect, .dropdown-wrapper {
+    width: 100%;
+  }
+  #paymentForm .form-group .controls input.large, 
+  #addressForm .form-group .controls input.large, 
+  #paymentForm .form-group .controls select.large, 
+  #addressForm .form-group .controls select.large {
+    height: 38px;
+  }
+  #paymentForm .form-group .controls input, #addressForm .form-group .controls input, #paymentForm .form-group .controls textarea, #addressForm .form-group .controls textarea, #paymentForm .form-group .controls select, #addressForm .form-group .controls select {
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    color: #666;
+    padding: 4px 10px;
+    border-color: #d6d6d6;
+  }
+  .ccTypeLogo {
+    background-image: url(../pic/ccLogos.png);
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px;
+    vertical-align: middle;
+  }
+  #ccTypeLogos .ccTypeLogo {
+    vertical-align: middle;
+  }
+  .ccTypeLogo.visa {
+    background-position: 0 -36px;
+  }
+  .ccTypeLogo.mastercard {
+    background-position: -47px -36px;
+  }
+  .ccTypeLogo.amex {
+    background-position: -96px -36px;
+  }
+  #paymentForm .form-inline .form-control, 
+  #addressForm .form-inline .form-control {
+    width: 100%;
+  }
+  .dropdown-wrapper i {
+    background-color: #fff;
+    -webkit-border-radius: 0 2px 2px 0;
+    -moz-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    height: 28px;
+    pointer-events: none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 26px;
+  }
+  #paymentForm .form-inline .dropdown-wrapper.large i, 
+  #addressForm .form-inline .dropdown-wrapper.large i,
+  #paymentForm .form-group .controls .dropdown-wrapper.large i, 
+  #addressForm .form-group .controls .dropdown-wrapper.large i {
+    height: 36px;
+  }
+  #cvvHelpLogos img.cvvHelpLogo {
+    background-image: url(../pic/ccLogos.png);
+    background-repeat: no-repeat;
+    width: 53px;
+    height: 41px;
+    vertical-align: middle;
+    position: relative;
+  }
+  #cvvHelpLogos img.cvvHelpLogo.back3 {
+    background-position: -138px -36px;
+  }
+  #cvvHelpLogos img.cvvHelpLogo.front4 {
+    background-position: -190px -36px;
+  }
+  .settingsAddresses #colAddAddress {
+    position: absolute;
+    top: -75px;
+    right: 0;
+    padding: 0px 25px !important;
+  }
+  .settingsAddresses #colAddressSelect {
+    width: 100%;
+  }
+  .hiddenSubmit {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+  }
+  .settingsAddresses .form-inline {
+    position: relative;
+  }
+  #paymentForm .form-group .controls .hzBtn.large, 
+  #addressForm .form-group .controls .hzBtn.large {
+    font-weight: normal;
+  }
+  #paymentForm .form-group .controls .hzBtn, 
+  #addressForm .form-group .controls .hzBtn {
+    margin: 0 0 0 8px;
+  }
 }
 
 @include max(799px) {
@@ -698,6 +804,15 @@
     .sidebar.profile-tabs .sidebar-item-label {
       padding: 16px 10px 17px;
     }
+  }
+  .z-user .settingsCreditCards, 
+  .z-user .settingsAddresses {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .z-user #paymentForm, 
+  .z-user #addressForm {
+    width: 100%;
   }
 }
 
