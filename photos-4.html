@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link type="text/css" rel="stylesheet" href="css/style1.css" />
+  <link type="text/css" rel="stylesheet" href="css/style2.css" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body class="hbs hz-grey-bg">  
+  <div id="mainArea">
+    <div id="mainContent">
+      <div class="container">
+        <div class="zrow z8">
+          <div class="zcol zLeftSidebar">
+            <div id="zLeftSidebar">
+              <div class="sidebar collapsible">
+                <div class="sidebar-header collapse">Room<span class="toggle down-icon"></span>
+                </div>
+                <div class="sidebar-body">
+                  <ul id="roomFilter">
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Kitchen</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Bath</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Bedroom</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Living</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Dining</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Outdoor</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Baby &amp; Kids</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Home Office</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Storage &amp; Closet</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Exterior</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Basement</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Entry</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Garage &amp; Shed</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Gym</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" 
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Home Bar</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Hall</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Laundry</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Staircase</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Wine Cellar</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item more-items" id="roomFilterMore">
+                      <span class="sidebar-item-label hz-link-style">More Rooms...</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sidebar collapsible">
+                <div class="sidebar-header collapse" compid="filterHeader">Style<span class="toggle down-icon"></span>
+                </div>
+                <div class="sidebar-body">
+                  <ul id="styleFilter">
+                    <li class="sidebar-item" compid="opt" posid="0">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2103">
+                        <span class="option-text">Contemporary</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="1">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2104">
+                        <span class="option-text">Eclectic</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="2">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2105">
+                        <span class="option-text">Modern</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="3">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2107">
+                        <span class="option-text">Traditional</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="4">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2102">
+                        <span class="option-text">Asian</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="5">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2110">
+                        <span class="option-text">Beach Style</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="6">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2116">
+                        <span class="option-text">Craftsman</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="7">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2114">
+                        <span class="option-text">Farmhouse</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="8">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2113">
+                        <span class="option-text">Industrial</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="9">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2109">
+                        <span class="option-text">Mediterranean</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="10">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2115">
+                        <span class="option-text">Midcentury</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="11">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2111">
+                        <span class="option-text">Rustic</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="12">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_22848">
+                        <span class="option-text">Scandinavian</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="13">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_22847">
+                        <span class="option-text">Shabby-Chic Style</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="14">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_14159">
+                        <span class="option-text">Southwestern</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="15">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2112">
+                        <span class="option-text">Transitional</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="16">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_2108">
+                        <span class="option-text">Tropical</span>
+                      </a>
+                    </li>
+                    <li class="hidden sidebar-item" compid="optHidden" posid="17">
+                      <a class="sidebar-item-label" href="#" objid="attr_style_22849">
+                        <span class="option-text">Victorian</span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item more-items" id="styleFilterMore" compid="optMore">
+                      <span class="sidebar-item-label hz-link-style">More Styles...</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sidebar multiselect multi-checkboxes collapsible" scopeid="filterAttribute18">
+                <div class="sidebar-header collapse" compid="filterHeader">
+                  Budget<span class="toggle down-icon"></span>
+                </div>
+                <div class="sidebar-body">
+                  <ul id="attributeFilter_budget">
+                    <li class="sidebar-item" compid="opt" posid="0"><span class="sidebar-icon info-icon" tooltip-data="Many stock materials and finishes - lower cost"></span><a class="sidebar-item-label" href="#" objid="attr_18_85"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$&nbsp;<span class="facetCount">(76,970)</span></span></a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="1"><span class="sidebar-icon info-icon" tooltip-data="Stock and semicustom materials and finishes — moderate cost"></span><a class="sidebar-item-label" href="#" objid="attr_18_86"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$$&nbsp;<span class="facetCount">(408,339)</span></span></a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="2"><span class="sidebar-icon info-icon" tooltip-data="Semicustom to custom materials and finishes — higher cost"></span><a class="sidebar-item-label" href="#" objid="attr_18_87"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$$$&nbsp;<span class="facetCount">(565,492)</span></span></a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="3"><span class="sidebar-icon info-icon" tooltip-data="Fully custom high-end materials and designer finishes — luxury"></span><a class="sidebar-item-label" href="#" objid="attr_18_88"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$$$$&nbsp;<span class="facetCount">(214,904)</span></span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sidebar multiselect multi-checkboxes collapsible" scopeid="filterAttribute30">
+                <div class="sidebar-header collapse">Size<span class="toggle down-icon"></span>
+                </div>
+                <div class="sidebar-body">
+                  <ul id="attributeFilter_size">
+                    <li class="sidebar-item" compid="opt" posid="0">
+                      <a class="sidebar-item-label" href="#" objid="attr_30_231">
+                        <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                        <span class="option-text">
+                          Compact&nbsp;<span class="facetCount">(223,365)</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="1">
+                      <a class="sidebar-item-label" href="#" objid="attr_30_214">
+                        <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                        <span class="option-text">
+                          Medium&nbsp;<span class="facetCount">(913,709)</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="2">
+                      <a class="sidebar-item-label" href="#" objid="attr_30_215">
+                        <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                        <span class="option-text">
+                          Large&nbsp;<span class="facetCount">(721,188)</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="sidebar-item" compid="opt" posid="3">
+                      <a class="sidebar-item-label" href="#" objid="attr_30_216">
+                        <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                        <span class="option-text">
+                          Expansive&nbsp;<span class="facetCount">(105,161)</span>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sidebar">
+                <div class="sidebar-body">
+                  <div id="surveyCTAContainer">
+                    Find out if your remodeling dreams fit your budget reality.<a class="surveyCTALink colorLink icon-wrap" target="_blank" href="#">Try the Real Cost Finder<span class="more-icon"></span></a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="zcol zRightSideContent">
+            <div id="zRightSideContent">
+              <div class="headerContainer">
+                <div class="navigationTopicBreadcrumbs text-s text-dt-m" scopeid="breadcrumbs">
+                  <ul class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a class="breadcrumb-item-link text-primary" href="#">
+                        <span itemprop="title">All Rooms</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <h1 class="header-1">12,786,177 Home Design Photos</h1>
+                <div class="text-m">
+                  <div class="pageDescriptionPeekable" style="max-height: none;">
+                    <div class="pageDescription text-m">
+                      <div class="text-bold">Popular Search Terms</div>
+                      <br>
+                      <div class="popularSearches">
+                        <a class="popSearchItem" href="#">fireplace</a>
+                        <a class="popSearchItem" href="#">mudroom</a>
+                        <a class="popSearchItem" href="#">backsplash</a>
+                        <a class="popSearchItem" href="#">small kitchen</a>
+                        <a class="popSearchItem" href="#">front door</a>
+                        <a class="popSearchItem" href="#">beadboard</a>
+                        <a class="popSearchItem" href="#">breakfast nook</a>
+                        <a class="popSearchItem" href="#">pantry</a>
+                        <a class="popSearchItem" href="#">pergola</a>
+                        <a class="popSearchItem" href="#">bar</a>
+                        <a class="popSearchItem" href="#">window treatments</a>
+                        <a class="popSearchItem" href="#">backyard fire pit</a>
+                        <a class="popSearchItem" href="#">deck</a>
+                        <a class="popSearchItem" href="#">banquette</a>
+                        <a class="popSearchItem" href="#">powder room</a>
+                        <a class="popSearchItem" href="#">wallpaper</a>
+                        <a class="popSearchItem" href="#">sunroom</a>
+                        <a class="popSearchItem" href="#">library</a>
+                        <a class="popSearchItem" href="#">craft room</a>
+                        <a class="popSearchItem" href="#">cabin</a>
+                        <a class="popSearchItem" href="#">fence</a>
+                        <a class="popSearchItem" href="#">sloped ceiling</a>
+                        <a class="popSearchItem" href="#">tray ceiling</a>
+                        <a class="popSearchItem" href="#">tv above fireplace</a>
+                        <a class="popSearchItem" href="#">subway tile</a>
+                        <a class="popSearchItem" href="#">craftsman</a>
+                        <a class="popSearchItem" href="#">cottage</a>
+                        <a class="popSearchItem" href="#">wainscoting</a>
+                        <a class="popSearchItem" href="#">patio</a>
+                        <a class="popSearchItem" href="#">rustic</a>
+                        <a class="popSearchItem" href="#">foyer</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>             
+                <div class="filter-pagination-div">
+                  <div class="filter-option pull-left mrm">
+                    <div class=" trackMe collapsible">
+                      <div class="sidebar-body">
+                        <div class="inline-dropdown-container">
+                          <div class="dropdown-wrapper-2" style="width: 135px;"><span class="dropdown-label-icon"></span><span class="dropdown-label">Popular Today</span><span class="dropdown-icon"></span>
+                            <select id="sortByFilter" class="form-control trackMe collapsible">
+                              <option selected="">Popular Today</option>
+                              <option>Latest Activity</option>
+                              <option>All Time Popular</option>
+                              <option>Newly Featured</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="filter-option pull-left mrm">
+                    <div class="sizes-buttons size-btns-list-layout">
+                      <a class="sprite-sizes size-s" href="#"></a>
+                      <a class="sprite-sizes size-m" href="#"></a>
+                      <span class="sprite-sizes hz-linkable size-l"></span>
+                      <a class="sprite-sizes size-xl active" href="#"></a>
+                      <a class="sprite-sizes size-lightbox trackMe" href="#"></a>
+                    </div>
+                  </div>
+                  <div class="pagination">
+                    <ul id="paginationBar" class="pagination">
+                      <li><span class="pagination-text"><b>1</b> - <b>12</b> of <b>12,786,177</b> photos</span>
+                      </li>
+                      <li><a class="navigation-button next" href="#"><span class="hzi-font hzi-Right-Arrow"></span>&nbsp;</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="browseListBody clearfix" id="browseSpacesContext">
+                <div class="content-row xl">
+                  <div class="ic whiteCard xl portrait">
+                    <div class="photo trackMe white">
+                      <div class="imageArea" compid="img">
+                        <a class="" href="#">
+                          <img class="hide-context space reloadable" src="images/photos/transitional-bathroom.jpg" alt="">
+                        </a>
+                        <div class="hoverButtons trackMe">
+                          <span class="hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button" title="Save to ideabook">
+                            <span class="button-icon hzi-font hzi-Add-Photo-Button"></span>
+                            <span class="button-label">Save</span>
+                          </span>
+                          <span class="hzBtn button-baseIcon graybutton emailButton hz-tall-button" title="Email this photo">
+                            <span class="button-icon hzi-font hzi-Email"></span>
+                            <span class="button-label">Email</span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="wrapper-block">
+                        <div class="wrapper-table">
+                          <div class="wrapper-cell">
+                            <div id="signup_overlay" class="promote" data-type="hover"><span class="likeIt icon-wrap">Save Photo<span class="more-icon"></span></span>
+                              <br>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="photoMeta">
+                      <div class="uploader clearfix text-m">
+                        <span id="_h_url_paid_pro1" rel="nofollow" class="user-thumb">
+                          <img class="hzHouzzer hz-user-image" src="images/photos/spaziola.jpg">
+                        </span>
+                        <div class="user-name-wrapper">
+                          <span class="one-line">
+                            <span class="hz-username hzHouzzer hzHCUserName" href="#" id="_h_url_paid_pro1" rel="nofollow">Spazio LA</span>
+                          </span>
+                          <div class="text-s text-dt-m text-primary">
+                            <div class="pro-rating">
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="pro-review-string"><span>32</span> Reviews</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="photoInfo">
+                        <a class="photo-title" href="#">Santa Monica Garage conversion</a>
+                        <div class="photo-counters text-gray-lighter">9,486 Saves | 19 Questions</div>
+                        <div class="photo-description">This beautiful bathroom has cement tiles on the floors with an infinity drain a custom frameless shower door and custom lighting</div>
+                      </div>
+                      <div class="photoDetails bottom">
+                        <div class="autoDesc">Example of a transitional walk-in shower design in Los Angeles with furniture-like cabinets, medium tone wood cabinets, black and white tile, gray walls, cement tile floors and a vessel sink —&nbsp;Houzz</div>
+                        <div class="stats">
+                          <span>flooring unique, distressed wood. — Primetime Realty </span>
+                          <br>
+                        </div>
+                        <div class="shareBtns">
+                          <div class="social-button-row">
+                            <span class="icon-socialshare hzi-font hzi-SmallFacebook hz-link-style" title="Share a link on Facebook"></span>
+                            <span class="hz-pipe"></span>
+                            <span class="icon-socialshare hzi-font hzi-Twitter hz-link-style" title="Share a link on Twitter"></span>
+                            <span class="hz-pipe"></span>
+                            <span class="icon-socialshare hzi-font hzi-Google hz-link-style" title="Share a link on Google+"></span>
+                            <span class="hz-pipe"></span>
+                          </div>
+                          <div class="action-button-row">
+                            <span class="icon-text-combo hz-link-style" title="Embed this photo on blog">
+                              <span class="hzi-font hzi-Embed hz-link-style"></span>Embed
+                            </span>
+                            <span class="icon-text-combo hz-link-style" title="Email this photo">
+                              <span class="hzi-font hzi-Email hz-link-style"></span>Email
+                            </span>
+                            <a class="icon-text-combo" title="Ask a question" href="#"><span class="hzi-font hzi-Question"></span>Question</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- content row xl --> 
+                <div class="content-row xl">
+                  <div class="ic whiteCard xl portrait">
+                    <div class="photo trackMe white">
+                      <div class="imageArea" compid="img">
+                        <a class="" href="#">
+                          <img class="hide-context space reloadable" src="images/photos/shabby-chic-style-bedroom.jpg" alt="">
+                        </a>
+                        <div class="hoverButtons trackMe">
+                          <span class="hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button" title="Save to ideabook">
+                            <span class="button-icon hzi-font hzi-Add-Photo-Button"></span>
+                            <span class="button-label">Save</span>
+                          </span>
+                          <span class="hzBtn button-baseIcon graybutton emailButton hz-tall-button" title="Email this photo">
+                            <span class="button-icon hzi-font hzi-Email"></span>
+                            <span class="button-label">Email</span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="wrapper-block">
+                        <div class="wrapper-table">
+                          <div class="wrapper-cell">
+                            <div id="signup_overlay" class="promote" data-type="hover"><span class="likeIt icon-wrap">Save Photo<span class="more-icon"></span></span>
+                              <br>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="photoMeta">
+                      <div class="uploader clearfix text-m">
+                        <span id="_h_url_paid_pro1" rel="nofollow" class="user-thumb">
+                          <img class="hzHouzzer hz-user-image" src="images/photos/spaziola.jpg">
+                        </span>
+                        <div class="user-name-wrapper">
+                          <span class="one-line">
+                            <span class="hz-username hzHouzzer hzHCUserName" href="#" id="_h_url_paid_pro1" rel="nofollow">Spazio LA</span>
+                          </span>
+                          <div class="text-s text-dt-m text-primary">
+                            <div class="pro-rating">
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="pro-review-string"><span>32</span> Reviews</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="photoInfo">
+                        <a class="photo-title" href="#">Santa Monica Garage conversion</a>
+                        <div class="photo-counters text-gray-lighter">9,486 Saves | 19 Questions</div>
+                        <div class="photo-description">This beautiful bathroom has cement tiles on the floors with an infinity drain a custom frameless shower door and custom lighting</div>
+                      </div>
+                      <div class="photoDetails bottom">
+                        <div class="autoDesc">Example of a transitional walk-in shower design in Los Angeles with furniture-like cabinets, medium tone wood cabinets, black and white tile, gray walls, cement tile floors and a vessel sink —&nbsp;Houzz</div>
+                        <div class="stats">
+                          <span>flooring unique, distressed wood. — Primetime Realty </span>
+                          <br>
+                        </div>
+                        <div class="shareBtns">
+                          <div class="social-button-row">
+                            <span class="icon-socialshare hzi-font hzi-SmallFacebook hz-link-style" title="Share a link on Facebook"></span>
+                            <span class="hz-pipe"></span>
+                            <span class="icon-socialshare hzi-font hzi-Twitter hz-link-style" title="Share a link on Twitter"></span>
+                            <span class="hz-pipe"></span>
+                            <span class="icon-socialshare hzi-font hzi-Google hz-link-style" title="Share a link on Google+"></span>
+                            <span class="hz-pipe"></span>
+                          </div>
+                          <div class="action-button-row">
+                            <span class="icon-text-combo hz-link-style" title="Embed this photo on blog">
+                              <span class="hzi-font hzi-Embed hz-link-style"></span>Embed
+                            </span>
+                            <span class="icon-text-combo hz-link-style" title="Email this photo">
+                              <span class="hzi-font hzi-Email hz-link-style"></span>Email
+                            </span>
+                            <a class="icon-text-combo" title="Ask a question" href="#"><span class="hzi-font hzi-Question"></span>Question</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- content row xl -->
+                <div class="content-row xl">
+                  <div class="ic whiteCard xl portrait">
+                    <div class="photo trackMe white">
+                      <div class="imageArea" compid="img">
+                        <a class="" href="#">
+                          <img class="hide-context space reloadable" src="images/photos/transitional-kitchen.jpg" alt="">
+                        </a>
+                        <div class="hoverButtons trackMe">
+                          <span class="hzBtn button-baseIcon graybutton hoverButtonPromote saveButton hz-tall-button" title="Save to ideabook">
+                            <span class="button-icon hzi-font hzi-Add-Photo-Button"></span>
+                            <span class="button-label">Save</span>
+                          </span>
+                          <span class="hzBtn button-baseIcon graybutton emailButton hz-tall-button" title="Email this photo">
+                            <span class="button-icon hzi-font hzi-Email"></span>
+                            <span class="button-label">Email</span>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="wrapper-block">
+                        <div class="wrapper-table">
+                          <div class="wrapper-cell">
+                            <div id="signup_overlay" class="promote" data-type="hover"><span class="likeIt icon-wrap">Save Photo<span class="more-icon"></span></span>
+                              <br>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="photoMeta">
+                      <div class="uploader clearfix text-m">
+                        <span id="_h_url_paid_pro1" rel="nofollow" class="user-thumb">
+                          <img class="hzHouzzer hz-user-image" src="images/photos/spaziola.jpg">
+                        </span>
+                        <div class="user-name-wrapper">
+                          <span class="one-line">
+                            <span class="hz-username hzHouzzer hzHCUserName" href="#" id="_h_url_paid_pro1" rel="nofollow">Spazio LA</span>
+                          </span>
+                          <div class="text-s text-dt-m text-primary">
+                            <div class="pro-rating">
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="rate-star">
+                                <span class="hzi-font hzi-Star fill"></span>
+                                <span class="hzi-font hzi-Star"></span>
+                              </span>
+                              <span class="pro-review-string"><span>32</span> Reviews</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="photoInfo">
+                        <a class="photo-title" href="#">Santa Monica Garage conversion</a>
+                        <div class="photo-counters text-gray-lighter">9,486 Saves | 19 Questions</div>
+                        <div class="photo-description">This beautiful bathroom has cement tiles on the floors with an infinity drain a custom frameless shower door and custom lighting</div>
+                      </div>
+                      <div class="photoDetails bottom">
+                        <div class="autoDesc">Example of a transitional walk-in shower design in Los Angeles with furniture-like cabinets, medium tone wood cabinets, black and white tile, gray walls, cement tile floors and a vessel sink —&nbsp;Houzz</div>
+                        <div class="stats">
+                          <span>flooring unique, distressed wood. — Primetime Realty </span>
+                          <br>
+                        </div>
+                        <div class="shareBtns">
+                          <div class="social-button-row">
+                            <span class="icon-socialshare hzi-font hzi-SmallFacebook hz-link-style" title="Share a link on Facebook"></span>
+                            <span class="hz-pipe"></span>
+                            <span class="icon-socialshare hzi-font hzi-Twitter hz-link-style" title="Share a link on Twitter"></span>
+                            <span class="hz-pipe"></span>
+                            <span class="icon-socialshare hzi-font hzi-Google hz-link-style" title="Share a link on Google+"></span>
+                            <span class="hz-pipe"></span>
+                          </div>
+                          <div class="action-button-row">
+                            <span class="icon-text-combo hz-link-style" title="Embed this photo on blog">
+                              <span class="hzi-font hzi-Embed hz-link-style"></span>Embed
+                            </span>
+                            <span class="icon-text-combo hz-link-style" title="Email this photo">
+                              <span class="hzi-font hzi-Email hz-link-style"></span>Email
+                            </span>
+                            <a class="icon-text-combo" title="Ask a question" href="#"><span class="hzi-font hzi-Question"></span>Question</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- content row xl -->
+              </div>
+              <div class="pagination-wrapper">
+                <ul id="paginationBar" class="pagination">
+                  <li class="active">
+                    <span class="pageNumberOn">1</span>
+                  </li>
+                  <li>
+                    <a class="pageNumber" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="pageNumber" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="pageNumber" href="#">4</a>
+                  </li>
+                  <li>
+                    <a class="pageNumber" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="pageNumber" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="pageNumber" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="navigation-button next" href="#">Next Page<span class="more-icon"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
