@@ -132,6 +132,18 @@ jQuery(document).ready(function($) {
     }
   });
 
+  // filter modal (photos)
+  $('#filterButton').on('click', function() {
+    $('body').addClass('modal-open');
+    $('.overlay').fadeIn();
+    $('.filterModal').fadeIn();
+  })
+  $('.modal-header').on('click', function() {
+    $('body').removeClass('modal-open');
+    $('.overlay').fadeOut();
+    $('.filterModal').fadeOut();
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();

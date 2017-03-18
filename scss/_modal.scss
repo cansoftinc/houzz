@@ -35,3 +35,75 @@
     }
   }
 }
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.filterModal {
+  display: none;
+  position: fixed;  
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  z-index: 999;
+  background-color: #fff;
+  .modal-header {
+    background-color: #f0f0f0;
+    padding: 0 15px;
+    line-height: 40px;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333;
+  }
+  .modal-body {
+    overflow-y: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
+    bottom: 0;
+    padding: 0;
+    .sidebar-header {
+      padding-left: 20px;
+      font-size: 16px;
+      padding: 17px 0 17px 20px;
+      line-height: 16px;
+      border-bottom: 1px solid #e6e6e6;
+      font-weight: bold;
+      .more-icon,
+      .down-icon {
+        float: right;
+        margin-right: 20px;
+        margin-top: 3px;
+      }
+    }
+    .sidebar-item {
+      padding: 17px 0px;
+      display: block;
+      line-height: 16px;
+      width: 100%;
+      padding-left: 40px;
+      padding-right: 20px;
+      font-size: 16px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+    .more-items .sidebar-item-label {
+      font-weight: normal;
+    }
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  background-color: #000;
+  opacity: .5;
+  z-index: 777;
+}
