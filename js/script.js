@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
     });
   }
 
-  // carousel
+  // carousel (home page)
   if($("#homeSlider").length) {
     $("#homeSlider").owlCarousel({
       singleItem: true,
@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     $(this).removeClass('menu-active');
   });
 
-  // mobile menu
+  // mobile menu (all pages)
   $('.hzi-MH-Menu').on('click', function() {
     $('body').addClass('sidenav-in');
   })
@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
     sideNav.find('.sidebar-nav-item').removeClass('menu-active');
   })
 
-  // Sidebar collapsible
+  // Sidebar collapsible (left Sidebar)
   $('.sidebar-header.collapse').on('click', function() {
     $(this).next().slideToggle();
     var icon = $(this).find('.toggle');

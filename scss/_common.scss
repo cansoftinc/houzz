@@ -347,3 +347,11 @@ body.sidenav-in .menu-active .menu-body {
 .level-2 .section-active .sidenav-menu-header {
   display: none;
 }
+
+.hbs .breadcrumb > li + li:before {
+  display: none;
+}
+
+.hbs .breadcrumb .divider {
+  padding: 0 5px;
+}
