@@ -64,7 +64,7 @@
   &.z15 {
     margin-left: -15px;
     margin-right: -15px;
-    .zcol {
+    >.zcol {
       padding-left: 15px;
       padding-right: 15px;
     }
@@ -72,7 +72,7 @@
   &.z10 {
     margin-left: -10px;
     margin-right: -10px;
-    .zcol {
+    >.zcol {
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -80,7 +80,7 @@
   &.z8 {
     margin-left: -8px;
     margin-right: -8px;
-    .zcol {
+    >.zcol {
       padding-left: 8px;
       padding-right: 8px;
     }
