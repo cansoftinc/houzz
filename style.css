@@ -5468,6 +5468,10 @@ body.modal-open {
   width: 550px;
 }
 
+.whiteCard.xl .photo .imageArea a {
+  cursor: zoom-in;
+}
+
 .whiteCard.xl .photoMeta {
   position: absolute;
   padding-left: 10px;
@@ -5635,6 +5639,37 @@ body.modal-open {
   #mainArea.z-product-list .rightSideContent {
     width: 100%;
   }
+}
+
+.zImageTab .mainImageWrap img {
+  display: none;
+}
+
+.zImageTab .mainImageWrap img.show {
+  display: inline-block;
+}
+
+.zImageTab .altImagesDiv {
+  display: block;
+  margin-top: 20px;
+}
+
+.zImageTab .altImagesDiv img {
+  border: 1px solid #ccc;
+  margin-left: 15px;
+  float: left;
+  padding: 1px;
+  width: 60px;
+  height: 60px;
+}
+
+.zImageTab .altImagesDiv img:first-child {
+  margin-left: 0;
+}
+
+.zImageTab .altImagesDiv img.selected {
+  border-color: #888;
+  background-color: white;
 }
 
 .z-product-single .review .review-flag {

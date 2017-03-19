@@ -144,6 +144,15 @@ jQuery(document).ready(function($) {
     $('.filterModal').fadeOut();
   })
 
+  // z Image Tab (product-single)
+  $('.zImageTab .altImagesDiv img').on('click', function() {
+    var index = $(this).data('thumb');
+    $('.zImageTab .altImagesDiv img').removeClass('selected');
+    $(this).addClass('selected');
+    $('.zImageTab .mainImageWrap img').removeClass('show');
+    $(index).addClass('show');
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();

@@ -5,6 +5,9 @@
     overflow: hidden;
     min-height: 250px;
     width: 550px;
+    .imageArea a {
+      cursor: zoom-in;
+    }
   } 
   .photoMeta {
     position: absolute;
