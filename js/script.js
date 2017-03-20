@@ -104,8 +104,8 @@ jQuery(document).ready(function($) {
     $(this).parent().toggleClass('currently-open');
   })
 
-  // light box
-  $('.lightbox').on('click', function() {
+  // light box (index, photos)
+  $('.zLightBox').on('click', function() {
     $('#lbRoot').removeClass('hidden');
     $('body').addClass('showlb');
   });

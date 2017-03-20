@@ -1,8 +1,8 @@
 .houzz-header-secondary {
-  transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
+  transition: all .3s;
+  -ms-transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
 }
 
 /* break point */
@@ -4958,7 +4958,7 @@ body.modal-open {
 }
 
 .z-user .fb_animate {
-  animation: fb_transform 0.3s forwards;
+  animation: fb_transform .3s forwards;
 }
 
 .z-user .fb_dialog {
@@ -5647,6 +5647,15 @@ body.modal-open {
   font-weight: bold;
   width: 100%;
   margin: 15px 0;
+}
+
+.image-tags-tag-bounds {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.01;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  transition: opacity 50ms ease-in-out;
 }
 
 #mainArea.z-products .products-wrapper .product-item-column {
