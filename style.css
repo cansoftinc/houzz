@@ -1,8 +1,8 @@
-.houzz-header-secondary {
-  transition: all .3s;
-  -ms-transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
+.houzz-header-secondary, #lbImageContainer, #zBottomProducts {
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 /* break point */
@@ -4958,7 +4958,7 @@ body.modal-open {
 }
 
 .z-user .fb_animate {
-  animation: fb_transform .3s forwards;
+  animation: fb_transform 0.3s forwards;
 }
 
 .z-user .fb_dialog {
@@ -5649,13 +5649,60 @@ body.modal-open {
   margin: 15px 0;
 }
 
-.image-tags-tag-bounds {
+#lbImageContainer:hover .image-tags-tag-bounds {
+  opacity: 0.4;
+}
+
+#lbImageContainer .image-tags-tag-bounds {
   position: absolute;
   cursor: pointer;
   opacity: 0.01;
   border: 2px solid rgba(255, 255, 255, 0.75);
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 0 1px 1px rgba(0, 0, 0, 0.2);
   transition: opacity 50ms ease-in-out;
+}
+
+#lbImageContainer .image-tags-tag-bounds .image-tags-tag {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#lbImageContainer .image-tags-tag-bounds:hover {
+  opacity: 1;
+}
+
+#lbImageContainer .image-tags-tag-bounds:hover .image-tags-tag {
+  opacity: 1;
+}
+
+#lbImageContainer .image-tags-edit {
+  position: absolute;
+  left: -3px;
+  bottom: -28px;
+  display: none;
+}
+
+#zBottomProducts {
+  height: 100px;
+  position: absolute;
+  left: 0;
+  bottom: -200px;
+  width: calc(100% - 420px);
+  background-color: #fff;
+  z-index: 333;
+  box-shadow: 0 -1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+#zBottomProducts.full {
+  width: 100%;
+}
+
+#zBottomProducts .thumb-grid.thumb-grid--fixed {
+  padding-top: 2px;
 }
 
 #mainArea.z-products .products-wrapper .product-item-column {

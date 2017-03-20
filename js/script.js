@@ -126,11 +126,23 @@ jQuery(document).ready(function($) {
     if($('#lbMain').hasClass('expanded')) {
       $('#lbMain').removeClass('expanded');
       $('#lbActions .expand-toggle').removeClass('active');
+      $('#zBottomProducts').removeClass('full');
     } else {
       $('#lbMain').addClass('expanded');
       $('#lbActions .expand-toggle').addClass('active');
+      $('#zBottomProducts').addClass('full');
     }
   });
+
+  // click on white square
+  $('.image-tags-tag-bounds').on('click', function() {
+    $('#lbImageContainer').css('top', '-125px');
+    $('#zBottomProducts').css('bottom', 0);
+  })
+  $('#zBottomProducts .product-tag-info-close').on('click', function() {
+    $('#lbImageContainer').css('top', 0);
+    $('#zBottomProducts').css('bottom', '-200px');
+  })
 
   // filter modal (photos)
   $('#filterButton').on('click', function() {
