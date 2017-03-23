@@ -1,8 +1,6 @@
 @include max(799px) {
-  .z-forgot-pass {
-    .centeredFullContent {
-      width: 100%;
-      padding: 0 15px;
-    }
-  }  
+  .hbs .centeredFullContent {
+    width: 100%;
+    padding: 0 15px;
+  }
 }

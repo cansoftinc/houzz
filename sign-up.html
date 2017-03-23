@@ -10,9 +10,9 @@
     rel="stylesheet" type="text/css" />
   <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
-<body class="t0 hbs new-std-header invisible-header secondary-rooms-header std-footer invisible-footer hz-pres-type-desktop">
+<body class="hbs">
   <div class="hz-main">
-    <div id="mainArea" class="z-validate">
+    <div id="mainArea">
       <div id="mainContent">
         <div class="container">
           <div class="hz-main-contents">
@@ -21,15 +21,15 @@
                 <div id="bg-image">
                   <img src="images/traditional-kitchen.jpg">
                 </div>
-                <div id="signup" class="dialog  active" scopeid="signup">
+                <div id="signup" class="dialog active" scopeid="signup">
                   <div id="header">
                     <h1 class="header-1">Welcome to Houzz</h1>
                     <h2 class="header-2">The new way to design your home</h2>
                   </div>
-                  <div id="body">                    
+                  <div id="body">
                     <div class="row">
                       <div class="create-account section col-sm-6">
-                        <form id="emailSignupForm" role="form" method="POST">
+                        <form id="emailSignupForm" role="form" method="POST" class="z-validate">
                           <div class="form-group" id="email-field">
                             <label for="email"><span class="text-m label-text">Email</span></label>
                             <input id="email" name="email" class="form-control trackMe" required="required" type="email">
@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-  </div>  
+  </div>
   <script type="text/javascript" src="js/jquery-1.12.2.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>

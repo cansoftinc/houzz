@@ -1,14 +1,16 @@
-.z-checkout {
-  #coPage {
-    padding-bottom: 0;
+#coPage {
+  padding-bottom: 0;
+}
+
+#paymentForm {
+  .dropdown-wrapper i {
+    height: 36px;
   }
 }
 
 @include max(799px) {
-  .z-checkout {
-    #coPage {
-      width: 100%;
-    }
+  #coPage.zBilling {
+    width: 100%;
     #coBreadcrumbs {
       position: static;
       li {
@@ -21,6 +23,9 @@
     }
     #paymentForm, #addressForm {
       width: 100%;
+      .form-group .controls .dropdown-wrapper.large i:after {
+        margin-top: 0;
+      }
     }
     .coProductGroup .item {
       width: 100%;
@@ -47,7 +52,7 @@
     .coProductGroup .itemDetail {
       padding-left: 5px;
       width: 45%;
-    }    
+    }
     #coMain {
       width: 65%;
     }
@@ -58,18 +63,13 @@
 }
 
 @include max(767px) {
-  .z-checkout {
-    #coPage {
-      width: 100%;
-    }
+  #coPage.zBilling {
+    width: 100%;
     #coBreadcrumbs {
-      display: block;
+      display: none;
       li {
         float: none;
       }
-    }
-    #coBreadcrumbs {
-      display: none;
     }
   }
 }

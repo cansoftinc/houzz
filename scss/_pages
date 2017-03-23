@@ -299,9 +299,12 @@
   padding-left: 0;
   padding-right: 0;
 }
-
-#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #gallerySubtitleDisplay, #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #viewGalleryDescription, #mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn #gallerySpaces .gallery-text .thBuzz {
-  font-size: 17px;
+#mainContent .leftSideContentWithAd #viewGalleryMainNarrow.leftWhiteShadowColumn {
+  #gallerySubtitleDisplay,
+  #viewGalleryDescription,
+  #gallerySpaces .gallery-text .thBuzz {
+    font-size: 17px;
+  }
 }
 
 .viewGalleryDescription, .viewGalleryMissingDescription {

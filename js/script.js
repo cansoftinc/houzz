@@ -105,7 +105,8 @@ jQuery(document).ready(function($) {
   })
 
   // light box (index, photos)
-  $('.zLightBox').on('click', function() {
+  $('.zLightBox').on('click', function(e) {
+    e.preventDefault();
     $('#lbRoot').removeClass('hidden');
     $('body').addClass('showlb');
   });

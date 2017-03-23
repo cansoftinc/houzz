@@ -13,30 +13,26 @@
 }
 
 @include max(799px) {
-  .z-sign-in {
-    .dlgUserDetails, .signin .dlgUserDetails {
-      padding-left: 30px;
-    }
-  }  
+  .dlgUserDetails, .signin .dlgUserDetails {
+    padding-left: 30px;
+  }
 }
 
 @include max(767px) {
-  .z-sign-in {
-    .signup #authFlowContainer, 
-    #mainContent.signin #authFlowContainer,
-    #mainContent.signin {
-      width: 100%;
-    }
-    .authFlowTitle {
-      padding-left: 30px;
-    }
-    .dlgUserDetails:after {
-      display: none;
-    }
-    .signin .dlgUserDetails {
-      margin-right: 0;
-      width: 100%;
-      padding: 0 15px;
-    }
+  .signup #authFlowContainer,
+  #mainContent.signin #authFlowContainer,
+  #mainContent.signin {
+    width: 100%;
+  }
+  .authFlowTitle {
+    padding-left: 30px;
+  }
+  .dlgUserDetails:after {
+    display: none;
+  }
+  .signin .dlgUserDetails {
+    margin-right: 0;
+    width: 100%;
+    padding: 0 15px;
   }
 }
