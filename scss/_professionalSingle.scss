@@ -58,46 +58,12 @@
 .sprite-profile-icons.pi-pro-badge-green {
   background-position: -230px -88px;
 }
-.pro-rating {
-  position: relative;
-  height: 18px;
-  white-space: nowrap;
-}
 .profile-pro-reviews .pro-rating {
   margin: 10px 8px 0 0;
   display: inline;
 }
 .profile-header .profile-info a, .profile-header .profile-info a:hover {
   color: #fff;
-}
-.rate-star {
-  width: 20px;
-  height: 16px;
-  margin-right: 4px;
-  display: inline-block;
-  position: relative;
-}
-.pro-rating .rate-star {
-  font-size: 10px;
-  width: 14px;
-  height: 14px;
-  top: 1px;
-}
-.rate-star [class*='hzi-Star'] {
-  color: #55a32a;
-  position: absolute;
-  width: 20px;
-  height: 16px;
-}
-.rate-star .fill {
-  opacity: .33;
-  filter: alpha(opacity=33);
-}
-.rate-star [class*='hzi-Star'] {
-  color: #55a32a;
-  position: absolute;
-  width: 20px;
-  height: 16px;
 }
 .profile-pro-reviews .pro-review-string {
   margin-left: 10px;

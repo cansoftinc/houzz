@@ -88,6 +88,9 @@
   &.zd4 {
     .zcol {
       width: 25%;
+      &:nth-child(4n+5) {
+        clear: both;
+      }
     }
   }
   &.zd3 {

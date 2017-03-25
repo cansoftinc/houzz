@@ -1,0 +1,41 @@
+.topic-group {
+  margin-bottom: 20px;
+}
+
+.featured-review {
+  float: left;
+  width: 49%;
+  &:first-child {
+    margin-right: 2%;
+  }
+  .featured-review-thumb {
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    float: left;
+  }
+  .featured-review-thumb-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+  .featured-review-body {
+    margin-left: 100px;
+    padding: 0 12px 40px;
+  }
+  .featured-review-rating {
+    margin-bottom: 10px;
+  }
+  .featured-review-rate-stars {
+    display: inline-block;
+    zoom: 1;
+  }
+  .featured-review-date {
+    color: #666;
+  }
+  .featured-review-rate-stars .pro-rating {
+    width: auto;
+    margin-right: 10px;
+  }
+  .rate-star {
+    margin-right: 0;
+  }
+}

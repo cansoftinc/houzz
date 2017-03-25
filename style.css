@@ -1817,6 +1817,10 @@
   width: 25%;
 }
 
+.zrow.zd4 .zcol:nth-child(4n+5) {
+  clear: both;
+}
+
 .zrow.zd3 .zcol {
   width: 33.333333333%;
 }
@@ -4016,6 +4020,10 @@ body.showlb {
   padding-top: 0;
 }
 
+.sidebar.filter-tree .D1.sidebar-item .sidebar-item-label {
+  padding-left: 9px;
+}
+
 .hbs .mtl {
   margin-top: 16px;
 }
@@ -5763,6 +5771,57 @@ body.fb_hidden {
   }
 }
 
+.topic-group {
+  margin-bottom: 20px;
+}
+
+.featured-review {
+  float: left;
+  width: 49%;
+}
+
+.featured-review:first-child {
+  margin-right: 2%;
+}
+
+.featured-review .featured-review-thumb {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+  float: left;
+}
+
+.featured-review .featured-review-thumb-wrapper {
+  width: 80px;
+  height: 80px;
+}
+
+.featured-review .featured-review-body {
+  margin-left: 100px;
+  padding: 0 12px 40px;
+}
+
+.featured-review .featured-review-rating {
+  margin-bottom: 10px;
+}
+
+.featured-review .featured-review-rate-stars {
+  display: inline-block;
+  zoom: 1;
+}
+
+.featured-review .featured-review-date {
+  color: #666;
+}
+
+.featured-review .featured-review-rate-stars .pro-rating {
+  width: auto;
+  margin-right: 10px;
+}
+
+.featured-review .rate-star {
+  margin-right: 0;
+}
+
 .zImageTab .mainImageWrap img {
   display: none;
 }
@@ -6254,12 +6313,6 @@ body.fb_hidden {
   background-position: -230px -88px;
 }
 
-.pro-rating {
-  position: relative;
-  height: 18px;
-  white-space: nowrap;
-}
-
 .profile-pro-reviews .pro-rating {
   margin: 10px 8px 0 0;
   display: inline;
@@ -6267,40 +6320,6 @@ body.fb_hidden {
 
 .profile-header .profile-info a, .profile-header .profile-info a:hover {
   color: #fff;
-}
-
-.rate-star {
-  width: 20px;
-  height: 16px;
-  margin-right: 4px;
-  display: inline-block;
-  position: relative;
-}
-
-.pro-rating .rate-star {
-  font-size: 10px;
-  width: 14px;
-  height: 14px;
-  top: 1px;
-}
-
-.rate-star [class*='hzi-Star'] {
-  color: #55a32a;
-  position: absolute;
-  width: 20px;
-  height: 16px;
-}
-
-.rate-star .fill {
-  opacity: .33;
-  filter: alpha(opacity=33);
-}
-
-.rate-star [class*='hzi-Star'] {
-  color: #55a32a;
-  position: absolute;
-  width: 20px;
-  height: 16px;
 }
 
 .profile-pro-reviews .pro-review-string {
