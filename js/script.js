@@ -127,7 +127,7 @@ jQuery(document).ready(function($) {
     $('#lbRoot').removeClass('hidden');
     $('body').addClass('showlb');
   });
-  $('#lbClose').on('click', function() {
+  $('#lbClose.zClose').on('click', function() {
     $('#lbRoot').addClass('hidden');
     $('body').removeClass('showlb');
   })

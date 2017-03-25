@@ -4130,11 +4130,6 @@ body.showlb {
   clear: none;
 }
 
-#projectSpaces .whiteCard .imageArea,
-.browsePhotos .whiteCard .imageArea {
-  overflow: hidden;
-}
-
 .whiteCard.xl .imageArea {
   position: relative;
 }
@@ -4214,11 +4209,6 @@ body.showlb {
   bottom: 0;
   display: none;
   pointer-events: none;
-}
-
-#projectSpaces .whiteCard .imageArea,
-.browsePhotos .whiteCard .imageArea {
-  overflow: hidden;
 }
 
 .wrapper-table {
@@ -5759,6 +5749,11 @@ body.fb_hidden {
 
 .content-row .imageArea {
   width: auto;
+}
+
+#projectSpaces .whiteCard .imageArea,
+.browsePhotos .whiteCard .imageArea {
+  display: block;
 }
 
 @media screen and (max-width: 799px) {

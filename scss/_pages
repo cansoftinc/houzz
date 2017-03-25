@@ -111,11 +111,6 @@
   clear: none;
 }
 
-#projectSpaces .whiteCard .imageArea,
-.browsePhotos .whiteCard .imageArea {
-  overflow: hidden;
-}
-
 .whiteCard.xl .imageArea {
   position: relative;
 }
@@ -194,11 +189,6 @@
   bottom: 0;
   display: none;
   pointer-events: none;
-}
-
-#projectSpaces .whiteCard .imageArea,
-.browsePhotos .whiteCard .imageArea {
-  overflow: hidden;
 }
 
 .wrapper-table {

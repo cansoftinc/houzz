@@ -15,6 +15,11 @@
   }
 }
 
+#projectSpaces .whiteCard .imageArea,
+.browsePhotos .whiteCard .imageArea {
+  display: block;
+}
+
 @include max(799px) {
   .hzBtn {
     padding-left: 10px;
