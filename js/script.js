@@ -89,19 +89,36 @@ jQuery(document).ready(function($) {
     sideNav.find('.sidebar-nav-item').removeClass('menu-active');
   })
 
-  // Sidebar collapsible (left Sidebar)
+  // Sidebar collapsible (left Sidebar/products, products-list)
   $('.sidebar-header.collapse').on('click', function() {
     $(this).next().slideToggle();
-    var icon = $(this).find('.toggle');
-    icon.addClass('test');
+    var icon = $(this).find('.toggle');    
     var currentIconClass = icon.hasClass('more-icon') ? 'more-icon' : 'down-icon';
     var newIconClass = icon.hasClass('more-icon') ? 'down-icon' : 'more-icon';
     icon.removeClass(currentIconClass).addClass(newIconClass);
   })
 
+  // Sidebar menu level 2 (products)
+  $('.sidebar-item.has__level2').on('click', function() {
+    $(this).closest('.sidebar-body').find('.sidebar-item-label').removeClass('selected');
+    $(this).children('.sidebar-item-label').addClass('selected');
+    $(this).find('.sidebar__level2').slideToggle();
+    var icon = $(this).find('.toggle2');    
+    var currentIconClass = icon.hasClass('more-icon') ? 'more-icon' : 'down-icon';
+    var newIconClass = icon.hasClass('more-icon') ? 'down-icon' : 'more-icon';
+    icon.removeClass(currentIconClass).addClass(newIconClass);
+  })
+  $('.sidebar-item.all').on('click', function() {
+    var sidebarBody = $(this).closest('.sidebar-body');
+    sidebarBody.find('.sidebar-item-label').removeClass('selected');
+    sidebarBody.find('.sidebar__level2').slideUp();
+    sidebarBody.find('.toggle2').removeClass('down-icon').addClass('more-icon');
+  })
+
   // facet dropdown
   $('.btn-group.facet-action-list').on('click', function() {
     $(this).parent().toggleClass('currently-open');
+    $(this).children('.sidebar-item-label').addClass('selected');    
   })
 
   // light box (index, photos)

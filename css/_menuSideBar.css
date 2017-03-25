@@ -1,0 +1,12 @@
+.sidebar .sidebar-body .sidebar-item.selected .sidebar-item-label {
+  color: #3d8901;
+}
+
+.sidebar .sidebar-body .sidebar-item .sidebar__level2 {
+  padding-left: 9px;
+  border: 1px solid red;
+}
+
+.sidebar .sidebar-body .sidebar-item .sidebar__level2 .sidebar-item-label {
+  padding-bottom: 0;
+}
