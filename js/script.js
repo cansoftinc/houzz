@@ -31,10 +31,30 @@ jQuery(document).ready(function($) {
     })
   }
 
+  // slider 4 item (product all)
   if($("#product-slider-1").length) {
     $("#product-slider-1").owlCarousel({
       singleItem: true,
       autoPlay: true
+    })
+  }
+
+  // slider 4 item (product category)
+  var slider4 = $("#product-slider-4");
+  if(slider4.length) {
+    slider4.owlCarousel({
+      items: 4,      
+      itemsTablet: [799,3],      
+      itemsMobile: [480,1],
+      pagination: false,
+      navigationText: false,
+      navigation: true,
+      autoPlay: false,
+      slideSpeed: 800,
+      afterInit: function(el) {
+        el.find(".owl-prev").append('<i class="hzi-font hzi-Left-Arrow"></i>');
+        el.find(".owl-next").append('<i class="hzi-font hzi-Right-Arrow"></i>');
+      }
     })
   }
 
@@ -99,20 +119,31 @@ jQuery(document).ready(function($) {
   })
 
   // Sidebar menu level 2 (products)
-  $('.sidebar-item.has__level2').on('click', function() {
-    $(this).closest('.sidebar-body').find('.sidebar-item-label').removeClass('selected');
-    $(this).children('.sidebar-item-label').addClass('selected');
-    $(this).find('.sidebar__level2').slideToggle();
-    var icon = $(this).find('.toggle2');    
-    var currentIconClass = icon.hasClass('more-icon') ? 'more-icon' : 'down-icon';
-    var newIconClass = icon.hasClass('more-icon') ? 'down-icon' : 'more-icon';
-    icon.removeClass(currentIconClass).addClass(newIconClass);
-  })
-  $('.sidebar-item.all').on('click', function() {
+  $('.sidebar-body .level2').children('a').on('click', function(e) {
+    e.preventDefault();
     var sidebarBody = $(this).closest('.sidebar-body');
+    $(this).parent().siblings().slideUp();
+    $('.sidebar-item.all').slideDown();
+    $(this).parent().css('display','block');
     sidebarBody.find('.sidebar-item-label').removeClass('selected');
-    sidebarBody.find('.sidebar__level2').slideUp();
-    sidebarBody.find('.toggle2').removeClass('down-icon').addClass('more-icon');
+    $(this).addClass('selected');
+    $(this).parent().find('.sidebar__level2').slideDown();
+    $(this).parent().find('.sidebar-item').slideDown();    
+  })
+
+  $('.sidebar__level2 .sidebar-item').children('a').on('click', function() {
+    var sidebarBody = $(this).closest('.sidebar-body');   
+    sidebarBody.find('.sidebar-item-label').removeClass('selected');
+    $(this).parent().siblings().slideUp();
+    $(this).addClass('selected');       
+  })
+
+  $('.sidebar-body .all').on('click', function() {
+    var sidebarBody = $(this).closest('.sidebar-body');
+    sidebarBody.children('ul').children('.sidebar-item').slideDown();
+    sidebarBody.find('.sidebar-item-label').removeClass('selected');
+    $(this).find('.sidebar-item-label').addClass('selected');
+    sidebarBody.find('.sidebar__level2').slideUp();    
   })
 
   // facet dropdown

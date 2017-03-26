@@ -1,3 +1,7 @@
+.sidebar-item.all {
+  height: auto!important;
+}
+
 .sidebar .sidebar-body .sidebar-item .sidebar-item-label.selected {
   color: #3d8901;
 }
@@ -7,12 +11,15 @@
   display: none;
   &.selected {
     color: #3d8901;
-  }
-  .sidebar-item-label {
-    padding-top: 0;
-  }
+  }  
 }
 
 .sidebar.filter-tree .D1.sidebar-item .sidebar-item-label {
   padding-left: 9px;
+}
+
+.shop-houzz-giftcards-sidebar {
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.08);
 }

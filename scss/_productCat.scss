@@ -39,3 +39,30 @@
     margin-right: 0;
   }
 }
+
+.shop-landing-module-content {
+  padding: 0 35px;
+}
+#product-slider-4 {
+  .product-thumb:hover {
+    cursor: zoom-in;
+  }
+  .product-content {
+    padding: 0 10px;
+  }
+  &.owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+    top: 50%;
+    background: transparent;
+    color: #666;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    &.owl-prev {
+      right: 100%;
+    }
+    &.owl-next {
+      left: 100%;
+    }
+  }
+} 

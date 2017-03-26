@@ -6,6 +6,8 @@
   <title>Product Category</title>
   <link type="text/css" rel="stylesheet" href="css/style1.css" />
   <link type="text/css" rel="stylesheet" href="css/style2.css" />
+  <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+  <link type="text/css" rel="stylesheet" href="css/owl.theme.css" />
   <link type="text/css" rel="stylesheet" href="style.css" />
   <!-- Link CSS product page -->
   <link type="text/css" rel="stylesheet" href="css/style3.css" />
@@ -18,41 +20,114 @@
           <div class="zcol zLeftSidebar">
             <div id="zLeftSidebar">
               <div class="sidebar filter-tree collapsible">
-                <div class="sidebar-header collapse">Shop By Category<span class="toggle down-icon"></span></div>
-                <div class="sidebar-body" style="display: block;">
+                <div class="sidebar-header collapse">
+                  Shop By Category<span class="toggle down-icon"></span>
+                </div>
+                <div class="sidebar-body">
                   <ul>
-                    <li class="D0 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/dining-products"><span class="option-text">Dining Products</span></a>
+                    <li class="D0 sidebar-item all">
+                      <a class="sidebar-item-label selected" href="#">
+                        <span class="option-text">All Products</span>
+                      </a>
                     </li>
-                    <li class="selected D1 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/home-bar-products"><span class="option-text">Home Bar Products</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Furniture</span>
+                      </a>
+                      <ul class="sidebar__level2">
+                        <li class="D1 sidebar-item">
+                          <a class="sidebar-item-label" href="#">
+                            <span class="option-text">Lighting</span>
+                          </a>
+                        </li>
+                        <li class="D1 sidebar-item">
+                          <a class="sidebar-item-label" href="#">
+                            <span class="option-text">Home Decor</span>
+                          </a>
+                        </li>
+                        <li class="D1 sidebar-item">
+                          <a class="sidebar-item-label" href="#">
+                            <span class="option-text">Kitchen &amp; Dining</span>
+                          </a>
+                        </li>
+                      </ul>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/bar-stools-and-counter-stools"><span class="option-text">Bar Stools &amp; Counter Stools</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Lighting</span>
+                      </a>
+                      <ul class="sidebar__level2">
+                        <li class="D1 sidebar-item">
+                          <a class="sidebar-item-label" href="#">
+                            <span class="option-text">Lighting</span>
+                          </a>
+                        </li>
+                        <li class="D1 sidebar-item">
+                          <a class="sidebar-item-label" href="#">
+                            <span class="option-text">Home Decor</span>
+                          </a>
+                        </li>
+                        <li class="D1 sidebar-item">
+                          <a class="sidebar-item-label" href="#">
+                            <span class="option-text">Kitchen &amp; Dining</span>
+                          </a>
+                        </li>
+                      </ul>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/wine-racks"><span class="option-text">Wine Racks</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Home Decor</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/bar-tables"><span class="option-text">Pub &amp; Bistro Tables</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Kitchen &amp; Dining</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/pub-and-bistro-sets"><span class="option-text">Pub &amp; Bistro Sets</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Bath Products</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/bar-carts"><span class="option-text">Bar Carts</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Bedroom Products</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/wine-and-bar-tools"><span class="option-text">Wine &amp; Bar Tools</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Storage &amp; Organization</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/bar-glasses"><span class="option-text">Bar Glasses</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Home Improvement</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/beer-and-wine-refrigerators"><span class="option-text">Beer &amp; Wine Refrigerators</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Outdoor Products</span>
+                      </a>
                     </li>
-                    <li class="D2 sidebar-item">
-                      <a class="sidebar-item-label" href="http://www.houzz.com/photos/wine-and-bar-cabinets"><span class="option-text">Wine &amp; Bar Cabinets</span></a>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Baby &amp; Kids</span>
+                      </a>
+                    </li>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Housekeeping &amp; Laundry</span>
+                      </a>
+                    </li>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Holiday Decor</span>
+                      </a>
+                    </li>
+                    <li class="D1 sidebar-item level2">
+                      <a class="sidebar-item-label" href="#">
+                        <span class="option-text">Pet Supplies</span>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -150,7 +225,7 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div>            
           </div>
           <div class="zcol zRightSideContent">
             <div id="zRightSideContent">
@@ -267,6 +342,132 @@
                         <div class="topic-content">
                           <a class="topic-title header-5 text-unbold no-margin" href="http://www.houzz.com/photos/beer-and-wine-refrigerators"><i class="hzi-font hzi-Tag topic-rounded-arrow"></i><span class="topic-title">Beer &amp; Wine Refrigerators</span></a>
                         </div>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="shop-landing-module" id="slm_5_4">
+                <div class="shop-landing-module-header text-center">
+                  <div class="shop-landing-title-line"></div>
+                  <div class="shop-landing-title header-2 header-dt-3">
+                    Shop Bestsellers
+                  </div>
+                </div>
+                <div class="shop-landing-module-content">
+                  <div id="product-slider-4" class="owl-carousel">
+                    <div class="item">
+                      <div class="product-item-column">
+                        <a class="product-item" href="http://www.houzz.com/photos/34090938/Santa-Fe-Server-and-Back-Bar-craftsman-wine-and-bar-cabinets">
+                        <div class="img-responsive-wrapper img-responsive-square product-thumb"><img data-pin-no-hover="true" src="https://st.hzcdn.com/fimgs/803130e5064c9e17_2694-w200-h200-b1-p20--craftsman-wine-and-bar-cabinets.jpg"></div>
+                        <div class="product-content">
+                          <div class="text-unbold product-title text-l">
+                            Santa Fe Server and Back Bar
+                          </div>
+                          <div class="small text-muted">
+                            by Sunny Designs, Inc.
+                          </div>
+                          <div class="product-promotion-text text-m">
+                            <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                              <span content="USD" itemprop="priceCurrency"><b content="1309&gt;" itemprop="price">$1,309</b></span>
+                            </div>
+                          </div>
+                        </div></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-item-column">
+                        <a class="product-item" href="http://www.houzz.com/photos/34090938/Santa-Fe-Server-and-Back-Bar-craftsman-wine-and-bar-cabinets">
+                        <div class="img-responsive-wrapper img-responsive-square product-thumb"><img data-pin-no-hover="true" src="https://st.hzcdn.com/fimgs/803130e5064c9e17_2694-w200-h200-b1-p20--craftsman-wine-and-bar-cabinets.jpg"></div>
+                        <div class="product-content">
+                          <div class="text-unbold product-title text-l">
+                            Santa Fe Server and Back Bar
+                          </div>
+                          <div class="small text-muted">
+                            by Sunny Designs, Inc.
+                          </div>
+                          <div class="product-promotion-text text-m">
+                            <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                              <span content="USD" itemprop="priceCurrency"><b content="1309&gt;" itemprop="price">$1,309</b></span>
+                            </div>
+                          </div>
+                        </div></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-item-column">
+                        <a class="product-item" href="http://www.houzz.com/photos/34090938/Santa-Fe-Server-and-Back-Bar-craftsman-wine-and-bar-cabinets">
+                        <div class="img-responsive-wrapper img-responsive-square product-thumb"><img data-pin-no-hover="true" src="https://st.hzcdn.com/fimgs/803130e5064c9e17_2694-w200-h200-b1-p20--craftsman-wine-and-bar-cabinets.jpg"></div>
+                        <div class="product-content">
+                          <div class="text-unbold product-title text-l">
+                            Santa Fe Server and Back Bar
+                          </div>
+                          <div class="small text-muted">
+                            by Sunny Designs, Inc.
+                          </div>
+                          <div class="product-promotion-text text-m">
+                            <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                              <span content="USD" itemprop="priceCurrency"><b content="1309&gt;" itemprop="price">$1,309</b></span>
+                            </div>
+                          </div>
+                        </div></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-item-column">
+                        <a class="product-item" href="http://www.houzz.com/photos/34090938/Santa-Fe-Server-and-Back-Bar-craftsman-wine-and-bar-cabinets">
+                        <div class="img-responsive-wrapper img-responsive-square product-thumb"><img data-pin-no-hover="true" src="https://st.hzcdn.com/fimgs/803130e5064c9e17_2694-w200-h200-b1-p20--craftsman-wine-and-bar-cabinets.jpg"></div>
+                        <div class="product-content">
+                          <div class="text-unbold product-title text-l">
+                            Santa Fe Server and Back Bar
+                          </div>
+                          <div class="small text-muted">
+                            by Sunny Designs, Inc.
+                          </div>
+                          <div class="product-promotion-text text-m">
+                            <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                              <span content="USD" itemprop="priceCurrency"><b content="1309&gt;" itemprop="price">$1,309</b></span>
+                            </div>
+                          </div>
+                        </div></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-item-column">
+                        <a class="product-item" href="http://www.houzz.com/photos/34090938/Santa-Fe-Server-and-Back-Bar-craftsman-wine-and-bar-cabinets">
+                        <div class="img-responsive-wrapper img-responsive-square product-thumb"><img data-pin-no-hover="true" src="https://st.hzcdn.com/fimgs/803130e5064c9e17_2694-w200-h200-b1-p20--craftsman-wine-and-bar-cabinets.jpg"></div>
+                        <div class="product-content">
+                          <div class="text-unbold product-title text-l">
+                            Santa Fe Server and Back Bar
+                          </div>
+                          <div class="small text-muted">
+                            by Sunny Designs, Inc.
+                          </div>
+                          <div class="product-promotion-text text-m">
+                            <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                              <span content="USD" itemprop="priceCurrency"><b content="1309&gt;" itemprop="price">$1,309</b></span>
+                            </div>
+                          </div>
+                        </div></a>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-item-column">
+                        <a class="product-item" href="http://www.houzz.com/photos/34090938/Santa-Fe-Server-and-Back-Bar-craftsman-wine-and-bar-cabinets">
+                        <div class="img-responsive-wrapper img-responsive-square product-thumb"><img data-pin-no-hover="true" src="https://st.hzcdn.com/fimgs/803130e5064c9e17_2694-w200-h200-b1-p20--craftsman-wine-and-bar-cabinets.jpg"></div>
+                        <div class="product-content">
+                          <div class="text-unbold product-title text-l">
+                            Santa Fe Server and Back Bar
+                          </div>
+                          <div class="small text-muted">
+                            by Sunny Designs, Inc.
+                          </div>
+                          <div class="product-promotion-text text-m">
+                            <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                              <span content="USD" itemprop="priceCurrency"><b content="1309&gt;" itemprop="price">$1,309</b></span>
+                            </div>
+                          </div>
+                        </div></a>
                       </div>
                     </div>
                   </div>                  

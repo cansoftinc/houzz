@@ -1694,6 +1694,74 @@
   content: "\e6c4";
 }
 
+.hbs .header-1 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-2 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-3 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-4 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-5 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-6 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-dt-1 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-dt-2 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-dt-3 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-dt-4 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-dt-5 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .header-dt-6 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .btn-text-xl {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .ms100 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .ms300 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .ms500 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.hbs .ms700 {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
 .zrow:before {
   display: table;
   content: " ";
@@ -4003,6 +4071,10 @@ body.showlb {
   width: 20%;
 }
 
+.sidebar-item.all {
+  height: auto !important;
+}
+
 .sidebar .sidebar-body .sidebar-item .sidebar-item-label.selected {
   color: #3d8901;
 }
@@ -4016,12 +4088,14 @@ body.showlb {
   color: #3d8901;
 }
 
-.sidebar .sidebar-body .sidebar-item .sidebar__level2 .sidebar-item-label {
-  padding-top: 0;
-}
-
 .sidebar.filter-tree .D1.sidebar-item .sidebar-item-label {
   padding-left: 9px;
+}
+
+.shop-houzz-giftcards-sidebar {
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
 }
 
 .hbs .mtl {
@@ -5820,6 +5894,36 @@ body.fb_hidden {
 
 .featured-review .rate-star {
   margin-right: 0;
+}
+
+.shop-landing-module-content {
+  padding: 0 35px;
+}
+
+#product-slider-4 .product-thumb:hover {
+  cursor: zoom-in;
+}
+
+#product-slider-4 .product-content {
+  padding: 0 10px;
+}
+
+#product-slider-4.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 50%;
+  background: transparent;
+  color: #666;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#product-slider-4.owl-theme .owl-controls .owl-buttons div.owl-prev {
+  right: 100%;
+}
+
+#product-slider-4.owl-theme .owl-controls .owl-buttons div.owl-next {
+  left: 100%;
 }
 
 .zImageTab .mainImageWrap img {
