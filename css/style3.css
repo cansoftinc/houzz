@@ -85,8 +85,7 @@
 					overflow: hidden;
 				}
 				.hbs .header-2 {
-					font-size: 20px !important;
-					font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-size: 20px !important;					
 					font-weight: 300 !important;
 				}
 				.hbs .hz-carded {
@@ -283,8 +282,7 @@
 					overflow: hidden;
 				}
 				.hbs .header-2 {
-					font-size: 20px !important;
-					font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-size: 20px !important;					
 					font-weight: 300 !important;
 				}
 				.hbs .hz-carded {
@@ -543,8 +541,7 @@
 			border-top: 1px solid #e6e6e6;
 		}
 		.hbs .header-dt-3 {
-			font-size: 22px;
-			font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 22px;			
 			font-weight: bold;
 		}
 		.shop-landing-grid-promotions {
@@ -1334,8 +1331,7 @@
 		font-size: 30px;
 		padding: 10px 0;
 	}
-	.hbs .ms300 {
-		font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	.hbs .ms300 {		
 		font-weight: 300;
 	}
 	.hzProduct .price2 {
@@ -1534,7 +1530,6 @@
 	}
 	.hbs .header-6 {
 		font-size: 16px;
-		font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: bold;
 	}
 	.spaceContent .r-sidebar .spaces-grid {
@@ -1569,7 +1564,6 @@
 	}
 	.hbs .header-4 {
 		font-size: 20px;
-		font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: bold;
 	}
 	.complementary-products-box {
@@ -2113,7 +2107,6 @@
 	}
 	.hbs .header-1 {
 		font-size: 30px;
-		font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 300;
 	}
 	/*.hz-main-contents .header-1 {
@@ -2727,7 +2720,6 @@
 	}
 	.hbs .header-5 {
 		font-size: 18px;
-		font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: bold;
 	}
 	.coBoxBody .coProductGroup .price-mobile {

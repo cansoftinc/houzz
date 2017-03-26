@@ -40,7 +40,7 @@
   }
 }
 
-.shop-landing-module-content {
+.shop-landing-module-content.slider {
   padding: 0 35px;
 }
 #product-slider-4 {
@@ -66,3 +66,27 @@
     }
   }
 } 
+
+@include max(799px) {
+  .shop-landing-module-content {
+    .topic-content {
+      padding-left: 0;
+      padding-right: 0;
+      .topic-title {
+        font-size: 16px;
+      } 
+      .sub-topics-list {
+        margin-left: 0;
+      }
+    }
+  }  
+}
+
+@include max(767px) {
+  .featured-review {
+    width: 100%;
+    &nth-child {
+      margin-right: 0;
+    }
+  }
+}

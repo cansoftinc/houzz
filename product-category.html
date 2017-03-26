@@ -246,6 +246,178 @@
                   </ul>
                 </div>
                 <h1 class="header-1 shop-landing-page-title">Home Bar Products</h1> 
+                <button id="filterButton" class="mb-show">Filter</button>
+                <div class="overlay"></div>
+                <div class="filterModal">
+                  <div class="modal-header clearfix">
+                    <div class="pull-right cancel">Cancel</div>
+                  </div>
+                  <div class="modal-body">
+                    <div class="sidebar collapsible">
+                      <div class="sidebar-header collapse">Room<span class="toggle down-icon"></span>
+                      </div>
+                      <div class="sidebar-body">
+                        <ul id="roomFilter">
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Kitchen</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Bath</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Bedroom</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Living</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Dining</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Outdoor</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Baby &amp; Kids</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Home Office</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Storage &amp; Closet</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Exterior</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Basement</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Entry</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Garage &amp; Shed</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Gym</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item"
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Home Bar</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Hall</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Laundry</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Staircase</span>
+                            </a>
+                          </li>
+                          <li class="hidden sidebar-item">
+                            <a class="sidebar-item-label" href="#">
+                              <span class="option-text">Wine Cellar</span>
+                            </a>
+                          </li>
+                          <li class="sidebar-item more-items" id="roomFilterMore">
+                            <span class="sidebar-item-label hz-link-style">More Rooms...</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="sidebar multiselect multi-checkboxes collapsible">
+                        <div class="sidebar-header collapse" compid="filterHeader">
+                          Budget<span class="toggle down-icon"></span>
+                        </div>
+                        <div class="sidebar-body">
+                          <ul id="attributeFilter_budget">
+                            <li class="sidebar-item" compid="opt" posid="0"><span class="sidebar-icon info-icon" tooltip-data="Many stock materials and finishes - lower cost"></span><a class="sidebar-item-label" href="#" objid="attr_18_85"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$&nbsp;<span class="facetCount">(76,970)</span></span></a>
+                            </li>
+                            <li class="sidebar-item" compid="opt" posid="1"><span class="sidebar-icon info-icon" tooltip-data="Stock and semicustom materials and finishes — moderate cost"></span><a class="sidebar-item-label" href="#" objid="attr_18_86"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$$&nbsp;<span class="facetCount">(408,339)</span></span></a>
+                            </li>
+                            <li class="sidebar-item" compid="opt" posid="2"><span class="sidebar-icon info-icon" tooltip-data="Semicustom to custom materials and finishes — higher cost"></span><a class="sidebar-item-label" href="#" objid="attr_18_87"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$$$&nbsp;<span class="facetCount">(565,492)</span></span></a>
+                            </li>
+                            <li class="sidebar-item" compid="opt" posid="3"><span class="sidebar-icon info-icon" tooltip-data="Fully custom high-end materials and designer finishes — luxury"></span><a class="sidebar-item-label" href="#" objid="attr_18_88"><span class="white-box hzi-font hzi-Check-Sidenav"></span><span class="option-text">$$$$&nbsp;<span class="facetCount">(214,904)</span></span></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sidebar multiselect multi-checkboxes collapsible" scopeid="filterAttribute30">
+                        <div class="sidebar-header collapse">Size<span class="toggle down-icon"></span>
+                        </div>
+                        <div class="sidebar-body">
+                          <ul id="attributeFilter_size">
+                            <li class="sidebar-item" compid="opt" posid="0">
+                              <a class="sidebar-item-label" href="#" objid="attr_30_231">
+                                <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                <span class="option-text">
+                                  Compact&nbsp;<span class="facetCount">(223,365)</span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="sidebar-item" compid="opt" posid="1">
+                              <a class="sidebar-item-label" href="#" objid="attr_30_214">
+                                <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                <span class="option-text">
+                                  Medium&nbsp;<span class="facetCount">(913,709)</span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="sidebar-item" compid="opt" posid="2">
+                              <a class="sidebar-item-label" href="#" objid="attr_30_215">
+                                <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                <span class="option-text">
+                                  Large&nbsp;<span class="facetCount">(721,188)</span>
+                                </span>
+                              </a>
+                            </li>
+                            <li class="sidebar-item" compid="opt" posid="3">
+                              <a class="sidebar-item-label" href="#" objid="attr_30_216">
+                                <span class="white-box hzi-font hzi-Check-Sidenav"></span>
+                                <span class="option-text">
+                                  Expansive&nbsp;<span class="facetCount">(105,161)</span>
+                                </span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div
               </div>                                   
               <div class="shop-landing-module" id="slm_3_3">
                 <div class="shop-landing-module-content">                  
@@ -354,7 +526,7 @@
                     Shop Bestsellers
                   </div>
                 </div>
-                <div class="shop-landing-module-content">
+                <div class="shop-landing-module-content slider">
                   <div id="product-slider-4" class="owl-carousel">
                     <div class="item">
                       <div class="product-item-column">
