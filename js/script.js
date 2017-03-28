@@ -214,6 +214,18 @@ jQuery(document).ready(function($) {
     $(index).addClass('show');
   })
 
+  // hover on photoMeta (photos-3)
+  $('.browseListBody .photoMeta').mouseover(function() {
+    $(this).closest('.whiteCard').find('.product-desc').css({
+      'opacity': 1,
+      'background-color': 'rgba(255,255,255,.9)',
+      'color': '#333'
+    });
+  })
+  $('.browseListBody .photoMeta').mouseout(function() {
+    $(this).closest('.whiteCard').find('.product-desc').css('opacity', 0);
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();
