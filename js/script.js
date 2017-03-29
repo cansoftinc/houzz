@@ -43,8 +43,8 @@ jQuery(document).ready(function($) {
   var slider4 = $("#product-slider-4");
   if(slider4.length) {
     slider4.owlCarousel({
-      items: 4,      
-      itemsTablet: [799,3],      
+      items: 4,
+      itemsTablet: [799,3],
       itemsMobile: [480,1],
       pagination: false,
       navigationText: false,
@@ -112,7 +112,7 @@ jQuery(document).ready(function($) {
   // Sidebar collapsible (left Sidebar/products, products-list)
   $('.sidebar-header.collapse').on('click', function() {
     $(this).next().slideToggle();
-    var icon = $(this).find('.toggle');    
+    var icon = $(this).find('.toggle');
     var currentIconClass = icon.hasClass('more-icon') ? 'more-icon' : 'down-icon';
     var newIconClass = icon.hasClass('more-icon') ? 'down-icon' : 'more-icon';
     icon.removeClass(currentIconClass).addClass(newIconClass);
@@ -128,14 +128,14 @@ jQuery(document).ready(function($) {
     sidebarBody.find('.sidebar-item-label').removeClass('selected');
     $(this).addClass('selected');
     $(this).parent().find('.sidebar__level2').slideDown();
-    $(this).parent().find('.sidebar-item').slideDown();    
+    $(this).parent().find('.sidebar-item').slideDown();
   })
 
   $('.sidebar__level2 .sidebar-item').children('a').on('click', function() {
-    var sidebarBody = $(this).closest('.sidebar-body');   
+    var sidebarBody = $(this).closest('.sidebar-body');
     sidebarBody.find('.sidebar-item-label').removeClass('selected');
     $(this).parent().siblings().slideUp();
-    $(this).addClass('selected');       
+    $(this).addClass('selected');
   })
 
   $('.sidebar-body .all').on('click', function() {
@@ -143,24 +143,13 @@ jQuery(document).ready(function($) {
     sidebarBody.children('ul').children('.sidebar-item').slideDown();
     sidebarBody.find('.sidebar-item-label').removeClass('selected');
     $(this).find('.sidebar-item-label').addClass('selected');
-    sidebarBody.find('.sidebar__level2').slideUp();    
+    sidebarBody.find('.sidebar__level2').slideUp();
   })
 
   // facet dropdown
   $('.btn-group.facet-action-list').on('click', function() {
     $(this).parent().toggleClass('currently-open');
-    $(this).children('.sidebar-item-label').addClass('selected');    
-  })
-
-  // light box (index, photos)
-  $('.zLightBox').on('click', function(e) {
-    e.preventDefault();
-    $('#lbRoot').removeClass('hidden');
-    $('body').addClass('showlb');
-  });
-  $('#lbClose.zClose').on('click', function() {
-    $('#lbRoot').addClass('hidden');
-    $('body').removeClass('showlb');
+    $(this).children('.sidebar-item-label').addClass('selected');
   })
 
   var lbImage = $('#lbImageContainer');
