@@ -13,38 +13,6 @@
   position: absolute;
   width: 100%;
 }
-.profile-header .profile-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 50px;
-  margin-bottom: 53px;
-  padding-left: 225px;
-  height: 152px;
-  color: #fff;
-}
-.profile-header .custom-cover + .profile-info {
-  background-color: rgba(0,0,0,0.28);
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.7)));
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
-  background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.7));
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.7));
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#b3000000', GradientType=0);
-  background-color: transparent;
-}
-.profile-header .profile-info .profile-title {
-  padding-right: 380px;
-  position: absolute;
-  bottom: 15px;
-}
-.profile-header .profile-info .profile-full-name {
-  font-size: 29px;
-  line-height: 1.1;
-  color: #fff;
-}
 .profile-pro-reviews {
   font-weight: bold;
   margin-top: 7px;
@@ -101,27 +69,6 @@
   z-index: 1;
   color: #000;
 }
-.profile-header .profile-pic-container {
-  position: absolute;
-  bottom: 0;
-  width: 200px;
-  z-index: 1;
-  bottom: 15px;
-}
-.profile-header .profile-pic-border {
-  display: block;
-  width: 177px;
-  height: 177px;
-  border: 2px solid #fff;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 0 16px;
-  box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
-}
 .social-share-list {
   float: right;
   position: relative;
@@ -135,13 +82,6 @@
   position: absolute;
   width: inherit;
   height: 0px;
-}
-.profile-header .profile-pro-actions {
-  position: absolute;
-  bottom: 80px;
-  right: 40px;
-  text-align: right;
-  height: 80px;
 }
 .btn-lg, .btn-group-lg > .btn {
   padding: 7px 16px;
