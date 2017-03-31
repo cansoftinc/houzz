@@ -4665,10 +4665,10 @@ body.modal-open {
 .hz-one-card-right-content,
 .hz-one-card-right-content {
   width: 796px;
-  margin-left: 16px;
+  padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 16px;
-  float: right;
+  float: left;
   min-height: 600px;
 }
 
@@ -5587,7 +5587,7 @@ body.fb_hidden {
     top: auto;
     bottom: 5px;
   }
-  .profile-convert {
+  .profile-convert.pull-right {
     float: none !important;
   }
   .profile-header .profile-info .profile-full-name {
@@ -5626,6 +5626,15 @@ body.fb_hidden {
   .profile-header .profile-pic-border img {
     width: 100px;
     height: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hz-one-card-sideBar {
+    width: 20%;
+  }
+  .hz-one-card-right-content {
+    width: 80%;
   }
 }
 
