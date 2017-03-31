@@ -1,8 +1,8 @@
 .houzz-header-secondary, #lbImageContainer, #zBottomProducts {
-  transition: all .3s;
-  -ms-transition: all .3s;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
 }
 
 /* break point */
@@ -5069,7 +5069,7 @@ sidebar .sidebar-body .sidebar-item .sidebar-item-label {
 }
 
 .fb_animate {
-  animation: fb_transform .3s forwards;
+  animation: fb_transform 0.3s forwards;
 }
 
 .fb_dialog {
@@ -5521,6 +5521,29 @@ body.fb_hidden {
   margin: 0 0 0 8px;
 }
 
+#paymentForm .controls,
+#addressForm .controls {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#paymentForm .col-xs-6 .controls,
+#paymentForm .col-sm-6 .controls,
+#addressForm .col-xs-6 .controls,
+#addressForm .col-sm-6 .controls {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .hz-one-card-sideBar {
+    width: 20%;
+  }
+  .hz-one-card-right-content {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 799px) {
   .hz-one-card-sideBar,
   .hz-one-card-sideBar {
@@ -5577,9 +5600,9 @@ body.fb_hidden {
   .profile-pic-placeholder {
     display: none;
   }
-  .hz-one-card-sideBar,
   .hz-one-card-sideBar {
-    display: none;
+    width: 100%;
+    padding-right: 16px;
   }
   .hz-one-card-right-content,
   .hz-one-card-right-content {
@@ -5631,14 +5654,13 @@ body.fb_hidden {
     width: 100px;
     height: 100px;
   }
-}
-
-@media screen and (max-width: 1000px) {
-  .hz-one-card-sideBar {
-    width: 20%;
+  .settingsAddresses #colAddAddress {
+    position: static;
+    padding: 0 !important;
+    margin: 15px 0 5px 8px;
   }
-  .hz-one-card-right-content {
-    width: 80%;
+  .settingsAddresses #colAddAddress #addAddress {
+    padding: 10px 25px;
   }
 }
 

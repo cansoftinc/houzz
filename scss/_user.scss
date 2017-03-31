@@ -767,6 +767,30 @@ body.fb_hidden {
   margin: 0 0 0 8px;
 }
 
+#paymentForm,
+#addressForm {
+  .controls {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .col-xs-6,
+  .col-sm-6, {
+    .controls {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  } 
+}
+
+@include max(1000px) {
+  .hz-one-card-sideBar {
+    width: 20%;
+  }
+  .hz-one-card-right-content {
+    width: 80%;
+  }
+}
+
 @include max(799px) {
   .hz-one-card-sideBar,
   .hz-one-card-sideBar {
@@ -823,9 +847,9 @@ body.fb_hidden {
   .profile-pic-placeholder {
     display: none;
   }
-  .hz-one-card-sideBar,
   .hz-one-card-sideBar {
-    display: none;
+    width: 100%;
+    padding-right: 16px;
   }
   .hz-one-card-right-content,
   .hz-one-card-right-content {
@@ -877,13 +901,13 @@ body.fb_hidden {
       height: 100px;
     }
   }
+  .settingsAddresses #colAddAddress {
+    position: static;
+    padding: 0!important;
+    margin: 15px 0 5px 8px;
+    #addAddress {
+      padding: 10px 25px;
+    }
+  }
 }
 
-@include max(1000px) {
-  .hz-one-card-sideBar {
-    width: 20%;
-  }
-  .hz-one-card-right-content {
-    width: 80%;
-  }
-}
