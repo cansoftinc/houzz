@@ -1881,6 +1881,10 @@
   padding-right: 8px;
 }
 
+.zrow.zd6 .zcol {
+  width: 16.666666666%;
+}
+
 .zrow.zd4 .zcol {
   width: 25%;
 }
@@ -6876,6 +6880,213 @@ pro-offers .hzi-font + div,
   }
   #coPage.zBilling #coBreadcrumbs li {
     float: none;
+  }
+}
+
+#userGalleriesBody .action-buttons .search-wrapper,
+#searchResultBody .action-buttons .search-wrapper {
+  display: table;
+  width: 480px;
+}
+
+.galleryAutoCompleteContainer {
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.galleryAutoCompleteContainer {
+  overflow: visible;
+  display: table-cell;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+#userGalleriesBody .galleryAutoCompleteContainer {
+  margin-left: 10px;
+}
+
+#myGalleriesSelect {
+  position: relative;
+  height: 30px;
+}
+
+#myGalleriesSelect .hzi-font.hzi-Search {
+  position: absolute;
+  left: -6px;
+  top: 0;
+  padding: 0 1em;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: transparent;
+  color: #ababab;
+  z-index: 3;
+}
+
+#myGalleriesSelect .twitter-typeahead {
+  width: 100%;
+}
+
+#myGalleriesSelect input {
+  padding-left: 30px;
+  border-radius: 3px;
+}
+
+#myGalleriesSelect .twitter-typeahead .tt-menu .tt-dataset.tt-dataset-ideabooksSource {
+  margin-bottom: 5px;
+}
+
+.gallery-section .gallery-meta-top {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.profile-edit-icon {
+  background-image: url(pic/Profile_edit_icon.png);
+  background-position: 0 0;
+  float: right;
+  width: 44px;
+  height: 44px;
+  opacity: .8;
+  filter: alpha(opacity=80);
+}
+
+.gallery-section .profile-edit-icon {
+  display: none;
+}
+
+.gallery-section .gallery-meta {
+  color: #fff;
+  padding: 100px 10px 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
+  background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=0);
+  background-color: transparent;
+}
+
+.gallery-card:hover .profile-edit-icon {
+  display: block;
+}
+
+.gallery-card {
+  background-color: #ccc;
+  background-image: url(pic/cover_placeholder_large.png);
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+}
+
+.new-object-squre .new-object-plus {
+  background-image: url(pic/Plus_icons.png);
+  background-position: -145px 50%;
+  height: 104px;
+  width: 104px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.new-object-squre .new-object-plus {
+  font-size: 130px;
+}
+
+.new-object-squre {
+  cursor: pointer;
+  border: 2px dashed #ababab;
+  text-align: center;
+  background: none !important;
+}
+
+#ideabooks-suggestions .header-5 {
+  margin-bottom: 20px;
+}
+
+.galleries-wrapper + #ideabooks-suggestions .header-5 {
+  margin-top: 5px;
+  padding-top: 30px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.reloadMe.rimg img.reloadable {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wrapper-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  vertical-align: middle;
+}
+
+.new-object-squre .new-object-plus {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.new-object-title {
+  font-size: 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.suggestion-item {
+  margin-bottom: 16px;
+}
+
+.suggestion-item img {
+  width: 100%;
+}
+
+#userGalleriesBody .header-1 {
+  clear: left;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 799px) {
+  .new-object-squre .new-object-plus {
+    background-position: -167px 50%;
+    height: 60px;
+    width: 60px;
+  }
+  .new-object-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #userGalleriesBody .action-buttons .search-wrapper,
+  #searchResultBody .action-buttons .search-wrapper {
+    width: 100%;
+  }
+  #userGalleriesBody .galleryAutoCompleteContainer {
+    margin: 0;
+    padding: 0;
+  }
+  .gallery-section {
+    padding: 0 10px;
   }
 }
 
