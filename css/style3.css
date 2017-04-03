@@ -1,10 +1,5 @@
 /* Custom Style - Gatsby */
-/* Product page */
-	.hbs .container {
-			margin-right: auto;
-			margin-left: auto;
-			width: 1000px;
-		}
+/* Product page */	
 	/* Responsive */		
 		@media (min-width: 1280px) {
     		.hbs .container { width: 1200px; }

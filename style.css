@@ -1969,8 +1969,8 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
+#mainArea {
+  min-width: 0;
 }
 
 .hz-grey-bg {
@@ -4085,6 +4085,12 @@ body.showlb {
   width: 20%;
 }
 
+@media screen and (max-width: 767px) {
+  #navContainer {
+    display: none;
+  }
+}
+
 .sidebar-item.all {
   height: auto !important;
 }
@@ -6079,6 +6085,10 @@ body.fb_hidden {
 .zImageTab .altImagesDiv img.selected {
   border-color: #888;
   background-color: white;
+}
+
+.viewSpaceImage img {
+  max-width: 100%;
 }
 
 .product-promotion .whiteCard {

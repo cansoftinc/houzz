@@ -18,3 +18,9 @@
     }
   }
 }
+
+@include max(767px) {
+  #navContainer {
+    display: none;
+  }
+}
