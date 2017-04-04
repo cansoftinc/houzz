@@ -37,7 +37,7 @@
 					vertical-align: middle;
 				}
 			}
-		@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+		@media (max-width: 767px) and (orientation: portrait) {
 			/* Product page */
 				.leftSideBar { display:none; }
 				.hbs .container {
@@ -538,14 +538,10 @@
 		.hbs .header-dt-3 {
 			font-size: 22px;			
 			font-weight: bold;
-		}
-		.shop-landing-grid-promotions {
-			margin-left: -21px;
-		}
+		}		
 		.shop-landing-grid-promotions .shop-landing-promotion {
 			float: left;
-			width: 230px;
-			margin-left: 21px;
+			width: 100%;			
 			margin-bottom: 21px;
 			position: relative;
 			border: 1px solid #e6e6e6;

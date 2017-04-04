@@ -1,4 +1,4 @@
-.houzz-header-secondary, #lbImageContainer, #zBottomProducts {
+.houzz-header-secondary, .profile-pic-container .profile-camera-icon, #lbImageContainer, #zBottomProducts {
   transition: all 0.3s;
   -ms-transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -4133,6 +4133,7 @@ body.showlb {
   border-color: #3d8901;
 }
 
+/* Sizes Buttons */
 .sizes-buttons .sprite-sizes {
   background-image: url(../pic/Sizes.png);
   display: inline-block;
@@ -4141,29 +4142,48 @@ body.showlb {
   height: 30px;
 }
 
+.sizes-buttons .sprite-sizes + .sprite-sizes {
+  border-left: 1px solid #ccc;
+}
+
 .sizes-buttons .sprite-sizes.size-s {
   background-position: 0px -30px;
 }
 
-.sizes-buttons .sprite-sizes + .sprite-sizes {
-  border-left: 1px solid #ccc;
+.sizes-buttons .sprite-sizes.size-s:hover, .sizes-buttons .sprite-sizes.size-s.active {
+  background-position: 0px 0px;
 }
 
 .sizes-buttons .sprite-sizes.size-m {
   background-position: -30px -30px;
 }
 
+.sizes-buttons .sprite-sizes.size-m:hover, .sizes-buttons .sprite-sizes.size-m.active {
+  background-position: -30px 0px;
+}
+
 .sizes-buttons .sprite-sizes.size-l {
   background-position: -60px -30px;
 }
 
-.sizes-buttons .sprite-sizes.size-xl:hover,
-.sizes-buttons .sprite-sizes.size-xl.active {
+.sizes-buttons .sprite-sizes.size-l:hover, .sizes-buttons .sprite-sizes.size-l.active {
+  background-position: -60px 0px;
+}
+
+.sizes-buttons .sprite-sizes.size-xl {
+  background-position: -90px -30px;
+}
+
+.sizes-buttons .sprite-sizes.size-xl:hover, .sizes-buttons .sprite-sizes.size-xl.active {
   background-position: -90px 0px;
 }
 
 .sizes-buttons .sprite-sizes.size-lightbox {
   background-position: -120px -30px;
+}
+
+.sizes-buttons .sprite-sizes.size-lightbox:hover, .sizes-buttons .sprite-sizes.size-lightbox.active {
+  background-position: -120px 0px;
 }
 
 .sizes-buttons.size-btns-list-layout {
@@ -4176,26 +4196,6 @@ body.showlb {
   overflow: hidden;
   box-sizing: border-box;
   font-size: 0;
-}
-
-.sizes-buttons .sprite-sizes.size-s:hover,
-.sizes-buttons .sprite-sizes.size-s.active {
-  background-position: 0px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-m:hover,
-.sizes-buttons .sprite-sizes.size-m.active {
-  background-position: -30px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-l:hover,
-.sizes-buttons .sprite-sizes.size-l.active {
-  background-position: -60px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-lightbox:hover,
-.sizes-buttons .sprite-sizes.size-lightbox.active {
-  background-position: -120px 0px;
 }
 
 .headerContainer .pagination #paginationBar .pagination-text {
@@ -4972,8 +4972,12 @@ sidebar .sidebar-body .sidebar-item .sidebar-item-label {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
+.profile-header .profile-pic-border:hover .profile-camera-icon {
+  opacity: .8;
+}
+
 .profile-pic-container .profile-camera-icon {
-  display: block;
+  opacity: 0;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -4987,8 +4991,6 @@ sidebar .sidebar-body .sidebar-item .sidebar-item-label {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  opacity: .8;
-  filter: alpha(opacity=80);
   text-align: center;
 }
 
@@ -5667,6 +5669,12 @@ body.fb_hidden {
   }
   .settingsAddresses #colAddAddress #addAddress {
     padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .profile-header .change-cover-photo {
+    display: none;
   }
 }
 

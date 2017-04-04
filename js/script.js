@@ -215,6 +215,12 @@ jQuery(document).ready(function($) {
     $(this).closest('.whiteCard').find('.product-desc').css('opacity', 0);
   })
 
+  // sizes buttons (product)
+  $('.sizes-buttons a').on('click', function() {
+    $('.sizes-buttons a').removeClass('active');
+    $(this).addClass('active');
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();

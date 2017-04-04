@@ -13,69 +13,61 @@
   border-color: #3d8901;
 }
 
-.sizes-buttons .sprite-sizes {
-  background-image: url(../pic/Sizes.png);
-  display: inline-block;
-  zoom: 1;
-  width: 30px;
-  height: 30px;
-}
+/* Sizes Buttons */
 
-.sizes-buttons .sprite-sizes.size-s {
-  background-position: 0px -30px;
-}
-
-.sizes-buttons .sprite-sizes + .sprite-sizes {
-  border-left: 1px solid #ccc;
-}
-.sizes-buttons .sprite-sizes.size-m {
-  background-position: -30px -30px;
-}
-
-.sizes-buttons .sprite-sizes.size-l {
-  background-position: -60px -30px;
-}
-
-.sizes-buttons .sprite-sizes.size-xl:hover,
-.sizes-buttons .sprite-sizes.size-xl.active {
-  background-position: -90px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-lightbox {
-  background-position: -120px -30px;
-}
-
-.sizes-buttons.size-btns-list-layout {
-  border: 1px solid #ccc;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  height: 30px;
-  float: right;
-  overflow: hidden;
-  box-sizing: border-box;
-  font-size: 0;
-}
-
-.sizes-buttons .sprite-sizes.size-s:hover,
-.sizes-buttons .sprite-sizes.size-s.active {
-  background-position: 0px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-m:hover,
-.sizes-buttons .sprite-sizes.size-m.active {
-  background-position: -30px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-l:hover,
-.sizes-buttons .sprite-sizes.size-l.active {
-  background-position: -60px 0px;
-}
-
-.sizes-buttons .sprite-sizes.size-lightbox:hover,
-.sizes-buttons .sprite-sizes.size-lightbox.active {
-  background-position: -120px 0px;
-}
+.sizes-buttons {
+  .sprite-sizes {
+    background-image: url(../pic/Sizes.png);
+    display: inline-block;
+    zoom: 1;
+    width: 30px;
+    height: 30px;
+    & + .sprite-sizes {
+      border-left: 1px solid #ccc;
+    }
+    &.size-s {
+      background-position: 0px -30px;
+      &:hover, &.active {
+        background-position: 0px 0px;
+      }
+    }
+    &.size-m {
+      background-position: -30px -30px;
+      &:hover, &.active {
+        background-position: -30px 0px;
+      }
+    }
+    &.size-l {
+      background-position: -60px -30px;
+      &:hover, &.active {
+        background-position: -60px 0px;
+      }
+    }
+    &.size-xl {
+      background-position: -90px -30px;
+      &:hover, &.active {
+        background-position: -90px 0px;
+      }
+    }
+    &.size-lightbox {
+      background-position: -120px -30px;
+      &:hover, &.active {
+        background-position: -120px 0px;
+      }
+    }
+  }
+  &.size-btns-list-layout {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 30px;
+    float: right;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 0;
+  }
+} 
 
 .headerContainer .pagination #paginationBar .pagination-text {
   line-height: 22px;
