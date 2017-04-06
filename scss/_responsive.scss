@@ -18,6 +18,18 @@
   }
 }
 
+@include max(359px) {
+  #navHome {
+    width: 115px;
+  }
+  .shop-stories-feed-block.feedItem.home-feed .feed-meta-container {
+    max-height: 90px;
+  }
+  #footer-menu {
+    line-height: 24px;
+  }
+}
+
 
 
 

@@ -4198,7 +4198,7 @@ body.showlb {
   font-size: 0;
 }
 
-/* nav My Cart (logined) */
+/* nav MyCart, User (logined) */
 #navMyCart:hover #navMyCartExp {
   display: block;
 }
@@ -7171,6 +7171,18 @@ pro-offers .hzi-font + div,
   .hbs .container {
     width: 100%;
     padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #navHome {
+    width: 115px;
+  }
+  .shop-stories-feed-block.feedItem.home-feed .feed-meta-container {
+    max-height: 90px;
+  }
+  #footer-menu {
+    line-height: 24px;
   }
 }
 

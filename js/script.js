@@ -221,6 +221,12 @@ jQuery(document).ready(function($) {
     $(this).addClass('active');
   })
 
+  // profile tabs (user)
+  $('.profile-tabs li').on('click', function() {
+    $('.profile-tabs li').removeClass('selected');
+    $(this).addClass('selected');
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();

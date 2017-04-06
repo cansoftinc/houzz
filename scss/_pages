@@ -68,7 +68,7 @@
   }
 } 
 
-/* nav My Cart (logined) */
+/* nav MyCart, User (logined) */
 #navMyCart {
   &:hover {
     #navMyCartExp {
