@@ -14,7 +14,6 @@
 }
 
 /* Sizes Buttons */
-
 .sizes-buttons {
   .sprite-sizes {
     background-image: url(../pic/Sizes.png);
@@ -68,6 +67,32 @@
     font-size: 0;
   }
 } 
+
+/* nav My Cart (logined) */
+#navMyCart {
+  &:hover {
+    #navMyCartExp {
+      display: block;
+    }
+  }
+  #navMyCartExp {
+    display: none;
+  }
+}
+
+#navMyHouzz {
+  &:hover {
+    #navMyHouzzExp {
+      display: block;
+    }
+  }
+  #navMyHouzzExp {
+    display: none;
+  }
+  .user-summary {
+    width: 110px;
+  }
+}
 
 .headerContainer .pagination #paginationBar .pagination-text {
   line-height: 22px;

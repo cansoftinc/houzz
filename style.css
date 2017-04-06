@@ -4198,6 +4198,27 @@ body.showlb {
   font-size: 0;
 }
 
+/* nav My Cart (logined) */
+#navMyCart:hover #navMyCartExp {
+  display: block;
+}
+
+#navMyCart #navMyCartExp {
+  display: none;
+}
+
+#navMyHouzz:hover #navMyHouzzExp {
+  display: block;
+}
+
+#navMyHouzz #navMyHouzzExp {
+  display: none;
+}
+
+#navMyHouzz .user-summary {
+  width: 110px;
+}
+
 .headerContainer .pagination #paginationBar .pagination-text {
   line-height: 22px;
   padding-left: 8px;

@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Houzz</title>
+  <title>Home</title>
   <link type="text/css" rel="stylesheet" href="css/style1.css" />
   <link type="text/css" rel="stylesheet" href="css/style2.css" />
   <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
@@ -32,9 +32,93 @@
                 </div>
               </a>
             </li>
-            <li id="navMyCart"><a href="#" class="nav-button"><i class="hzi-font hzi-Cart"></i><span class='cart-count empty-cart' id='navMyCartCount'>0</span></a>
+            <li id="navMyCart">
+              <a href="#" class="nav-button">
+                <i class="hzi-font hzi-Cart"></i>
+                <span class='cart-count empty-cart' id='navMyCartCount'>0</span>
+              </a>
+              <div class="unstyled header-nav-dropdown-menu menu-body" id="navMyCartExp">
+                <div class="loaded" id="myCartMenuContent">
+                  <div class="cartItemsList navRoundedBottomBorder">
+                    <table>
+                      <tbody>
+                        <tr class="cartItem">
+                          <td class="cartItemImage">
+                            <a href="#"><img height="50" src="https://st.hzcdn.com/fimgs/7c9195db08139edf_0879-w50-h50-b1-p0--contemporary-candles.jpg" width="50"></a>
+                          </td>
+                          <td class="cartItemDetail">
+                            <p class="cartItemTitle"><a class="name" href="#">Wish Candle, Swak</a></p>
+                            <p class="cartItemQty">Quantity: 1</p>
+                            <p class="text-bold"></p>
+                          </td>
+                        </tr>
+                        <tr class="cartItem">
+                          <td class="cartItemImage">
+                            <a href="#"><img height="50" src="https://st.hzcdn.com/fimgs/1e711c0b063a8943_6822-w50-h50-b1-p0--contemporary-thermoses.jpg" width="50"></a>
+                          </td>
+                          <td class="cartItemDetail">
+                            <p class="cartItemTitle"><a class="name" href="#">Camera Lens Coffee Mug with Lid, 1 Mug</a></p>
+                            <p class="cartItemQty">Quantity: 1</p>
+                            <p class="text-bold"></p>
+                          </td>
+                        </tr>
+                        <tr class="cartItem">
+                          <td class="cartItemImage">
+                            <a href="#"><img height="50" src="https://st.hzcdn.com/fimgs/228144e40795f1ef_9140-w50-h50-b1-p0--traditional-sofas.jpg" width="50"></a>
+                          </td>
+                          <td class="cartItemDetail">
+                            <p class="cartItemTitle"><a class="name" href="#">AICO Michael Amini Studio Camelia Sofa</a></p>
+                            <p class="cartItemQty">Quantity: 1</p>
+                            <p class="text-bold"></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="viewCart">
+                      <a class="hzBtn primary viewCartBtn" href="#">View Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li id="navSignIn" class=""><a href="#" class="nav-button"><i class='hzi-font hzi-Man'></i>Sign In</a>
+            <li id="navMyHouzz">
+              <a href="#" class="nav-button"><i class='hzi-font hzi-Man'></i>Sign In</a>
+              <div id="navMyHouzzExp" class="unstyled header-nav-dropdown-menu menu-body">
+                <ul class="list-unstyled user-menu-options">
+                  <li>
+                    <a class="no-highlight" href="#"><img class="hz-user-image user-photo-thumb" height="42" src="https://st.hzcdn.com/simgs/b9430bac085a3585_1-6952/giang__ongoc.jpg" width="42">
+                    <div class="user-summary">
+                      <div class="my-houzz menu-name text-bold">
+                        Your Houzz
+                      </div>
+                      <div class="menu-name one-line">
+                        Giang Đỗ Ngọc
+                      </div>
+                    </div></a>
+                  </li>
+                  <li>
+                    <a class="menu-name edit-profile" href="#">Edit Profile</a>
+                  </li>
+                  <li>
+                    <a class="menu-name" href="#">Your Ideabooks</a>
+                  </li>
+                  <li>
+                    <a class="menu-name" href="#">Your Uploaded Photos</a>
+                  </li>
+                  <li>
+                    <a class="menu-name" href="#">Your Orders</a>
+                  </li>
+                  <li>
+                    <a class="menu-name sketch" href="#" target="_blank"><i class="hzi-font hzi-SketchWebHeader"></i>Create New Sketch</a>
+                  </li>
+                  <li>
+                    <a class="menu-name user-upload" href="#"><i class="hzi-font hzi-Upload"></i>Upload Photos or Files</a>
+                  </li>
+                  <li>
+                    <a class="menu-name signout" href="#">Sign Out</a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
           <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off">
