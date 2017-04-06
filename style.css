@@ -1885,6 +1885,10 @@
   width: 16.666666666%;
 }
 
+.zrow.zd5 .zcol {
+  width: 20%;
+}
+
 .zrow.zd4 .zcol {
   width: 25%;
 }
@@ -1893,7 +1897,7 @@
   clear: both;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 359px) {
   .zrow.zd4 .zcol:nth-child(2n+3) {
     clear: both;
   }
@@ -1927,6 +1931,12 @@
 @media screen and (max-width: 799px) {
   .zrow img {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .zrow.zx2 .zcol {
+    width: 50%;
   }
 }
 
@@ -5936,6 +5946,94 @@ body.fb_hidden {
 
 #zBottomProducts .thumb-grid.thumb-grid--fixed {
   padding-top: 2px;
+}
+
+@media screen and (max-width: 1023px) {
+  #lbRoot {
+    position: static;
+    padding: 15px 15px 10px;
+  }
+  #lbMain {
+    position: static;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    min-width: 0;
+  }
+  #lbImageViewLayer .currentImage {
+    position: static;
+    width: 100%;
+    height: 400px;
+    min-height: 0;
+    background-position: 0% 0%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+  }
+  #lbBg,
+  #lbOverlay,
+  #lbInfoTabs,
+  #lbMainControls,
+  .product-tags-boxes,
+  #lbActions,
+  #zBottomProducts,
+  .color-picker-markers {
+    display: none;
+  }
+  #lbImageContainer {
+    position: static;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+  }
+  #lbInfo {
+    position: static;
+    height: auto;
+    width: 100%;
+  }
+  #lbInfo .content-mask {
+    position: static;
+  }
+  #lbInfo .content-mask:after,
+  #lbInfo .content-mask:before {
+    display: none;
+  }
+  #lbImage {
+    position: static;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+  }
+  #lbInfo .content-scroll {
+    width: auto !important;
+    position: static;
+    overflow: auto;
+    border-left: none;
+    height: auto;
+  }
+  .product-tags-image-overlay {
+    position: static;
+    with: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .thumb.project-thumb {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #lbImageViewLayer .currentImage {
+    height: 250px;
+  }
+  #lbRoot {
+    position: static;
+    padding: 10px;
+  }
 }
 
 .shop-landing-module .products-wrapper .product-item-column {

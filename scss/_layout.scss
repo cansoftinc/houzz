@@ -90,13 +90,18 @@
       width: 16.666666666%;      
     }
   }
+  &.zd5 {
+    .zcol {
+      width: 20%;      
+    }
+  }  
   &.zd4 {
     .zcol {
       width: 25%;
       &:nth-child(4n+5) {
         clear: both;
       }
-      @include max(767px) {
+      @include max(359px) {
         &:nth-child(2n+3) {
           clear: both;
         }
@@ -141,6 +146,13 @@
     img {
       max-width: 100%;
     }
+  }
+  @include max(359px) {
+    &.zx2 {
+      .zcol {
+        width: 50%;      
+      }
+    }  
   }
 }
 
