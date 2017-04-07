@@ -19,6 +19,10 @@
   }
 }
 
+.hsh__column .hsh__list-item-link {
+  white-space: normal;
+}
+
 @include max(767px) {
   #navContainer {
     display: none;
