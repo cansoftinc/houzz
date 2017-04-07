@@ -4095,7 +4095,7 @@ body.showlb {
   width: 20%;
 }
 
-.hsh__menu-body .hsh__list-header a {
+.hsh__menu-body .hsh__list-header a, .hsh__menu-body .hsh__list-header span {
   white-space: normal;
 }
 
