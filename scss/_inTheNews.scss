@@ -26,6 +26,12 @@
   .houzz-data {
     width: 640px;
     margin: 0 auto;
+  }  
+  .founder-img {
+    float: left;    
+    width: 338px;
+    height: 431px;
+    margin-left: 50px;
   }
 }
 
@@ -42,13 +48,27 @@
     width: 980px;    
     #about-houzz-header {
       width: 980px;
-    }
+    }    
   }
 }
 
 @include max(979px) {
   .hz-main-contents.about .press-item {    
     border: none!important;
+  }
+  .hz-main-contents.about .about-us-description {
+    .founder-img {
+      width: 50%;
+      height: auto;
+      margin-left: 0;
+      padding-right: 20px;
+      img {
+        width: 100%;
+      }
+    }
+    .founder-story {
+      width: 50%;
+    }
   }
 }
 
@@ -78,6 +98,13 @@
 @include min(640px) {
   .houzz-data {
     width: 100%;
+  }
+}
+
+@include max(639px) {
+  .hz-main-contents.about iframe {
+    width: 100%;
+    height: 200px;
   }
 }
 

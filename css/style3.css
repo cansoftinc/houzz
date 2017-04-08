@@ -2122,13 +2122,7 @@
 	}
 	.hbs .mbxl {
 		margin-bottom: 20px;
-	}
-	.founder-img {
-		background:url(../pic/aboutus/about-us.png) no-repeat;
-		width: 338px;
-		height: 431px;
-		margin-left: 50px;
-	}
+	}	
 /* In the news page */
 	#in-news-bg {
 		background-image:url(../pic/in_news_bg.jpg);
