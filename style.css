@@ -3145,11 +3145,6 @@ div.similarGalleriesContainer {
   margin-bottom: 0;
 }
 
-.rightSideContent .firstGallery {
-  margin: -16px -16px 0;
-  position: relative;
-}
-
 .rightSideContent .firstGallery .galleryImageConatiner {
   width: 764px;
   height: 290px;
@@ -3252,30 +3247,6 @@ div.galleryTitle a {
   margin-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #e6e6e6;
-}
-
-.rightSideContent .gallery .galleryImageConatiner {
-  float: left;
-  width: 268px;
-  height: 268px;
-  margin-right: 16px;
-  overflow: hidden;
-}
-
-.rightSideContent .gallery .galleryTextContainer {
-  float: left;
-  width: 448px;
-  height: 268px;
-  position: relative;
-}
-
-@media (min-width: 1280px) {
-  .rightSideContent .gallery .galleryImageConatiner {
-    width: 458px;
-  }
-  rightSideContent .gallery .galleryTextContainer {
-    width: 458px;
-  }
 }
 
 .rightSideContent .gallery .galleryTextContainer .dateAndComments {
@@ -4758,10 +4729,7 @@ body.modal-open {
 }
 
 .sidebar .sidebar-header {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  padding: 5px 0px 15px 0px;
+  cursor: pointer;
 }
 
 .sidebar .sidebar-body {
@@ -6550,6 +6518,64 @@ body.fb_hidden {
   }
   .zRightSideBarWide.mb-show {
     float: none;
+  }
+}
+
+#zRightSideContent .rightSideContent {
+  width: 100%;
+  margin-left: 0;
+  float: none;
+  padding-right: 0;
+}
+
+#zRightSideContent .rightSideContent .firstGallery {
+  position: relative;
+  overflow: hidden;
+}
+
+#zRightSideContent .rightSideContent .gallery .galleryImageConatiner,
+#zRightSideContent .rightSideContent .gallery .galleryTextContainer {
+  float: left;
+}
+
+#zRightSideContent .rightSideContent .gallery .galleryImageConatiner {
+  width: 40%;
+  overflow: hidden;
+}
+
+#zRightSideContent .rightSideContent .gallery .galleryTextContainer {
+  width: 60%;
+  position: relative;
+  padding-left: 16px;
+}
+
+@media screen and (max-width: 799px) {
+  #zRightSideContent .rightSideContent .gallery .galleryImageConatiner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #zRightSideContent .rightSideContent .gallery .galleryTextContainer {
+    width: 100%;
+    padding-left: 0;
+  }
+  #zRightSideContent .rightSideContent .firstGallery .galleryTextContainer .gallerySubtext .subtextLink .fullStoryBtn {
+    display: none;
+  }
+  #zRightSideContent .rightSideContent .firstGallery .galleryTextContainer .galleryTitle a span {
+    width: 100%;
+  }
+  #zRightSideContent .rightSideContent .firstGallery .galleryTextContainer .gallerySubtext .subtextLink .subtextWrapper {
+    width: 100%;
+  }
+  #zRightSideContent .rightSideContent .firstGallery .galleryImageConatiner {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .zrow .zLeftSidebar.news {
+    display: block;
+    width: 100%;
   }
 }
 

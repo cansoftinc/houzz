@@ -1,0 +1,61 @@
+#zRightSideContent .rightSideContent {
+  width: 100%;
+  margin-left: 0;
+  float: none;
+  padding-right: 0;
+  .firstGallery {    
+    position: relative;
+    overflow: hidden;
+  } 
+  .gallery {
+    .galleryImageConatiner,
+    .galleryTextContainer {
+      float: left;
+    }
+    .galleryImageConatiner {      
+      width: 40%;          
+      overflow: hidden;
+    }
+    .galleryTextContainer {
+      width: 60%;      
+      position: relative;
+      padding-left: 16px;
+    }
+  }
+}
+
+@include max(799px) {
+  #zRightSideContent .rightSideContent {
+    .gallery {
+      .galleryImageConatiner {      
+        width: 100%;    
+        margin-bottom: 20px;  
+      }
+      .galleryTextContainer {
+        width: 100%; 
+        padding-left: 0;
+      }
+    }
+    .firstGallery .galleryTextContainer {
+      .gallerySubtext .subtextLink .fullStoryBtn {
+        display: none;
+      }
+      .galleryTitle a span {
+        width: 100%;
+      }
+      .gallerySubtext .subtextLink .subtextWrapper {
+        width: 100%;
+      }
+    }
+    .firstGallery .galleryImageConatiner {
+      width: 100%;
+    }
+  }
+}
+
+@include max(767px) {
+  .zrow .zLeftSidebar.news {
+    display: block;
+    width: 100%;
+  }
+}
