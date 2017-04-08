@@ -233,6 +233,12 @@ jQuery(document).ready(function($) {
     $(this).addClass('selected');
   })
 
+  // sidebar nav (user)
+  $('.sidebar-body.user li').on('click', function() {
+    $('.sidebar-body.user li').removeClass('selected');
+    $(this).addClass('selected');
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();
