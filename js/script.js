@@ -227,6 +227,12 @@ jQuery(document).ready(function($) {
     $(this).addClass('selected');
   })
 
+  // about-houzz-tabs (inTheNews)
+  $('.about-houzz-tabs li').on('click', function() {
+    $('.about-houzz-tabs li').removeClass('selected');
+    $(this).addClass('selected');
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();

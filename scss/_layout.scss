@@ -85,6 +85,14 @@
       padding-right: 8px;
     }
   }
+  &.z0 {
+    margin-left: 0px;
+    margin-right: 0px;
+    >.zcol {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
   &.zd6 {
     .zcol {
       width: 16.666666666%;      
@@ -152,7 +160,7 @@
       .zcol {
         width: 50%;      
       }
-    }  
+    } 
   }
 }
 

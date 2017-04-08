@@ -1881,6 +1881,16 @@
   padding-right: 8px;
 }
 
+.zrow.z0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.zrow.z0 > .zcol {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .zrow.zd6 .zcol {
   width: 16.666666666%;
 }
@@ -7246,6 +7256,108 @@ pro-offers .hzi-font + div,
   }
   .gallery-section {
     padding: 0 10px;
+  }
+}
+
+.hz-main-contents.about {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hz-main-contents.about #about-houzz-header {
+  width: 100%;
+}
+
+.hz-main-contents.about .press-item {
+  min-height: 400px;
+}
+
+.hz-main-contents.about .zcol:nth-child(3n+3) .press-item {
+  border-right: none;
+}
+
+.hz-main-contents.about .data-img:hover .download-glass {
+  display: block;
+}
+
+.hz-main-contents.about .zrow.press {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hz-main-contents.about .zrow.press .zcol:nth-child(3n+1) {
+  clear: left;
+}
+
+.hz-main-contents.about .houzz-data {
+  width: 640px;
+  margin: 0 auto;
+}
+
+#about-houzz-header .about-houzz-tabs {
+  background: transparent;
+  height: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+@media screen and (min-width: 980px) {
+  .hz-main-contents.about {
+    width: 980px;
+  }
+  .hz-main-contents.about #about-houzz-header {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .hz-main-contents.about .press-item {
+    border: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hz-main-contents.about .zrow.press .zcol:nth-child(3n+1) {
+    clear: none;
+  }
+  .hz-main-contents.about .zrow.press .zcol:nth-child(2n+1) {
+    clear: left;
+  }
+  .hz-main-contents.about .zcol:nth-child(3n+3) .press-item {
+    border-right: 1px dotted #e6e6e6;
+  }
+  .hz-main-contents.about .zcol:nth-child(3n+2) .press-item {
+    border-right: none;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .houzz-data {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hz-main-contents.about .zrow.zm2 .zcol {
+    width: 100%;
+  }
+  .hz-main-contents.about .press-item {
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hz-main-contents.about .bottom-wrapper {
+    height: auto;
+  }
+  .hz-main-contents.about .press-logo,
+  .hz-main-contents.about .press-details {
+    position: static;
+    margin-top: 10px;
+  }
+  #about-houzz-header .about-houzz-tabs {
+    height: auto;
   }
 }
 

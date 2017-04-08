@@ -2040,18 +2040,10 @@
 	.about-us-title {
 		text-align: center;
 	}	
-	#about-houzz-header {
-		min-width: 980px;
+	#about-houzz-header {		
 		margin-top: -50px;
 		background: rgba(240,240,240,0.97);
-	}
-	#about-houzz-header .about-houzz-tabs {
-		background: transparent;
-		height: 50px;
-		margin-bottom: 0px;
-		text-align: center;
-		border-bottom: 1px solid #e6e6e6;
-	}
+	}	
 	.sidebar.sidebar-group-inline .sidebar-body {
 		padding-top: 0px;
 	}
@@ -2163,15 +2155,10 @@
 	.press-quote {
 		margin-bottom: 0px;
 	}
-	.press-item:first-child {
-		padding-top: 0px;
-	}
 	.press-item {
-		position: relative;
-		float: left;
-		width: 325px;
+		position: relative;		
 		min-height: 150px;
-		padding: 50px 25px 50px 25px;
+		padding: 45px 25px 45px 25px;
 		border-right: 1px dotted #e6e6e6;
 		border-bottom: 1px dotted #e6e6e6;
 	}
@@ -2841,19 +2828,16 @@
 	.release-block.first {
 		margin-left: 0;
 	}
-	.release-block {
-		width: 270px;
+	.release-block {		
 		text-align: left;
 		margin-bottom: 50px;
-		margin-left: 46px;
 	}
 	.press-summary {
 		overflow: hidden;
 		text-align: center;
 		margin: 0 40px;
 	}
-	.press-summary .summary-block {
-						width: 250px;
+	.press-summary .summary-block {						
 						margin: 0px 22px;
 						vertical-align: top;
 						display: inline-block;
@@ -2980,11 +2964,8 @@
 	.data-block.first {
 		margin-left: 0px;
 	}
-	.data-block {
-		width: 180px;
-		display: inline-block;
+	.data-block {	
 		vertical-align: top;
-		margin-left: 46px;
 		text-align: center;
 	}
 	.data-img {
