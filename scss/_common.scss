@@ -16,6 +16,10 @@ html {
 
 #mainArea {
   min-width: 0;
+  @include max(767px) {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
 
 .hz-grey-bg {

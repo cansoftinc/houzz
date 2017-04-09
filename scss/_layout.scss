@@ -143,6 +143,11 @@
       width: 33.333333333%;
     }
   }
+  &.zd2 {
+    .zcol {
+      width: 50%;
+    }
+  }
   @include max(799px) {
     &.zp4 {
       .zcol {
@@ -183,6 +188,11 @@
         width: 50%;      
       }
     } 
+    &.zx1 {
+      .zcol {
+        width: 100%;      
+      }
+    } 
   }
 }
 
@@ -215,5 +225,57 @@
     background-color: transparent;
     box-shadow: none;
     padding: 16px 0 0;
+  }
+}
+
+
+/* specific page */
+.zrow.proSingle {
+  .leftSideBar,
+  .rightSideContent,
+  .profile-content-wide,
+  .profile-content-narrow {
+    float: none;
+    width: 100%;
+  }
+  .zLeft {
+    width: 20%;
+    @include min(1280px) {
+      width: 200px;
+    }    
+  }
+  .zRight {
+    width: 80%;
+    @include min(1280px) {
+      width: 1000px;
+    }
+  }
+  .zcol66 {
+    width: 66.666666%;
+  }
+  .zcol33 {
+    width: 33.3333333%;
+  }
+  @include max(767px) {
+    .zcol66, .zcol33 {
+      width: 100%;
+    }
+    .rightSideContent {
+      margin-left: 0;
+      padding-right: 0;
+    }
+  }
+  @include max(699px) {
+    .zLeft {
+      width: 100%;
+    }
+    .zRight {
+      width: 100%;
+    }
+    .houzz-badges-container {
+      .zm2 .zcol {
+        width: 16.666666%;
+      }
+    }
   }
 }

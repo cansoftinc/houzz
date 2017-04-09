@@ -1953,6 +1953,10 @@
   width: 33.333333333%;
 }
 
+.zrow.zd2 .zcol {
+  width: 50%;
+}
+
 @media screen and (max-width: 799px) {
   .zrow.zp4 .zcol {
     width: 25%;
@@ -1983,6 +1987,9 @@
 @media screen and (max-width: 359px) {
   .zrow.zx2 .zcol {
     width: 50%;
+  }
+  .zrow.zx1 .zcol {
+    width: 100%;
   }
 }
 
@@ -2021,6 +2028,65 @@
   padding: 16px 0 0;
 }
 
+/* specific page */
+.zrow.proSingle .leftSideBar,
+.zrow.proSingle .rightSideContent,
+.zrow.proSingle .profile-content-wide,
+.zrow.proSingle .profile-content-narrow {
+  float: none;
+  width: 100%;
+}
+
+.zrow.proSingle .zLeft {
+  width: 20%;
+}
+
+@media screen and (min-width: 1280px) {
+  .zrow.proSingle .zLeft {
+    width: 200px;
+  }
+}
+
+.zrow.proSingle .zRight {
+  width: 80%;
+}
+
+@media screen and (min-width: 1280px) {
+  .zrow.proSingle .zRight {
+    width: 1000px;
+  }
+}
+
+.zrow.proSingle .zcol66 {
+  width: 66.666666%;
+}
+
+.zrow.proSingle .zcol33 {
+  width: 33.3333333%;
+}
+
+@media screen and (max-width: 767px) {
+  .zrow.proSingle .zcol66, .zrow.proSingle .zcol33 {
+    width: 100%;
+  }
+  .zrow.proSingle .rightSideContent {
+    margin-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .zrow.proSingle .zLeft {
+    width: 100%;
+  }
+  .zrow.proSingle .zRight {
+    width: 100%;
+  }
+  .zrow.proSingle .houzz-badges-container .zm2 .zcol {
+    width: 16.666666%;
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2035,6 +2101,13 @@
 
 #mainArea {
   min-width: 0;
+}
+
+@media screen and (max-width: 767px) {
+  #mainArea {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
 
 .hz-grey-bg {
@@ -6087,6 +6160,11 @@ body.fb_hidden {
   display: block;
 }
 
+.whiteCard .photo a {
+  display: block;
+  height: 100%;
+}
+
 @media screen and (max-width: 799px) {
   .hzBtn {
     padding-left: 10px;
@@ -6734,6 +6812,86 @@ body.fb_hidden {
   }
 }
 
+.thumb-badge {
+  margin-bottom: 8px;
+}
+
+.review-section {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.review-section .review-item + .review-item {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px dotted #e6e6e6;
+}
+
+.project-section .project-meta-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.project-section .project-meta-location {
+  position: relative;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 15px 5px 32px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.project-section .project-meta-location-icon {
+  position: absolute;
+  left: 6px;
+  top: 3px;
+}
+
+.hbs .one-line {
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+.sprite-profile-icons {
+  width: 28px;
+  height: 28px;
+  float: left;
+  background-image: url(../pic/ProfilePage_icons.png);
+}
+
+.discussion-item .discussion-icon {
+  background-position: -28px -59px;
+}
+
+.discussion-item .discussion-content {
+  margin-left: 35px;
+}
+
+.question-section {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.profile-r-sidebar, .profile-content-section {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.sprite-profile-icons.pi-comment {
+  background-position: -28px -56px;
+}
+
+.project-section .project-meta {
+  padding: 15px 10px 10px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.96);
+}
+
 .profile-header {
   background: #888;
   margin-bottom: 20px;
@@ -6891,10 +7049,6 @@ body.fb_hidden {
   zoom: 1;
   float: none;
   vertical-align: middle;
-}
-
-.sidebar.profile-tabs .sidebar-item.profile-content-narrow {
-  width: 326px;
 }
 
 .profile-header .profile-pic-placeholder {
@@ -7092,6 +7246,33 @@ pro-offers .hzi-font + div,
   clear: both;
   line-height: 17px;
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .share-list-small {
+    display: none;
+  }
+  .profile-l-sidebar {
+    padding-left: 0;
+  }
+  .profile-header .profile-cover img.cover-image {
+    height: 100%;
+  }
+  .profile-header .profile-cover {
+    height: 290px;
+  }
+  .sidebar-group-inline.sidebar.profile-tabs {
+    height: auto;
+  }
+  .profile-pro-reviews {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .profile-header .profile-cover {
+    height: 250px;
+  }
 }
 
 #coPage {

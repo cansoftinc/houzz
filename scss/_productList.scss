@@ -20,6 +20,11 @@
   display: block;
 }
 
+.whiteCard .photo a {
+  display: block;
+  height: 100%;
+}
+
 @include max(799px) {
   .hzBtn {
     padding-left: 10px;

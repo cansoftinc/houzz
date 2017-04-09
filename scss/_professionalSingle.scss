@@ -1,3 +1,70 @@
+.thumb-badge {
+  margin-bottom: 8px;
+}
+
+.review-section {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  .review-item + .review-item {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px dotted #e6e6e6;
+  }
+}
+.project-section .project-meta-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.project-section .project-meta-location {
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 15px 5px 32px;
+    background-color: rgba(0,0,0,0.4);
+}
+.project-section .project-meta-location-icon {
+    position: absolute;
+    left: 6px;
+    top: 3px;
+}
+.hbs .one-line {
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+.sprite-profile-icons {
+    width: 28px;
+    height: 28px;
+    float: left;
+    background-image: url(../pic/ProfilePage_icons.png);
+}
+.discussion-item .discussion-icon {
+    background-position: -28px -59px;
+}
+.discussion-item .discussion-content {
+    margin-left: 35px;
+}
+.question-section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.profile-r-sidebar, .profile-content-section {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+.sprite-profile-icons.pi-comment {
+    background-position: -28px -56px;
+}
+.project-section .project-meta {
+    padding: 15px 10px 10px;
+    background: #fff;
+    background: rgba(255,255,255,0.96);
+}
 .profile-header {
   background: #888;
   margin-bottom: 20px;
@@ -130,9 +197,6 @@
   zoom: 1;
   float: none;
   vertical-align: middle;
-}
-.sidebar.profile-tabs .sidebar-item.profile-content-narrow {
-  width: 326px;
 }
 .profile-header .profile-pic-placeholder {
   width: 200px;
@@ -292,4 +356,31 @@ pro-offers .hzi-font + div,
   clear: both;
   line-height: 17px;
   margin-bottom: 5px;
+}
+
+@include max(767px) {
+  .share-list-small {
+    display: none;
+  }
+  .profile-l-sidebar {
+    padding-left: 0;
+  }
+  .profile-header .profile-cover img.cover-image {    
+    height: 100%;
+  }
+  .profile-header .profile-cover {
+    height: 290px;
+  }
+  .sidebar-group-inline.sidebar.profile-tabs {
+    height: auto;
+  }
+  .profile-pro-reviews {
+    display: none;
+  }
+}
+
+@include max(359px) {
+  .profile-header .profile-cover {
+    height: 250px;
+  }
 }
