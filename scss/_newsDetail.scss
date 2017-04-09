@@ -1,0 +1,47 @@
+.gallery-photo-container .gallery-photo {
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  margin-bottom: 15px;
+  &:hover {
+    cursor: zoom-in;
+  }
+  a:hover {
+    cursor: zoom-in;
+  }
+}
+
+.hbs .rightSideBar.news {
+  width: 100%;
+  float: none;
+  .adSideBar {
+    width: 100%;
+    float: none;
+  }
+}
+
+#zLeftSideContent .leftSideContentWithAd {
+  width: 100%;
+  padding: 16px 0;
+}
+
+@include max(767px) {
+  .cardView div.similar-ibk-img-1 .similarGalleryPhoto {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+    float: none;
+    img {
+      max-width: 100%;
+    }
+  }
+  #mainContent .leftSideContentWithAd .viewGalleryCommentsCardView .viewGalleryComments {
+    width: 100%;
+  }
+  .hbs .leftSideContentWithAd {
+    width: 100%;
+  }
+  .feedComments .comment, .feedComments .addComment, .feedComments .moreComments {
+    margin: 0;
+  }
+}

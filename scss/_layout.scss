@@ -25,6 +25,17 @@
       display: none;
     }
   }
+  .zRightSidebar {
+    @include min(1280px) {
+      width: 300px
+    }
+    @include max(1279px) {
+      width: 30%;
+    }
+    @include max(767px) {
+      width: 100%;
+    }
+  }
   // photos
   .zRightSideContent {
     @include min(1280px) {
@@ -32,6 +43,17 @@
     }
     @include max(1279px) {
       width: 80%;
+    }
+    @include max(767px) {
+      width: 100%;
+    }
+  }
+  .zLeftSideContent {
+    @include min(1280px) {
+      width: 774px
+    }
+    @include max(1279px) {
+      width: 70%;
     }
     @include max(767px) {
       width: 100%;
@@ -165,12 +187,20 @@
 }
 
 @include max(767px) {
-  .zrow {
+  .zrow.inner {
     margin-left: -2px !important;
     margin-right: -2px !important;
     .zcol {
       padding-left: 2px !important;
       padding-right: 2px !important;
+    }
+  }
+  .zrow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    .zcol {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
     }
   }
 }
