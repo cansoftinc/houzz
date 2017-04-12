@@ -367,7 +367,7 @@ th {
 }
 .hbs,
 body.hbs {
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, Sans-Serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
