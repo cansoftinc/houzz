@@ -239,6 +239,45 @@ jQuery(document).ready(function($) {
     $(this).addClass('selected');
   })
 
+  // click on save button
+  $('.saveButton').on('click', function(e) {
+    e.preventDefault();
+    $('body').addClass('modal-open');
+    $('.overlay').fadeIn();
+    $('.saveModal').fadeIn();
+  })
+  $('.saveModal .cancel').on('click', function(e) {
+    e.preventDefault();
+    $('body').removeClass('modal-open');
+    $('.overlay').fadeOut();
+    $('.saveModal').fadeOut();
+  })
+  $('.comment-privacy-control .add-white-box').on('click', function() {
+    $(this).closest('.comment-privacy-control').toggleClass('selected');
+  })
+  $('.comment-privacy-control .comment-privacy-text').on('click', function() {
+    $(this).closest('.comment-privacy-control').toggleClass('selected');
+  })
+  $('.saveModal .save').on('click', function(e) {
+    e.preventDefault();
+    var saveModal = $(this).closest('.saveModal');
+    saveModal.find('.modalFooter').css('display', 'none');
+    saveModal.find('.success').fadeIn(); 
+    saveModal.find('.add-comment').css('display', 'none');
+    saveModal.find('.successInfo').fadeIn();    
+  })
+  $('.saveModal .done').on('click', function(e) {
+    e.preventDefault();
+    $('body').removeClass('modal-open');
+    $('.overlay').fadeOut();
+    $('.saveModal').fadeOut();
+    var saveModal = $(this).closest('.saveModal');
+    saveModal.find('.modalFooter').fadeIn();
+    saveModal.find('.success').css('display', 'none');
+    saveModal.find('.add-comment').fadeIn();
+    saveModal.find('.successInfo').css('display', 'none'); 
+  })
+
   // Back to top
   var toTop = jQuery('#stickyFooterActions');
   toTop.hide();

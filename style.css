@@ -4660,6 +4660,205 @@ body.modal-open {
   z-index: 777;
 }
 
+.saveModal {
+  width: 680px;
+  background-color: #fafafa;
+  display: none;
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+}
+
+.saveModal .modalHeader {
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 15px;
+  font-weight: normal;
+}
+
+.saveModal .modalBody {
+  padding: 15px;
+  height: 235px;
+}
+
+.saveModal .modalBody .productThumb {
+  float: left;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.saveModal .modalBody .productThumb img {
+  height: 100%;
+}
+
+.saveModal .modalBody .rightContent {
+  float: left;
+  width: 70%;
+  padding-left: 15px;
+}
+
+.saveModal .modalBody .successInfo {
+  display: none;
+}
+
+.saveModal .modalBody .successInfo p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.saveModal .modalBody .successInfo a {
+  color: #3d8901;
+  font-weight: bold;
+}
+
+.saveModal .modalBody .add-comment {
+  position: relative;
+  padding: 0;
+  height: 204px;
+  margin-top: 0;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  opacity: .99;
+}
+
+.saveModal .modalBody .add-comment .form-control {
+  resize: none;
+  overflow-y: auto;
+  height: 84%;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.saveModal .modalBody .add-comment .comment-privacy {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 16%;
+  margin: 0;
+  padding: 5px 10px 9px;
+  border-top: 1px dotted #e6e6e6;
+}
+
+.saveModal .modalBody .add-comment .comment-privacy .add-white-box {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+}
+
+.saveModal .modalBody .add-comment .selected .add-white-box.hzi-Check-Sidenav {
+  color: #55a32a;
+  line-height: 13px;
+  font-size: 11px;
+  position: relative;
+}
+
+.saveModal .modalFooter,
+.saveModal .success {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+.saveModal .modalFooter.success,
+.saveModal .success.success {
+  display: none;
+}
+
+.saveModal .modalFooter .cancel,
+.saveModal .modalFooter .done,
+.saveModal .success .cancel,
+.saveModal .success .done {
+  display: inline-block;
+  zoom: 1;
+  margin-bottom: 0;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px 18px;
+  font-size: 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: visible;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  color: #4c4c4c;
+  border: 1px solid #ccc;
+  background: #e7e7e7;
+}
+
+.saveModal .modalFooter .save,
+.saveModal .modalFooter .email,
+.saveModal .success .save,
+.saveModal .success .email {
+  display: inline-block;
+  zoom: 1;
+  margin-bottom: 0;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px 18px;
+  font-size: 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: visible;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  color: #fff;
+  border: 1px solid #55a32a;
+  background: #55a32a;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .saveModal {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .saveModal .modalBody {
+    height: auto;
+  }
+  .saveModal .modalBody .productThumb {
+    width: 100%;
+    text-align: center;
+    height: 150px;
+  }
+  .saveModal .modalBody .productThumb img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .saveModal .modalBody .rightContent {
+    width: 100%;
+    margin-top: 16px;
+    padding-left: 0;
+  }
+  .saveModal .modalBody .add-comment {
+    height: 180px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .z-home.homeSliderWrapper {
     height: auto;
