@@ -4664,7 +4664,6 @@ body.modal-open {
   width: 680px;
   background-color: #fafafa;
   display: none;
-  display: block;
   position: fixed;
   top: 50%;
   left: 50%;
