@@ -92,12 +92,12 @@
 }
 .sidebar .sidebar-item > a:hover,
 .sidebar .sidebar-item > a:focus {
-    color: #3d8901;
+    color: #f9a518;
     text-decoration: none
 }
 .sidebar .sidebar-item > a:hover .option-text,
 .sidebar .sidebar-item > a:focus .option-text {
-    color: #3d8901
+    color: #f9a518
 }
 .sidebar .sidebar-body {
     padding: 0px 0px 20px 0px
@@ -117,7 +117,7 @@
 .sidebar .sidebar-body .facetCountBubble {
     color: #fff;
     text-align: center;
-    background-color: #7ac143;
+    background-color: #f9a518;
     padding: 0 5px;
     margin-left: 5px;
     width: auto;
@@ -258,7 +258,7 @@
     color: #000
 }
 .sidebar .sidebar-item.selected .sidebar-item-label {
-    color: #3d8901
+    color: #f9a518
 }
 .sidebar .sidebar-item.selected .sidebar-item-label i {
     background-position: -77px 0;
@@ -474,7 +474,7 @@
     color: #333
 }
 .sidebar.multi-checkboxes .sidebar-body .sidebar-item.selected .sidebar-item-label:hover {
-    color: #7cc04b
+    color: #f9a518
 }
 .sidebar.multi-checkboxes .sidebar-body .sidebar-item.selected .sidebar-item-label:focus {
     color: #333
@@ -483,7 +483,7 @@
     display: none
 }
 .sidebar.multi-checkboxes .sidebar-body .sidebar-item.selected .white-box.hzi-font.hzi-Check-Sidenav {
-    color: #55a32a;
+    color: #f9a518;
     line-height: 12px;
     font-size: 10px;
     position: relative
@@ -542,10 +542,10 @@
 }
 .sidebar.filter-budget .sidebar-body ul .sidebar-item.selected .sidebar-item-label {
     box-sizing: border-box;
-    border: 2px solid #7ac143;
+    border: 2px solid #f9a518;
     padding-bottom: 2px;
     padding-top: 2px;
-    color: #7ac143
+    color: #f9a518
 }
 .sidebar.filter-color {
     overflow: visible
@@ -818,21 +818,6 @@
 }
 /* standardHeaderLight.less Thu, 15 Dec 2016 15:16:29 PST */
 
-.sprite-header-logo {
-    background-image: url("../pic/HomePageNav_Sprite.png")
-}
-/*@media screen and (-webkit-min-device-pixel-ratio: 1.5),
-(min--moz-device-pixel-ratio: 1.5),
-(-moz-min-device-pixel-ratio: 1.5),
-(-ms-min-device-pixel-ratio: 1.5),
-(min-device-pixel-ratio: 1.5),
-(min-resolution: 144dpi),
-(min-resolution: 1.5dppx) {
-    .sprite-header-logo {
-        background-size: 205px 76px;
-        background-image: url('../pic/HomePageNav_Sprite@2x.png')
-    }
-}*/
 #mainContent {
     padding-top: 26px;
     min-height: 600px
@@ -901,7 +886,7 @@
     height: 242px
 }
 .houzz-header--test-cart-ver.houzz-header .header-nav > li .empty-cart.cart-count {
-    background: #3d8901
+    background: #f9a518
 }
 .houzz-header--test-cart-ver.houzz-header .header-nav > li .cart-label {
     text-transform: uppercase;
@@ -967,7 +952,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #3d8901;
+    background: #f9a518;
     width: 17px;
     height: 17px;
     text-align: center;
@@ -990,26 +975,26 @@
     width: 85px
 }
 .houzz-header .header-nav > li.menu-container--green-cart .hzi-Cart {
-    color: #3d8901;
+    color: #f9a518;
     width: 26px;
     text-align: left
 }
 .houzz-header .header-nav > li.menu-container--green-cart .cart-count {
     color: #fff;
-    background: #3d8901
+    background: #f9a518
 }
 .houzz-header .header-nav > li.menu-container--green-cart .cart-label {
-    color: #3d8901;
+    color: #f9a518;
     padding: 0 5px
 }
 .houzz-header .header-nav > li.menu-container--green-cart:hover .hzi-Cart {
-    color: #55a32a
+    color: #f9a518
 }
 .houzz-header .header-nav > li.menu-container--green-cart:hover .cart-count {
-    background: #55a32a
+    background: #f9a518
 }
 .houzz-header .header-nav > li.menu-container--green-cart:hover .cart-label {
-    color: #55a32a
+    color: #f9a518
 }
 .houzz-header .nav-button {
     line-height: 28px;
@@ -1086,13 +1071,13 @@
     transition-duration: 75ms
 }
 .houzz-header .navbar-search-bar.masked-search-bar.masked .navbar-search-box {
-    border: 1px solid #55a32a;
+    border: 1px solid #f9a518;
     border-bottom: 1px solid transparent;
     border-top: 0;
     -webkit-border-radius: 3px 0 0 0;
     -moz-border-radius: 3px 0 0 0;
     border-radius: 3px 0 0 0;
-    box-shadow: inset 0 1px 0 1px #55a32a
+    box-shadow: inset 0 1px 0 1px #f9a518
 }
 .houzz-header .navbar-search-bar.masked-search-bar input.navbar-search-box {
     background: #fff;
@@ -1104,13 +1089,13 @@
     transition: none
 }
 .houzz-header .navbar-search-bar.masked-search-bar input.navbar-search-box:focus {
-    border-color: #55a32a
+    border-color: #f9a518
 }
 .houzz-header .navbar-search-bar.masked-search-bar #navSearchAutoSuggestContainer {
-    border: 1px solid #55a32a;
+    border: 1px solid #f9a518;
     border-top: 0;
     border-bottom: 0;
-    box-shadow: inset 0 -1px 0px 1px #55a32a
+    box-shadow: inset 0 -1px 0px 1px #f9a518
 }
 .houzz-header .navbar-search-bar.masked-search-bar #navSearchAutoSuggestContainer .auto-suggest-group {
     border-top: 1px solid #e6e6e6;
@@ -1519,7 +1504,7 @@
     width: 116px
 }
 #navMyHouzz .user-summary .menu-name:hover {
-    color: #3d8901
+    color: #f9a518
 }
 #navMyHouzz .user-menu-options .sketch {
     padding: 8px 15px;
@@ -1532,7 +1517,7 @@
     line-height: inherit
 }
 #navMyHouzz .user-menu-options .sketch:hover .hzi-SketchWebHeader {
-    color: #3d8901
+    color: #f9a518
 }
 #navMyHouzz .user-menu-options .user-upload {
     padding: 8px 15px;
@@ -1546,7 +1531,7 @@
     line-height: inherit
 }
 #navMyHouzz .user-menu-options .user-upload:hover .hzi-Upload {
-    color: #3d8901
+    color: #f9a518
 }
 #navMyHouzz .user-menu-options .one-line {
     padding-top: 3px
@@ -1716,12 +1701,12 @@
 .highlight-search #navSearchAutoSuggestContainer .auto-suggest-group .hzi-Shop + .label-left-text,
 .highlight-search #navSearchAutoSuggestContainer .auto-suggest-group .hzi-Ideas-Fill + .label-left-text,
 .highlight-search #navSearchAutoSuggestContainer .auto-suggest-group .hzi-Pro-Fill + .label-left-text {
-    color: #55a32a
+    color: #f9a518
 }
 .highlight-search #navSearchAutoSuggestContainer .auto-suggest-group:first-child .autoSugg .in-category > em,
 .highlight-search #navSearchAutoSuggestContainer .auto-suggest-group:first-child .label-left-icon,
 .highlight-search #navSearchAutoSuggestContainer .auto-suggest-group:first-child .label-left-category {
-    color: #55a32a
+    color: #f9a518
 }
 #navSearchAutoSuggestContainer .auto-suggest-group + .auto-suggest-group {
     border-top: 1px solid #e6e6e6
@@ -1920,7 +1905,7 @@
     display: initial
 }
 #navSearchAutoSuggestContainer.as-ver-b .auto-suggest-group.top-category .in-category > em {
-    color: #55a32a;
+    color: #f9a518;
     font-weight: bold
 }
 #navSearchAutoSuggestContainer.as-ver-b .auto-suggest-group.top-category.with-custom .autoSugg {
@@ -2272,7 +2257,7 @@
     border-left: 1px solid #e6e6e6;
     border-right: 1px solid #e6e6e6;
     border-bottom: 1px solid #fff;
-    border-top: 3px solid #7ac143;
+    border-top: 3px solid #f9a518;
     padding: 8px 11px 11px
 }
 .houzz-header-secondary .header-nav-rooms .header-nav-room.menu-container .menu-title:hover {
@@ -2317,7 +2302,7 @@
     border-top: 1px solid #e6e6e6
 }
 .houzz-header-secondary .header-nav-rooms .r-main.menu-products .list-unstyled:nth-child(3n+3) .topic-item {
-    color: #3d8901 !important
+    color: #f9a518 !important
 }
 .houzz-header-secondary .header-nav-rooms .r-main-right ul.list-unstyled + ul.list-unstyled {
     border-top: 1px solid #e6e6e6
@@ -2364,7 +2349,7 @@
     font-weight: bold;
     padding-top: 9px;
     padding-bottom: 9px;
-    color: #3d8901
+    color: #f9a518
 }
 .houzz-header-secondary .header-nav-rooms .indent-child:last-child {
     margin-bottom: 10px
@@ -2450,10 +2435,10 @@
     font-size: 0
 }
 .houzz-header-secondary--simplified .header-nav-rooms .header-nav-room a.text-primary:hover {
-    color: #55a32a
+    color: #f9a518
 }
 .houzz-header-secondary--simplified .header-nav-rooms .header-nav-room span.text-primary:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .houzz-header-secondary--simplified .header-nav-rooms .header-nav-room > .menu-title {
     line-height: 22px;
@@ -2480,10 +2465,10 @@
     position: relative
 }
 .houzz-header-secondary--simplified .header-nav-rooms .header-nav-room.menu-sales > .menu-title {
-    color: #3d8901
+    color: #f9a518
 }
 .houzz-header-secondary--simplified .header-nav-rooms .header-nav-room.menu-sales > .menu-title:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .hsh__menu {
     padding: 20px 25px !important
@@ -2599,7 +2584,7 @@
     padding: 3px 9px;
     color: #fff;
     font-weight: bold;
-    background: #55a32a
+    background: #f9a518
 }
 .header-sales__featured-sales-list-item-desc {
     white-space: normal;
@@ -2614,7 +2599,7 @@
     position: relative;
     width: 992px;
     margin: 0 auto;
-    background-color: #7ac143;
+    background-color: #f9a518;
     height: auto;
     padding: 10px 30px
 }
@@ -2977,7 +2962,7 @@
 }
 #stickyFooterActions .customize__tooltip .customize__tooltip-img {
     margin: 0px 16px 0 8px;
-    color: #55a32a;
+    color: #f9a518;
     float: left
 }
 #stickyFooterActions .customize__tooltip .customize__tooltip-img:before {
@@ -3539,7 +3524,7 @@
 }
 .promote {
     cursor: pointer;
-    background-color: #7ac143;
+    background-color: #f9a518;
     padding: 20px;
     font-weight: bold;
     text-align: center;
@@ -3555,7 +3540,7 @@
     display: none;
     cursor: pointer;
     position: absolute;
-    background-color: #7ac143;
+    background-color: #f9a518;
     padding: 20px;
     left: 0;
     right: 0;
@@ -3917,7 +3902,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #55a32a
+    background: #f9a518
 }
 #addToIdeabookCTAMsg,
 #trustPilotCTAMsg {
@@ -3956,7 +3941,7 @@
     float: left
 }
 .selected .add-white-box.hzi-Check-Sidenav {
-    color: #55a32a;
+    color: #f9a518;
     line-height: 13px;
     font-size: 11px;
     position: relative
@@ -4376,8 +4361,8 @@
 }
 #lbMain .hzBtn.tint:not(.expand):not(.unavailable):hover,
 #lbMain .btn.tint:not(.expand):not(.unavailable):hover {
-    border-color: #3d8901;
-    background-color: #3d8901
+    border-color: #f9a518;
+    background-color: #f9a518
 }
 #lbMain .hzBtn .icon,
 #lbMain .btn .icon {
@@ -4539,7 +4524,7 @@
     height: 20px;
     float: left;
     margin: 13px 12px;
-    color: #55a32a;
+    color: #f9a518;
     vertical-align: bottom
 }
 #lbBreadcrumbs .crumbArrow .backArrow {
@@ -4744,7 +4729,7 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    background: #3d8901;
+    background: #f9a518;
     width: 20px;
     height: 20px;
     text-align: center;
@@ -5230,7 +5215,7 @@
     color: #888
 }
 #lbInfo .content-footer .list-inline > li a:hover {
-    color: #3d8901
+    color: #f9a518
 }
 #lbInfo .content-fixed {
     position: absolute;
@@ -5615,7 +5600,7 @@
     left: 0;
     height: 3px;
     width: calc(100% + 1px);
-    background-color: #55a32a
+    background-color: #f9a518
 }
 #lbInfoTabs .content-group-tab.disabled {
     cursor: default
@@ -5680,12 +5665,12 @@
     display: none
 }
 .breadcrumbs-crumb:not(.breadcrumbs-crumb--highlight) a {
-    color: #55a32a
+    color: #f9a518
 }
 .breadcrumbs-crumb:nth-child(n+2):not(.breadcrumbs-crumb--highlight):not(:last-child):after {
     content: "/";
     margin-left: 10px;
-    color: #55a32a
+    color: #f9a518
 }
 .breadcrumbs-crumb--highlight:not(:empty) {
     color: #888;
@@ -5693,21 +5678,21 @@
     border-radius: 3px
 }
 .breadcrumbs-crumb--highlight:not(:empty):hover {
-    color: #55a32a;
-    border-color: #55a32a
+    color: #f9a518;
+    border-color: #f9a518
 }
 .sale-badge {
     position: relative;
     font-size: 13px;
     font-weight: bold;
-    color: #7ac143;
+    color: #f9a518;
     display: inline-block;
     margin-right: 0.8em
 }
 .sale-badge:before {
     content: "";
     position: absolute;
-    border: 2px solid #7ac143;
+    border: 2px solid #f9a518;
     width: 3.2em;
     height: 3.2em;
     top: -.9em;
@@ -5858,7 +5843,7 @@
     color: #444444
 }
 #lbQuestions .lbQuestionDetailDiv a .replies {
-    color: #3d8901
+    color: #f9a518
 }
 #lbQuestions .lbQuestionFeedDiv {
     display: block;
@@ -5964,7 +5949,7 @@
 #lbQuestions .lbQuestionFeedDiv .feedItem .commentButton:hover,
 #lbQuestions .lbQuestionFeedDiv .feedItem .like:hover,
 #lbQuestions .lbQuestionFeedDiv .feedItem .hz-showlike:hover {
-    color: #3d8901;
+    color: #f9a518;
     cursor: pointer
 }
 #lbQuestions .lbQuestionFeedDiv .feedItem .feedActions {
@@ -6166,7 +6151,7 @@
     background-color: #f0f0f0
 }
 .btn.btn-expand:hover {
-    color: #55a32a;
+    color: #f9a518;
     background-color: #ccc
 }
 .variationSelectors .mp-var-box a.variationOption {
@@ -6231,7 +6216,7 @@
     padding: 3px 9px;
     color: #fff;
     font-weight: bold;
-    background: #55a32a
+    background: #f9a518
 }
 a.similarGalleryTitle {
     overflow: hidden;
@@ -6398,11 +6383,11 @@ a.similarGalleryTitle {
 }
 .lbInfoBox.scrolling {
     transition: none;
-    background-color: rgba(85, 163, 42, 0.2)
+    background-color: rgba(250, 169, 22, 0.2)
 }
 .lbInfoBox.scrolled {
     transition: background-color .3s ease-in-out;
-    background-color: rgba(85, 163, 42, 0)
+    background-color: rgba(250, 169, 22, 0)
 }
 .phone-header {
     margin-top: 16px
@@ -6705,12 +6690,12 @@ a.similarGalleryTitle {
 }
 .btn-variation.btn-variation-selected {
     font-weight: bold;
-    color: #55a32a;
-    border: 2px solid #55a32a
+    color: #f9a518;
+    border: 2px solid #f9a518
 }
 .btn-variation.btn-variation-selected:hover {
-    color: #55a32a;
-    border-color: #55a32a
+    color: #f9a518;
+    border-color: #f9a518
 }
 #VariationTip {
     z-index: 1501;
@@ -6785,8 +6770,8 @@ a.similarGalleryTitle {
     margin-top: 15px
 }
 .seller-shipping-info .listing .vendor-rate {
-    color: #55a32a;
-    border: 1px solid #55a32a;
+    color: #f9a518;
+    border: 1px solid #f9a518;
     font-size: 12px;
     border-radius: 3px;
     display: inline-block;
@@ -7304,17 +7289,17 @@ li.image-tag-related-label {
     background-color: #fff;
     padding: 4px 16px 4px;
     border-radius: 15px;
-    border: 1px solid rgba(85, 163, 42, 0.3);
+    border: 1px solid rgba(250, 169, 22, 0.3);
     margin: 0 4px 8px;
     cursor: pointer;
     transition: background-color 60ms ease-in-out
 }
 li.image-tag-related-label a {
-    color: #55a32a;
+    color: #f9a518;
     padding: 0 11px
 }
 li.image-tag-related-label:hover {
-    background-color: #55a32a
+    background-color: #f9a518
 }
 li.image-tag-related-label:hover a {
     color: #fff
@@ -7576,10 +7561,10 @@ li.image-tag-related-label:hover a {
     cursor: pointer
 }
 a.image-tag-related-cta-link {
-    color: #55a32a
+    color: #f9a518
 }
 a.image-tag-related-cta-link:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .product-tag-info-close {
     position: absolute;
@@ -8628,7 +8613,7 @@ a.image-tag-related-cta-link:hover {
     background-position-x: 0
 }
 .rich-text-editor-wrapper .note-editable a {
-    color: #3d8901
+    color: #f9a518
 }
 .rich-text-editor-wrapper .note-editable img {
     display: block;
@@ -8652,7 +8637,7 @@ a.image-tag-related-cta-link:hover {
     margin: 8px auto
 }
 .rich-text-editor-wrapper .note-editable .iframe-wrapper.selected {
-    border: 2px solid #7ac143 !important
+    border: 2px solid #f9a518 !important
 }
 .rich-text-editor-wrapper .note-toolbar {
     margin: 0;
@@ -8682,11 +8667,11 @@ a.image-tag-related-cta-link:hover {
     z-index: 1
 }
 .rich-text-editor-wrapper .note-popover .note-link-popover a {
-    color: #3d8901
+    color: #f9a518
 }
 .rich-text-editor-wrapper .note-popover .note-link-popover span {
     cursor: pointer;
-    color: #3d8901
+    color: #f9a518
 }
 .rich-text-editor-wrapper .note-popover .note-link-popover .popover-content {
     padding: 0
@@ -8905,7 +8890,7 @@ a.image-tag-related-cta-link:hover {
     -webkit-transition: all 50ms ease-out
 }
 .insert-photo-dialog .picker-thumb.selected {
-    border: 4px solid #7ac143
+    border: 4px solid #f9a518
 }
 .insert-photo-dialog .project-spaces-list {
     margin: 2px auto;
@@ -8931,7 +8916,7 @@ a.image-tag-related-cta-link:hover {
     left: 0;
     right: 0;
     color: #fff;
-    background: #7ac143;
+    background: #f9a518;
     padding: 5px 10px
 }
 .insert-photo-dialog .insert-photo-wrapper .dz-message.dz-default {
@@ -9244,9 +9229,9 @@ a.image-tag-related-cta-link:hover {
     background: #e9e9e9
 }
 .hzHoverCard .statCard .followBtn.following {
-    background-color: #55a32a;
+    background-color: #f9a518;
     background-image: none;
-    border: 1px solid #55a32a;
+    border: 1px solid #f9a518;
     color: #fff
 }
 .hzHoverCard .statCard .followBtn.unfollow {
@@ -9499,7 +9484,7 @@ a.image-tag-related-cta-link:hover {
     *display: inline;
     zoom: 1;
     cursor: pointer;
-    color: #3d8901;
+    color: #f9a518;
     font-size: 12px;
     font-weight: bold
 }
@@ -9720,7 +9705,7 @@ a.image-tag-related-cta-link:hover {
     width: 200px
 }
 .ppb__carousel .ppb__heading-location {
-    color: #3d8901
+    color: #f9a518
 }
 .ppb__carousel .ppb__carousel-body {
     flex-grow: 1
@@ -9772,11 +9757,11 @@ a.image-tag-related-cta-link:hover {
     color: #222
 }
 .ppb__carousel .ppb__carousel-item:hover .ppb__carousel-item-icon {
-    color: #3d8901
+    color: #f9a518
 }
 .ppb__carousel .ppb__carousel-item-icon {
     font-size: 40px;
-    color: #7ac143
+    color: #f9a518
 }
 @media (min-width: 1280px) {
     .ppb__carousel .ppb__carousel-item-icon {
@@ -9809,7 +9794,7 @@ a.image-tag-related-cta-link:hover {
     margin-left: 50px
 }
 .feedAction a {
-    color: #3d8901
+    color: #f9a518
 }
 .feedAction .hz-username {
     color: #333
@@ -9843,7 +9828,7 @@ a.image-tag-related-cta-link:hover {
     background-position: -33px -3px
 }
 .commentButton:hover {
-    color: #3d8901;
+    color: #f9a518;
     cursor: pointer
 }
 .commentButton:hover .f-comment {
@@ -10085,12 +10070,12 @@ a.image-tag-related-cta-link:hover {
 }
 .feedItem.full-feed .attachment.gallery .green-hollow-button {
     padding: 10px 27px;
-    border: 1px solid #3d8901;
+    border: 1px solid #f9a518;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-size: 16px;
-    color: #3d8901;
+    color: #f9a518;
     float: right;
     font-weight: bold;
     position: absolute;
@@ -10100,7 +10085,7 @@ a.image-tag-related-cta-link:hover {
 }
 .feedItem.full-feed .attachment.gallery .green-hollow-button:hover {
     color: #fff;
-    background: #3d8901
+    background: #f9a518
 }
 .feedItem.full-feed .attachment.gallery.featured-gallery {
     border-top: none
@@ -10239,7 +10224,7 @@ a.image-tag-related-cta-link:hover {
 }
 .feedItem.home-feed .product-category.product-category {
     font-weight: bold;
-    color: #3d8901
+    color: #f9a518
 }
 .feedItem.home-feed .product-category.product-category + .product-category:before {
     content: "|";
@@ -10411,7 +10396,7 @@ a.image-tag-related-cta-link:hover {
     color: #888
 }
 .feedItem.home-feed .feed-meta-container a.colorLink {
-    color: #3d8901
+    color: #f9a518
 }
 .feedItem.home-feed .feed-meta-container .product-price {
     font-weight: bold;
@@ -10427,7 +10412,7 @@ a.image-tag-related-cta-link:hover {
     display: inline-block;
     *display: inline;
     zoom: 1;
-    color: #3d8901;
+    color: #f9a518;
     font-weight: bold;
     font-size: 14px;
     margin-top: 7px
@@ -10447,7 +10432,7 @@ a.image-tag-related-cta-link:hover {
     font-weight: bold
 }
 .feedItem.home-feed .feed-story__photo__matching-topic:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .feedItem.home-feed .feed-space-counters {
     font-size: 11px;
@@ -10503,11 +10488,11 @@ a.image-tag-related-cta-link:hover {
     pointer-events: initial
 }
 .feedItem.home-feed .feed-hover-buttons .graybutton:hover {
-    background-color: #3d8901;
-    background-color: rgba(61, 137, 1, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
-    border: 1px solid #3d8901
+    border: 1px solid #f9a518
 }
 .feedItem.home-feed .hz-user-image {
     width: 25px;
@@ -10554,7 +10539,7 @@ a.image-tag-related-cta-link:hover {
 .feedItem.square .feed-snapshot .feed-type-indicator .hzi-poll,
 .feedItem.square .feed-snapshot .feed-type-indicator .hzi-houzz-discussion {
     position: relative;
-    color: #7ac143;
+    color: #f9a518;
     font-size: 24px
 }
 .feedItem.square .feed-snapshot .feed-type-indicator .hzi-poll .font-circle-bg,
@@ -10569,7 +10554,7 @@ a.image-tag-related-cta-link:hover {
     -moz-border-radius: 50%;
     border-radius: 50%;
     z-index: -1;
-    box-shadow: 0 0 0 2px #7ac143
+    box-shadow: 0 0 0 2px #f9a518
 }
 .feedItem.square .feed-meta-container {
     overflow: hidden;
@@ -10590,8 +10575,8 @@ a.image-tag-related-cta-link:hover {
     background-color: rgba(0, 0, 0, 0.2)
 }
 .feedItem.square .full-story-button:hover {
-    background-color: #3d8901;
-    border: 1px solid #3d8901
+    background-color: #f9a518;
+    border: 1px solid #f9a518
 }
 .feedItem.square .space-tiles {
     margin-top: -1px;
@@ -10741,7 +10726,7 @@ a.image-tag-related-cta-link:hover {
     text-decoration: none
 }
 .hzi-Voted-Circle {
-    color: #3d8901
+    color: #f9a518
 }
 .noActivities .noActivitiesDetails {
     text-align: center;
@@ -10934,18 +10919,18 @@ a.image-tag-related-cta-link:hover {
     min-height: 1000px
 }
 .feedItem.home-feed .feed-hover-buttons .graybutton {
-    background-color: #55a32a;
-    background-color: rgba(85, 163, 42, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
-    border: 1px solid #55a32a
+    border: 1px solid #f9a518
 }
 .feedItem.home-feed .feed-hover-buttons .graybutton:hover {
-    background-color: #3d8901;
-    background-color: rgba(61, 137, 1, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
-    border: 1px solid #3d8901
+    border: 1px solid #f9a518
 }
 .feedItem.home-feed .feed-hover-buttons .graybutton.emailButton {
     background-color: #000;
@@ -10955,11 +10940,11 @@ a.image-tag-related-cta-link:hover {
     border: 1px solid #fff
 }
 .feedItem.home-feed .feed-hover-buttons .graybutton.emailButton:hover {
-    background-color: #3d8901;
-    background-color: rgba(61, 137, 1, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
-    border: 1px solid #3d8901
+    border: 1px solid #f9a518
 }
 .feedItem.home-feed.feed-card-new-ui .feed-description {
     padding: 5px 10px 0;
@@ -11079,7 +11064,7 @@ a.image-tag-related-cta-link:hover {
     color: #666
 }
 .feedItem.home-feed.feed-card-new-ui .feed-footer-buttons .feed-footer-buttons-left a:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .feedItem.home-feed.feed-card-new-ui.xlarge .feed-meta-info {
     min-height: 25px;
@@ -11388,7 +11373,7 @@ a.image-tag-related-cta-link:hover {
     width: 35px
 }
 .shop-stories-carousel-single-slide:hover .shop-stories-carousel-single-title a {
-    color: #3d8901
+    color: #f9a518
 }
 .shop-stories-carousel-single-thumb {
     text-align: center;
@@ -11536,7 +11521,7 @@ a.image-tag-related-cta-link:hover {
     width: 35px
 }
 .shop-stories-carousel-fisheye-title.shop-stories-carousel-fisheye-title--hover .shop-stories-carousel-fisheye-title-link {
-    color: #3d8901
+    color: #f9a518
 }
 .shop-stories-carousel-fisheye-title.shop-stories-carousel-fisheye-title--hover .shop-stories-carousel-single-divider {
     width: 35px
@@ -12627,7 +12612,7 @@ a.link--addPhoto .hzi-Add_Photo {
 /* like.less Thu, 15 Dec 2016 15:16:20 PST */
 
 .hz-liked {
-    color: #3d8901
+    color: #f9a518
 }
 .hz-likeAction,
 .hz-showlike {
@@ -12707,13 +12692,13 @@ div#hzlikeListContainer li div.likeUserTextInfo {
     padding-bottom: 1px
 }
 .likeContainer:hover {
-    color: #3d8901;
+    color: #f9a518;
     cursor: pointer
 }
 /* clipping.less Thu, 15 Dec 2016 15:16:08 PST */
 
 .hz-unclip {
-    color: #3d8901
+    color: #f9a518
 }
 .hz-clipAction,
 .hz-clips {
@@ -12758,7 +12743,7 @@ a.clipIcon img {
     padding-bottom: 1px
 }
 .clipContainer:hover {
-    color: #3d8901;
+    color: #f9a518;
     cursor: pointer
 }
 .clip {
@@ -12834,7 +12819,7 @@ a.clipIcon img {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #55a32a
+    color: #f9a518
 }
 .promo-banner-container .houzz-tv-banner .media-body .btn-primary {
     position: absolute;
@@ -12904,12 +12889,12 @@ a.clipIcon img {
     background: transparent
 }
 #homeSlideShowActionBar .graybutton:hover {
-    background-color: #55a32a;
-    background-color: rgba(85, 163, 42, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
-    background: #55a32a;
-    border: 1px solid #55a32a
+    background: #f9a518;
+    border: 1px solid #f9a518
 }
 #homeSlideShowActionBar .hzBtn.saveButton {
     padding-left: 10px;
@@ -13318,7 +13303,7 @@ a.clipIcon img {
 .hzTipBox[data-name='banner9'] .tipBoxArrow {
     margin-left: -16px;
     top: 20px;
-    border-color: transparent #7ac143 transparent transparent
+    border-color: transparent #f9a518 transparent transparent
 }
 .hzTipBox[data-name='banner9'] .hzTipItem {
     top: -14px;
@@ -13361,7 +13346,7 @@ a.clipIcon img {
     font-size: 16px;
     margin-bottom: 10px;
     padding: 10px 20px 10px 10px;
-    background-color: #7ac143;
+    background-color: #f9a518;
     min-height: 30px;
     color: #fff;
     position: relative;
@@ -13375,7 +13360,7 @@ a.clipIcon img {
     color: #fff
 }
 .hzTipItem a .text-bold:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .hzTipBox[data-name='banner1'] {
     width: 80%;
@@ -13393,7 +13378,7 @@ a.clipIcon img {
     height: auto
 }
 .tipBoxArrow {
-    border-color: transparent transparent #7ac143 transparent;
+    border-color: transparent transparent #f9a518 transparent;
     border-style: solid;
     border-width: 8px;
     height: 0;
@@ -13471,7 +13456,7 @@ a.clipIcon img {
     font-weight: bold
 }
 #footer-menu a:hover {
-    color: #3d8901
+    color: #f9a518
 }
 #footer-menu .footer-space {
     padding: 0px 5px
@@ -13493,7 +13478,7 @@ a.clipIcon img {
     font-weight: normal
 }
 #footer-menu .termsAndPrivacy a:hover {
-    color: #3d8901
+    color: #f9a518
 }
 #footer-menu .dropdown-wrapper-2 {
     padding: 0;
@@ -14122,7 +14107,7 @@ body.hbs {
     background: #f0f0f0
 }
 .new-homepage .white-action-button:hover .hzi-font {
-    color: #3d8901
+    color: #f9a518
 }
 .new-homepage .block {
     margin-bottom: 25px;
@@ -14148,14 +14133,14 @@ body.hbs {
     color: #e6e6e6
 }
 .new-homepage .hzi-Ideabook-Plus:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .new-homepage .hzi-Star,
 .new-homepage .hzi-Question {
     font-size: 1.5em
 }
 .new-homepage .hzi-Star {
-    color: #7ac143
+    color: #f9a518
 }
 .new-homepage .hzi-Question {
     color: #ccc
@@ -14225,7 +14210,7 @@ body.hbs {
     color: #ababab
 }
 .gray-action-button:hover .hzi-Upload {
-    color: #3d8901
+    color: #f9a518
 }
 .visitor-intro {
     -webkit-border-radius: 2px;
@@ -14751,7 +14736,7 @@ body.hbs {
     top: 100%
 }
 .feed-stories-header-container .customize-diag-bubble .customize-header {
-    color: #55a32a;
+    color: #f9a518;
     font-size: 18px;
     margin-left: 79px;
     padding: 0 10px
@@ -14764,7 +14749,7 @@ body.hbs {
 }
 .feed-stories-header-container .customize-diag-bubble .hzi-photos_love {
     margin-top: 9px;
-    color: #55a32a;
+    color: #f9a518;
     font-size: 58px
 }
 .feed-stories-header-container .customize-diag-bubble.north:after {
@@ -15154,7 +15139,7 @@ div.hpFeed div.blockBody .whitebutton {
     -webkit-border-top-left-radius: 5px;
     -moz-border-radius-topleft: 5px;
     border-top-left-radius: 5px;
-    background-color: #7ac143;
+    background-color: #f9a518;
     text-align: center;
     color: #ffffff
 }

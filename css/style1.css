@@ -389,7 +389,7 @@ body.hbs {
 }
 .hbs a:hover,
 .hbs a:focus {
-    color: #3d8901;
+    color: #f9a518;
     text-decoration: none
 }
 .hbs a:focus {
@@ -525,7 +525,7 @@ body.hbs {
     color: #666666
 }
 .hbs .text-primary {
-    color: #3d8901
+    color: #f9a518
 }
 .hbs a.text-primary:hover {
     color: #265601
@@ -556,7 +556,7 @@ body.hbs {
 }
 .hbs .bg-primary {
     color: #fff;
-    background-color: #3d8901
+    background-color: #f9a518
 }
 .hbs a.bg-primary:hover {
     background-color: #265601
@@ -2451,8 +2451,8 @@ body.hbs {
 }
 .hbs .btn-primary {
     color: #ffffff;
-    background-color: #55a32a;
-    border-color: #55a32a
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .btn-primary:hover,
 .hbs .btn-primary:focus,
@@ -2461,8 +2461,8 @@ body.hbs {
 .hbs .btn-primary.active,
 .hbs .open > .dropdown-toggle.btn-primary {
     color: #ffffff;
-    background-color: #3d8901;
-    border-color: #3d8901
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .btn-primary:active,
 .hbs .btn-primary.active,
@@ -2487,17 +2487,17 @@ body.hbs {
 .hbs .btn-primary.disabled.active,
 .hbs .btn-primary[disabled].active,
 .hbs fieldset[disabled] .btn-primary.active {
-    background-color: #55a32a;
-    border-color: #55a32a
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .btn-primary .badge {
-    color: #55a32a;
+    color: #f9a518;
     background-color: #ffffff
 }
 .hbs .btn-primary-outline {
-    color: #3d8901;
+    color: #f9a518;
     background-color: #ffffff;
-    border-color: #3d8901
+    border-color: #f9a518
 }
 .hbs .btn-primary-outline:hover,
 .hbs .btn-primary-outline:focus,
@@ -2506,8 +2506,8 @@ body.hbs {
 .hbs .btn-primary-outline.active,
 .hbs .open > .dropdown-toggle.btn-primary-outline {
     color: #ffffff;
-    background-color: #3d8901;
-    border-color: #3d8901
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .btn-primary-outline:active,
 .hbs .btn-primary-outline.active,
@@ -2533,11 +2533,11 @@ body.hbs {
 .hbs .btn-primary-outline[disabled].active,
 .hbs fieldset[disabled] .btn-primary-outline.active {
     background-color: #ffffff;
-    border-color: #3d8901
+    border-color: #f9a518
 }
 .hbs .btn-primary-outline .badge {
     color: #ffffff;
-    background-color: #3d8901
+    background-color: #f9a518
 }
 .hbs .btn-secondary {
     color: #4c4c4c;
@@ -2641,8 +2641,8 @@ body.hbs {
 .hbs .btn-black.active,
 .hbs .open > .dropdown-toggle.btn-black {
     color: #ffffff;
-    background-color: #3d8901;
-    border-color: #3d8901
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .btn-black:active,
 .hbs .btn-black.active,
@@ -2731,8 +2731,8 @@ body.hbs {
 .hbs .btn-white-outline.active,
 .hbs .open > .dropdown-toggle.btn-white-outline {
     color: #ffffff;
-    background-color: #3d8901;
-    border-color: #3d8901
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .btn-white-outline:active,
 .hbs .btn-white-outline.active,
@@ -2820,7 +2820,7 @@ body.hbs {
 .hbs .btn-variation:active,
 .hbs .btn-variation.active,
 .hbs .open > .dropdown-toggle.btn-variation {
-    color: #3d8901;
+    color: #f9a518;
     background-color: #ffffff;
     border-color: #f0f0f0
 }
@@ -2921,7 +2921,7 @@ body.hbs {
 }
 .hbs .btn-link:hover,
 .hbs .btn-link:focus {
-    color: #3d8901;
+    color: #f9a518;
     text-decoration: none;
     background-color: transparent
 }
@@ -3035,7 +3035,7 @@ body.hbs {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
-    background-color: #3d8901
+    background-color: #f9a518
 }
 .hbs .dropdown-menu > .disabled > a,
 .hbs .dropdown-menu > .disabled > a:hover,
@@ -3570,7 +3570,7 @@ body.hbs {
 .hbs .nav-pills > li.active > a:hover,
 .hbs .nav-pills > li.active > a:focus {
     color: #ffffff;
-    background-color: #3d8901
+    background-color: #f9a518
 }
 .hbs .nav-stacked > li {
     float: none
@@ -4224,7 +4224,7 @@ body.hbs {
 .hbs .pagination > li > span:hover,
 .hbs .pagination > li > a:focus,
 .hbs .pagination > li > span:focus {
-    color: #3d8901;
+    color: #f9a518;
     background-color: #eeeeee;
     border-color: #dddddd
 }
@@ -4314,7 +4314,7 @@ body.hbs {
     background-color: #4d4d4d
 }
 .hbs .label-primary {
-    background-color: #3d8901
+    background-color: #f9a518
 }
 .hbs .label-primary[href]:hover,
 .hbs .label-primary[href]:focus {
@@ -4523,8 +4523,8 @@ body.hbs {
 .hbs .list-group-item.active:focus {
     z-index: 2;
     color: #ffffff;
-    background-color: #3d8901;
-    border-color: #3d8901
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .list-group-item.active .list-group-item-heading,
 .hbs .list-group-item.active:hover .list-group-item-heading,
@@ -4888,22 +4888,22 @@ body.hbs {
     border-bottom-color: #dddddd
 }
 .hbs .panel-primary {
-    border-color: #3d8901
+    border-color: #f9a518
 }
 .hbs .panel-primary > .panel-heading {
     color: #ffffff;
-    background-color: #3d8901;
-    border-color: #3d8901
+    background-color: #f9a518;
+    border-color: #f9a518
 }
 .hbs .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-    border-top-color: #3d8901
+    border-top-color: #f9a518
 }
 .hbs .panel-primary > .panel-heading .badge {
-    color: #3d8901;
+    color: #f9a518;
     background-color: #ffffff
 }
 .hbs .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #3d8901
+    border-bottom-color: #f9a518
 }
 .hbs .panel-success {
     border-color: #d6e9c6
@@ -5637,16 +5637,16 @@ body.hbs {
     text-decoration: none
 }
 .hz-link-style:hover {
-    color: #3d8901
+    color: #f9a518
 }
 .hz-link-style.text-primary {
-    color: #3d8901
+    color: #f9a518
 }
 .hz-link-style.text-primary:hover {
     color: #265601
 }
 a:hover .hz-link-style {
-    color: #3d8901
+    color: #f9a518
 }
 a:hover .hz-link-style.text-primary {
     color: #265601
@@ -5659,7 +5659,7 @@ a:hover .hz-link-style.text-primary {
     border-bottom: 1px solid #e6e6e6
 }
 .hbs .colorLink {
-    color: #3d8901
+    color: #f9a518
 }
 .hbs a.colorLink:hover {
     color: #222;
@@ -6289,7 +6289,7 @@ body.hz-grey-bg .rightSideContent .pagination-wrapper {
     margin-right: 0
 }
 .rate-star [class*='hzi-Star'] {
-    color: #55a32a;
+    color: #f9a518;
     position: absolute;
     width: 20px;
     height: 16px
@@ -6448,11 +6448,11 @@ body {
     overflow: visible
 }
 ::selection {
-    background: #7cc04b;
+    background: #f9a518;
     color: #ffffff
 }
 ::-moz-selection {
-    background: #7cc04b;
+    background: #f9a518;
     color: #ffffff
 }
 .admin-controls {
@@ -7245,18 +7245,18 @@ a.hzBtn:hover {
 }
 .hzBtn.primary {
     color: #fff;
-    border: 1px solid #55a32a;
-    background: #55a32a
+    border: 1px solid #f9a518;
+    background: #f9a518
 }
 .hzBtn.primary:hover {
     color: #fff;
-    border: 1px solid #3d8901;
-    background: #3d8901
+    border: 1px solid #f9a518;
+    background: #f9a518
 }
 .hzBtn.primary:active {
     color: #fff;
-    border: 1px solid #3d8901;
-    background: #3d8901
+    border: 1px solid #f9a518;
+    background: #f9a518
 }
 .hzBtn.primary.disabled,
 .hzBtn.primary.disabled:hover,
@@ -7269,19 +7269,19 @@ a.hzBtn:hover {
     cursor: default
 }
 .hzBtn.primary-outline {
-    color: #3d8901;
-    border: 1px solid #3d8901;
+    color: #f9a518;
+    border: 1px solid #f9a518;
     background: #fff
 }
 .hzBtn.primary-outline:hover {
     color: #fff;
-    border: 1px solid #3d8901;
-    background: #3d8901
+    border: 1px solid #f9a518;
+    background: #f9a518
 }
 .hzBtn.primary-outline:active {
     color: #fff;
-    border: 1px solid #3d8901;
-    background: #3d8901
+    border: 1px solid #f9a518;
+    background: #f9a518
 }
 .hzBtn.primary-outline.disabled,
 .hzBtn.primary-outline.disabled:hover,
@@ -7528,7 +7528,7 @@ a.hzBtn:hover {
 }
 .april-fools-btn .hzi-Glass_green_svg {
     font-size: 24px;
-    color: #55a32a
+    color: #f9a518
 }
 .april-fools-btn:hover .hzi-Glass_green_svg {
     color: #fff
@@ -7563,7 +7563,7 @@ a.hzBtn:hover {
 }
 .whitebutton .hzi-Like-Button.button-icon-liked,
 .whitebutton .hzi-Bookmark {
-    color: #7ac143
+    color: #f9a518
 }
 .whitebutton .counter-bubble {
     border-left: 1px solid #d9dadb;
@@ -7614,7 +7614,7 @@ a.hzBtn:hover {
     background: #4d991a
 }
 .whitebutton.followBtn.following .button-label {
-    background-color: #7ac143
+    background-color: #f9a518
 }
 .whitebutton.followBtn.following .button-icon {
     background-image: url("../pic/lightboxButtons.png")
@@ -7686,13 +7686,13 @@ a.hzBtn:hover {
     filter: alpha(opacity=100)
 }
 .graybutton:hover {
-    background-color: #55a32a;
-    background-color: rgba(85, 163, 42, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
     text-decoration: none;
-    background: #55a32a;
-    border: 1px solid #55a32a
+    background: #f9a518;
+    border: 1px solid #f9a518
 }
 .graybutton.iconOnly {
     padding: 4px
@@ -7737,23 +7737,23 @@ a.hzBtn:hover {
 .greenbutton {
     opacity: 1;
     filter: alpha(opacity=100);
-    background-color: #55a32a;
-    background-color: rgba(85, 163, 42, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa55a32a, endColorstr=#fa55a32a);
     text-decoration: none;
-    border: 1px solid #55a32a
+    border: 1px solid #f9a518
 }
 .greenbutton .button-label {
     opacity: 1;
     filter: alpha(opacity=100)
 }
 .greenbutton:hover {
-    background-color: #3d8901;
-    background-color: rgba(61, 137, 1, 0.98);
+    background-color: #f9a518;
+    background-color: rgba(250, 169, 22, 0.98);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
     -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#fa3d8901, endColorstr=#fa3d8901);
-    border: 1px solid #3d8901
+    border: 1px solid #f9a518
 }
 .hzBtn.greenbutton {
     padding-left: 3px;
@@ -8310,7 +8310,7 @@ a.hzBtn:hover {
     position: relative
 }
 .hzPeek .hzPeekLink {
-    color: #3d8901
+    color: #f9a518
 }
 .hzPeekDesc {
     position: relative
@@ -8321,7 +8321,7 @@ a.hzBtn:hover {
     position: relative;
     padding: 20px 15px;
     color: #fff;
-    background-color: #7ac143;
+    background-color: #f9a518;
     z-index: 888
 }
 .hzBubble.west {
@@ -8338,7 +8338,7 @@ a.hzBtn:hover {
     left: 20px;
     border-width: 8px;
     border-style: solid;
-    border-color: #7ac143 transparent transparent transparent;
+    border-color: #f9a518 transparent transparent transparent;
     display: block;
     width: 0
 }
@@ -8358,7 +8358,7 @@ a.hzBtn:hover {
     bottom: auto;
     left: 20px;
     border-width: 8px;
-    border-color: transparent transparent #7ac143 transparent
+    border-color: transparent transparent #f9a518 transparent
 }
 .hzBubble.north.right:after {
     left: auto;
@@ -8373,7 +8373,7 @@ a.hzBtn:hover {
     left: -15px;
     top: 20px;
     border-width: 8px;
-    border-color: transparent #7ac143 transparent transparent
+    border-color: transparent #f9a518 transparent transparent
 }
 .hzBubble.east:after {
     top: 20px;
@@ -8381,7 +8381,7 @@ a.hzBtn:hover {
     bottom: auto;
     left: auto;
     border-width: 8px;
-    border-color: transparent transparent transparent #7ac143
+    border-color: transparent transparent transparent #f9a518
 }
 .close .hzi-font.tipBubble-closeBtn {
     font-size: 16px;
@@ -8736,7 +8736,7 @@ a.hzBtn:hover {
     background: #f3f3f3
 }
 .hzp-comboselect .hzp-comboselect-select .hzp-comboselect-option.hzp-comboselect-option-selected .hzp-comboselect-option-check {
-    color: #55a32a
+    color: #f9a518
 }
 .hzp-comboselect .hzp-comboselect-select .hzp-comboselect-option.hzp-comboselect-option-selected .hzp-comboselect-option-check:before {
     display: block
@@ -8783,8 +8783,8 @@ a.hzBtn:hover {
 .product-badge .badge-text.exclusive {
     padding: 2px 16px 3px 8px;
     background-color: #fff;
-    color: #3d8901;
-    border: 1px solid #7ac143;
+    color: #f9a518;
+    border: 1px solid #f9a518;
     border-right: none;
     position: relative
 }
@@ -8793,7 +8793,7 @@ a.hzBtn:hover {
     position: absolute;
     height: 1px;
     width: 14px;
-    background-color: #7ac143;
+    background-color: #f9a518;
     top: 12px;
     margin-top: -7px;
     right: -2px;
@@ -8804,7 +8804,7 @@ a.hzBtn:hover {
     position: absolute;
     height: 1px;
     width: 14px;
-    background-color: #7ac143;
+    background-color: #f9a518;
     right: -2px;
     transform: rotate(50deg);
     bottom: 5px
@@ -8823,7 +8823,7 @@ a.hzBtn:hover {
     border: 1px solid #ccc
 }
 .product-badge .badge-text.editorsPick .highlight {
-    color: #3d8901
+    color: #f9a518
 }
 .product-badge .badge-flag {
     display: inline-block;
@@ -8874,7 +8874,7 @@ a.hzBtn:hover {
 #savePhotoTip .homepageTipIcon,
 #ideaBookTip .homepageTipIcon {
     float: left;
-    color: #7ac143;
+    color: #f9a518;
     font-size: 80px;
     margin: 10px
 }
@@ -8972,7 +8972,7 @@ a.hzBtn:hover {
     background-color: #fff
 }
 .hbs .custom-radio-input input[type='radio']:checked + .custom-radio-input__fake-input {
-    background-color: #7ac143
+    background-color: #f9a518
 }
 .hbs .custom-radio-input input[type='radio']:checked + .custom-radio-input__fake-input:before {
     -webkit-border-radius: 50%;
@@ -9002,7 +9002,7 @@ a.hzBtn:hover {
     background-color: #f8f8f8
 }
 .hbs .custom-radio-input input[type='radio']:checked + .custom-radio-input__fake-input + .custom-radio-input__fake-wrapper {
-    border: 1px solid #7ac143
+    border: 1px solid #f9a518
 }
 .hbs .custom-radio-input input[type='radio']:checked + .custom-radio-input__fake-input + .custom-radio-input__fake-wrapper:hover {
     background-color: #fff

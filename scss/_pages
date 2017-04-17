@@ -9,8 +9,8 @@
 
 .pagination-wrapper .navigation-button.next {
   color: #fff;
-  background: #3d8901;
-  border-color: #3d8901;
+  background: #f9a518;
+  border-color: #f9a518;
 }
 
 /* Sizes Buttons */
@@ -138,7 +138,7 @@
 
 .promote {
   cursor: pointer;
-  background-color: #7ac143;
+  background-color: #f9a518;
   padding: 20px;
   font-weight: bold;
   text-align: center;
@@ -294,7 +294,7 @@
 }
 
 .shareBtns .icon-text-combo:hover .hzi-font {
-  color: #3d8901;
+  color: #f9a518;
 }
 
 .ideabook-actions-wrapper {

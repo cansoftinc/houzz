@@ -1,12 +1,26 @@
-.sidebar .sidebar-body .sidebar-item.selected .sidebar-item-label {
-  color: #3d8901;
+.sidebar-item.all {
+  height: auto !important;
+}
+
+.sidebar .sidebar-body .sidebar-item .sidebar-item-label.selected {
+  color: #f9a518;
 }
 
 .sidebar .sidebar-body .sidebar-item .sidebar__level2 {
   padding-left: 9px;
-  border: 1px solid red;
+  display: none;
 }
 
-.sidebar .sidebar-body .sidebar-item .sidebar__level2 .sidebar-item-label {
-  padding-bottom: 0;
+.sidebar .sidebar-body .sidebar-item .sidebar__level2.selected {
+  color: #f9a518;
+}
+
+.sidebar.filter-tree .D1.sidebar-item .sidebar-item-label {
+  padding-left: 9px;
+}
+
+.shop-houzz-giftcards-sidebar {
+  background: #fff;
+  padding: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
 }
