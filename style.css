@@ -4874,7 +4874,6 @@ body.modal-open {
   width: 105px;
   height: 94%;
   border: none;
-  border-right: 1px solid #ddd;
 }
 
 .houzz-header #search-option:focus {
