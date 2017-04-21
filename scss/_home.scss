@@ -1,3 +1,22 @@
+.houzz-header {
+  input.navbar-search-box {
+    padding-left: 125px;
+  }
+  button.search-submit {
+    right: 0;
+    left: auto;
+  }
+  #search-option {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 105px;
+    height: 94%;
+    border: none;  
+    border-right: 1px solid #ddd;  
+  }
+} 
+
 .home-signup-button .nav-signup-button {
   position: relative;
   line-height: 28px;
@@ -20,6 +39,58 @@
 
 .houzz-header .nav-button:hover {
   color: #3d8901;
+}
+
+.hp-visitor-block-item__desc {
+  div {
+    min-height: 48px;
+    font-size: 18px;
+  }
+}
+
+.section {
+  margin-top: 30px;
+  border: 1px solid #e6e6e6;
+  padding: 10px 10px 0;
+  &.first {
+    background-color: #D7D7D7;
+  }
+  &.second {
+    background-color: #eee;
+  }
+  &.third {
+    background-color: #D7D7D7;
+  }
+  .section-header {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    .section-title {
+      float: left;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 32px;
+    }
+    .more {
+      float: right;
+      line-height: 32px;
+    }
+  }
+  .section-content {
+    .feedItem.square {
+      width: 100%;
+      float: none;
+      border: none;
+      background-color: #fff;
+    }
+    .feedItem.home-feed .feed-description.product-topic {
+      border-top: none;
+    }
+    .feedItem.square .feed-snapshot {
+      width: 100%;
+    }
+  }
 }
 
 @include max(767px) {

@@ -112,7 +112,13 @@
             </li>
           </ul>
           <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off">
-            <div class='navbar-search-shell trackMe' role='search'>
+            <div class='navbar-search-shell' role='search'>
+              <select name="search-option" id="search-option">
+                <option value="thiet-ke">Thiết kế</option>
+                <option value="san-pham">Sản phẩm</option>
+                <option value="dich-vu">Dịch vụ</option>
+                <option value="nha-cung-cap">Nhà cung cấp</option>
+              </select>
               <input id="navSearchInput" value="" name="search" type="text" class="navbar-search-box" placeholder="Search Photos, Products, Pros &amp; More..." shortplaceholder="Search Photos, Products, Pros &amp; More..." spellcheck="false" />
               <button class='hzi-font hzi-Search search-submit' type='submit'></button>
             </div>
@@ -1944,29 +1950,35 @@
       <div class="main-top">
         <div class="hp-visitor-block container-fluid">
           <div class="row">
-            <div class="header-1 col-xs-12">Create the home you've always wanted</div>
+            <div class="header-1 col-xs-12">Nguồn cảm hứng để có ngôi nhà đẹp</div>
           </div>
           <div class="row">
             <div class="col-xs-4 hp-visitor-block-item">
-              <span class="hp-visitor-block-item__icon hzi-font hzi-Findideas"></span>
-              <div class="hp-visitor-block-item__desc header-4">
-                <div class="mbs">Discover design ideas đỗ ngọc giang</div>
-                <span class="text-unbold header-6">Browse more than 12 million photos and filter based on your taste</span>
-              </div>
+              <a href="#">
+                <span class="hp-visitor-block-item__icon hzi-font hzi-Findideas"></span>
+                <div class="hp-visitor-block-item__desc header-4">
+                  <div class="mbs">Khám phá nguồn cảm hứng cho ý tưởng nhà bạn</div>
+                  <span class="text-unbold header-6">Từ hàng triệu bức ảnh</span>
+                </div>
+              </a>              
             </div>
             <div class="col-xs-4 hp-visitor-block-item">
-              <span class="hp-visitor-block-item__icon hzi-font hzi-FindPros"></span>
-              <div class="hp-visitor-block-item__desc header-4">
-                <div class="mbs">Find home professionals</div>
-                <span class="text-unbold header-6">Connect with local professionals who can help with your project</span>
-              </div>
+              <a href="#">
+                <span class="hp-visitor-block-item__icon hzi-font hzi-FindPros"></span>
+                <div class="hp-visitor-block-item__desc header-4">
+                  <div class="mbs">Tìm dịch vụ</div>
+                  <span class="text-unbold header-6">Liên lạc với doanh nghiệp  để hoàn thành dự án của bạn</span>
+                </div>
+              </a>              
             </div>
             <div class="col-xs-4 hp-visitor-block-item">
-              <span class="hp-visitor-block-item__icon hzi-font hzi-FindProducts"></span>
-              <div class="hp-visitor-block-item__desc header-4">
-                <div class="mbs">Shop for your home</div>
-                <span class="text-unbold header-6">Decorate and design with products from our curated collection</span>
-              </div>
+              <a href="#">
+                <span class="hp-visitor-block-item__icon hzi-font hzi-FindProducts"></span>
+                <div class="hp-visitor-block-item__desc header-4">
+                  <div class="mbs">Mua sắm cho nhà bạn</div>
+                  <span class="text-unbold header-6">Thỏa sức mua sắm để làm đẹp nhà bạn với hàng ngàn sản phẩm</span>
+                </div>
+              </a>              
             </div>
           </div>
           <div class="row">
@@ -1974,761 +1986,802 @@
           </div>
         </div>
       </div>
-      <div class="row-wrapper">
-        <!-- row -->
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="feedItem ppb__carousel">
-              <div class="text-center mtl">
-                <a class="ppb__carousel-heading header-6" href="#">Search 5,063,145 Home Improvement Pros</a>
-              </div>
-              <div id="square-slider-1" class="owl-carousel">
-                <div class="ppb__carousel-slide">
-                  <div class="row">
-                      <div class="col-xs-12">
-                        <div class="item">
-                          <div class="row ppb__carousel-icon-row">
-                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                  <div class="ppb__carousel-item-icon hzi-font hzi-architect-designer"></div>
-                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Architects & Building Designers</div>
-                              </a>
-                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                  <div class="ppb__carousel-item-icon hzi-font hzi-design-build"></div>
-                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Design-Build Firms</div>
-                              </a>
-                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                  <div class="ppb__carousel-item-icon hzi-font hzi-contractor"></div>
-                                  <div class="ppb__carousel-item-label text-xs mts text-muted">General Contractors</div>
-                              </a>
-                          </div>
-                        </div>
-                        <div class="item">
-                          <div class="row ppb__carousel-icon-row">
-                            <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                <div class="ppb__carousel-item-icon hzi-font hzi-home-builder"></div>
-                                <div class="ppb__carousel-item-label text-xs mts text-muted">Home Builders</div>
-                            </a>
-                            <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                <div class="ppb__carousel-item-icon hzi-font hzi-interior-design"></div>
-                                <div class="ppb__carousel-item-label text-xs mts text-muted">Interior Designers</div>
-                            </a>
-                            <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                <div class="ppb__carousel-item-icon hzi-font hzi-kitchen-bath-design"></div>
-                                <div class="ppb__carousel-item-label text-xs mts text-muted">Kitchen & Bath Designers</div>
-                            </a>
-                        </div>
-                        </div>
-                        <div class="item">
-                          <div class="row ppb__carousel-icon-row">
-                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                  <div class="ppb__carousel-item-icon hzi-font hzi-kitchen-bath-remodel"></div>
-                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Kitchen & Bath Remodelers</div>
-                              </a>
-                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                  <div class="ppb__carousel-item-icon hzi-font hzi-landscape-design"></div>
-                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Landscape Architects & Designers</div>
-                              </a>
-                              <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                  <div class="ppb__carousel-item-icon hzi-font hzi-landscape-contractor"></div>
-                                  <div class="ppb__carousel-item-label text-xs mts text-muted">Landscape Contractors</div>
-                              </a>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-                <div class="ppb__carousel-slide">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="row ppb__carousel-icon-row">
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-deck-patio"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Deck & Patio Builders</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-door"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Door Dealers</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-carpet"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Carpet Dealers</div>
-                                </a>
-                            </div>
-                            <div class="row ppb__carousel-icon-row">
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-refinishing-upholstery"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Furniture Repair</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-HVAC"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Air Conditioning & Heating</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-exterior"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Siding & Exterior Contractors</div>
-                                </a>
-                            </div>
-                            <div class="row ppb__carousel-icon-row">
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-windows"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Window Dealers</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-tile-stone-countertop"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Tile, Stone & Countertops</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-paint-wall-covering"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Paint & Wall Coverings</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ppb__carousel-slide">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="row ppb__carousel-icon-row">
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-gardener"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Gardeners</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-plumbing"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Plumbers</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-tree-services"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Tree Services</div>
-                                </a>
-                            </div>
-                            <div class="row ppb__carousel-icon-row">
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-garage-repair"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Garage Door Repair</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-mover"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Movers</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-carpenter"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Carpenters</div>
-                                </a>
-                            </div>
-                            <div class="row ppb__carousel-icon-row">
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-hardwood-flooring"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Hardwood Flooring Dealers</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-fireplace"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Fireplaces</div>
-                                </a>
-                                <a class="ppb__carousel-item col-xs-4 text-center" href="#">
-                                    <div class="ppb__carousel-item-icon hzi-font hzi-pool-builder"></div>
-                                    <div class="ppb__carousel-item-label text-xs mts text-muted">Swimming Pool Builders</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="feedItem home-feed square gallery-feed-block clearfix">
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <a href="#" class="feed-gallery-thumb">
-                      <div class="feed-type-indicator">
-                        <div>
-                          <div class="featured-title">Smarten Up With the 10 Most Popular Home Offices of 2016</div>
-                          <span class="btn btn-primary-outline full-story-button">Full Story</span>
-                        </div>
-                      </div>
-                      <img src="pic/1/industrial-home-office.jpg" class="reloadable">
-                    </a>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container"><span class="hzi-font hzi-Stories-Fill"></span><a class="feed-topic topic-link" href="#">Stories From Houzz</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    Creative wall treatments, stylish storage and clever layouts stand out in these reader favorites
-                  </div>
-                  <div class="feed-space-counters">
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">40 Bookmarks | 4 Comments</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l zLightBox" href="#">
-                        <img class="reloadable hide-context" src="pic/1/contemporary-living-room.jpg"/>
-                      </a>
-                      <div class="mosaic-photo-credit">
-                        <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
-                      </div>
-                      <div class='feed-hover-buttons'>
-                        <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
-                          <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
-                          <span class='button-label'>Save</span></span>
-                          <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
-                          <span class='button-label'>Email</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Ideas-Fill"></span>
-                    <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <!-- end main top -->
+      <div class="section first">
+        <div class="section-header clearfix">
+          <h4 class="section-title">Thiết kế nổi bật</h4>
+          <a href="#" class="more">Xem thêm</a>
         </div>
-        <!-- row -->
-        <!-- end row -->
-        <div class="row">
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square feed-story--product clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/midcentury-floor-lamps.jpg"/>
-                      </a>
-                      <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description product-topic">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Tag"></span>
-                    <a class="feed-topic topic-link" href="#">Midcentury Products</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <div class="product-price">$320</div>
-                    <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
-                    <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/contemporary-bedroom.jpg"/>
-                      </a>
-                      <div class="mosaic-photo-credit">
-                        <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
-                      </div>
-                      <div class='feed-hover-buttons'>
-                        <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
-                          <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
-                          <span class='button-label'>Save</span></span>
-                          <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
-                          <span class='button-label'>Email</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Ideas-Fill"></span>
-                    <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="feedItem home-feed square shop-stories-feed-block">
-              <div class="shop-stories-carousel-wrapper">
-                <div class="shop-stories-carousel">
-                  <div id="square-slider-2" class="owl-carousel">
-                    <div class="item">
-                      <div class="shop-stories-carousel-slide shop-stories-carousel-slide--stack current">
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/rustic-armchairs-and-accent-chairs.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Furniture</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-pendant-lighting.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Lighting</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-area-rugs.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Home Decor</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-bar-stools-and-counter-stools.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Kitchen & Dining</div>
-                          </a>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="shop-stories-carousel-slide shop-stories-carousel-slide--stack current">
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/rustic-armchairs-and-accent-chairs.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Furniture</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-pendant-lighting.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Lighting</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-area-rugs.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Home Decor</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-bar-stools-and-counter-stools.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Kitchen & Dining</div>
-                          </a>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="shop-stories-carousel-slide shop-stories-carousel-slide--stack current">
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/rustic-armchairs-and-accent-chairs.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Furniture</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-pendant-lighting.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Lighting</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-area-rugs.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Home Decor</div>
-                          </a>
-                          <a class="shop-stories-carousel-stack-item" href="#">
-                              <img class="shop-stories-carousel-stack-image" src="pic/1/contemporary-bar-stools-and-counter-stools.jpg" />
-                              <div class="shop-stories-carousel-stack-item-title text-bold">Kitchen & Dining</div>
-                          </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="feed-description">
-                <div class="feed-topic-container"><span class="hzi-font hzi-Tag">
-                  </span><a class="feed-topic topic-link" href="#">Shop All Departments</a>
-                </div>
-              </div>
-              <div class="feed-meta-info">
-                <div class="feed-meta-container">
-                  <div class="shop-stories-more-info">
-                    <div class="shop-stories-message">
-                      From rugs and pillows to ottomans and accessories, Houzz has everything you need to bring style home
-                    </div>
-                    <div>
-                      <a class="colorLink product-cat-link" href="#">See All Products<span class="more-icon"></span></a>
-                    </div>
-                  </div>
-                </div>
-                <div class='feed-space-counters'>
-                  <div class="pull-right feed-story__counter"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end row -->        
-        <!-- row -->
-        <div class="row">
-          <div class="col-xs-4">
-            <div class="feedItem home-feed square gallery-feed-block clearfix">
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <a href="#" class="feed-gallery-thumb">
-                      <div class="feed-type-indicator">
-                        <div>
-                          <div class="featured-title">Smarten Up With the 10 Most Popular Home Offices of 2016</div>
-                          <span class="btn btn-primary-outline full-story-button">Full Story</span>
+        <div class="section-content">
+          <!-- row -->
+          <div class="row">
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l zLightBox" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-living-room.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
                         </div>
                       </div>
-                      <img src="pic/1/home-design.jpg" class="reloadable">
-                    </a>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container"><span class="hzi-font hzi-Stories-Fill"></span><a class="feed-topic topic-link" href="#">Stories From Houzz</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    Creative wall treatments, stylish storage and clever layouts stand out in these reader favorites
-                  </div>
-                  <div class="feed-space-counters">
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
                     </div>
-                    <div class="pull-right feed-story__counter">40 Bookmarks | 4 Comments</div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/contemporary-living-room-2.jpg"/>
-                      </a>
-                      <div class="mosaic-photo-credit">
-                        <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
-                      </div>
-                      <div class='feed-hover-buttons'>
-                        <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
-                          <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
-                          <span class='button-label'>Save</span></span>
-                          <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
-                          <span class='button-label'>Email</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Ideas-Fill"></span>
-                    <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class="feedItem home-feed square gallery-feed-block clearfix">
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <a href="#" class="feed-gallery-thumb">
-                      <div class="feed-type-indicator">
-                        <div>
-                          <div class="featured-title">DIY Silver Stars for a Glittering New Year’s Eve</div>
-                          <span class="btn btn-primary-outline full-story-button">Full Story</span>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-bedroom.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
                         </div>
                       </div>
-                      <img src="pic/1/home-design-2.jpg" class="reloadable">
-                    </a>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container"><span class="hzi-font hzi-Stories-Fill"></span><a class="feed-topic topic-link" href="#">Stories From Houzz</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    Creative wall treatments, stylish storage and clever layouts stand out in these reader favorites
-                  </div>
-                  <div class="feed-space-counters">
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
                     </div>
-                    <div class="pull-right feed-story__counter">40 Bookmarks | 4 Comments</div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <!-- end row -->        
-        <!-- row -->
-        <div class="row">
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square feed-story--product clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/transitional-cups-and-glassware.jpg"/>
-                      </a>
-                      <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description product-topic">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Tag"></span>
-                    <a class="feed-topic topic-link" href="#">Midcentury Products</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <div class="product-price">$320</div>
-                    <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
-                    <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/traditional-bathroom.jpg"/>
-                      </a>
-                      <div class="mosaic-photo-credit">
-                        <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
-                      </div>
-                      <div class='feed-hover-buttons'>
-                        <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
-                          <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
-                          <span class='button-label'>Save</span></span>
-                          <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
-                          <span class='button-label'>Email</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Ideas-Fill"></span>
-                    <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/contemporary-living-room-3.jpg"/>
-                      </a>
-                      <div class="mosaic-photo-credit">
-                        <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
-                      </div>
-                      <div class='feed-hover-buttons'>
-                        <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
-                          <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
-                          <span class='button-label'>Save</span></span>
-                          <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
-                          <span class='button-label'>Email</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Ideas-Fill"></span>
-                    <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end row -->        
-        <!-- row -->
-        <div class="row">
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square feed-story--product clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/traditional-console-tables.jpg"/>
-                      </a>
-                      <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description product-topic">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Tag"></span>
-                    <a class="feed-topic topic-link" href="#">Midcentury Products</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <div class="product-price">$320</div>
-                    <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
-                    <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square gallery-feed-block clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <a href="#" class="feed-gallery-thumb">
-                      <div class="feed-type-indicator">
-                        <div>
-                          <div class="featured-title">Houzz TV: Create a Living Arrangement for Your Tabletop</div>
-                          <span class="btn btn-primary-outline full-story-button"><i class="hzi-font hzi-play-button mrs"></i>Watch Now</span>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-living-room-2.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
                         </div>
                       </div>
-                      <img src="pic/1/home-design-3.jpg" class="reloadable" />
-                    </a>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container"><span class="hzi-font hzi-Stories-Fill"></span><a class="feed-topic topic-link" href="#">Stories From Houzz</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    Bring together plants in a catchall that’s pretty for a coffee table or bookshelf
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>14 hours ago</time>
                     </div>
-                    <div class="pull-right feed-story__counter">16 Bookmarks | 1 Comment</div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/beach-style-bathroom.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/traditional-bathroom.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-living-room-3.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-xs-4">
-            <div class='feedItem home-feed square clearfix'>
-              <div class="feed-content">
-                <div class="feed-snapshot">
-                  <div class="feed-snapshot-placeholder">
-                    <div class="space-tiles trackMe">
-                      <a class="space-tile tile-l" href="#">
-                        <img class="reloadable hide-context" src="pic/1/beach-style-bathroom.jpg"/>
-                      </a>
-                      <div class="mosaic-photo-credit">
-                        <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
-                      </div>
-                      <div class='feed-hover-buttons'>
-                        <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
-                          <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
-                          <span class='button-label'>Save</span></span>
-                          <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
-                          <span class='button-label'>Email</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="feed-description">
-                  <div class="feed-topic-container">
-                    <span class="hzi-font hzi-Ideas-Fill"></span>
-                    <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
-                  </div>
-                </div>
-                <div class="feed-meta-info">
-                  <div class="feed-meta-container">
-                    <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
-                  </div>
-                  <div class='feed-space-counters'>
-                    <div class="pull-left feed-story__timestamp">
-                      <time>9 hours ago</time>
-                    </div>
-                    <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- end row -->
         </div>
-        <!-- end row -->        
-      </div>     
+      </div>
+      <!-- end section -->
+      <div class="section second">
+        <div class="section-header clearfix">
+          <h4 class="section-title">Sản phẩm được yêu thích</h4>
+          <a href="#" class="more">Xem thêm</a>
+        </div>
+        <div class="section-content">
+          <!-- row -->
+          <div class="row">
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/midcentury-floor-lamps.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/traditional-console-tables.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/transitional-cups-and-glassware.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/midcentury-floor-lamps.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/traditional-console-tables.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/transitional-cups-and-glassware.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="https://st.hzcdn.com/fimgs/3a612bc6061dbb17_5704-w352-h295-b1-p10--contemporary-duvet-covers-and-duvet-sets.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-3">
+              <div class='feedItem home-feed square feed-story--product clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/midcentury-floor-lamps.jpg"/>
+                        </a>
+                        <div class='feed-hover-buttons'><span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'><span  class='button-icon hzi-font hzi-Add-Photo-Button'></span><span class='button-label'>Save</span></span><span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span><span class='button-label'>Email</span></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description product-topic">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Tag"></span>
+                      <a class="feed-topic topic-link" href="#">Midcentury Products</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <div class="product-price">$320</div>
+                      <a class="product-text one-line" href="#">Brooklyn Floor Lamp</a>
+                      <a class="product-cat-link" href="#">Shop Floor Lamps<span class="more-icon"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+      <!-- end section -->
+      <div class="section third">
+        <div class="section-header clearfix">
+          <h4 class="section-title">Các dịch vụ nổi bật</h4>
+          <a href="#" class="more">Xem thêm</a>
+        </div>
+        <div class="section-content">
+          <!-- row -->
+          <div class="row">
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l zLightBox" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-living-room.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-bedroom.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-living-room-2.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/beach-style-bathroom.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/traditional-bathroom.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-4">
+              <div class='feedItem home-feed square clearfix'>
+                <div class="feed-content">
+                  <div class="feed-snapshot">
+                    <div class="feed-snapshot-placeholder">
+                      <div class="space-tiles trackMe">
+                        <a class="space-tile tile-l" href="#">
+                          <img class="reloadable hide-context" src="pic/1/contemporary-living-room-3.jpg"/>
+                        </a>
+                        <div class="mosaic-photo-credit">
+                          <a class="hz-credit" href="#">Specht Architects<span class='hzi-font hzi-Info'></span></a>
+                        </div>
+                        <div class='feed-hover-buttons'>
+                          <span class='hzBtn button-baseIcon graybutton saveButton hz-tall-button mrm'>
+                            <span class='button-icon hzi-font hzi-Add-Photo-Button'></span>
+                            <span class='button-label'>Save</span></span>
+                            <span class='hzBtn button-baseIcon graybutton emailButton hz-tall-button'><span class='button-icon hzi-font hzi-Email'></span>
+                            <span class='button-label'>Email</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="feed-description">
+                    <div class="feed-topic-container">
+                      <span class="hzi-font hzi-Ideas-Fill"></span>
+                      <a class="feed-topic topic-link" href="#">Contemporary Living Room</a>
+                    </div>
+                  </div>
+                  <div class="feed-meta-info">
+                    <div class="feed-meta-container">
+                      <a class='hz-username hzHouzzer hzHCUserName' href='#'>L Chinloy</a> asked: <a href='#'>Where is the rug from? -"Where is the rug from?"</a>
+                    </div>
+                    <div class='feed-space-counters'>
+                      <div class="pull-left feed-story__timestamp">
+                        <time>9 hours ago</time>
+                      </div>
+                      <div class="pull-right feed-story__counter">2.8K Saves | 5 Questions</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+      <!-- end section -->
     </div>
   </div>
   <!-- end main content -->
