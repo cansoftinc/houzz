@@ -4870,11 +4870,15 @@ body.modal-open {
 .houzz-header #search-option {
   position: absolute;
   top: 1px;
-  left: 1px;
+  left: 5px;
   width: 105px;
   height: 94%;
   border: none;
   border-right: 1px solid #ddd;
+}
+
+.houzz-header #search-option:focus {
+  outline: none;
 }
 
 .home-signup-button .nav-signup-button {
