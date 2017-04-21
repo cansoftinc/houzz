@@ -4858,6 +4858,31 @@ body.modal-open {
   }
 }
 
+.home-signup-button .nav-signup-button {
+  position: relative;
+  line-height: 28px;
+  height: 60px;
+  padding: 17px 10px 16px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.home-signup-button .nav-signup-button:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 16px;
+  top: 22px;
+  left: 0;
+  background-color: #333;
+}
+
+.houzz-header .nav-button:hover {
+  color: #3d8901;
+}
+
 @media screen and (max-width: 767px) {
   .z-home.homeSliderWrapper {
     height: auto;
