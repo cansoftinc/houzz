@@ -4891,6 +4891,10 @@ body.modal-open {
   outline: none;
 }
 
+.header-nav-dropdown-menu .hsh__menu-body .hsh__column {
+  min-width: 170px;
+}
+
 .navHeader2 .navbar-search-bar {
   width: 100%;
   max-width: 100%;
