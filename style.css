@@ -4859,7 +4859,7 @@ body.modal-open {
 }
 
 .houzz-header input.navbar-search-box {
-  padding-left: 125px;
+  padding-left: 170px;
 }
 
 .houzz-header button.search-submit {
@@ -4869,35 +4869,11 @@ body.modal-open {
 
 .houzz-header .select-wrapper {
   position: absolute;
-  top: 1px;
+  top: 5px;
   left: 5px;
-  width: 105px;
+  width: 150px;
   height: 94%;
-}
-
-.houzz-header .select-wrapper:after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 20px;
-  background-color: #fff;
-  pointer-events: none;
-  content: '';
-}
-
-.houzz-header .select-wrapper:before {
-  position: absolute;
-  top: 15px;
-  right: 0;
-  bottom: 0;
-  z-index: 9;
-  width: 0;
-  height: 0;
-  content: '';
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #000;
+  z-index: 8888;
 }
 
 .houzz-header .select-wrapper #search-option {
@@ -4908,6 +4884,19 @@ body.modal-open {
 
 .houzz-header .select-wrapper #search-option:focus {
   outline: none;
+}
+
+.select2-container {
+  z-index: 9999;
+}
+
+.select2-dropdown {
+  top: -33px;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--open .select2-dropdown {
+  border: 1px solid #ddd;
 }
 
 .home-signup-button .nav-signup-button {

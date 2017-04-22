@@ -1,5 +1,9 @@
 jQuery(document).ready(function($) {
   console.log('ready');
+  $('#search-option').select2({
+     minimumResultsForSearch: -1
+  });
+
   // html5 validate
   if($('.z-validate').length) {
     $.validate({
