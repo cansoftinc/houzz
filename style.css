@@ -4858,6 +4858,11 @@ body.modal-open {
   }
 }
 
+.houzz-header {
+  height: 70px;
+  padding-top: 5px;
+}
+
 .houzz-header input.navbar-search-box {
   padding-left: 170px;
 }
