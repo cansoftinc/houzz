@@ -114,14 +114,14 @@
           </ul>
           <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off">
             <div class='navbar-search-shell' role='search'>
-              <div class="select-wrapper">
-                <select name="search-option" id="search-option" data-placeholder="Chọn danh mục">
+              <div class="select-wrapper">                
+                <select name="search-option" class="search-option" data-placeholder="Chọn danh mục">
                   <option value=""></option>
                   <option value="thiet-ke">Thiết kế</option>
                   <option value="san-pham">Sản phẩm</option>
                   <option value="dich-vu">Dịch vụ</option>
                   <option value="nha-cung-cap">Nhà cung cấp</option>
-                </select>
+                </select>         
               </div>              
               <input id="navSearchInput" value="" name="search" type="text" class="navbar-search-box" placeholder="Search Photos, Products, Pros &amp; More..." shortplaceholder="Search Photos, Products, Pros &amp; More..." spellcheck="false" />
               <button class='hzi-font hzi-Search search-submit' type='submit'></button>
@@ -1889,16 +1889,25 @@
                 </li>
                 <li id="logo">
                   <a id="navHome" class="brand" href="#">
-                    <img class="sprite-header-logo" src="pic/spacer.gif" width="2" height="2">
+                    <img class='sprite-header-logo' src='images/logo.png' width="2" height="2" />
                   </a>
                 </li>
-              </ul>
+              </ul>              
               <ul class="header-nav pull-right">
                 <li id="navSearch" class=" menu-container"><a href="#" class="nav-button menu-title"><i class="hzi-font hzi-MH-Search"></i></a>
                   <div id="navSearchExp" class="unstyled header-nav-dropdown-menu menu-body">
                     <div class="container">
                       <form class="navbar-search-bar highlight-search" name="searchForm" id="searchForm" autocomplete="off" action="#">
                         <div class="navbar-search-shell trackMe" role="search">
+                          <div class="select-wrapper">
+                            <select name="search-option" class="search-option" data-placeholder="Chọn danh mục">
+                              <option value=""></option>
+                              <option value="thiet-ke">Thiết kế</option>
+                              <option value="san-pham">Sản phẩm</option>
+                              <option value="dich-vu">Dịch vụ</option>
+                              <option value="nha-cung-cap">Nhà cung cấp</option>
+                            </select>
+                          </div>                          
                           <input id="navSearchInput" value="" name="search" type="text" class="navbar-search-box" placeholder="Search Photos, Products, Pros &amp; More..." shortplaceholder="Search Photos, Products, Pros &amp; More..." spellcheck="false">
                           <button class="hzi-font hzi-Search search-submit" type="submit"></button>
                           <button class="hzi-font hzi-CloseX search-reset" type="reset"></button>

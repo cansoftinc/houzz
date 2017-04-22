@@ -27,6 +27,16 @@
   }
 } 
 
+.navHeader2 {
+  .navbar-search-bar {
+    width: 100%;
+    max-width: 100%;
+  }
+  input.navbar-search-box {
+    padding-left: 130px;
+  }
+}
+
 .select2-container {
   z-index: 9999;
 }

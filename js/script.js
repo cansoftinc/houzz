@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
   console.log('ready');
-  $('#search-option').select2({
+  $('.search-option').select2({
      minimumResultsForSearch: -1
   });
 

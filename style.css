@@ -2162,7 +2162,7 @@ body.sidenav-in .hzi-MH-Close {
 
 #navHome .sprite-header-logo {
   margin-top: 13px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .houzz-header .nav-button,
@@ -2261,7 +2261,7 @@ body.sidenav-in .sidenav-overlay {
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 55px;
+  top: 75px;
   padding-bottom: 55px;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -4889,6 +4889,15 @@ body.modal-open {
 
 .houzz-header .select-wrapper #search-option:focus {
   outline: none;
+}
+
+.navHeader2 .navbar-search-bar {
+  width: 100%;
+  max-width: 100%;
+}
+
+.navHeader2 input.navbar-search-box {
+  padding-left: 130px;
 }
 
 .select2-container {
