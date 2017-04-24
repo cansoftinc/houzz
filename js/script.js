@@ -239,8 +239,8 @@ jQuery(document).ready(function($) {
   })
 
   // sidebar nav (user)
-  $('.sidebar-body.user li').on('click', function() {
-    $('.sidebar-body.user li').removeClass('selected');
+  $('.sidebar-body.zSidebar li').on('click', function() {
+    $(this).closest('.sidebar-body.zSidebar').find('li').removeClass('selected');
     $(this).addClass('selected');
   })
 
