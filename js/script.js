@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
   console.log('ready');
-  $('.search-option').select2({
-     minimumResultsForSearch: -1
-  });
-
+  if(('.search-option').length) {
+    $('.search-option').select2({
+       minimumResultsForSearch: -1
+    });
+  }
   // html5 validate
   if($('.z-validate').length) {
     $.validate({
@@ -266,9 +267,9 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     var saveModal = $(this).closest('.saveModal');
     saveModal.find('.modalFooter').css('display', 'none');
-    saveModal.find('.success').fadeIn(); 
+    saveModal.find('.success').fadeIn();
     saveModal.find('.add-comment').css('display', 'none');
-    saveModal.find('.successInfo').fadeIn();    
+    saveModal.find('.successInfo').fadeIn();
   })
   $('.saveModal .done').on('click', function(e) {
     e.preventDefault();
@@ -279,7 +280,7 @@ jQuery(document).ready(function($) {
     saveModal.find('.modalFooter').fadeIn();
     saveModal.find('.success').css('display', 'none');
     saveModal.find('.add-comment').fadeIn();
-    saveModal.find('.successInfo').css('display', 'none'); 
+    saveModal.find('.successInfo').css('display', 'none');
   })
 
   // Back to top
