@@ -2101,7 +2101,7 @@
 }
 #cookieBanner .content {
     padding: 12px 40px 12px 40px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #333
 }
@@ -2708,7 +2708,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04)
 }
 #emailVerificationContainer .text {
-    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 25px;
     color: #333;

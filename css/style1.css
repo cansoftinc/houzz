@@ -40,69 +40,6 @@
        url('../fonts/open-sans-v13-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
 }
 
-@font-face {
-    font-family: 'proxima-nova';
-    src: url('../fonts/proxima-nova-regular.eot');
-    src: url('../fonts/proxima-nova-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proxima-nova-regular.woff') format('woff'),
-         url('../fonts/proxima-nova-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'proxima-nova';
-    src: url('../fonts/proxima-nova-semibold.eot');
-    src: url('../fonts/proxima-nova-semibold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proxima-nova-semibold.woff') format('woff'),
-         url('../fonts/proxima-nova-semibold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal
-}
-@font-face {
-    font-family: 'proxima-nova';
-    src: url('../fonts/proxima-nova-light.eot');
-    src: url('../fonts/proxima-nova-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/proxima-nova-light.woff') format('woff'),
-         url('../fonts/proxima-nova-light.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal
-}
-@font-face {
-    font-family: 'museo-sans';
-    src: url('../fonts/MuseoSans_100.eot');
-    src: url('../fonts/MuseoSans_100.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MuseoSans_100.woff') format('woff'),
-         url('../fonts/MuseoSans_100.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal
-}
-@font-face {
-    font-family: 'museo-sans';
-    src: url('../fonts/MuseoSans_300.eot');
-    src: url('../fonts/MuseoSans_300.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MuseoSans_300.woff') format('woff'),
-         url('../fonts/MuseoSans_300.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal
-}
-@font-face {
-    font-family: 'museo-sans';
-    src: url('../fonts/MuseoSans_500.eot');
-    src: url('../fonts/MuseoSans_500.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MuseoSans_500.woff') format('woff'),
-         url('../fonts/MuseoSans_500.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal
-}
-@font-face {
-    font-family: 'museo-sans';
-    src: url('../fonts/MuseoSans_700.eot');
-    src: url('../fonts/MuseoSans_700.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MuseoSans_700.woff') format('woff'),
-         url('../fonts/MuseoSans_700.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal
-}
 /* houzz-bootstrap.less Thu, 15 Dec 2016 15:16:17 PST */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -5464,62 +5401,60 @@ body.hbs {
 }
 .hbs .header-1 {
     font-size: 30px;
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300
 }
 .hbs .header-2 {
     font-size: 24px;
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300
 }
 .hbs .header-3 {
     font-size: 22px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-4 {
     font-size: 20px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-5 {
     font-size: 18px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-6 {
     font-size: 16px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-dt-1 {
     font-size: 30px;
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 300
 }
 .hbs .header-dt-2 {
     font-size: 24px;
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 300
 }
 .hbs .header-dt-3 {
     font-size: 22px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-dt-4 {
     font-size: 20px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-dt-5 {
     font-size: 18px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .header-dt-6 {
     font-size: 16px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: bold
 }
 .hbs .text-xl {
@@ -5560,23 +5495,23 @@ body.hbs {
 }
 .hbs .btn-text-xl {
     font-size: 30px;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: normal
 }
 .hbs .ms100 {
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 100
 }
 .hbs .ms300 {
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 300
 }
 .hbs .ms500 {
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 500
 }
 .hbs .ms700 {
-    font-family: "museo-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 700
 }
 .hbs .text-bold {
@@ -6106,7 +6041,7 @@ a:hover .hz-link-style.text-primary {
     content: "」"
 }
 .hz-cobrand .hbs * {
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif
 }
 .hz-cobrand .hbs * .more-icon,
 .hz-cobrand .hbs * .less-icon,

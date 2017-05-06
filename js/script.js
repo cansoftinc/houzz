@@ -17,8 +17,9 @@ jQuery(document).ready(function($) {
     $("#homeSlider").owlCarousel({
       singleItem: true,
       autoPlay: true,
-      pagination: false,
-      transitionStyle: 'fade'
+      navigationText: false,
+      navigation: true,
+      pagination: true      
     });
   }
 

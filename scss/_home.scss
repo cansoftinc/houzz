@@ -1,3 +1,114 @@
+.main-content.z-home {
+  padding-top: 53px;
+}
+
+#homeSlider {
+  .slider-item {
+    position: relative;
+    .slider-content {
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      color: #fff;
+      transform: translateY(-50%);
+      .p1 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .p2 {
+        font-size: 45px;
+        line-height: 50px;
+        font-weight: 700;
+        margin-top: 20px;
+        text-transform: uppercase;
+      }
+      .p3 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 20px;
+        font-style: italic;
+      }
+      .link {
+        @extend %transition;
+        height: 50px;
+        border: 1px solid #fff;
+        line-height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 20px;
+        display: inline-block;
+        padding: 0 25px;
+        background-color: transparent;
+        color: #fff;
+        text-transform: uppercase;
+        &:hover {
+          border: 1px solid $orange;
+          background-color: $orange;
+        }
+      }
+    }
+  }
+  &.owl-theme .owl-controls {
+    margin-top: 0;   
+    .owl-pagination {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      width: 100%;
+    }
+    .owl-page {
+      &.active {
+        span {
+          background-color: $orange;
+        }
+      }
+      span {
+        opacity: 1;
+        width: 15px;
+        height: 15px;
+        background-color: transparent;
+        border: 2px solid $orange;
+        margin: 5px 5px;
+      }
+    }
+    .owl-buttons div {
+      position: absolute;
+      bottom: 48%;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      margin: 0;
+      padding: 0;
+      margin-top: -25px;
+      opacity: 1;
+      background-color: transparent;
+      border-radius: 0;
+      font-size: 50px;
+      &:hover {
+        color: $orange;
+      }
+      &.owl-prev {
+        left: 30px;
+        &:before{ 
+          content: "\f104";
+          @extend %fa; 
+        }
+      }
+      &.owl-next {
+        right: 30px;
+        &:before{
+          content: "\f105";
+          @extend %fa;
+        }
+      }
+    }
+  } 
+}
+
 .houzz-header {
   height: 70px;
   padding-top: 5px;
@@ -47,6 +158,7 @@
 
 .select2-container {
   z-index: 9999;
+  width: 150px!important;
 }
 
 .select2-dropdown {
