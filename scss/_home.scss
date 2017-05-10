@@ -2,6 +2,13 @@
   padding-top: 53px;
 }
 
+@media (min-width: 1280px) {
+  .houzz-header .navbar-search-bar {
+    max-width: 700px;
+    margin-left: 180px;
+  }
+}
+
 #homeSlider {
   .slider-item {
     position: relative;
@@ -53,7 +60,7 @@
     }
   }
   &.owl-theme .owl-controls {
-    margin-top: 0;   
+    margin-top: 0;
     .owl-pagination {
       position: absolute;
       bottom: 10px;
@@ -93,9 +100,9 @@
       }
       &.owl-prev {
         left: 30px;
-        &:before{ 
+        &:before{
           content: "\f104";
-          @extend %fa; 
+          @extend %fa;
         }
       }
       &.owl-next {
@@ -106,7 +113,7 @@
         }
       }
     }
-  } 
+  }
 }
 
 .houzz-header {
@@ -114,6 +121,10 @@
   padding-top: 5px;
   input.navbar-search-box {
     padding-left: 170px;
+    border: solid 2px $orange;
+    &:focus {
+      border: solid 2px $orange;
+    }
   }
   button.search-submit {
     right: 0;
@@ -124,7 +135,7 @@
     top: 5px;
     left: 5px;
     width: 150px;
-    height: 94%; 
+    height: 94%;
     z-index: 8888;
     #search-option {
       border: none;
@@ -133,10 +144,10 @@
       &:focus {
         outline: none;
       }
-    }    
-    
+    }
+
   }
-} 
+}
 
 .header-nav-dropdown-menu {
   .hsh__menu-body {
@@ -271,9 +282,9 @@
     .signUpBox .hp-button__icon--fb {
       margin-top: 6px;
     }
-    #hp-visitor-global-sites .col-xs-4, 
+    #hp-visitor-global-sites .col-xs-4,
     #square-slider-1 .ppb__carousel-icon-row .col-xs-4 {
       width: 33.333333%;
     }
-  } 
+  }
 }

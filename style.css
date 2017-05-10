@@ -9,10 +9,10 @@
 }
 
 .houzz-header-secondary, #homeSlider .slider-item .slider-content .link, .profile-pic-container .profile-camera-icon, #lbImageContainer, #zBottomProducts {
-  transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
+  transition: all .3s;
+  -ms-transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
 }
 
 /* break point */
@@ -4872,6 +4872,13 @@ body.modal-open {
   padding-top: 53px;
 }
 
+@media (min-width: 1280px) {
+  .houzz-header .navbar-search-bar {
+    max-width: 700px;
+    margin-left: 180px;
+  }
+}
+
 #homeSlider .slider-item {
   position: relative;
 }
@@ -4993,6 +5000,11 @@ body.modal-open {
 
 .houzz-header input.navbar-search-box {
   padding-left: 170px;
+  border: solid 2px #faa916;
+}
+
+.houzz-header input.navbar-search-box:focus {
+  border: solid 2px #faa916;
 }
 
 .houzz-header button.search-submit {
@@ -5663,7 +5675,7 @@ sidebar .sidebar-body .sidebar-item .sidebar-item-label {
 }
 
 .fb_animate {
-  animation: fb_transform 0.3s forwards;
+  animation: fb_transform .3s forwards;
 }
 
 .fb_dialog {
@@ -6551,8 +6563,7 @@ body.fb_hidden {
   #lbInfo .content-mask {
     position: static;
   }
-  #lbInfo .content-mask:after,
-  #lbInfo .content-mask:before {
+  #lbInfo .content-mask:after, #lbInfo .content-mask:before {
     display: none;
   }
   #lbImage {
